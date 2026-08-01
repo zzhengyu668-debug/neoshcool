@@ -1,0 +1,22 @@
+{
+  "phase": "W5-C-A completed adjudication",
+  "status": "PAUSED_W5C_B_APPROVAL",
+  "w5c_b_readiness": "READY_FOR_EXPLICIT_APPROVAL",
+  "completed_workbook": {
+    "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\w5c_a_double_review_240_merged_for_adjudication_completed.xlsx",
+    "size_bytes": 77318,
+    "mtime_utc": "2026-08-01T00:56:50.605Z",
+    "sha256": "7576401172c48991139b452e2d60c4a0365a3bece9ff8bc0508f4d855f7d5630"
+  },
+  "adjudicated_rows": 240,
+  "protected_a_t_cell_differences": 0,
+  "rows_with_complete_adjudication": 240,
+  "rows_with_all_five_cells_nonblank": 229,
+  "uncertain_rows_with_optional_fields_blank": 11,
+  "agreed_rows": 170,
+  "disagreement_rows": 70,
+  "issue_count": 0,
+  "labels_modified": false,
+  "model_retrained": false,
+  "w6_executed": false
+}

@@ -1,0 +1,130 @@
+{
+  "phase": "W3R-B human review reconciliation",
+  "status": "PAUSED_ADJUDICATION",
+  "created_at": "2026-07-30T03:40:44.503Z",
+  "inputs": {
+    "reviewer_1_submission": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/recovered_products_blind_audit1.xlsx",
+      "bytes": 17693,
+      "mtime_ms": 1785381481223.4082,
+      "sha256": "2057f46bd76b9a391014f8a74d829267ee41c72eddac97b0e4bad30a47d44956"
+    },
+    "reviewer_2_submission": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/recovered_products_blind_audit_reviewer2.xlsx",
+      "bytes": 17720,
+      "mtime_ms": 1785381818126.4543,
+      "sha256": "43217f241cf30637e98794eeb599c622e942d17f0fc35dd6e908f0bd63f41e50"
+    },
+    "original_blind_template": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/recovered_products_blind_audit.xlsx",
+      "bytes": 16965,
+      "mtime_ms": 1785334382867.9644,
+      "sha256": "d2e1ae2fde145a4626ffeec0fc5add66fd6f8575c7d1061a09cdc4496a5ee69b"
+    }
+  },
+  "validation": {
+    "rows_per_workbook": 23,
+    "columns_per_workbook": 19,
+    "blind_ids_identical": true,
+    "evidence_fields_identical": true,
+    "reviewer_1_complete": true,
+    "reviewer_2_complete": true,
+    "adjudication_fields_initially_blank": true,
+    "blind_id_parent_asin_key_opened": false
+  },
+  "agreement": {
+    "total_items": 23,
+    "joint_device_label_agreement_count": 20,
+    "joint_device_label_agreement_rate": 0.8695652173913043,
+    "adjudication_required_count": 3,
+    "adjudication_blind_ids": [
+      "W3RB-002",
+      "W3RB-009",
+      "W3RB-022"
+    ],
+    "device_type": {
+      "agreement_count": 20,
+      "agreement_rate": 0.8695652173913043,
+      "observed_agreement": 0.8695652173913043,
+      "expected_agreement": 0.5671077504725897,
+      "kappa": 0.6986899563318778,
+      "reviewer_1_counts": {
+        "neither": 3,
+        "smart_bulb": 17,
+        "smart_switch": 2,
+        "uncertain": 1
+      },
+      "reviewer_2_counts": {
+        "smart_bulb": 17,
+        "smart_switch": 5,
+        "uncertain": 1
+      },
+      "disagreement_blind_ids": [
+        "W3RB-002",
+        "W3RB-009",
+        "W3RB-022"
+      ]
+    },
+    "label": {
+      "agreement_count": 20,
+      "agreement_rate": 0.8695652173913043,
+      "observed_agreement": 0.8695652173913043,
+      "expected_agreement": 0.7920604914933838,
+      "kappa": 0.3727272727272726,
+      "reviewer_1_counts": {
+        "accessory": 3,
+        "ambiguous": 1,
+        "correct_target": 19
+      },
+      "reviewer_2_counts": {
+        "ambiguous": 1,
+        "correct_target": 22
+      },
+      "disagreement_blind_ids": [
+        "W3RB-002",
+        "W3RB-009",
+        "W3RB-022"
+      ]
+    },
+    "confidence": {
+      "agreement_count": 20,
+      "agreement_rate": 0.8695652173913043,
+      "observed_agreement": 0.8695652173913043,
+      "expected_agreement": 0.7240075614366729,
+      "kappa": 0.5273972602739726,
+      "reviewer_1_counts": {
+        "high": 21,
+        "low": 1,
+        "medium": 1
+      },
+      "reviewer_2_counts": {
+        "high": 18,
+        "low": 1,
+        "medium": 4
+      },
+      "disagreement_blind_ids": [
+        "W3RB-002",
+        "W3RB-009",
+        "W3RB-022"
+      ]
+    }
+  },
+  "consensus_before_adjudication": {
+    "correct_target_count": 19,
+    "correct_target_by_device_type": {
+      "smart_bulb": 17,
+      "smart_switch": 2
+    },
+    "nonfinal_consensus_count": 1,
+    "nonfinal_consensus_labels": {
+      "ambiguous": 1
+    }
+  },
+  "interpretation": {
+    "kappa_note": "Cohen's kappa is nominal and prevalence-sensitive. The lower label kappa occurs despite 87.0% raw agreement because both reviewers used correct_target very frequently.",
+    "no_automatic_adjudication": true,
+    "draft_promoted": false,
+    "w4r_started": false,
+    "w5_started": false
+  }
+}

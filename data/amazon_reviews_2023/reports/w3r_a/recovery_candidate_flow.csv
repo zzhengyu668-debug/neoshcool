@@ -1,0 +1,3 @@
+﻿device_type,baseline_products,baseline_excluded_candidate_pool,draft_screen_positive,draft_hold,draft_exclude,potential_false_negatives,audited_recoverable,draft_total_products
+smart_bulb,8,1598,17,0,1581,17,17,25
+smart_switch,3,3999,6,307,3686,313,6,9

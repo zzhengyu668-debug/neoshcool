@@ -1,0 +1,139 @@
+{
+  "phase": "W3R-B",
+  "created_at": "2026-07-29T14:13:03.420Z",
+  "random_seed": 20260729,
+  "project_root_resolution": "located_from_builder_ancestor_markers",
+  "input_identities": {
+    "project_handoff": {
+      "path": "PROJECT_HANDOFF.md",
+      "bytes": 47184,
+      "mtime_ms": 1785138789351.4312,
+      "sha256": "4563d233c254bd4296f96452d0b1d5f1ba6be4c0bb96388b6cc94d9f3c69b535"
+    },
+    "ta_discussion": {
+      "path": "documents/TA_DISCUSSION_2026-07-27.md",
+      "bytes": 5996,
+      "mtime_ms": 1785138680091.6924,
+      "sha256": "09f99cc7dd5dd1cdabdac243dc33e594e6cd9cd6837970cd4d28b5e952c50195"
+    },
+    "project_config": {
+      "path": "config/project.toml",
+      "bytes": 485,
+      "mtime_ms": 1785136612821.7751,
+      "sha256": "6138f1d34ad28bda962814e56de812d2acb36e78b87c9f78777b323c520dc24d"
+    },
+    "base_rules": {
+      "path": "config/product_filter_rules.toml",
+      "bytes": 7518,
+      "mtime_ms": 1785315180916.5623,
+      "sha256": "81aec360771b842a1e327749a99400d4588823de60b75831e1784fdc9868943f"
+    },
+    "draft_rules": {
+      "path": "config/product_filter_rules_w3r_v1_4_draft.toml",
+      "bytes": 6116,
+      "mtime_ms": 1785329965052.2295,
+      "sha256": "4e56ec3018b549e60eb8418576486875143ed60b52e2105aebb4b396d003b6d2"
+    },
+    "w3_status": {
+      "path": "data/amazon_reviews_2023/reports/w3/w3_status.json",
+      "bytes": 5327,
+      "mtime_ms": 1785316237802.823,
+      "sha256": "526f36f5ac4d10b7dc2131aa82606a256efbdec517cd096d8dccac1f9e1f8ccd"
+    },
+    "w3r_a_status": {
+      "path": "data/amazon_reviews_2023/reports/w3r_a/w3r_a_status.json",
+      "bytes": 6980,
+      "mtime_ms": 1785330034097.9573,
+      "sha256": "2bf273d606e284051c44afa53c165eac50f559ee31a06f64b6587c2066ee9e42"
+    },
+    "w3r_a_summary": {
+      "path": "data/amazon_reviews_2023/reports/w3r_a/w3r_a_summary.md",
+      "bytes": 1647,
+      "mtime_ms": 1785330034058.9548,
+      "sha256": "fb0087c36dac879771557e02989743047086ae96f43cdc899f8b18473364b6fe"
+    },
+    "recovery_audit_results": {
+      "path": "data/amazon_reviews_2023/reports/w3r_a/recovery_audit_results.json",
+      "bytes": 2132,
+      "mtime_ms": 1785330033837.909,
+      "sha256": "a59802062a33698d39a441abe902a8f2b676d9ae85f336b45d22fccea7521eaa"
+    },
+    "bulb_candidates": {
+      "path": "data/amazon_reviews_2023/interim/w3r_a/bulb_recovery_candidates.parquet",
+      "bytes": 436177,
+      "mtime_ms": 1785330033640.7544,
+      "sha256": "91de83c4c948e1f525e233580b1ef5c3648388081c62be01bd759385ac0fe097"
+    },
+    "switch_candidates": {
+      "path": "data/amazon_reviews_2023/interim/w3r_a/switch_recovery_candidates.parquet",
+      "bytes": 1234946,
+      "mtime_ms": 1785330033715.2705,
+      "sha256": "7315de1aab63be5b1f8ac3d29ba87bd717c5d10153718bd6de41479b17cbf2ca"
+    },
+    "proposed_targets": {
+      "path": "data/amazon_reviews_2023/interim/w3r_a/proposed_target_products_w3_v1_4_draft.parquet",
+      "bytes": 80404,
+      "mtime_ms": 1785330033750.2705,
+      "sha256": "f8a9962632aaeebe2613b8e95de3e09b9ad0aad7efb1f7d71fe61bf4b0ea7f30"
+    }
+  },
+  "parquet_columns_read": {
+    "bulb_recovery_candidates": [
+      "parent_asin",
+      "proposed_device_type",
+      "proposed_decision",
+      "audit_label"
+    ],
+    "switch_recovery_candidates": [
+      "parent_asin",
+      "proposed_device_type",
+      "proposed_decision",
+      "audit_label"
+    ],
+    "proposed_target_products": [
+      "parent_asin",
+      "main_category",
+      "title",
+      "categories",
+      "features",
+      "description",
+      "store",
+      "details",
+      "source_domains",
+      "device_type",
+      "filter_version",
+      "selection_origin"
+    ]
+  },
+  "validation": {
+    "w3_status": "PASS",
+    "w3_filter_version": "w3-v1.3.2",
+    "w3r_a_status": "PAUSED_INSUFFICIENT_RECOVERY",
+    "draft_version": "w3-v1.4.0-draft",
+    "draft_frozen": false,
+    "bulb_candidate_rows": 1598,
+    "switch_candidate_rows": 3999,
+    "proposed_target_rows": 129,
+    "recovered_rows": 23,
+    "recovered_bulbs": 17,
+    "recovered_switches": 6,
+    "unique_parent_asins": 23,
+    "expected_bulbs_from_audit_results": 17,
+    "expected_switches_from_audit_results": 6,
+    "fixed_seed_shuffle_applied": true,
+    "main_table_parent_asin_hidden": true,
+    "prior_decision_columns_hidden": true
+  },
+  "forbidden_data_policy": {
+    "reviews_jsonl_opened": false,
+    "metadata_jsonl_opened": false,
+    "compressed_jsonl_gz_opened": false,
+    "review_level_parquet_parsed": false,
+    "review_text_read": false,
+    "review_ratings_read": false,
+    "user_information_read": false,
+    "average_rating_read_from_candidate_data": false,
+    "rating_number_read_from_candidate_data": false,
+    "price_read_from_candidate_data": false
+  }
+}

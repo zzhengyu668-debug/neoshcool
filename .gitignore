@@ -1,0 +1,64 @@
+# Python environments and caches
+.venv/
+**/__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Amazon Reviews 2023 raw and large derived data
+data/amazon_reviews_2023/raw/compressed/
+data/amazon_reviews_2023/raw/uncompressed/
+data/amazon_reviews_2023/interim/
+data/amazon_reviews_2023/processed/
+
+# Model artifacts
+outputs/models/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# Local analytical databases
+*.duckdb
+*.duckdb.wal
+
+# Local privacy material
+config/private/
+
+# Human-annotation workbooks and private review text
+data/amazon_reviews_2023/reports/**/*.xlsx
+data/amazon_reviews_2023/reports/**/*blind*key*.csv
+
+# Regenerable checkpoints and verbose command captures
+data/amazon_reviews_2023/reports/**/checkpoints/
+data/amazon_reviews_2023/reports/**/*.out
+data/amazon_reviews_2023/reports/**/*.err
+data/amazon_reviews_2023/reports/**/*.jsonl
+
+# Local course/reference binaries (the public repository keeps Markdown specs)
+/*.docx
+/*.pdf
+/*.pptx
+documents/**/*.docx
+documents/**/*.pdf
+documents/**/*.pptx
+
+# Logs and local tooling
+*.log
+!data/amazon_reviews_2023/reports/**/*.log
+.coverage
+htmlcov/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

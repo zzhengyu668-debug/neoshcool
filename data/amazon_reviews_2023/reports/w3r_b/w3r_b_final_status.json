@@ -1,0 +1,49 @@
+{
+  "phase": "W3R-B_FINAL",
+  "status": "PAUSED_PROMOTION_APPROVAL",
+  "completed_at": "2026-07-30T05:14:00.263Z",
+  "adjudication_validation": "PASS",
+  "inputs": {
+    "reviewed_products": 23,
+    "proposed_smart_bulb": 17,
+    "proposed_smart_switch": 6,
+    "adjudicated_disagreements": 3
+  },
+  "final_human_review": {
+    "include": 19,
+    "hold": 1,
+    "exclude": 3,
+    "accepted_smart_bulb": 17,
+    "accepted_smart_switch": 2,
+    "final_label_counts": {
+      "correct_target": 19,
+      "accessory": 3,
+      "ambiguous": 1
+    }
+  },
+  "projected_counts_if_promotion_is_approved": {
+    "smart_plug": 95,
+    "smart_bulb": 25,
+    "smart_switch": 5,
+    "total": 125
+  },
+  "recommendation": "PROMOTE_ADJUDICATED_SUBSET_ONLY",
+  "research_interpretation": {
+    "primary_device_type": "smart_plug",
+    "exploratory_device_types": [
+      "smart_bulb",
+      "smart_switch"
+    ],
+    "rationale": "Human review improves bulb coverage, but smart-switch coverage remains too small for an equal three-class longitudinal comparison."
+  },
+  "protections": {
+    "w3_baseline_modified": false,
+    "w4_baseline_modified": false,
+    "target_products_overwritten": false,
+    "review_data_read": false,
+    "w4r_executed": false,
+    "w5_started": false,
+    "git_commit_created": false
+  },
+  "next_required_authorization": "Explicit approval to promote only the 19 adjudicated correct targets and, separately, to run W4R."
+}

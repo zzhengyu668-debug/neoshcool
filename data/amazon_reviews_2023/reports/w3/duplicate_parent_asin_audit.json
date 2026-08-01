@@ -1,0 +1,25 @@
+{
+  "phase": "W3",
+  "generated_at": "2026-07-29T17:07:50.827723+08:00",
+  "per_domain": [
+    {
+      "source_domain": "Electronics",
+      "source_rows": 1610012,
+      "unique_parent_asin": 1610012,
+      "duplicate_rows": 0
+    },
+    {
+      "source_domain": "Home_and_Kitchen",
+      "source_rows": 3735584,
+      "unique_parent_asin": 3735584,
+      "duplicate_rows": 0
+    }
+  ],
+  "cross_domain_parent_asin": 0,
+  "cross_domain_completely_identical": 0,
+  "cross_domain_content_conflicts": 0,
+  "union_unique_parent_asin": 5345596,
+  "candidate_duplicate_resolution_rule_counts": {
+    "only_source_record": 37158
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "meta_electronics",
+    "record_type": "metadata",
+    "domain": "Electronics",
+    "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Electronics.jsonl.gz",
+    "compressed_relative": "meta_categories/meta_Electronics.jsonl.gz",
+    "uncompressed_relative": "meta_categories/meta_Electronics.jsonl",
+    "expected_compressed_bytes": 1312900427
+  },
+  {
+    "id": "meta_home_and_kitchen",
+    "record_type": "metadata",
+    "domain": "Home_and_Kitchen",
+    "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Home_and_Kitchen.jsonl.gz",
+    "compressed_relative": "meta_categories/meta_Home_and_Kitchen.jsonl.gz",
+    "uncompressed_relative": "meta_categories/meta_Home_and_Kitchen.jsonl",
+    "expected_compressed_bytes": 2964930883
+  },
+  {
+    "id": "reviews_electronics",
+    "record_type": "reviews",
+    "domain": "Electronics",
+    "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Electronics.jsonl.gz",
+    "compressed_relative": "review_categories/Electronics.jsonl.gz",
+    "uncompressed_relative": "review_categories/Electronics.jsonl",
+    "expected_compressed_bytes": 6474438619
+  },
+  {
+    "id": "reviews_home_and_kitchen",
+    "record_type": "reviews",
+    "domain": "Home_and_Kitchen",
+    "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Home_and_Kitchen.jsonl.gz",
+    "compressed_relative": "review_categories/Home_and_Kitchen.jsonl.gz",
+    "uncompressed_relative": "review_categories/Home_and_Kitchen.jsonl",
+    "expected_compressed_bytes": 8307664299
+  }
+]

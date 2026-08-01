@@ -1,0 +1,57 @@
+{
+  "phase": "W2",
+  "status": "PASS",
+  "reason": "All W2 acceptance criteria passed.",
+  "updated_at": "2026-07-29T14:27:57.691067+08:00",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "expected_python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "project_venv_in_use": true,
+    "python_version": "3.11.9",
+    "python_64_bit": true,
+    "architecture": "64bit",
+    "orjson_version": "3.11.9"
+  },
+  "criteria": {
+    "project_venv_environment_valid": true,
+    "four_jsonl_full_scans_complete": true,
+    "four_exact_record_counts_available": true,
+    "record_count_reconciliation_passed": true,
+    "field_and_type_statistics_generated": true,
+    "core_field_missingness_generated": true,
+    "review_timestamp_units_confirmed": true,
+    "schema_comparison_generated": true,
+    "all_raw_jsonl_remain_readonly": true,
+    "final_free_space_at_least_60_gib": true,
+    "no_compressed_json_scan_performed": true,
+    "no_parquet_or_duckdb_created": true,
+    "w3_not_executed": true,
+    "required_reports_present": true
+  },
+  "report_presence": {
+    "w2_execution.log": true,
+    "source_inventory.json": true,
+    "source_inventory.csv": true,
+    "source_inventory.md": true,
+    "schema_comparison.json": true,
+    "field_statistics.csv": true,
+    "parse_errors_summary.json": true,
+    "timestamp_audit.json": true,
+    "w2_disk_usage.json": true
+  },
+  "final_free_bytes": 125787901952,
+  "final_free_gib": 117.14911270141602,
+  "prohibited_outputs_found": [],
+  "policy_attestation": {
+    "gzip_open_used": false,
+    "compressed_archives_opened": false,
+    "pandas_full_load_used": false,
+    "parquet_created": false,
+    "duckdb_database_created": false,
+    "product_screening_performed": false,
+    "metadata_review_join_performed": false,
+    "cleaning_or_deduplication_performed": false,
+    "annotation_or_modeling_performed": false,
+    "w3_started": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "phase": "W3",
+  "filter_version": "w3-v1.3.2",
+  "generated_at": "2026-07-29T17:10:37.807766+08:00",
+  "minimum_free_bytes": 64424509440,
+  "events": [
+    {
+      "time": "2026-07-29T16:53:30.672517+08:00",
+      "event": "final_frozen_rule_scan_start",
+      "free_bytes": 124603031552,
+      "free_gib": 116.04561614990234
+    },
+    {
+      "time": "2026-07-29T16:57:34.037085+08:00",
+      "event": "metadata_scan_complete",
+      "source_id": "meta_electronics",
+      "free_bytes": 124435984384,
+      "free_gib": 115.89004135131836
+    },
+    {
+      "time": "2026-07-29T17:05:59.643290+08:00",
+      "event": "metadata_scan_complete",
+      "source_id": "meta_home_and_kitchen",
+      "free_bytes": 124158484480,
+      "free_gib": 115.63159942626953
+    },
+    {
+      "time": "2026-07-29T17:07:51.596232+08:00",
+      "event": "w3_pass_reporting_complete",
+      "free_bytes": 124156858368,
+      "free_gib": 115.63008499145508
+    }
+  ]
+}

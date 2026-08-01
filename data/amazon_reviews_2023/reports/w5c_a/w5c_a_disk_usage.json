@@ -1,0 +1,8 @@
+{
+  "initial_free_gib": 117.34098434448242,
+  "after_preparation_free_gib": 117.34091186523438,
+  "minimum_required_free_gib": 60,
+  "process_peak_working_set_bytes": null,
+  "final_free_gib": 117.33724594116211,
+  "space_gate_passed": true
+}

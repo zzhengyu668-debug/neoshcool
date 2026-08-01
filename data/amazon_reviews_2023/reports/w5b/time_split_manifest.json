@@ -1,0 +1,52 @@
+{
+  "method": "strict_chronological",
+  "sort_fields": [
+    "review_datetime",
+    "blind_review_id"
+  ],
+  "random_shuffle": false,
+  "definite_rows": 296,
+  "uncertain_rows_excluded": 4,
+  "train_end_index_exclusive": 177,
+  "validation_end_index_exclusive": 236,
+  "split_rows": [
+    {
+      "split": "train",
+      "rows": 177,
+      "failure_0": 83,
+      "failure_1": 94,
+      "smart_plug": 124,
+      "smart_bulb": 38,
+      "smart_switch": 15,
+      "earliest_utc": "2011-03-13T12:29:41+00:00",
+      "latest_utc": "2020-11-17T21:19:54.984000+00:00",
+      "unique_parent_asin": 83
+    },
+    {
+      "split": "validation",
+      "rows": 59,
+      "failure_0": 34,
+      "failure_1": 25,
+      "smart_plug": 45,
+      "smart_bulb": 8,
+      "smart_switch": 6,
+      "earliest_utc": "2020-11-21T05:19:14.783000+00:00",
+      "latest_utc": "2022-02-25T19:53:03.587000+00:00",
+      "unique_parent_asin": 41
+    },
+    {
+      "split": "test",
+      "rows": 60,
+      "failure_0": 26,
+      "failure_1": 34,
+      "smart_plug": 39,
+      "smart_bulb": 13,
+      "smart_switch": 8,
+      "earliest_utc": "2022-02-26T17:21:44.747000+00:00",
+      "latest_utc": "2023-05-09T19:56:35.045000+00:00",
+      "unique_parent_asin": 32
+    }
+  ],
+  "chronological_order_validated": true,
+  "duplicate_key_cross_split_count": 0
+}

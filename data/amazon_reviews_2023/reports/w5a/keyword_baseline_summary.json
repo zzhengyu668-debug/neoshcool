@@ -1,0 +1,52 @@
+{
+  "baseline": "B3 Keyword/rule draft",
+  "keyword_version": "w5a-keyword-v1.0-draft",
+  "ratings_used_for_keyword_decision": false,
+  "human_labels_used": false,
+  "precision_reported": false,
+  "recall_reported": false,
+  "f1_reported": false,
+  "future_target_created": false,
+  "split_created": false,
+  "review_rows": 55877,
+  "keyword_hit_rows": 4068,
+  "keyword_non_hit_rows": 51809,
+  "keyword_hit_share": 0.07280276321205505,
+  "product_month_rows": 1911,
+  "category_hit_counts_overlapping": {
+    "F1": 1727,
+    "F2": 947,
+    "F3": 83,
+    "F4": 122,
+    "F5": 391,
+    "F6": 629,
+    "F7": 128,
+    "F8": 362
+  },
+  "by_device_type": [
+    {
+      "device_type": "smart_bulb",
+      "analysis_role": "exploratory",
+      "reviews": 1207,
+      "keyword_hits": 156,
+      "keyword_hit_share": 0.12924606462303231,
+      "product_months": 351
+    },
+    {
+      "device_type": "smart_plug",
+      "analysis_role": "primary",
+      "reviews": 54607,
+      "keyword_hits": 3893,
+      "keyword_hit_share": 0.07129122639954584,
+      "product_months": 1516
+    },
+    {
+      "device_type": "smart_switch",
+      "analysis_role": "case_study",
+      "reviews": 63,
+      "keyword_hits": 19,
+      "keyword_hit_share": 0.30158730158730157,
+      "product_months": 44
+    }
+  ]
+}

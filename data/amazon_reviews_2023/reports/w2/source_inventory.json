@@ -1,0 +1,1030 @@
+{
+  "phase": "W2",
+  "generated_at": "2026-07-29T14:27:57.646554+08:00",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "expected_python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "project_venv_in_use": true,
+    "python_version": "3.11.9",
+    "python_64_bit": true,
+    "architecture": "64bit",
+    "orjson_version": "3.11.9"
+  },
+  "privacy": "Aggregate schema, count, missingness, error-location, and timestamp statistics only; no raw text or identifier values are retained.",
+  "files": [
+    {
+      "phase": "W2",
+      "status": "COMPLETE",
+      "configuration_fingerprint": "151f10cf759376f934a82018f0d7f9a15324c241b4195b110ea30bd189b94840",
+      "id": "meta_electronics",
+      "record_type": "metadata",
+      "domain": "Electronics",
+      "relative_path": "meta_categories/meta_Electronics.jsonl",
+      "input_identity": {
+        "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\meta_categories\\meta_Electronics.jsonl",
+        "size_bytes": 5246144134,
+        "mtime_ns": 1737066165000000000,
+        "mtime_utc": "2025-01-16T22:22:45+00:00",
+        "readonly": true
+      },
+      "scan_started_at": "2026-07-29T14:15:11.193940+08:00",
+      "scan_finished_at": "2026-07-29T14:15:31.138344+08:00",
+      "duration_seconds": 19.944474699999773,
+      "start_free_bytes": 125989621760,
+      "end_free_bytes": 125989625856,
+      "peak_process_rss_bytes": 38264832,
+      "physical_line_count": 1610012,
+      "exact_nonempty_record_count": 1610012,
+      "empty_line_count": 0,
+      "json_parse_success_count": 1610012,
+      "json_parse_error_count": 0,
+      "json_object_count": 1610012,
+      "non_object_json_count": 0,
+      "reconciliation": {
+        "physical_equals_empty_plus_nonempty": true,
+        "nonempty_equals_success_plus_errors": true,
+        "success_equals_objects_plus_nonobjects": true
+      },
+      "observed_field_count": 16,
+      "observed_fields": [
+        "author",
+        "average_rating",
+        "bought_together",
+        "categories",
+        "description",
+        "details",
+        "features",
+        "images",
+        "main_category",
+        "parent_asin",
+        "price",
+        "rating_number",
+        "store",
+        "subtitle",
+        "title",
+        "videos"
+      ],
+      "object_field_count_min": 14,
+      "object_field_count_max": 16,
+      "object_field_count_average": 14.001318002598738,
+      "field_statistics": {
+        "author": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 1061,
+          "key_absent_count": 1608951,
+          "null_count": 585,
+          "empty_string_count": 0,
+          "effective_missing_count": 1609536,
+          "key_absent_rate": 0.9993409987006308,
+          "effective_missing_rate": 0.9997043500296893,
+          "type_counts": {
+            "null": 585,
+            "object": 476
+          }
+        },
+        "average_rating": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "number": 1610012
+          }
+        },
+        "bought_together": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 1610012,
+          "empty_string_count": 0,
+          "effective_missing_count": 1610012,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 1.0,
+          "type_counts": {
+            "null": 1610012
+          }
+        },
+        "categories": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 1610012
+          }
+        },
+        "description": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 1610012
+          }
+        },
+        "details": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "object": 1610012
+          }
+        },
+        "features": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 1610012
+          }
+        },
+        "images": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 1610012
+          }
+        },
+        "main_category": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 106334,
+          "empty_string_count": 0,
+          "effective_missing_count": 106334,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.06604547046854309,
+          "type_counts": {
+            "null": 106334,
+            "string": 1503678
+          }
+        },
+        "parent_asin": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 1610012
+          }
+        },
+        "price": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 1083247,
+          "empty_string_count": 0,
+          "effective_missing_count": 1083247,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.6728192088009282,
+          "type_counts": {
+            "null": 1083247,
+            "number": 526449,
+            "string": 316
+          }
+        },
+        "rating_number": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "integer": 1610012
+          }
+        },
+        "store": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 9520,
+          "empty_string_count": 2,
+          "effective_missing_count": 9522,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.005914241632981617,
+          "type_counts": {
+            "null": 9520,
+            "string": 1600492
+          }
+        },
+        "subtitle": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 1061,
+          "key_absent_count": 1608951,
+          "null_count": 210,
+          "empty_string_count": 0,
+          "effective_missing_count": 1609161,
+          "key_absent_rate": 0.9993409987006308,
+          "effective_missing_rate": 0.9994714325110621,
+          "type_counts": {
+            "null": 210,
+            "string": 851
+          }
+        },
+        "title": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 94,
+          "effective_missing_count": 94,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 5.838465800254905e-05,
+          "type_counts": {
+            "string": 1610012
+          }
+        },
+        "videos": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 1610012,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 1610012
+          }
+        }
+      },
+      "parse_error_categories": {},
+      "parse_error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/meta_electronics_parse_errors.jsonl",
+      "timestamp_audit": null
+    },
+    {
+      "phase": "W2",
+      "status": "COMPLETE",
+      "configuration_fingerprint": "151f10cf759376f934a82018f0d7f9a15324c241b4195b110ea30bd189b94840",
+      "id": "meta_home_and_kitchen",
+      "record_type": "metadata",
+      "domain": "Home_and_Kitchen",
+      "relative_path": "meta_categories/meta_Home_and_Kitchen.jsonl",
+      "input_identity": {
+        "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\meta_categories\\meta_Home_and_Kitchen.jsonl",
+        "size_bytes": 11788767944,
+        "mtime_ns": 1737066543000000000,
+        "mtime_utc": "2025-01-16T22:29:03+00:00",
+        "readonly": true
+      },
+      "scan_started_at": "2026-07-29T14:15:31.153357+08:00",
+      "scan_finished_at": "2026-07-29T14:16:21.525134+08:00",
+      "duration_seconds": 50.37216960000114,
+      "start_free_bytes": 125989625856,
+      "end_free_bytes": 125989400576,
+      "peak_process_rss_bytes": 38391808,
+      "physical_line_count": 3735584,
+      "exact_nonempty_record_count": 3735584,
+      "empty_line_count": 0,
+      "json_parse_success_count": 3735584,
+      "json_parse_error_count": 0,
+      "json_object_count": 3735584,
+      "non_object_json_count": 0,
+      "reconciliation": {
+        "physical_equals_empty_plus_nonempty": true,
+        "nonempty_equals_success_plus_errors": true,
+        "success_equals_objects_plus_nonobjects": true
+      },
+      "observed_field_count": 16,
+      "observed_fields": [
+        "author",
+        "average_rating",
+        "bought_together",
+        "categories",
+        "description",
+        "details",
+        "features",
+        "images",
+        "main_category",
+        "parent_asin",
+        "price",
+        "rating_number",
+        "store",
+        "subtitle",
+        "title",
+        "videos"
+      ],
+      "object_field_count_min": 14,
+      "object_field_count_max": 16,
+      "object_field_count_average": 14.000012314004985,
+      "field_statistics": {
+        "author": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 23,
+          "key_absent_count": 3735561,
+          "null_count": 22,
+          "empty_string_count": 0,
+          "effective_missing_count": 3735583,
+          "key_absent_rate": 0.9999938429975073,
+          "effective_missing_rate": 0.9999997323042394,
+          "type_counts": {
+            "null": 22,
+            "object": 1
+          }
+        },
+        "average_rating": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "number": 3735584
+          }
+        },
+        "bought_together": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 3735584,
+          "empty_string_count": 0,
+          "effective_missing_count": 3735584,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 1.0,
+          "type_counts": {
+            "null": 3735584
+          }
+        },
+        "categories": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 3735584
+          }
+        },
+        "description": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 3735584
+          }
+        },
+        "details": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "object": 3735584
+          }
+        },
+        "features": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 3735584
+          }
+        },
+        "images": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 3735584
+          }
+        },
+        "main_category": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 363310,
+          "empty_string_count": 0,
+          "effective_missing_count": 363310,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.09725654676752016,
+          "type_counts": {
+            "null": 363310,
+            "string": 3372274
+          }
+        },
+        "parent_asin": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 3735584
+          }
+        },
+        "price": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 2456676,
+          "empty_string_count": 0,
+          "effective_missing_count": 2456676,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.6576417502591295,
+          "type_counts": {
+            "null": 2456676,
+            "number": 1278904,
+            "string": 4
+          }
+        },
+        "rating_number": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "integer": 3735584
+          }
+        },
+        "store": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 83518,
+          "empty_string_count": 3,
+          "effective_missing_count": 83521,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.022358217617379238,
+          "type_counts": {
+            "null": 83518,
+            "string": 3652066
+          }
+        },
+        "subtitle": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 23,
+          "key_absent_count": 3735561,
+          "null_count": 17,
+          "empty_string_count": 0,
+          "effective_missing_count": 3735578,
+          "key_absent_rate": 0.9999938429975073,
+          "effective_missing_rate": 0.9999983938254366,
+          "type_counts": {
+            "null": 17,
+            "string": 6
+          }
+        },
+        "title": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 217,
+          "effective_missing_count": 217,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 5.8089980040604096e-05,
+          "type_counts": {
+            "string": 3735584
+          }
+        },
+        "videos": {
+          "observed": true,
+          "is_core_field": false,
+          "occurrence_count": 3735584,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 3735584
+          }
+        }
+      },
+      "parse_error_categories": {},
+      "parse_error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/meta_home_and_kitchen_parse_errors.jsonl",
+      "timestamp_audit": null
+    },
+    {
+      "phase": "W2",
+      "status": "COMPLETE",
+      "configuration_fingerprint": "151f10cf759376f934a82018f0d7f9a15324c241b4195b110ea30bd189b94840",
+      "id": "reviews_electronics",
+      "record_type": "reviews",
+      "domain": "Electronics",
+      "relative_path": "review_categories/Electronics.jsonl",
+      "input_identity": {
+        "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+        "size_bytes": 22616233652,
+        "mtime_ns": 1737070106000000000,
+        "mtime_utc": "2025-01-16T23:28:26+00:00",
+        "readonly": true
+      },
+      "scan_started_at": "2026-07-29T14:16:21.531156+08:00",
+      "scan_finished_at": "2026-07-29T14:20:42.151126+08:00",
+      "duration_seconds": 260.61875839999993,
+      "start_free_bytes": 125989400576,
+      "end_free_bytes": 125990801408,
+      "peak_process_rss_bytes": 39202816,
+      "physical_line_count": 43886944,
+      "exact_nonempty_record_count": 43886944,
+      "empty_line_count": 0,
+      "json_parse_success_count": 43886944,
+      "json_parse_error_count": 0,
+      "json_object_count": 43886944,
+      "non_object_json_count": 0,
+      "reconciliation": {
+        "physical_equals_empty_plus_nonempty": true,
+        "nonempty_equals_success_plus_errors": true,
+        "success_equals_objects_plus_nonobjects": true
+      },
+      "observed_field_count": 10,
+      "observed_fields": [
+        "asin",
+        "helpful_vote",
+        "images",
+        "parent_asin",
+        "rating",
+        "text",
+        "timestamp",
+        "title",
+        "user_id",
+        "verified_purchase"
+      ],
+      "object_field_count_min": 10,
+      "object_field_count_max": 10,
+      "object_field_count_average": 10.0,
+      "field_statistics": {
+        "asin": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 43886944
+          }
+        },
+        "helpful_vote": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "integer": 43886944
+          }
+        },
+        "images": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 43886944
+          }
+        },
+        "parent_asin": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 43886944
+          }
+        },
+        "rating": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "number": 43886944
+          }
+        },
+        "text": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 2534,
+          "effective_missing_count": 2534,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 5.773926751427486e-05,
+          "type_counts": {
+            "string": 43886944
+          }
+        },
+        "timestamp": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "integer": 43886944
+          }
+        },
+        "title": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 1,
+          "effective_missing_count": 1,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 2.2785819855672794e-08,
+          "type_counts": {
+            "string": 43886944
+          }
+        },
+        "user_id": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 43886944
+          }
+        },
+        "verified_purchase": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 43886944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "boolean": 43886944
+          }
+        }
+      },
+      "parse_error_categories": {},
+      "parse_error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/reviews_electronics_parse_errors.jsonl",
+      "timestamp_audit": {
+        "field_present_count": 43886944,
+        "field_missing_count": 0,
+        "type_counts": {
+          "integer": 43886944
+        },
+        "null_count": 0,
+        "non_numeric_count": 0,
+        "numeric_count": 43886944,
+        "negative_count": 0,
+        "numeric_min": 848336280000,
+        "numeric_max": 1694625981867,
+        "magnitude_counts": {
+          "milliseconds": 43886944
+        },
+        "unit": "milliseconds",
+        "unit_status": "CONFIRMED_MILLISECONDS",
+        "unconvertible_count": 0,
+        "milliseconds_unconvertible_count": 0,
+        "min_utc": "1996-11-18T16:58:00+00:00",
+        "max_utc": "2023-09-13T17:26:21.867000+00:00"
+      }
+    },
+    {
+      "phase": "W2",
+      "status": "COMPLETE",
+      "configuration_fingerprint": "151f10cf759376f934a82018f0d7f9a15324c241b4195b110ea30bd189b94840",
+      "id": "reviews_home_and_kitchen",
+      "record_type": "reviews",
+      "domain": "Home_and_Kitchen",
+      "relative_path": "review_categories/Home_and_Kitchen.jsonl",
+      "input_identity": {
+        "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+        "size_bytes": 31408889188,
+        "mtime_ns": 1737071330000000000,
+        "mtime_utc": "2025-01-16T23:48:50+00:00",
+        "readonly": true
+      },
+      "scan_started_at": "2026-07-29T14:20:42.160274+08:00",
+      "scan_finished_at": "2026-07-29T14:27:57.640554+08:00",
+      "duration_seconds": 435.4798867999998,
+      "start_free_bytes": 125990793216,
+      "end_free_bytes": 125787979776,
+      "peak_process_rss_bytes": 39305216,
+      "physical_line_count": 67409944,
+      "exact_nonempty_record_count": 67409944,
+      "empty_line_count": 0,
+      "json_parse_success_count": 67409944,
+      "json_parse_error_count": 0,
+      "json_object_count": 67409944,
+      "non_object_json_count": 0,
+      "reconciliation": {
+        "physical_equals_empty_plus_nonempty": true,
+        "nonempty_equals_success_plus_errors": true,
+        "success_equals_objects_plus_nonobjects": true
+      },
+      "observed_field_count": 10,
+      "observed_fields": [
+        "asin",
+        "helpful_vote",
+        "images",
+        "parent_asin",
+        "rating",
+        "text",
+        "timestamp",
+        "title",
+        "user_id",
+        "verified_purchase"
+      ],
+      "object_field_count_min": 10,
+      "object_field_count_max": 10,
+      "object_field_count_average": 10.0,
+      "field_statistics": {
+        "asin": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 67409944
+          }
+        },
+        "helpful_vote": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "integer": 67409944
+          }
+        },
+        "images": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "array": 67409944
+          }
+        },
+        "parent_asin": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 67409944
+          }
+        },
+        "rating": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "number": 67409944
+          }
+        },
+        "text": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 7419,
+          "effective_missing_count": 7419,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.00011005794634690692,
+          "type_counts": {
+            "string": 67409944
+          }
+        },
+        "timestamp": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "integer": 67409944
+          }
+        },
+        "title": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 67409944
+          }
+        },
+        "user_id": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "string": 67409944
+          }
+        },
+        "verified_purchase": {
+          "observed": true,
+          "is_core_field": true,
+          "occurrence_count": 67409944,
+          "key_absent_count": 0,
+          "null_count": 0,
+          "empty_string_count": 0,
+          "effective_missing_count": 0,
+          "key_absent_rate": 0.0,
+          "effective_missing_rate": 0.0,
+          "type_counts": {
+            "boolean": 67409944
+          }
+        }
+      },
+      "parse_error_categories": {},
+      "parse_error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/reviews_home_and_kitchen_parse_errors.jsonl",
+      "timestamp_audit": {
+        "field_present_count": 67409944,
+        "field_missing_count": 0,
+        "type_counts": {
+          "integer": 67409944
+        },
+        "null_count": 0,
+        "non_numeric_count": 0,
+        "numeric_count": 67409944,
+        "negative_count": 0,
+        "numeric_min": 896410004000,
+        "numeric_max": 1694571465551,
+        "magnitude_counts": {
+          "milliseconds": 67409944
+        },
+        "unit": "milliseconds",
+        "unit_status": "CONFIRMED_MILLISECONDS",
+        "unconvertible_count": 0,
+        "milliseconds_unconvertible_count": 0,
+        "min_utc": "1998-05-29T02:46:44+00:00",
+        "max_utc": "2023-09-13T02:17:45.551000+00:00"
+      }
+    }
+  ]
+}

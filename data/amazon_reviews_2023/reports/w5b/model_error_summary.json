@@ -1,0 +1,18 @@
+{
+  "test_rows": 60,
+  "false_positive_count": 4,
+  "false_negative_count": 4,
+  "false_negative_failure_type_counts_overlapping": {
+    "F1": 1,
+    "F2": 2,
+    "F3": 1,
+    "F6": 3
+  },
+  "errors_by_device_type": {
+    "smart_plug": 6,
+    "smart_bulb": 1,
+    "smart_switch": 1
+  },
+  "test_error_text_saved_only_in_private_parquet": true,
+  "test_errors_used_for_retraining": false
+}

@@ -1,0 +1,13 @@
+﻿reason,count
+matched_target_count,62182
+title_cleaned,662
+body_cleaned,14419
+html_changed,4455
+unicode_changed,181
+whitespace_changed,13039
+empty_text_removed_count,0
+timestamp_null_count,0
+timestamp_non_numeric_count,0
+timestamp_negative_count,0
+timestamp_unconvertible_count,0
+cleaned_candidate_count,62182

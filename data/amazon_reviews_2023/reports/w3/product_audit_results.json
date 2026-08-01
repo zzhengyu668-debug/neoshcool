@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "reason": "Audit decisions complete.",
+  "sample_fingerprint": "3639bb4f80c5ea2956d428df0a01c58868cf1bd08b3609ee2b4364ac1a711a7b",
+  "reviewed_rows": 156,
+  "label_counts": {
+    "accessory": 1,
+    "correct_target": 106,
+    "false_positive": 42,
+    "non_smart": 6,
+    "wrong_device_type": 1
+  },
+  "precision_by_device_type": {
+    "smart_plug": {
+      "reviewed": 95,
+      "correct_target": 95,
+      "precision": 1.0
+    },
+    "smart_bulb": {
+      "reviewed": 8,
+      "correct_target": 8,
+      "precision": 1.0
+    },
+    "smart_switch": {
+      "reviewed": 3,
+      "correct_target": 3,
+      "precision": 1.0
+    }
+  },
+  "minimum_precision": 0.8,
+  "precision_floor_passed": true
+}

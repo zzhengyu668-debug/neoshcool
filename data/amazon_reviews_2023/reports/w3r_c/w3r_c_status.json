@@ -1,0 +1,71 @@
+{
+  "phase": "W3R-C",
+  "status": "PASS",
+  "completed_at": "2026-07-30T05:37:09.732016+00:00",
+  "formal_version": "w3-v1.4.0",
+  "w4r_readiness": "READY_FOR_EXPLICIT_APPROVAL",
+  "counts": {
+    "baseline_products": 106,
+    "promoted_products": 19,
+    "promoted_smart_bulb": 17,
+    "promoted_smart_switch": 2,
+    "held": 1,
+    "excluded": 3,
+    "formal_products": 125,
+    "formal_smart_plug": 95,
+    "formal_smart_bulb": 25,
+    "formal_smart_switch": 5,
+    "unique_parent_asin": 125
+  },
+  "integrity": {
+    "w3r_b_adjudication_validation_pass": true,
+    "baseline_hash_unchanged": true,
+    "baseline_non_version_fields_changed": 0,
+    "shared_metadata_conflicts": 0,
+    "duplicate_parent_asin": 0,
+    "held_or_excluded_in_formal_output": 0,
+    "parquet_readback_pass": true,
+    "schema_compatible": true
+  },
+  "formal_product_set": {
+    "path": "data\\amazon_reviews_2023\\processed\\target_products_w3_v1_4_0.parquet",
+    "bytes": 94709,
+    "mtime_ns": 1785389829708298200,
+    "mtime_utc": "2026-07-30T05:37:09.708298+00:00",
+    "sha256": "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+  },
+  "baseline_product_set": {
+    "path": "data\\amazon_reviews_2023\\processed\\target_products.parquet",
+    "bytes": 85142,
+    "mtime_ns": 1785316071556196800,
+    "mtime_utc": "2026-07-29T09:07:51.556197+00:00",
+    "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d"
+  },
+  "review_level_base_protection": {
+    "opened": false,
+    "modified": false,
+    "identity_check": "filesystem size and mtime only",
+    "identity_before": {
+      "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+      "bytes": 12511277,
+      "mtime_ns": 1785326707561071300,
+      "mtime_utc": "2026-07-29T12:05:07.561071+00:00"
+    },
+    "identity_after": {
+      "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+      "bytes": 12511277,
+      "mtime_ns": 1785326707561071300,
+      "mtime_utc": "2026-07-29T12:05:07.561071+00:00"
+    }
+  },
+  "scope_compliance": {
+    "review_jsonl_read": false,
+    "metadata_jsonl_read": false,
+    "gzip_read": false,
+    "review_level_base_read": false,
+    "w4r_executed": false,
+    "w5_started": false,
+    "git_commit": false,
+    "baseline_target_products_overwritten": false
+  }
+}

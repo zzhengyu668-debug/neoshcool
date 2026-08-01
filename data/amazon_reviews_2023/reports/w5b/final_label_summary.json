@@ -1,0 +1,41 @@
+{
+  "annotation_version": "w5b-labels-v1.0",
+  "rows": 300,
+  "definite_rows": 296,
+  "uncertain_rows": 4,
+  "uncertain_blind_review_ids": [
+    "W5A-086",
+    "W5A-153",
+    "W5A-187",
+    "W5A-261"
+  ],
+  "failure_0": 143,
+  "failure_1": 153,
+  "annotation_source_counts": {
+    "adjudicated_double_review": 60,
+    "reviewer_1_single_review": 240
+  },
+  "failure_type_counts_overlapping": {
+    "F1": 43,
+    "F2": 51,
+    "F3": 34,
+    "F4": 37,
+    "F5": 50,
+    "F6": 54,
+    "F7": 4,
+    "F8": 25,
+    "N0": 143
+  },
+  "severity_counts": {
+    "0": 143,
+    "1": 27,
+    "2": 122,
+    "3": 4
+  },
+  "persistence_counts": {
+    "0": 159,
+    "1": 48,
+    "2": 89
+  },
+  "stratified_annotation_sample_is_population_representative": false
+}

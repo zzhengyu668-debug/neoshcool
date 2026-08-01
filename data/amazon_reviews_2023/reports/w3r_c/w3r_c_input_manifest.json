@@ -1,0 +1,126 @@
+{
+  "phase": "W3R-C",
+  "started_at": "2026-07-30T05:37:09.429105+00:00",
+  "completed_at": "2026-07-30T05:37:09.732016+00:00",
+  "project_root_resolved": "C:\\Users\\30649\\Desktop\\neoschool",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9",
+    "python_64_bit": true,
+    "pyarrow_version": "25.0.0"
+  },
+  "configuration": {
+    "project_config": {
+      "path": "config\\project.toml",
+      "bytes": 485,
+      "mtime_ns": 1785136612821775200,
+      "mtime_utc": "2026-07-27T07:16:52.821775+00:00",
+      "sha256": "6138f1d34ad28bda962814e56de812d2acb36e78b87c9f78777b323c520dc24d"
+    },
+    "formal_release_config": {
+      "path": "config\\product_filter_rules_w3_v1_4_0.toml",
+      "bytes": 3258,
+      "mtime_ns": 1785389693126053700,
+      "mtime_utc": "2026-07-30T05:34:53.126054+00:00",
+      "sha256": "9fe5d28f1b7682270021e86ce67931b5d1713661271096fbcc62d6dcb4561ffb"
+    },
+    "script": {
+      "path": "scripts\\promote_w3r_c_products.py",
+      "bytes": 33498,
+      "mtime_ns": 1785389809373596700,
+      "mtime_utc": "2026-07-30T05:36:49.373597+00:00",
+      "sha256": "4617fc5ef50036638700b6680e721c5fafcd24f97e7a3c1e0a06fa2d7ca19784"
+    }
+  },
+  "inputs": {
+    "base_rules": {
+      "path": "config\\product_filter_rules.toml",
+      "bytes": 7518,
+      "mtime_ns": 1785315180916562300,
+      "mtime_utc": "2026-07-29T08:53:00.916562+00:00",
+      "sha256": "81aec360771b842a1e327749a99400d4588823de60b75831e1784fdc9868943f"
+    },
+    "recovery_rules": {
+      "path": "config\\product_filter_rules_w3r_v1_4_draft.toml",
+      "bytes": 6116,
+      "mtime_ns": 1785329965052229400,
+      "mtime_utc": "2026-07-29T12:59:25.052229+00:00",
+      "sha256": "4e56ec3018b549e60eb8418576486875143ed60b52e2105aebb4b396d003b6d2"
+    },
+    "w3_status": {
+      "path": "data\\amazon_reviews_2023\\reports\\w3\\w3_status.json",
+      "bytes": 5327,
+      "mtime_ns": 1785316237802823100,
+      "mtime_utc": "2026-07-29T09:10:37.802823+00:00",
+      "sha256": "526f36f5ac4d10b7dc2131aa82606a256efbdec517cd096d8dccac1f9e1f8ccd"
+    },
+    "w3r_a_status": {
+      "path": "data\\amazon_reviews_2023\\reports\\w3r_a\\w3r_a_status.json",
+      "bytes": 6980,
+      "mtime_ns": 1785330034097957300,
+      "mtime_utc": "2026-07-29T13:00:34.097957+00:00",
+      "sha256": "2bf273d606e284051c44afa53c165eac50f559ee31a06f64b6587c2066ee9e42"
+    },
+    "w3r_b_status": {
+      "path": "data\\amazon_reviews_2023\\reports\\w3r_b\\w3r_b_final_status.json",
+      "bytes": 1436,
+      "mtime_ns": 1785388440297250800,
+      "mtime_utc": "2026-07-30T05:14:00.297251+00:00",
+      "sha256": "42243710fa9b02250488b77515e708a51afdf5fab9091ceb17db7071767509aa"
+    },
+    "adjudication_validation": {
+      "path": "data\\amazon_reviews_2023\\reports\\w3r_b\\w3r_b_adjudication_validation.json",
+      "bytes": 3785,
+      "mtime_ns": 1785388440296171800,
+      "mtime_utc": "2026-07-30T05:14:00.296172+00:00",
+      "sha256": "2a1322c069ecddcb53fc523709fb8076a6f38c8bbc3fc2df03b3d65d02320893"
+    },
+    "decisions": {
+      "path": "data\\amazon_reviews_2023\\reports\\w3r_b\\final_recovery_decisions.json",
+      "bytes": 20738,
+      "mtime_ns": 1785388440293172000,
+      "mtime_utc": "2026-07-30T05:14:00.293172+00:00",
+      "sha256": "0314bbbe000cc8719a7c4f8c4f48549f9807838f493e4990f501c62a531296fe"
+    },
+    "baseline_products": {
+      "path": "data\\amazon_reviews_2023\\processed\\target_products.parquet",
+      "bytes": 85142,
+      "mtime_ns": 1785316071556196800,
+      "mtime_utc": "2026-07-29T09:07:51.556197+00:00",
+      "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d"
+    },
+    "draft_products": {
+      "path": "data\\amazon_reviews_2023\\interim\\w3r_a\\proposed_target_products_w3_v1_4_draft.parquet",
+      "bytes": 80404,
+      "mtime_ns": 1785330033750270400,
+      "mtime_utc": "2026-07-29T13:00:33.750270+00:00",
+      "sha256": "f8a9962632aaeebe2613b8e95de3e09b9ad0aad7efb1f7d71fe61bf4b0ea7f30"
+    }
+  },
+  "input_statuses": {
+    "w3": "PASS",
+    "w3r_a": "PAUSED_INSUFFICIENT_RECOVERY",
+    "w3r_b": "PAUSED_PROMOTION_APPROVAL",
+    "adjudication_validation": "PASS"
+  },
+  "disk": {
+    "free_bytes_before": 126114877440,
+    "free_gib_before": 117.45363235473633,
+    "free_bytes_after": 126114775040,
+    "free_gib_after": 117.45353698730469,
+    "minimum_free_gib": 60
+  },
+  "review_level_base_identity_before_stat_only": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "bytes": 12511277,
+    "mtime_ns": 1785326707561071300,
+    "mtime_utc": "2026-07-29T12:05:07.561071+00:00"
+  },
+  "review_level_base_identity_after_stat_only": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "bytes": 12511277,
+    "mtime_ns": 1785326707561071300,
+    "mtime_utc": "2026-07-29T12:05:07.561071+00:00"
+  },
+  "review_level_base_opened": false
+}

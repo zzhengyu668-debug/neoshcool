@@ -1,0 +1,28 @@
+{
+  "draft_version": "w3-v1.4.0-draft",
+  "flow": [
+    {
+      "audited_recoverable": 17,
+      "baseline_excluded_candidate_pool": 1598,
+      "baseline_products": 8,
+      "device_type": "smart_bulb",
+      "draft_exclude": 1581,
+      "draft_hold": 0,
+      "draft_screen_positive": 17,
+      "draft_total_products": 25,
+      "potential_false_negatives": 17
+    },
+    {
+      "audited_recoverable": 6,
+      "baseline_excluded_candidate_pool": 3999,
+      "baseline_products": 3,
+      "device_type": "smart_switch",
+      "draft_exclude": 3686,
+      "draft_hold": 307,
+      "draft_screen_positive": 6,
+      "draft_total_products": 9,
+      "potential_false_negatives": 313
+    }
+  ],
+  "generated_at": "2026-07-29T13:00:33.837909+00:00"
+}

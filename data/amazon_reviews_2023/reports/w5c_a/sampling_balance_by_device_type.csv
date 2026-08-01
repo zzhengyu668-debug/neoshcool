@@ -1,0 +1,13 @@
+﻿batch_id,device_type,sampled_reviews,unique_parent_asin,double_review_rows
+batch_1,smart_bulb,60,18,12
+batch_1,smart_plug,232,79,46
+batch_1,smart_switch,8,1,2
+batch_2,smart_bulb,60,13,12
+batch_2,smart_plug,232,70,46
+batch_2,smart_switch,8,1,2
+batch_3,smart_bulb,60,10,12
+batch_3,smart_plug,232,61,46
+batch_3,smart_switch,8,1,2
+batch_4,smart_bulb,60,8,12
+batch_4,smart_plug,231,58,47
+batch_4,smart_switch,9,1,1

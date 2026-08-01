@@ -1,0 +1,248 @@
+{
+  "phase": "W4",
+  "generated_at": "2026-07-29T20:14:47.711680+08:00",
+  "configuration_fingerprint": "44da42413f49c515eeb6b39fbcc728eb99a24e2a38bc14e86304c52ce57af44e",
+  "filter_version": "w3-v1.3.2",
+  "target_products": {
+    "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\processed\\target_products.parquet",
+    "size_bytes": 85142,
+    "mtime_ns": 1785316071556196800,
+    "mtime_utc": "2026-07-29T09:07:51.556197+00:00",
+    "readonly": false,
+    "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d",
+    "rows": 106,
+    "device_type_counts": {
+      "smart_bulb": 8,
+      "smart_plug": 95,
+      "smart_switch": 3
+    },
+    "filter_version": "w3-v1.3.2"
+  },
+  "source_scans": [
+    {
+      "phase": "W4",
+      "status": "COMPLETE",
+      "configuration_fingerprint": "44da42413f49c515eeb6b39fbcc728eb99a24e2a38bc14e86304c52ce57af44e",
+      "id": "reviews_electronics",
+      "domain": "Electronics",
+      "relative_path": "review_categories/Electronics.jsonl",
+      "input_identity": {
+        "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+        "size_bytes": 22616233652,
+        "mtime_ns": 1737070106000000000,
+        "mtime_utc": "2025-01-16T23:28:26+00:00",
+        "readonly": true
+      },
+      "scan_started_at": "2026-07-29T19:57:25.470485+08:00",
+      "scan_finished_at": "2026-07-29T20:01:25.391865+08:00",
+      "duration_seconds": 239.92011210000055,
+      "start_free_bytes": 123971788800,
+      "end_free_bytes": 123952373760,
+      "peak_process_rss_bytes": 204656640,
+      "physical_line_count": 43886944,
+      "nonempty_record_count": 43886944,
+      "json_parse_success_count": 43886944,
+      "json_object_count": 43886944,
+      "non_target_product_count": 43824800,
+      "matched_target_count": 62144,
+      "cleaned_candidate_count": 62144,
+      "body_cleaned": 14398,
+      "html_changed": 4448,
+      "whitespace_changed": 13018,
+      "title_cleaned": 662,
+      "unicode_changed": 180,
+      "matched_by_device_type": {
+        "smart_bulb": 209,
+        "smart_plug": 61869,
+        "smart_switch": 66
+      },
+      "language_counts": {
+        "English": 55353,
+        "non-English": 4441,
+        "undetermined_other": 1837,
+        "undetermined_short": 513
+      },
+      "language_by_device_type": {
+        "smart_bulb": {
+          "English": 198,
+          "non-English": 7,
+          "undetermined_other": 3,
+          "undetermined_short": 1
+        },
+        "smart_plug": {
+          "English": 55089,
+          "non-English": 4434,
+          "undetermined_other": 1834,
+          "undetermined_short": 512
+        },
+        "smart_switch": {
+          "English": 66,
+          "non-English": 0,
+          "undetermined_short": 0,
+          "undetermined_other": 0
+        }
+      },
+      "timestamp_min_ms": 1386087062000,
+      "timestamp_max_ms": 1694046502966,
+      "timestamp_min_utc": "2013-12-03T16:11:02+00:00",
+      "timestamp_max_utc": "2023-09-07T00:28:22.966000+00:00",
+      "parse_error_categories": {},
+      "parse_error_details": [],
+      "staging_path": "data\\amazon_reviews_2023\\interim\\w4_work\\reviews_electronics_44da42413f49c515_matched.parquet",
+      "staging_rows": 62144,
+      "staging_bytes": 19799375,
+      "checkpoint_revalidation": {
+        "time": "2026-07-29T20:13:26.653632+08:00",
+        "reason": "Revalidated after reporting-only timezone conversion, exception logging, and Windows memory-sampling fixes; review transformation logic and inputs were unchanged.",
+        "legacy_fingerprint": "3c08ff59744101b71f1cea9f73bf1fd69657dcef7b277ee3048b6270ccef7a66"
+      },
+      "memory_measurement_method": "Windows Get-Process PeakWorkingSet64 observed during the full W4 run",
+      "empty_line_count": 0,
+      "json_parse_error_count": 0,
+      "non_object_json_count": 0,
+      "parent_asin_missing_count": 0,
+      "empty_text_removed_count": 0,
+      "timestamp_null_count": 0,
+      "timestamp_non_numeric_count": 0,
+      "timestamp_negative_count": 0,
+      "timestamp_unconvertible_count": 0,
+      "user_id_missing_count": 0
+    },
+    {
+      "phase": "W4",
+      "status": "COMPLETE",
+      "configuration_fingerprint": "44da42413f49c515eeb6b39fbcc728eb99a24e2a38bc14e86304c52ce57af44e",
+      "id": "reviews_home_and_kitchen",
+      "domain": "Home_and_Kitchen",
+      "relative_path": "review_categories/Home_and_Kitchen.jsonl",
+      "input_identity": {
+        "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+        "size_bytes": 31408889188,
+        "mtime_ns": 1737071330000000000,
+        "mtime_utc": "2025-01-16T23:48:50+00:00",
+        "readonly": true
+      },
+      "scan_started_at": "2026-07-29T20:01:25.431321+08:00",
+      "scan_finished_at": "2026-07-29T20:05:06.935087+08:00",
+      "duration_seconds": 221.50242830000207,
+      "start_free_bytes": 123952369664,
+      "end_free_bytes": 123948703744,
+      "peak_process_rss_bytes": 204656640,
+      "physical_line_count": 67409944,
+      "nonempty_record_count": 67409944,
+      "json_parse_success_count": 67409944,
+      "json_object_count": 67409944,
+      "non_target_product_count": 67409906,
+      "matched_target_count": 38,
+      "body_cleaned": 21,
+      "whitespace_changed": 21,
+      "cleaned_candidate_count": 38,
+      "html_changed": 7,
+      "unicode_changed": 1,
+      "matched_by_device_type": {
+        "smart_bulb": 9,
+        "smart_plug": 29,
+        "smart_switch": 0
+      },
+      "language_counts": {
+        "English": 38,
+        "non-English": 0,
+        "undetermined_short": 0,
+        "undetermined_other": 0
+      },
+      "language_by_device_type": {
+        "smart_bulb": {
+          "English": 9,
+          "non-English": 0,
+          "undetermined_short": 0,
+          "undetermined_other": 0
+        },
+        "smart_plug": {
+          "English": 29,
+          "non-English": 0,
+          "undetermined_short": 0,
+          "undetermined_other": 0
+        },
+        "smart_switch": {
+          "English": 0,
+          "non-English": 0,
+          "undetermined_short": 0,
+          "undetermined_other": 0
+        }
+      },
+      "timestamp_min_ms": 1539230615034,
+      "timestamp_max_ms": 1685643934379,
+      "timestamp_min_utc": "2018-10-11T04:03:35.034000+00:00",
+      "timestamp_max_utc": "2023-06-01T18:25:34.379000+00:00",
+      "parse_error_categories": {},
+      "parse_error_details": [],
+      "staging_path": "data\\amazon_reviews_2023\\interim\\w4_work\\reviews_home_and_kitchen_44da42413f49c515_matched.parquet",
+      "staging_rows": 38,
+      "staging_bytes": 208849,
+      "checkpoint_revalidation": {
+        "time": "2026-07-29T20:13:26.653632+08:00",
+        "reason": "Revalidated after reporting-only timezone conversion, exception logging, and Windows memory-sampling fixes; review transformation logic and inputs were unchanged.",
+        "legacy_fingerprint": "3c08ff59744101b71f1cea9f73bf1fd69657dcef7b277ee3048b6270ccef7a66"
+      },
+      "memory_measurement_method": "Windows Get-Process PeakWorkingSet64 observed during the full W4 run",
+      "empty_line_count": 0,
+      "json_parse_error_count": 0,
+      "non_object_json_count": 0,
+      "parent_asin_missing_count": 0,
+      "empty_text_removed_count": 0,
+      "timestamp_null_count": 0,
+      "timestamp_non_numeric_count": 0,
+      "timestamp_negative_count": 0,
+      "timestamp_unconvertible_count": 0,
+      "user_id_missing_count": 0
+    }
+  ],
+  "totals": {
+    "physical_line_count": 111296888,
+    "empty_line_count": 0,
+    "nonempty_record_count": 111296888,
+    "json_parse_success_count": 111296888,
+    "json_parse_error_count": 0,
+    "json_object_count": 111296888,
+    "non_object_json_count": 0,
+    "parent_asin_missing_count": 0,
+    "matched_target_count": 62182,
+    "non_target_product_count": 111234706,
+    "cleaned_candidate_count": 62182,
+    "empty_text_removed_count": 0
+  },
+  "final": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "rows": 54870,
+    "bytes": 12511277,
+    "compression_by_column": [
+      "ZSTD"
+    ],
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string"
+  }
+}

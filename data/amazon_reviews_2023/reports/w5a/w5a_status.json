@@ -1,0 +1,210 @@
+{
+  "phase": "W5-A",
+  "status": "PAUSED_HUMAN_ANNOTATION",
+  "w5b_readiness": "WAITING_FOR_COMPLETED_ANNOTATION",
+  "completed_at_utc": "2026-07-31T04:44:18.028961+00:00",
+  "annotation_version": "w5a-annotation-v1.0-draft",
+  "keyword_version": "w5a-keyword-v1.0-draft",
+  "formal_review_rows": 55877,
+  "formal_product_rows": 125,
+  "sample_rows": 300,
+  "sample_device_quotas": {
+    "smart_plug": 210,
+    "smart_bulb": 60,
+    "smart_switch": 30
+  },
+  "sample_unique_duplicate_keys": 300,
+  "sample_unique_parent_asin": 125,
+  "double_review_rows": 60,
+  "double_review_quotas": {
+    "smart_plug": 42,
+    "smart_bulb": 12,
+    "smart_switch": 6
+  },
+  "all_human_labels_empty": true,
+  "rating_hidden_from_annotators": true,
+  "keyword_hidden_from_annotators": true,
+  "blind_key_one_to_one_validated": true,
+  "double_review_ids_subset_validated": true,
+  "rating_product_month_rows": 1911,
+  "keyword_hit_rows": 4068,
+  "keyword_hit_share": 0.07280276321205505,
+  "keyword_product_month_rows": 1911,
+  "precision_recall_f1_reported": false,
+  "future_target_created": false,
+  "split_created": false,
+  "models_trained": [],
+  "formal_inputs_unchanged": true,
+  "raw_or_compressed_sources_read": false,
+  "w5b_executed": false,
+  "git_commit_created": false,
+  "workbook_validation": {
+    "status": "PASS",
+    "generatedAtUtc": "2026-07-31T04:41:23.073Z",
+    "tool": "@oai/artifact-tool",
+    "workbookCount": 2,
+    "formulaScan": "PASS: no formulas or formula-error cells are present",
+    "visualInspectionPendingByCodex": false,
+    "workbooks": [
+      {
+        "csvPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.csv",
+        "xlsxPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.xlsx",
+        "rowCount": 300,
+        "columnCount": 14,
+        "reviewerNumber": 1,
+        "sheetNames": [
+          "Annotation",
+          "Instructions"
+        ],
+        "structuralInspection": "PASS",
+        "topAndBottomRowsInspected": true,
+        "formulaInspection": "PASS: no formulas",
+        "reimportInspection": "PASS",
+        "reimportFormulaInspection": "PASS: no formulas",
+        "previews": [
+          "annotation_batch_300_blind_top.png",
+          "annotation_batch_300_blind_middle.png",
+          "annotation_batch_300_blind_bottom.png",
+          "annotation_batch_300_blind_instructions.png"
+        ]
+      },
+      {
+        "csvPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.csv",
+        "xlsxPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.xlsx",
+        "rowCount": 60,
+        "columnCount": 9,
+        "reviewerNumber": 2,
+        "sheetNames": [
+          "Annotation",
+          "Instructions"
+        ],
+        "structuralInspection": "PASS",
+        "topAndBottomRowsInspected": true,
+        "formulaInspection": "PASS: no formulas",
+        "reimportInspection": "PASS",
+        "reimportFormulaInspection": "PASS: no formulas",
+        "previews": [
+          "annotation_double_review_60_blind_top.png",
+          "annotation_double_review_60_blind_middle.png",
+          "annotation_double_review_60_blind_bottom.png",
+          "annotation_double_review_60_blind_instructions.png"
+        ]
+      }
+    ],
+    "visualInspectionByCodex": "PASS: rendered top, middle, bottom, and instructions views were visually inspected for both workbooks.",
+    "visualInspectionCompletedAtUtc": "2026-07-31T04:44:17.956642+00:00"
+  },
+  "cleaned_current_run_inspection_sidecars": [
+    "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.xlsx.inspect.ndjson",
+    "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.xlsx.inspect.ndjson"
+  ],
+  "outputs": {
+    "annotation_batch_300_blind.csv": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.csv",
+      "size_bytes": 143945,
+      "mtime_ns": 1785472297852905300,
+      "mtime_utc": "2026-07-31T04:31:37.852905+00:00",
+      "sha256": "ec4733a5416f9e617d17277b89401fb914b19e1949f0f989b4af9017a14ca5e9"
+    },
+    "annotation_batch_300_blind.xlsx": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.xlsx",
+      "size_bytes": 78307,
+      "mtime_ns": 1785472880068232400,
+      "mtime_utc": "2026-07-31T04:41:20.068232+00:00",
+      "sha256": "8e8d0ef9292fd81595f7976c4bddb743e13bc77514b50cc2c8a22bba81c817e1"
+    },
+    "annotation_double_review_60_blind.csv": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.csv",
+      "size_bytes": 30792,
+      "mtime_ns": 1785472297859588600,
+      "mtime_utc": "2026-07-31T04:31:37.859589+00:00",
+      "sha256": "ca1cb525107457430f965a93c052bd96a485dda07a4f378d51f4a73340a5884e"
+    },
+    "annotation_double_review_60_blind.xlsx": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.xlsx",
+      "size_bytes": 21234,
+      "mtime_ns": 1785472882297522700,
+      "mtime_utc": "2026-07-31T04:41:22.297523+00:00",
+      "sha256": "5f65e352375fc58637b09e424b808583902ec9b07b4f8706ecb941305d76a02f"
+    },
+    "annotation_sampling_frame.parquet": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_sampling_frame.parquet",
+      "size_bytes": 83202,
+      "mtime_ns": 1785472297803992100,
+      "mtime_utc": "2026-07-31T04:31:37.803992+00:00",
+      "sha256": "68a46fa0cb83ff38c43f48b6cb2bb8a7f85c8f6360b06a23829f85d2c8f70a06",
+      "rows": 300,
+      "fields": [
+        "blind_review_id",
+        "duplicate_key",
+        "parent_asin",
+        "device_type",
+        "review_text",
+        "rating",
+        "review_datetime",
+        "source_domain",
+        "keyword_candidate_hit",
+        "keyword_failure_types",
+        "rating_stratum",
+        "time_stratum",
+        "sampling_stratum",
+        "selected_for_double_review"
+      ]
+    },
+    "blind_review_key.parquet": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\blind_review_key.parquet",
+      "size_bytes": 21731,
+      "mtime_ns": 1785472297819522000,
+      "mtime_utc": "2026-07-31T04:31:37.819522+00:00",
+      "sha256": "3aeafb6d27a330c4e41fae829bd9f67782885f7242bed1522f0302fd862209a0",
+      "rows": 300,
+      "fields": [
+        "blind_review_id",
+        "duplicate_key",
+        "parent_asin",
+        "rating",
+        "review_datetime",
+        "source_domain",
+        "keyword_candidate_hit",
+        "sampling_stratum"
+      ]
+    },
+    "keyword_product_month_descriptive.parquet": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\keyword_product_month_descriptive.parquet",
+      "size_bytes": 12924,
+      "mtime_ns": 1785472297928723400,
+      "mtime_utc": "2026-07-31T04:31:37.928723+00:00",
+      "sha256": "41fa670e874a493d80aeaf4dd337e1d87e5e326531c12e2ec8f78eb01b4a3a09",
+      "rows": 1911,
+      "fields": [
+        "parent_asin",
+        "review_month",
+        "device_type",
+        "analysis_role",
+        "n_reviews",
+        "keyword_hit_count",
+        "keyword_hit_share",
+        "keyword_version"
+      ]
+    },
+    "rating_product_month_descriptive.parquet": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\rating_product_month_descriptive.parquet",
+      "size_bytes": 16760,
+      "mtime_ns": 1785472297894561700,
+      "mtime_utc": "2026-07-31T04:31:37.894562+00:00",
+      "sha256": "daedc3e7c52746b78483330f032b1a5f84b31ffce5b5ab88629b4505b5601dfa",
+      "rows": 1911,
+      "fields": [
+        "parent_asin",
+        "review_month",
+        "device_type",
+        "analysis_role",
+        "n_reviews",
+        "mean_rating",
+        "low_star_count",
+        "low_star_share"
+      ]
+    }
+  },
+  "final_free_gib": 117.73984146118164
+}

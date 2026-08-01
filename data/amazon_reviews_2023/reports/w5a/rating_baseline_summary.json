@@ -1,0 +1,42 @@
+{
+  "baseline": "B0 Rating",
+  "description": "Descriptive rating-only product-month baseline",
+  "low_star_definition": "rating <= 2",
+  "low_star_is_engineering_failure_label": false,
+  "future_target_created": false,
+  "split_created": false,
+  "early_warning_comparison_performed": false,
+  "product_month_rows": 1911,
+  "by_device_type": [
+    {
+      "device_type": "smart_bulb",
+      "analysis_role": "exploratory",
+      "reviews": 1207,
+      "products": 25,
+      "product_months": 351,
+      "mean_rating": 3.7854183927091962,
+      "low_star_count": 295,
+      "low_star_share": 0.2444076222038111
+    },
+    {
+      "device_type": "smart_plug",
+      "analysis_role": "primary",
+      "reviews": 54607,
+      "products": 95,
+      "product_months": 1516,
+      "mean_rating": 4.402091306975296,
+      "low_star_count": 6548,
+      "low_star_share": 0.11991136667460216
+    },
+    {
+      "device_type": "smart_switch",
+      "analysis_role": "case_study",
+      "reviews": 63,
+      "products": 5,
+      "product_months": 44,
+      "mean_rating": 3.4761904761904763,
+      "low_star_count": 20,
+      "low_star_share": 0.31746031746031744
+    }
+  ]
+}

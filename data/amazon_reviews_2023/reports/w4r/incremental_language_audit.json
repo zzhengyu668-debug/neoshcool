@@ -1,0 +1,45 @@
+{
+  "phase": "W4R",
+  "generated_at": "2026-07-31T11:16:35.011664+08:00",
+  "package": "lingua-language-detector",
+  "package_version": "2.1.1",
+  "configuration": {
+    "package": "lingua-language-detector",
+    "mode": "all_languages_low_accuracy",
+    "minimum_relative_distance": 0.15,
+    "minimum_english_confidence": 0.7,
+    "minimum_alphabetic_characters": 10,
+    "minimum_total_characters": 12,
+    "undetermined_warning_share": 0.05
+  },
+  "counts": {
+    "English": 1016,
+    "non-English": 29,
+    "undetermined_other": 5,
+    "undetermined_short": 2
+  },
+  "counts_by_device_type": {
+    "smart_bulb": {
+      "English": 1013,
+      "non-English": 28,
+      "undetermined_other": 5,
+      "undetermined_short": 2
+    },
+    "smart_plug": {
+      "English": 0,
+      "non-English": 0,
+      "undetermined_other": 0,
+      "undetermined_short": 0
+    },
+    "smart_switch": {
+      "English": 3,
+      "non-English": 1,
+      "undetermined_other": 0,
+      "undetermined_short": 0
+    }
+  },
+  "denominator": 1052,
+  "undetermined_count": 7,
+  "undetermined_share": 0.006653992395437262,
+  "online_service_used": false
+}

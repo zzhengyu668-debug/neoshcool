@@ -1,0 +1,13 @@
+{
+  "phase": "W5-A",
+  "started_at_utc": "2026-07-31T04:31:20.285785+00:00",
+  "completed_preparation_at_utc": "2026-07-31T04:31:37.999029+00:00",
+  "free_gib_before": 118.04098892211914,
+  "free_gib_after_preparation": 118.04021072387695,
+  "minimum_free_gib": 60,
+  "space_gate_passed": true,
+  "peak_process_working_set_mib": null,
+  "finalized_at_utc": "2026-07-31T04:44:18.022384+00:00",
+  "final_free_gib": 117.73984146118164,
+  "final_space_gate_passed": true
+}

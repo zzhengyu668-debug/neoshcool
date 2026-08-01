@@ -1,0 +1,16 @@
+﻿device_type,rating,reviews
+smart_bulb,1.0,24
+smart_bulb,2.0,14
+smart_bulb,3.0,13
+smart_bulb,4.0,24
+smart_bulb,5.0,128
+smart_plug,1.0,4932
+smart_plug,2.0,1616
+smart_plug,3.0,2101
+smart_plug,4.0,3872
+smart_plug,5.0,42086
+smart_switch,1.0,10
+smart_switch,2.0,9
+smart_switch,3.0,9
+smart_switch,4.0,8
+smart_switch,5.0,24

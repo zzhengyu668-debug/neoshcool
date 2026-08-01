@@ -1,0 +1,5 @@
+﻿blind_id,parent_asin,product_title,final_device_type,final_label,final_decision,decision_basis
+W3RB-002,B08TVZK8D6,"Made for Amazon Zigbee Smart Switch, Gen3. Compatible with Echo (4th Gen), Echo Plus (1st & 2nd Gen), Echo Show 10 (2nd & 3rd Gen), Echo Studio, Eero, and Eero 6 Pro",neither,accessory,exclude,adjudication
+W3RB-003,B073S7XK5N,ON-Q Switch - Radiant in-Wall 1500W Rf Switch - White (LC2201-WH),uncertain,ambiguous,hold,reviewer_consensus
+W3RB-009,B07DWCWW3N,Switchmate Light Switch Systems Toggle - Wireless Wall Switch,neither,accessory,exclude,adjudication
+W3RB-022,B08HCBW627,"Made for Amazon BLE Smart Switch, Gen3 Compatible with Echo v4, Echo Dot v3&v4, Echo Flex, Echo Input, Echo Show 5 & 8, and Echo Studio.",neither,accessory,exclude,adjudication

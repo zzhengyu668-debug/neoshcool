@@ -1,0 +1,4 @@
+2026-07-29T13:00:03.067303+00:00 W3R-A started; metadata-only input restriction active.
+2026-07-29T13:00:04.544029+00:00 Validated 37,158 unique candidates and 106 frozen target products.
+2026-07-29T13:00:34.058954+00:00 Draft counts: plugs=95, bulbs=25, switches=9.
+2026-07-29T13:00:34.058954+00:00 W3R-A completed with status PAUSED_INSUFFICIENT_RECOVERY; no promotion performed.

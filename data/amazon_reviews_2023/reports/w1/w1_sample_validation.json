@@ -1,0 +1,1086 @@
+{
+  "phase": "W1",
+  "method": "Binary seeks into uncompressed JSONL only; a few complete lines at beginning, middle, and near end.",
+  "privacy": "Reports contain only byte offsets, field names, and value types; no field values or review text are logged.",
+  "updated_at": "2026-07-29T05:49:59.622Z",
+  "files": [
+    {
+      "size_bytes": 5246144134,
+      "positions": {
+        "beginning": {
+          "requested_offset": 0,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 0,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 1321,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 3183,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "middle": {
+          "requested_offset": 2623072067,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 2623073191,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 2623075192,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 2623078401,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "end": {
+          "requested_offset": 5245095558,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 5245096235,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 5245099779,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 5245104731,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        }
+      },
+      "records_parsed": 9,
+      "all_sampled_lines_are_objects": true,
+      "required_fields": [
+        "parent_asin",
+        "title"
+      ],
+      "required_fields_observed": [
+        "parent_asin",
+        "title"
+      ],
+      "required_fields_not_observed_in_small_sample": [],
+      "required_field_note": "A field missing from one sampled record is not treated as a file failure. Fields not observed in this small W1 sample require W2 schema inventory rather than a fabricated W1 conclusion.",
+      "parse_success": true,
+      "id": "meta_electronics",
+      "record_type": "metadata",
+      "domain": "Electronics",
+      "relative_path": "meta_categories/meta_Electronics.jsonl",
+      "validated_at": "2026-07-29T13:47:40.371218+08:00"
+    },
+    {
+      "size_bytes": 11788767944,
+      "positions": {
+        "beginning": {
+          "requested_offset": 0,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 0,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 4626,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 9508,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "middle": {
+          "requested_offset": 5894383972,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 5894386967,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 5894388860,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 5894392483,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "end": {
+          "requested_offset": 11787719368,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 11787721056,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 11787724198,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "null",
+                "parent_asin": "string",
+                "price": "null",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 11787727029,
+              "object": true,
+              "field_count": 14,
+              "field_types": {
+                "average_rating": "number",
+                "bought_together": "null",
+                "categories": "array",
+                "description": "array",
+                "details": "object",
+                "features": "array",
+                "images": "array",
+                "main_category": "string",
+                "parent_asin": "string",
+                "price": "number",
+                "rating_number": "integer",
+                "store": "string",
+                "title": "string",
+                "videos": "array"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "title"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        }
+      },
+      "records_parsed": 9,
+      "all_sampled_lines_are_objects": true,
+      "required_fields": [
+        "parent_asin",
+        "title"
+      ],
+      "required_fields_observed": [
+        "parent_asin",
+        "title"
+      ],
+      "required_fields_not_observed_in_small_sample": [],
+      "required_field_note": "A field missing from one sampled record is not treated as a file failure. Fields not observed in this small W1 sample require W2 schema inventory rather than a fabricated W1 conclusion.",
+      "parse_success": true,
+      "id": "meta_home_and_kitchen",
+      "record_type": "metadata",
+      "domain": "Home_and_Kitchen",
+      "relative_path": "meta_categories/meta_Home_and_Kitchen.jsonl",
+      "validated_at": "2026-07-29T13:47:40.387220+08:00"
+    },
+    {
+      "size_bytes": 22616233652,
+      "positions": {
+        "beginning": {
+          "requested_offset": 0,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 0,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 1980,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 2477,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "middle": {
+          "requested_offset": 11308116826,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 11308117027,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 11308117268,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 11308117507,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "end": {
+          "requested_offset": 22615185076,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 22615187567,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 22615188031,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 22615188774,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        }
+      },
+      "records_parsed": 9,
+      "all_sampled_lines_are_objects": true,
+      "required_fields": [
+        "parent_asin",
+        "rating",
+        "text",
+        "timestamp"
+      ],
+      "required_fields_observed": [
+        "parent_asin",
+        "rating",
+        "text",
+        "timestamp"
+      ],
+      "required_fields_not_observed_in_small_sample": [],
+      "required_field_note": "A field missing from one sampled record is not treated as a file failure. Fields not observed in this small W1 sample require W2 schema inventory rather than a fabricated W1 conclusion.",
+      "parse_success": true,
+      "id": "reviews_electronics",
+      "record_type": "reviews",
+      "domain": "Electronics",
+      "relative_path": "review_categories/Electronics.jsonl",
+      "validated_at": "2026-07-29T13:47:40.403217+08:00"
+    },
+    {
+      "size_bytes": 31408889188,
+      "positions": {
+        "beginning": {
+          "requested_offset": 0,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 0,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 429,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 3446,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "middle": {
+          "requested_offset": 15704444594,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 15704444701,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 15704445030,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 15704445341,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        },
+        "end": {
+          "requested_offset": 31407840612,
+          "records_parsed": 3,
+          "samples": [
+            {
+              "byte_offset": 31407840880,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 31407841291,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            },
+            {
+              "byte_offset": 31407841558,
+              "object": true,
+              "field_count": 10,
+              "field_types": {
+                "asin": "string",
+                "helpful_vote": "integer",
+                "images": "array",
+                "parent_asin": "string",
+                "rating": "number",
+                "text": "string",
+                "timestamp": "integer",
+                "title": "string",
+                "user_id": "string",
+                "verified_purchase": "boolean"
+              },
+              "required_fields_present": [
+                "parent_asin",
+                "rating",
+                "text",
+                "timestamp"
+              ],
+              "required_fields_missing_in_this_sample": []
+            }
+          ]
+        }
+      },
+      "records_parsed": 9,
+      "all_sampled_lines_are_objects": true,
+      "required_fields": [
+        "parent_asin",
+        "rating",
+        "text",
+        "timestamp"
+      ],
+      "required_fields_observed": [
+        "parent_asin",
+        "rating",
+        "text",
+        "timestamp"
+      ],
+      "required_fields_not_observed_in_small_sample": [],
+      "required_field_note": "A field missing from one sampled record is not treated as a file failure. Fields not observed in this small W1 sample require W2 schema inventory rather than a fabricated W1 conclusion.",
+      "parse_success": true,
+      "id": "reviews_home_and_kitchen",
+      "record_type": "reviews",
+      "domain": "Home_and_Kitchen",
+      "relative_path": "review_categories/Home_and_Kitchen.jsonl",
+      "validated_at": "2026-07-29T13:47:40.413219+08:00"
+    }
+  ],
+  "validation_runtime": {
+    "python_executable": "C:\\Users\\30649\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "python_version": "3.12.13 64-bit",
+    "json_parser": "standard library json fallback (orjson unavailable in the isolated fallback runtime)",
+    "reason": "The current Codex managed sandbox cannot access the Microsoft Store base interpreter referenced by the project .venv. The W1 validator supports standard json and remained read-only."
+  }
+}

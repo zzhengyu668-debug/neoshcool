@@ -1,0 +1,15 @@
+[project]
+name = "amazon-reviews-smart-home-failure-early-warning"
+phase = "W0"
+handoff = "PROJECT_HANDOFF.md"
+
+[paths]
+raw_compressed = "data/amazon_reviews_2023/raw/compressed"
+raw_uncompressed = "data/amazon_reviews_2023/raw/uncompressed"
+interim = "data/amazon_reviews_2023/interim"
+processed = "data/amazon_reviews_2023/processed"
+reports = "data/amazon_reviews_2023/reports"
+documents = "documents"
+figures = "outputs/figures"
+tables = "outputs/tables"
+models = "outputs/models"

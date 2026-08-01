@@ -1,0 +1,261 @@
+{
+  "double_review_rows": 60,
+  "failure_binary": {
+    "including_uncertain": {
+      "valid_comparisons": 60,
+      "raw_agreement": 0.9333333333333333,
+      "cohens_kappa": 0.8727465535524921,
+      "confusion_matrix": {
+        "row_labels_reviewer_1": [
+          "0",
+          "1",
+          "uncertain"
+        ],
+        "column_labels_reviewer_2": [
+          "0",
+          "1",
+          "uncertain"
+        ],
+        "matrix": [
+          [
+            29,
+            1,
+            0
+          ],
+          [
+            0,
+            27,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "excluding_rows_where_either_is_uncertain": {
+      "valid_comparisons": 57,
+      "excluded_rows": 3,
+      "raw_agreement": 0.9824561403508771,
+      "cohens_kappa": 0.9648798521256932,
+      "confusion_matrix": {
+        "row_labels_reviewer_1": [
+          "0",
+          "1"
+        ],
+        "column_labels_reviewer_2": [
+          "0",
+          "1"
+        ],
+        "matrix": [
+          [
+            29,
+            1
+          ],
+          [
+            0,
+            27
+          ]
+        ]
+      }
+    }
+  },
+  "failure_type_multilabel": {
+    "labels": [
+      "N0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "exact_match_count": 44,
+    "exact_match_agreement": 0.7333333333333333,
+    "mean_jaccard_similarity": 0.8402777777777778,
+    "median_jaccard_similarity": 1.0,
+    "micro_presence_absence_agreement": 0.9648148148148148,
+    "macro_presence_absence_agreement": 0.9648148148148147,
+    "micro_precision": 0.8765432098765432,
+    "micro_recall": 0.8875,
+    "micro_f1": 0.8819875776397516,
+    "macro_precision": 0.7470899470899471,
+    "macro_recall": 0.7645903479236813,
+    "macro_f1": 0.7461519961519961,
+    "per_type": [
+      {
+        "failure_type": "N0",
+        "reviewer_1_positive": 30,
+        "reviewer_2_positive": 30,
+        "both_positive": 29,
+        "presence_absence_agreement": 58,
+        "presence_absence_agreement_rate": 0.9666666666666667
+      },
+      {
+        "failure_type": "F1",
+        "reviewer_1_positive": 10,
+        "reviewer_2_positive": 10,
+        "both_positive": 9,
+        "presence_absence_agreement": 58,
+        "presence_absence_agreement_rate": 0.9666666666666667
+      },
+      {
+        "failure_type": "F2",
+        "reviewer_1_positive": 4,
+        "reviewer_2_positive": 3,
+        "both_positive": 3,
+        "presence_absence_agreement": 59,
+        "presence_absence_agreement_rate": 0.9833333333333333
+      },
+      {
+        "failure_type": "F3",
+        "reviewer_1_positive": 5,
+        "reviewer_2_positive": 6,
+        "both_positive": 4,
+        "presence_absence_agreement": 57,
+        "presence_absence_agreement_rate": 0.95
+      },
+      {
+        "failure_type": "F4",
+        "reviewer_1_positive": 9,
+        "reviewer_2_positive": 7,
+        "both_positive": 6,
+        "presence_absence_agreement": 56,
+        "presence_absence_agreement_rate": 0.9333333333333333
+      },
+      {
+        "failure_type": "F5",
+        "reviewer_1_positive": 9,
+        "reviewer_2_positive": 12,
+        "both_positive": 8,
+        "presence_absence_agreement": 55,
+        "presence_absence_agreement_rate": 0.9166666666666666
+      },
+      {
+        "failure_type": "F6",
+        "reviewer_1_positive": 11,
+        "reviewer_2_positive": 10,
+        "both_positive": 10,
+        "presence_absence_agreement": 59,
+        "presence_absence_agreement_rate": 0.9833333333333333
+      },
+      {
+        "failure_type": "F7",
+        "reviewer_1_positive": 0,
+        "reviewer_2_positive": 0,
+        "both_positive": 0,
+        "presence_absence_agreement": 60,
+        "presence_absence_agreement_rate": 1.0
+      },
+      {
+        "failure_type": "F8",
+        "reviewer_1_positive": 2,
+        "reviewer_2_positive": 3,
+        "both_positive": 2,
+        "presence_absence_agreement": 59,
+        "presence_absence_agreement_rate": 0.9833333333333333
+      }
+    ]
+  },
+  "severity": {
+    "valid_comparisons": 57,
+    "excluded_blank_or_uncertain": 3,
+    "raw_agreement": 0.9122807017543859,
+    "linear_weighted_cohens_kappa": 0.9158547387068202,
+    "quadratic_weighted_cohens_kappa": 0.9571364114904497,
+    "confusion_matrix": {
+      "row_labels_reviewer_1": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "column_labels_reviewer_2": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "matrix": [
+        [
+          29,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          21,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "persistence": {
+    "valid_comparisons": 57,
+    "excluded_blank_or_uncertain": 3,
+    "raw_agreement": 0.8421052631578947,
+    "linear_weighted_cohens_kappa": 0.6294455066921607,
+    "quadratic_weighted_cohens_kappa": 0.565287728218165,
+    "confusion_matrix": {
+      "row_labels_reviewer_1": [
+        0,
+        1,
+        2
+      ],
+      "column_labels_reviewer_2": [
+        0,
+        1,
+        2
+      ],
+      "matrix": [
+        [
+          32,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          8,
+          0,
+          7
+        ]
+      ]
+    }
+  },
+  "confidence_descriptive": {
+    "raw_agreement": 0.8666666666666667,
+    "reviewer_1_counts": {
+      "high": 50,
+      "low": 2,
+      "medium": 8
+    },
+    "reviewer_2_counts": {
+      "high": 52,
+      "low": 1,
+      "medium": 7
+    },
+    "used_as_final_research_label": false
+  }
+}

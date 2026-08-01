@@ -1,0 +1,77 @@
+{
+  "phase": "W5-C-A completed adjudication validation",
+  "validated_at_utc": "2026-08-01T01:03:26.161Z",
+  "status": "PASS",
+  "template_workbook": {
+    "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\w5c_a_double_review_240_merged_for_adjudication.xlsx",
+    "size_bytes": 74060,
+    "mtime_utc": "2026-08-01T00:41:04.875Z",
+    "sha256": "c0f4444d24b727251e93979adeb376809830379a076ebc0161da36c433baf080"
+  },
+  "completed_workbook": {
+    "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\w5c_a_double_review_240_merged_for_adjudication_completed.xlsx",
+    "size_bytes": 77318,
+    "mtime_utc": "2026-08-01T00:56:50.605Z",
+    "sha256": "7576401172c48991139b452e2d60c4a0365a3bece9ff8bc0508f4d855f7d5630"
+  },
+  "input_identity_unchanged_during_validation": {
+    "template": true,
+    "completed": true
+  },
+  "adjudication_sheet": {
+    "row_count": 240,
+    "column_count": 25,
+    "unique_blind_review_ids": 240,
+    "protected_a_t_cell_differences": 0,
+    "protocol_complete_adjudication_rows": 240,
+    "rows_with_all_five_cells_nonblank": 229,
+    "uncertain_rows_with_optional_fields_blank": 11,
+    "agreed_rows": 170,
+    "agreed_rows_matching_common_conclusion": 170,
+    "disagreement_rows": 70
+  },
+  "final_label_counts": {
+    "failure_binary": {
+      "0": 146,
+      "1": 83,
+      "uncertain": 11
+    },
+    "failure_type_multilabel_occurrences": {
+      "N0": 146,
+      "F1": 15,
+      "F2": 25,
+      "F3": 37,
+      "F4": 24,
+      "F5": 25,
+      "F6": 23,
+      "F7": 2,
+      "F8": 33
+    },
+    "severity": {
+      "0": 146,
+      "1": 7,
+      "2": 74,
+      "3": 2
+    },
+    "persistence": {
+      "0": 163,
+      "1": 13,
+      "2": 53
+    }
+  },
+  "workbook_quality": {
+    "template_formula_count": 0,
+    "completed_formula_count": 0,
+    "formula_error_matches": 0,
+    "rendered_sheets": [
+      "Summary",
+      "Instructions",
+      "Adjudication"
+    ]
+  },
+  "issue_count": 0,
+  "issue_code_counts": {},
+  "labels_modified_by_validation": false,
+  "model_retrained": false,
+  "w6_executed": false
+}

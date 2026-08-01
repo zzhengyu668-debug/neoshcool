@@ -1,0 +1,458 @@
+{
+  "phase": "W5-C-A annotation return",
+  "validated_at_utc": "2026-08-01T00:41:04.093Z",
+  "status": "PASS",
+  "completed_workbooks": [
+    {
+      "batch_id": "batch_1",
+      "reviewer": 1,
+      "expected_rows": 300,
+      "returned_rows": 300,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer1_blind.csv",
+        "size_bytes": 132398,
+        "mtime_utc": "2026-07-31T07:23:36.940Z",
+        "sha256": "01ec818643f1de6be6553f320fe95fbe36dbbbe809c0c0e776f68f6f214f1b9e"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer1_completed.xlsx",
+        "size_bytes": 80646,
+        "mtime_utc": "2026-07-31T08:26:49.541Z",
+        "sha256": "13fa3cb4fe02f78c7d938bb5c479511469c792b709121abf3a4e170c26c6bf46"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/3m08my\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/dxow9o\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "0lmww9",
+          "target": {
+            "id": "wb/72dz6k",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_1",
+      "reviewer": 2,
+      "expected_rows": 60,
+      "returned_rows": 60,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer2_blind.csv",
+        "size_bytes": 18060,
+        "mtime_utc": "2026-07-31T07:23:36.965Z",
+        "sha256": "6355866a86a8c97994a69ee4c025d6fafef4f2097d4da602abdb099a912faa3b"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer2_blind_completed.xlsx",
+        "size_bytes": 17148,
+        "mtime_utc": "2026-07-31T08:04:49.236Z",
+        "sha256": "c061896f5daaebb3c171a01012daa22e59827a6388fc12aaddb11926df36b21c"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/sqmip0\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/sdaero\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "a3yynr",
+          "target": {
+            "id": "wb/rl2m3o",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_2",
+      "reviewer": 1,
+      "expected_rows": 300,
+      "returned_rows": 300,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer1_blind.csv",
+        "size_bytes": 104445,
+        "mtime_utc": "2026-07-31T07:23:37.014Z",
+        "sha256": "000db8ca507dd16a1f1ea0b2326ba90c4780a68aee2ee263eb4369bba6bb6123"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer1_completed.xlsx",
+        "size_bytes": 69301,
+        "mtime_utc": "2026-07-31T08:27:23.079Z",
+        "sha256": "7fb14f5b8fa4924c1f3179a6d61577e88473125c59ad75c9fa5f58308d3e97dc"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/8kp7rw\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/mq17lv\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "mzwt69",
+          "target": {
+            "id": "wb/kpflbk",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_2",
+      "reviewer": 2,
+      "expected_rows": 60,
+      "returned_rows": 60,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer2_blind.csv",
+        "size_bytes": 19770,
+        "mtime_utc": "2026-07-31T07:23:37.050Z",
+        "sha256": "70453377c985d2b89e4b4246b518510cf733e9b5d831eb17377671ae0e7f3b0e"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer2_blind_completed.xlsx",
+        "size_bytes": 17497,
+        "mtime_utc": "2026-07-31T08:04:53.439Z",
+        "sha256": "829d378dd9182a4a17cd9ff02f1201cd2613c838dc4484f60248627e75042361"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/qs1wp0\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/x6zanh\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "icb7e5",
+          "target": {
+            "id": "wb/xi9axt",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_3",
+      "reviewer": 1,
+      "expected_rows": 300,
+      "returned_rows": 300,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer1_blind.csv",
+        "size_bytes": 109632,
+        "mtime_utc": "2026-07-31T07:23:37.102Z",
+        "sha256": "916d3f6348c0c5a65dac97c1debe804101b9dd4f5f7410d45c170d3d780d539e"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer1_completed.xlsx",
+        "size_bytes": 70801,
+        "mtime_utc": "2026-07-31T08:26:08.494Z",
+        "sha256": "a8e5d5a4791fd4260eab0395e962fdb4fd31d1858a94c65a741535e928bf6d10"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/h852kz\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/6vgc3t\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "hsyhkr",
+          "target": {
+            "id": "wb/m2co1j",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_3",
+      "reviewer": 2,
+      "expected_rows": 60,
+      "returned_rows": 60,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer2_blind.csv",
+        "size_bytes": 25889,
+        "mtime_utc": "2026-07-31T07:23:37.156Z",
+        "sha256": "3c946e1a848ef9ecada7ccc828fbc05d975c4606de29d47a1a7a8d1e93d81512"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer2_blind_completed.xlsx",
+        "size_bytes": 19818,
+        "mtime_utc": "2026-07-31T08:04:56.304Z",
+        "sha256": "5a4ae25aba7cf2c41e0483f1abbd368ac8a48665b4e6ffae774e465c048207d9"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/pm6a4x\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/oije49\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "rfiz1s",
+          "target": {
+            "id": "wb/s9sbe9",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_4",
+      "reviewer": 1,
+      "expected_rows": 300,
+      "returned_rows": 300,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer1_blind.csv",
+        "size_bytes": 133881,
+        "mtime_utc": "2026-07-31T07:23:37.217Z",
+        "sha256": "81d588a60e5f13a70eb2d467912d761ede0e293a0df7f58d40e6ef959aba3d36"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer1_completed.xlsx",
+        "size_bytes": 81380,
+        "mtime_utc": "2026-07-31T08:26:08.494Z",
+        "sha256": "5c66dcce2f83ee2f7747beb9104a372b8f56ae56fb8955586169586fc257d9d1"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/wk8a5p\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/i0n90c\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "lc9w99",
+          "target": {
+            "id": "wb/hphtwg",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_4",
+      "reviewer": 2,
+      "expected_rows": 60,
+      "returned_rows": 60,
+      "original_csv": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer2_blind.csv",
+        "size_bytes": 23410,
+        "mtime_utc": "2026-07-31T07:23:37.261Z",
+        "sha256": "808f80d74e7a432a774522d7f66af1036a482234d1294b002f16d7affcd7965f"
+      },
+      "completed_xlsx": {
+        "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer2_blind_completed.xlsx",
+        "size_bytes": 19185,
+        "mtime_utc": "2026-07-31T08:04:59.893Z",
+        "sha256": "e1adc99941d9c27b3db70ffeb07297beac399cd3e19ef4ed75932842f5f2aa4d"
+      },
+      "formulas_detected": 0,
+      "sheet_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/g10tsj\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/1rehwe\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "11wv8p",
+          "target": {
+            "id": "wb/9su5z0",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    }
+  ],
+  "reviewer_1_rows": 1200,
+  "reviewer_2_rows": 240,
+  "reviewer_2_ids_are_subset_of_reviewer_1": true,
+  "formula_count": 0,
+  "issue_count": 0,
+  "issue_code_counts": {},
+  "binary_label_counts": {
+    "reviewer_1": {
+      "0": 707,
+      "1": 453,
+      "uncertain": 40
+    },
+    "reviewer_2": {
+      "0": 146,
+      "1": 83,
+      "uncertain": 11
+    }
+  },
+  "preliminary_double_review_agreement": {
+    "compared_rows": 240,
+    "failure_binary_agree": 237,
+    "failure_type_agree": 192,
+    "severity_agree": 209,
+    "persistence_agree": 213,
+    "all_core_fields_agree": 170,
+    "rows_requiring_adjudication": 70
+  },
+  "notes": [
+    "Agreement counts are descriptive return checks, not the final W5-C-B inter-annotator statistics.",
+    "No label was interpreted, corrected, or adjudicated automatically."
+  ],
+  "output_workbook_validation": {
+    "row_count": 240,
+    "column_count": 25,
+    "adjudication_fields_blank": true,
+    "formula_count": 0,
+    "formula_error_scan": {
+      "ndjson": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+      "truncated": false,
+      "metadata": {
+        "revision": "tam5vj",
+        "target": {
+          "id": "wb/lmybrk",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "match",
+          "tokens": [
+            "match"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    "rendered_sheets": [
+      "Summary",
+      "Instructions",
+      "Adjudication"
+    ]
+  }
+}

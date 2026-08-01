@@ -1,0 +1,101 @@
+[phase]
+name = "W5-A"
+annotation_version = "w5a-annotation-v1.0-draft"
+keyword_version = "w5a-keyword-v1.0-draft"
+product_version = "w3-v1.4.0"
+random_seed = 20260731
+status_on_success = "PAUSED_HUMAN_ANNOTATION"
+w5b_readiness_on_success = "WAITING_FOR_COMPLETED_ANNOTATION"
+
+[inputs]
+review_parquet = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+review_rows = 55877
+review_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+product_parquet = "data/amazon_reviews_2023/processed/target_products_w3_v1_4_0.parquet"
+product_rows = 125
+product_sha256 = "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+
+[sampling]
+total = 300
+maximize_parent_asin_coverage = true
+duplicate_key_must_be_unique = true
+keyword_target_share = 0.50
+rating_low_target_share = 0.35
+rating_middle_target_share = 0.20
+rating_high_target_share = 0.45
+time_early_target_share = 0.3333333333
+time_middle_target_share = 0.3333333333
+time_recent_target_share = 0.3333333334
+
+[sampling.device_quotas]
+smart_plug = 210
+smart_bulb = 60
+smart_switch = 30
+
+[sampling.double_review_quotas]
+smart_plug = 42
+smart_bulb = 12
+smart_switch = 6
+
+[sampling.rating_strata]
+low_1_2_min = 1.0
+low_1_2_max = 2.0
+middle_3_min = 3.0
+middle_3_max = 3.0
+high_4_5_min = 4.0
+high_4_5_max = 5.0
+
+[sampling.time_strata]
+early_start_year = 2011
+early_end_year = 2017
+middle_start_year = 2018
+middle_end_year = 2020
+recent_start_year = 2021
+recent_end_year = 2023
+
+[research_roles]
+smart_plug = "primary"
+smart_bulb = "exploratory"
+smart_switch = "case_study"
+
+[labels]
+failure_binary = ["0", "1", "uncertain"]
+failure_type = ["N0", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"]
+severity = ["0", "1", "2", "3"]
+persistence = ["0", "1", "2"]
+confidence = ["low", "medium", "high"]
+
+[definitions]
+failure_binary_1 = "The review explicitly describes failure of a core intended function or abnormal technical behavior."
+failure_binary_0 = "No engineering failure is described, or the issue concerns only price, delivery, packaging, appearance, customer service, or another non-technical matter."
+failure_binary_uncertain = "The available text does not provide enough evidence and requires adjudication."
+severity_0 = "No engineering failure."
+severity_1 = "Minor or temporary failure recoverable with one retry, reset, or simple action."
+severity_2 = "Core-function loss, repeated failure, or an issue requiring return or replacement."
+severity_3 = "Overheating, electrical or safety risk, permanent damage, or property risk."
+persistence_0 = "Single incident, unknown repetition, or no textual evidence of recurrence."
+persistence_1 = "Intermittent, repeated, or recurring behavior explicitly described in this review."
+persistence_2 = "Continuous failure or failure that remains after reset, upgrade, reinstallation, or another attempted remedy."
+
+[taxonomy]
+F1 = "Power supply, charging, relay, or hardware failure"
+F2 = "Connectivity or network failure"
+F3 = "Installation, setup, or pairing failure"
+F4 = "Firmware, software, or app failure"
+F5 = "Automation, voice-assistant, ecosystem, or compatibility failure"
+F6 = "Intermittent behavior, instability, latency, or random restart"
+F7 = "Safety, overheating, smoke, spark, shock, or electrical hazard"
+F8 = "Durability, premature wear, repeated breakage, or shortened service life"
+N0 = "No engineering failure"
+
+[outputs]
+interim_dir = "data/amazon_reviews_2023/interim/w5a"
+report_dir = "data/amazon_reviews_2023/reports/w5a"
+annotation_sampling_frame = "data/amazon_reviews_2023/interim/w5a/annotation_sampling_frame.parquet"
+blind_review_key = "data/amazon_reviews_2023/interim/w5a/blind_review_key.parquet"
+annotation_batch_csv = "data/amazon_reviews_2023/interim/w5a/annotation_batch_300_blind.csv"
+annotation_batch_xlsx = "data/amazon_reviews_2023/interim/w5a/annotation_batch_300_blind.xlsx"
+double_review_csv = "data/amazon_reviews_2023/interim/w5a/annotation_double_review_60_blind.csv"
+double_review_xlsx = "data/amazon_reviews_2023/interim/w5a/annotation_double_review_60_blind.xlsx"
+rating_product_month = "data/amazon_reviews_2023/interim/w5a/rating_product_month_descriptive.parquet"
+keyword_product_month = "data/amazon_reviews_2023/interim/w5a/keyword_product_month_descriptive.parquet"

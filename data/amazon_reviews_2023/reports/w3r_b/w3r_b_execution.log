@@ -1,0 +1,11 @@
+2026-07-29T14:12:58.851Z Phase W3R-B started.
+2026-07-29T14:12:58.851Z Pre-run note: an earlier output-free attempt stopped when Windows Python stdout used GBK; the retry fixed stdout to UTF-8 before any audit files were written.
+2026-07-29T14:12:58.851Z Project root resolved from builder location: C:\Users\30649\Desktop\neoschool
+2026-07-29T14:12:58.851Z Scope restricted to approved W3/W3R-A configs, reports, and W3R-A Parquet outputs.
+2026-07-29T14:13:03.419Z CSV and XLSX matrices verified as identical (23 rows x 19 columns).
+2026-07-29T14:13:03.419Z All Reviewer 1, Reviewer 2, and adjudication fields verified blank.
+2026-07-29T14:13:03.419Z Main blind audit table verified free of parent_asin and prior W3R-A decisions.
+2026-07-29T14:13:03.421Z Input manifest and bilingual manual-audit instructions written.
+2026-07-29T14:13:03.424Z W3/W4 baseline file sizes and mtimes remained unchanged.
+2026-07-29T14:16:45.3418953Z Workbook visual verification passed; the inspection sidecar created by the spreadsheet verifier was removed from the final report package.
+2026-07-29T14:16:45.3418953Z Phase W3R-B paused for independent human review. No human labels were filled.

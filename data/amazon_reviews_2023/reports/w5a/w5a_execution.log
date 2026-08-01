@@ -1,0 +1,10 @@
+2026-07-31T04:31:20.285785+00:00 W5-A preparation started.
+2026-07-31T04:31:20.301413+00:00 Formal input identities verified.
+2026-07-31T04:31:20.835577+00:00 Formal review columns loaded from the approved Parquet.
+2026-07-31T04:31:37.874422+00:00 Generated 300-row blind sample and 60-row double-review subset.
+2026-07-31T04:31:37.913336+00:00 Generated B0 Rating product-month descriptive output.
+2026-07-31T04:31:37.979606+00:00 Generated B3 Keyword/rule draft product-month descriptive output.
+2026-07-31T04:31:38.000387+00:00 Preparation complete; workbook generation and validation remain.
+2026-07-31T04:42:45.937225+00:00 Removed current-run artifact-tool inspection sidecars after validation; no formal or requested output was deleted: data\amazon_reviews_2023\interim\w5a\annotation_batch_300_blind.xlsx.inspect.ndjson, data\amazon_reviews_2023\interim\w5a\annotation_double_review_60_blind.xlsx.inspect.ndjson
+2026-07-31T04:42:45.937225+00:00 Workbook validation passed; status PAUSED_HUMAN_ANNOTATION.
+2026-07-31T04:44:18.029967+00:00 Workbook validation passed; status PAUSED_HUMAN_ANNOTATION.

@@ -1,0 +1,166 @@
+{
+  "formal_version": "w3-v1.4.0",
+  "status": "frozen",
+  "created_at": "2026-07-30T05:37:09.732016+00:00",
+  "baseline_version": "w3-v1.3.2",
+  "draft_version_reviewed": "w3-v1.4.0-draft",
+  "decision_source": "data\\amazon_reviews_2023\\reports\\w3r_b\\final_recovery_decisions.json",
+  "decision_source_sha256": "0314bbbe000cc8719a7c4f8c4f48549f9807838f493e4990f501c62a531296fe",
+  "formal_product_set": {
+    "path": "data\\amazon_reviews_2023\\processed\\target_products_w3_v1_4_0.parquet",
+    "bytes": 94709,
+    "mtime_ns": 1785389829708298200,
+    "mtime_utc": "2026-07-30T05:37:09.708298+00:00",
+    "sha256": "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+  },
+  "promotion_policy": {
+    "required_final_decision": "include",
+    "required_final_label": "correct_target",
+    "allowed_device_types": [
+      "smart_bulb",
+      "smart_switch"
+    ]
+  },
+  "promoted_products": [
+    {
+      "blind_id": "W3RB-001",
+      "parent_asin": "B00IRQ6T22",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-004",
+      "parent_asin": "B00JCE14AU",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-005",
+      "parent_asin": "B00W6YEMMU",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-006",
+      "parent_asin": "B010UAB0V2",
+      "device_type": "smart_switch",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-007",
+      "parent_asin": "B003I86OPG",
+      "device_type": "smart_switch",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-008",
+      "parent_asin": "B00YB5R56M",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-010",
+      "parent_asin": "B0BN7YPZKP",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-011",
+      "parent_asin": "B01M0PAZA7",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-012",
+      "parent_asin": "B00UMA45KY",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-013",
+      "parent_asin": "B00PJH16UC",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-014",
+      "parent_asin": "B00KLPFJR8",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-015",
+      "parent_asin": "B00KLPFEXW",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-016",
+      "parent_asin": "B00S036GN4",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-017",
+      "parent_asin": "B00S036GUC",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-018",
+      "parent_asin": "B00V9091EG",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-019",
+      "parent_asin": "B00S036GQQ",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-020",
+      "parent_asin": "B00YRRVTPM",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-021",
+      "parent_asin": "B01MS9L9K2",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-023",
+      "parent_asin": "B01AKOY5FG",
+      "device_type": "smart_bulb",
+      "decision_basis": "reviewer_consensus"
+    }
+  ],
+  "held_or_excluded_products": [
+    {
+      "blind_id": "W3RB-002",
+      "parent_asin": "B08TVZK8D6",
+      "final_label": "accessory",
+      "final_decision": "exclude"
+    },
+    {
+      "blind_id": "W3RB-003",
+      "parent_asin": "B073S7XK5N",
+      "final_label": "ambiguous",
+      "final_decision": "hold"
+    },
+    {
+      "blind_id": "W3RB-009",
+      "parent_asin": "B07DWCWW3N",
+      "final_label": "accessory",
+      "final_decision": "exclude"
+    },
+    {
+      "blind_id": "W3RB-022",
+      "parent_asin": "B08HCBW627",
+      "final_label": "accessory",
+      "final_decision": "exclude"
+    }
+  ]
+}

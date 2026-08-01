@@ -1,0 +1,65 @@
+[2026-07-29T19:57:25.469485+08:00] [INFO] W4 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; lingua=2.1.1; free_bytes=123971837952; salt_created=True; config_version=w4-v1.0.0
+[2026-07-29T19:57:25.471484+08:00] [INFO] Review scan started: id=reviews_electronics; bytes=22616233652; free_bytes=123971788800
+[2026-07-29T19:57:38.184793+08:00] [INFO] Review progress: id=reviews_electronics; records=1914649; matched=2959; bytes=1075039063; bytes_per_second=84563560; free_bytes=123970269184
+[2026-07-29T19:57:49.548746+08:00] [INFO] Review progress: id=reviews_electronics; records=3937556; matched=6185; bytes=2147655939; bytes_per_second=89201582; free_bytes=123966922752
+[2026-07-29T19:57:55.541619+08:00] [INFO] Review progress: id=reviews_electronics; records=5000988; matched=8019; bytes=2706371826; bytes_per_second=90001811; free_bytes=123966865408
+[2026-07-29T19:58:03.491572+08:00] [INFO] Review progress: id=reviews_electronics; records=5975696; matched=10544; bytes=3221807317; bytes_per_second=84741407; free_bytes=123967062016
+[2026-07-29T19:58:13.915617+08:00] [INFO] Review progress: id=reviews_electronics; records=7887201; matched=13540; bytes=4295091201; bytes_per_second=88660702; free_bytes=123965292544
+[2026-07-29T19:58:25.280267+08:00] [INFO] Review progress: id=reviews_electronics; records=9995392; matched=17292; bytes=5368722347; bytes_per_second=89765253; free_bytes=123963846656
+[2026-07-29T19:58:25.311269+08:00] [INFO] Review progress: id=reviews_electronics; records=10000159; matched=17297; bytes=5370965428; bytes_per_second=89757541; free_bytes=123963846656
+[2026-07-29T19:58:35.723681+08:00] [INFO] Review progress: id=reviews_electronics; records=12072281; matched=20412; bytes=6442475983; bytes_per_second=91705718; free_bytes=123962757120
+[2026-07-29T19:58:48.670719+08:00] [INFO] Review progress: id=reviews_electronics; records=14083325; matched=23367; bytes=7516222206; bytes_per_second=90340273; free_bytes=123962130432
+[2026-07-29T19:58:54.431453+08:00] [INFO] Review progress: id=reviews_electronics; records=15001008; matched=24822; bytes=7982585020; bytes_per_second=89732744; free_bytes=123961008128
+[2026-07-29T19:59:01.726561+08:00] [INFO] Review progress: id=reviews_electronics; records=16183735; matched=26794; bytes=8590118891; bytes_per_second=89243164; free_bytes=123960889344
+[2026-07-29T19:59:12.665725+08:00] [INFO] Review progress: id=reviews_electronics; records=18303394; matched=30016; bytes=9663869497; bytes_per_second=90153173; free_bytes=123958366208
+[2026-07-29T19:59:21.474728+08:00] [INFO] Review progress: id=reviews_electronics; records=20000825; matched=32507; bytes=10565239134; bytes_per_second=91077697; free_bytes=123958312960
+[2026-07-29T19:59:23.321026+08:00] [INFO] Review progress: id=reviews_electronics; records=20333564; matched=33004; bytes=10737419399; bytes_per_second=91111571; free_bytes=123958280192
+[2026-07-29T19:59:33.720564+08:00] [INFO] Review progress: id=reviews_electronics; records=22378002; matched=35863; bytes=11811353028; bytes_per_second=92097351; free_bytes=123957391360
+[2026-07-29T19:59:44.485499+08:00] [INFO] Review progress: id=reviews_electronics; records=24444997; matched=38811; bytes=12885018749; bytes_per_second=92688886; free_bytes=123955867648
+[2026-07-29T19:59:47.690487+08:00] [INFO] Review progress: id=reviews_electronics; records=25004805; matched=39616; bytes=13170537281; bytes_per_second=92607896; free_bytes=123955867648
+[2026-07-29T19:59:56.928715+08:00] [INFO] Review progress: id=reviews_electronics; records=26547114; matched=41847; bytes=13959125845; bytes_per_second=92165635; free_bytes=123953623040
+[2026-07-29T20:00:10.472180+08:00] [INFO] Review progress: id=reviews_electronics; records=28650043; matched=44681; bytes=15032643940; bytes_per_second=91106951; free_bytes=123957612544
+[2026-07-29T20:00:18.171793+08:00] [INFO] Review progress: id=reviews_electronics; records=30000496; matched=46439; bytes=15724510057; bytes_per_second=91051275; free_bytes=123957547008
+[2026-07-29T20:00:22.040144+08:00] [INFO] Review progress: id=reviews_electronics; records=30718841; matched=47402; bytes=16106189837; bytes_per_second=91217824; free_bytes=123957547008
+[2026-07-29T20:00:32.737796+08:00] [INFO] Review progress: id=reviews_electronics; records=32875163; matched=50317; bytes=17181370203; bytes_per_second=91748614; free_bytes=123955310592
+[2026-07-29T20:00:42.184135+08:00] [INFO] Review progress: id=reviews_electronics; records=35003009; matched=52764; bytes=18223538168; bytes_per_second=92640392; free_bytes=123955224576
+[2026-07-29T20:00:42.442666+08:00] [INFO] Review progress: id=reviews_electronics; records=35059665; matched=52819; bytes=18254027400; bytes_per_second=92673532; free_bytes=123955224576
+[2026-07-29T20:00:51.758757+08:00] [INFO] Review progress: id=reviews_electronics; records=37186947; matched=55155; bytes=19327510971; bytes_per_second=93692149; free_bytes=123955077120
+[2026-07-29T20:01:01.688949+08:00] [INFO] Review progress: id=reviews_electronics; records=39353840; matched=57526; bytes=20401372258; bytes_per_second=94355796; free_bytes=123953557504
+[2026-07-29T20:01:04.580303+08:00] [INFO] Review progress: id=reviews_electronics; records=40000275; matched=58181; bytes=20722888379; bytes_per_second=94578404; free_bytes=123953520640
+[2026-07-29T20:01:13.608719+08:00] [INFO] Review progress: id=reviews_electronics; records=41556709; matched=59978; bytes=21475118048; bytes_per_second=94132559; free_bytes=123953164288
+[2026-07-29T20:01:24.763535+08:00] [INFO] Review progress: id=reviews_electronics; records=43751487; matched=62018; bytes=22549586419; bytes_per_second=94234736; free_bytes=123951136768
+[2026-07-29T20:01:25.408318+08:00] [INFO] Review scan completed: id=reviews_electronics; records=43886944; matched=62144; cleaned=62144; seconds=239.920; peak_rss_bytes=None
+[2026-07-29T20:01:25.431321+08:00] [INFO] Review scan started: id=reviews_home_and_kitchen; bytes=31408889188; free_bytes=123952369664
+[2026-07-29T20:01:34.242740+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=2442388; matched=1; bytes=1252422552; bytes_per_second=142155103; free_bytes=123952275456
+[2026-07-29T20:01:55.694550+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=9679181; matched=2; bytes=4704084725; bytes_per_second=155447686; free_bytes=123951644672
+[2026-07-29T20:02:04.060499+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=11876944; matched=3; bytes=5752455643; bytes_per_second=148917964; free_bytes=123951550464
+[2026-07-29T20:02:23.506371+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=17507488; matched=4; bytes=8458223481; bytes_per_second=145644186; free_bytes=123951374336
+[2026-07-29T20:02:25.757100+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=18159864; matched=5; bytes=8754772820; bytes_per_second=145128165; free_bytes=123951374336
+[2026-07-29T20:02:35.015066+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=20709199; matched=6; bytes=9929541519; bytes_per_second=142701416; free_bytes=123951267840
+[2026-07-29T20:02:42.290816+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=22742758; matched=8; bytes=10875277012; bytes_per_second=141496778; free_bytes=123951120384
+[2026-07-29T20:02:52.700858+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=25750284; matched=12; bytes=12312076807; bytes_per_second=141083273; free_bytes=123951034368
+[2026-07-29T20:02:59.373053+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=27873777; matched=13; bytes=13295858886; bytes_per_second=141535197; free_bytes=123950952448
+[2026-07-29T20:03:06.923803+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=30189432; matched=14; bytes=14378602922; bytes_per_second=141672769; free_bytes=123950891008
+[2026-07-29T20:03:12.886980+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=32069297; matched=18; bytes=15245429655; bytes_per_second=141878212; free_bytes=123950751744
+[2026-07-29T20:03:33.740474+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=38714657; matched=21; bytes=18393820029; bytes_per_second=143356375; free_bytes=123950403584
+[2026-07-29T20:03:46.876596+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=42385250; matched=24; bytes=20102750977; bytes_per_second=142124485; free_bytes=123950075904
+[2026-07-29T20:03:52.922928+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=43910380; matched=27; bytes=20807539633; bytes_per_second=141077739; free_bytes=123949985792
+[2026-07-29T20:04:09.778234+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=49266404; matched=28; bytes=23247008351; bytes_per_second=141451755; free_bytes=123949719552
+[2026-07-29T20:04:17.668151+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=51897268; matched=30; bytes=24471085165; bytes_per_second=142079056; free_bytes=123949674496
+[2026-07-29T20:04:28.473981+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=55596985; matched=31; bytes=26126566798; bytes_per_second=142735809; free_bytes=123949592576
+[2026-07-29T20:04:36.315699+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=58259914; matched=34; bytes=27317927634; bytes_per_second=143112955; free_bytes=123949187072
+[2026-07-29T20:04:48.006249+08:00] [INFO] Review progress: id=reviews_home_and_kitchen; records=61763662; matched=38; bytes=28900713230; bytes_per_second=142667525; free_bytes=123949076480
+[2026-07-29T20:05:06.967207+08:00] [INFO] Review scan completed: id=reviews_home_and_kitchen; records=67409944; matched=38; cleaned=38; seconds=221.502; peak_rss_bytes=None
+[2026-07-29T20:05:07.573070+08:00] [INFO] Cleaned current-run temporary path: C:\Users\30649\Desktop\neoschool\data\amazon_reviews_2023\interim\w4_work\duckdb_temp_28772
+[2026-07-29T20:08:14.286267+08:00] [INFO] W4 finished with status=PASS; w5_readiness=REVIEW_REQUIRED; final_rows=54870; free_bytes=123931607040
+[2026-07-29T20:10:16.680077+08:00] [INFO] W4 finished with status=PASS; w5_readiness=REVIEW_REQUIRED; final_rows=54870; free_bytes=123928743936
+[2026-07-29T20:10:29.322862+08:00] [INFO] Recognized completed W4 output; safe repeat execution skipped.
+[2026-07-29T20:13:26.994388+08:00] [INFO] W4 finished with status=PASS; w5_readiness=REVIEW_REQUIRED; final_rows=54870; free_bytes=124274405376
+[2026-07-29T20:13:26.998389+08:00] [INFO] W4 reporting recovery completed from validated full-scan checkpoints; no raw review rescan was required.
+[2026-07-29T20:13:28.203823+08:00] [INFO] Recognized completed W4 output; safe repeat execution skipped.
+[2026-07-29T20:14:47.463144+08:00] [INFO] Renamed recognized checkpoint staging after non-transforming fingerprint migration: id=reviews_electronics
+[2026-07-29T20:14:47.464144+08:00] [INFO] Renamed recognized checkpoint staging after non-transforming fingerprint migration: id=reviews_home_and_kitchen
+[2026-07-29T20:14:47.795191+08:00] [INFO] W4 finished with status=PASS; w5_readiness=REVIEW_REQUIRED; final_rows=54870; free_bytes=124273676288
+[2026-07-29T20:14:47.799702+08:00] [INFO] W4 reporting recovery completed from validated full-scan checkpoints; no raw review rescan was required.
+[2026-07-29T20:14:49.101370+08:00] [INFO] Recognized completed W4 output; safe repeat execution skipped.

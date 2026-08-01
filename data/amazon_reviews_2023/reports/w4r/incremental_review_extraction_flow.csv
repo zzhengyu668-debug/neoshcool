@@ -1,0 +1,3 @@
+﻿source_id,source_domain,physical_records,json_errors,empty_lines,non_object,parent_asin_missing,matched_incremental_reviews,non_incremental_reviews,match_rate,cleaned_candidates,seconds,peak_rss_bytes
+reviews_electronics,Electronics,43886944,0,0,0,0,1052,43885892,2.397068248816778e-05,1052,291.7413243000001,184762368
+reviews_home_and_kitchen,Home_and_Kitchen,67409944,0,0,0,0,0,67409944,0.0,0,372.11820179999995,184999936

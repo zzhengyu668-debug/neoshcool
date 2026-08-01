@@ -1,0 +1,192 @@
+{
+  "configuration": {
+    "lowercase": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 20000,
+    "sublinear_tf": true,
+    "strip_accents": "unicode",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "random_state": 20260731,
+    "decision_threshold": 0.5,
+    "feature_field": "model_text",
+    "fit_vocabulary_on": "train_only"
+  },
+  "vocabulary_size": 2423,
+  "evaluations": {
+    "train": {
+      "n": 177,
+      "true_failure_0": 83,
+      "true_failure_1": 94,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            83,
+            0
+          ],
+          [
+            1,
+            93
+          ]
+        ],
+        "tn": 83,
+        "fp": 0,
+        "fn": 1,
+        "tp": 93
+      },
+      "accuracy": 0.9943502824858758,
+      "balanced_accuracy": 0.9946808510638299,
+      "precision": 1.0,
+      "recall": 0.9893617021276596,
+      "f1": 0.9946524064171123,
+      "specificity": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "roc_auc_pr_auc_available": true
+    },
+    "validation": {
+      "n": 59,
+      "true_failure_0": 34,
+      "true_failure_1": 25,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            25,
+            9
+          ],
+          [
+            4,
+            21
+          ]
+        ],
+        "tn": 25,
+        "fp": 9,
+        "fn": 4,
+        "tp": 21
+      },
+      "accuracy": 0.7796610169491526,
+      "balanced_accuracy": 0.7876470588235294,
+      "precision": 0.7,
+      "recall": 0.84,
+      "f1": 0.7636363636363637,
+      "specificity": 0.7352941176470589,
+      "roc_auc": 0.8352941176470589,
+      "pr_auc": 0.7995783434679398,
+      "roc_auc_pr_auc_available": true
+    },
+    "test": {
+      "n": 60,
+      "true_failure_0": 26,
+      "true_failure_1": 34,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            22,
+            4
+          ],
+          [
+            4,
+            30
+          ]
+        ],
+        "tn": 22,
+        "fp": 4,
+        "fn": 4,
+        "tp": 30
+      },
+      "accuracy": 0.8666666666666667,
+      "balanced_accuracy": 0.8642533936651584,
+      "precision": 0.8823529411764706,
+      "recall": 0.8823529411764706,
+      "f1": 0.8823529411764706,
+      "specificity": 0.8461538461538461,
+      "roc_auc": 0.8857466063348416,
+      "pr_auc": 0.8977276825019999,
+      "roc_auc_pr_auc_available": true
+    }
+  },
+  "overfitting_diagnostic": {
+    "status": "POTENTIAL_OVERFITTING_TRAIN_VALIDATION_GAP",
+    "train_f1": 0.9946524064171123,
+    "validation_f1": 0.7636363636363637,
+    "test_f1": 0.8823529411764706,
+    "train_minus_validation_f1": 0.2310160427807486,
+    "train_minus_test_f1": 0.11229946524064172,
+    "diagnostic_threshold": 0.15,
+    "interpretation": "The near-perfect training fit and materially lower validation performance indicate overfitting risk in this small sample. The higher test score does not remove that risk because validation and test sets are small chronological slices."
+  },
+  "test_by_device_type_exploratory": [
+    {
+      "device_type": "smart_plug",
+      "test_rows": 39,
+      "failure_0": 16,
+      "failure_1": 23,
+      "support_status": "SUFFICIENT",
+      "metrics": {
+        "n": 39,
+        "true_failure_0": 16,
+        "true_failure_1": 23,
+        "confusion_matrix": {
+          "labels": [
+            0,
+            1
+          ],
+          "matrix": [
+            [
+              14,
+              2
+            ],
+            [
+              4,
+              19
+            ]
+          ],
+          "tn": 14,
+          "fp": 2,
+          "fn": 4,
+          "tp": 19
+        },
+        "accuracy": 0.8461538461538461,
+        "balanced_accuracy": 0.8505434782608696,
+        "precision": 0.9047619047619048,
+        "recall": 0.8260869565217391,
+        "f1": 0.8636363636363636,
+        "specificity": 0.875,
+        "roc_auc": 0.8804347826086956,
+        "pr_auc": 0.8957677939346802,
+        "roc_auc_pr_auc_available": true
+      }
+    },
+    {
+      "device_type": "smart_bulb",
+      "test_rows": 13,
+      "failure_0": 7,
+      "failure_1": 6,
+      "support_status": "INSUFFICIENT_SUPPORT"
+    },
+    {
+      "device_type": "smart_switch",
+      "test_rows": 8,
+      "failure_0": 3,
+      "failure_1": 5,
+      "support_status": "INSUFFICIENT_SUPPORT"
+    }
+  ]
+}

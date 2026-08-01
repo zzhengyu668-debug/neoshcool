@@ -1,0 +1,219 @@
+﻿stage,domain,reason,count
+raw_metadata_records,Electronics,,1610012
+broad_candidate_source_records,Electronics,,33113
+raw_metadata_records,Home_and_Kitchen,,3735584
+broad_candidate_source_records,Home_and_Kitchen,,4045
+unique_candidate_parents,All,,37158
+eligible_target_parents,All,,106
+unresolved_ambiguous_parents,All,,0
+exclusion_rule,All,global:accessory_primary_identity:extension cable,223
+exclusion_rule,All,global:accessory_primary_identity:extension cord,966
+exclusion_rule,All,global:accessory_primary_identity:face plate,2
+exclusion_rule,All,global:accessory_primary_identity:faceplate,2
+exclusion_rule,All,global:accessory_primary_identity:mounting bracket,31
+exclusion_rule,All,global:accessory_primary_identity:mounting hardware,2
+exclusion_rule,All,global:accessory_primary_identity:outlet cover,5
+exclusion_rule,All,global:accessory_primary_identity:protective case,45
+exclusion_rule,All,global:accessory_primary_identity:replacement remote,29
+exclusion_rule,All,global:accessory_primary_identity:wall plate,21
+exclusion_rule,All,global:explicit_non_smart:no app,17
+exclusion_rule,All,global:explicit_non_smart:no wifi,27
+exclusion_rule,All,global:explicit_non_smart:without wifi,6
+exclusion_rule,All,smart_bulb:approved_identity_phrase_absent,1417
+exclusion_rule,All,smart_bulb:conditional_without_specific_smart_control_evidence,9
+exclusion_rule,All,smart_bulb:identity_not_in_title_or_categories,754
+exclusion_rule,All,smart_bulb:smart_evidence_not_in_title_or_categories,111
+exclusion_rule,All,smart_bulb:wrong_product:bulb camera,294
+exclusion_rule,All,smart_bulb:wrong_product:bundle with,50
+exclusion_rule,All,smart_bulb:wrong_product:camera,893
+exclusion_rule,All,smart_bulb:wrong_product:cameras,660
+exclusion_rule,All,smart_bulb:wrong_product:desk lamp,5
+exclusion_rule,All,smart_bulb:wrong_product:echo,159
+exclusion_rule,All,smart_bulb:wrong_product:echo dot,94
+exclusion_rule,All,smart_bulb:wrong_product:echo show,20
+exclusion_rule,All,smart_bulb:wrong_product:echo studio,8
+exclusion_rule,All,smart_bulb:wrong_product:energy smart,15
+exclusion_rule,All,smart_bulb:wrong_product:fairy light,5
+exclusion_rule,All,smart_bulb:wrong_product:floor lamp,1
+exclusion_rule,All,smart_bulb:wrong_product:light bulb camera,256
+exclusion_rule,All,smart_bulb:wrong_product:light fixture,2
+exclusion_rule,All,smart_bulb:wrong_product:photo studio,7
+exclusion_rule,All,smart_bulb:wrong_product:projector,198
+exclusion_rule,All,smart_bulb:wrong_product:projector lamp,16
+exclusion_rule,All,smart_bulb:wrong_product:replacement lamp,13
+exclusion_rule,All,smart_bulb:wrong_product:router,1
+exclusion_rule,All,smart_bulb:wrong_product:security camera,506
+exclusion_rule,All,smart_bulb:wrong_product:security light,14
+exclusion_rule,All,smart_bulb:wrong_product:smart board,16
+exclusion_rule,All,smart_bulb:wrong_product:smart speaker,33
+exclusion_rule,All,smart_bulb:wrong_product:string light,5
+exclusion_rule,All,smart_bulb:wrong_product:table lamp,10
+exclusion_rule,All,smart_bulb:wrong_product:wi fi system,1
+exclusion_rule,All,smart_plug:approved_identity_phrase_absent,33119
+exclusion_rule,All,smart_plug:conditional_without_specific_smart_control_evidence,1744
+exclusion_rule,All,smart_plug:identity_not_in_title_or_categories,25707
+exclusion_rule,All,smart_plug:smart_evidence_not_in_title_or_categories,4538
+exclusion_rule,All,smart_plug:wrong_product:2400 watt,1
+exclusion_rule,All,smart_plug:wrong_product:ac adapter,456
+exclusion_rule,All,smart_plug:wrong_product:ac adaptor,4
+exclusion_rule,All,smart_plug:wrong_product:alarm system,23
+exclusion_rule,All,smart_plug:wrong_product:android auto,727
+exclusion_rule,All,smart_plug:wrong_product:atx,287
+exclusion_rule,All,smart_plug:wrong_product:audio plug,17
+exclusion_rule,All,smart_plug:wrong_product:banana plug,1
+exclusion_rule,All,smart_plug:wrong_product:bundle with,345
+exclusion_rule,All,smart_plug:wrong_product:camera,6597
+exclusion_rule,All,smart_plug:wrong_product:cameras,2943
+exclusion_rule,All,smart_plug:wrong_product:carplay,1080
+exclusion_rule,All,smart_plug:wrong_product:charging adapter,43
+exclusion_rule,All,smart_plug:wrong_product:charging adaptor,1
+exclusion_rule,All,smart_plug:wrong_product:coaxial plug,1
+exclusion_rule,All,smart_plug:wrong_product:desk with power outlet,9
+exclusion_rule,All,smart_plug:wrong_product:drain plug,8
+exclusion_rule,All,smart_plug:wrong_product:ear plug,8
+exclusion_rule,All,smart_plug:wrong_product:echo,562
+exclusion_rule,All,smart_plug:wrong_product:echo dot,338
+exclusion_rule,All,smart_plug:wrong_product:echo show,75
+exclusion_rule,All,smart_plug:wrong_product:echo studio,11
+exclusion_rule,All,smart_plug:wrong_product:ethernet switch,28
+exclusion_rule,All,smart_plug:wrong_product:fairy light,12
+exclusion_rule,All,smart_plug:wrong_product:fire hd,45
+exclusion_rule,All,smart_plug:wrong_product:fireplace switch,2
+exclusion_rule,All,smart_plug:wrong_product:fitbit,55
+exclusion_rule,All,smart_plug:wrong_product:headphone plug,5
+exclusion_rule,All,smart_plug:wrong_product:humidifier,85
+exclusion_rule,All,smart_plug:wrong_product:hydroponic,1
+exclusion_rule,All,smart_plug:wrong_product:hydroponics,2
+exclusion_rule,All,smart_plug:wrong_product:ip camera,474
+exclusion_rule,All,smart_plug:wrong_product:jug cap,3
+exclusion_rule,All,smart_plug:wrong_product:motherboard,465
+exclusion_rule,All,smart_plug:wrong_product:motion sensor,117
+exclusion_rule,All,smart_plug:wrong_product:mount bracket,57
+exclusion_rule,All,smart_plug:wrong_product:multi sensor,1
+exclusion_rule,All,smart_plug:wrong_product:network switch,28
+exclusion_rule,All,smart_plug:wrong_product:outlet bracket,13
+exclusion_rule,All,smart_plug:wrong_product:outlet holder,54
+exclusion_rule,All,smart_plug:wrong_product:outlet saver,6
+exclusion_rule,All,smart_plug:wrong_product:outlet wall mount,391
+exclusion_rule,All,smart_plug:wrong_product:plug and play,1218
+exclusion_rule,All,smart_plug:wrong_product:plug connector,31
+exclusion_rule,All,smart_plug:wrong_product:plug on module,5
+exclusion_rule,All,smart_plug:wrong_product:portal from facebook,1
+exclusion_rule,All,smart_plug:wrong_product:power adapter,589
+exclusion_rule,All,smart_plug:wrong_product:power adaptor,13
+exclusion_rule,All,smart_plug:wrong_product:power saver,45
+exclusion_rule,All,smart_plug:wrong_product:range extender,487
+exclusion_rule,All,smart_plug:wrong_product:raspberry pi,170
+exclusion_rule,All,smart_plug:wrong_product:router,923
+exclusion_rule,All,smart_plug:wrong_product:security cam,15
+exclusion_rule,All,smart_plug:wrong_product:security camera,1681
+exclusion_rule,All,smart_plug:wrong_product:smart plug bundle,6
+exclusion_rule,All,smart_plug:wrong_product:smart speaker,117
+exclusion_rule,All,smart_plug:wrong_product:socket 1151,2
+exclusion_rule,All,smart_plug:wrong_product:socket am5,13
+exclusion_rule,All,smart_plug:wrong_product:socket lga,6
+exclusion_rule,All,smart_plug:wrong_product:sprinkler controller,3
+exclusion_rule,All,smart_plug:wrong_product:starter kit,123
+exclusion_rule,All,smart_plug:wrong_product:string light,21
+exclusion_rule,All,smart_plug:wrong_product:table with power outlet,5
+exclusion_rule,All,smart_plug:wrong_product:travel adapter,210
+exclusion_rule,All,smart_plug:wrong_product:travel adaptor,1
+exclusion_rule,All,smart_plug:wrong_product:unmanaged switch,6
+exclusion_rule,All,smart_plug:wrong_product:usb adapter,208
+exclusion_rule,All,smart_plug:wrong_product:usb adaptor,2
+exclusion_rule,All,smart_plug:wrong_product:wall mount,1328
+exclusion_rule,All,smart_plug:wrong_product:wall mount holder,270
+exclusion_rule,All,smart_plug:wrong_product:water jug,3
+exclusion_rule,All,smart_plug:wrong_product:wi fi repeater,18
+exclusion_rule,All,smart_plug:wrong_product:wifi repeater,209
+exclusion_rule,All,smart_plug:wrong_product:wireless adapter,201
+exclusion_rule,All,smart_plug:wrong_product:with amazon smart plug,40
+exclusion_rule,All,smart_plug:wrong_product:z390,13
+exclusion_rule,All,smart_switch:approved_identity_phrase_absent,3709
+exclusion_rule,All,smart_switch:conditional_without_specific_smart_control_evidence,343
+exclusion_rule,All,smart_switch:identity_not_in_title_or_categories,1106
+exclusion_rule,All,smart_switch:required_target_context_absent,3159
+exclusion_rule,All,smart_switch:smart_evidence_not_in_title_or_categories,1828
+exclusion_rule,All,smart_switch:wrong_product:access point,23
+exclusion_rule,All,smart_switch:wrong_product:alarm clock,381
+exclusion_rule,All,smart_switch:wrong_product:ethernet,505
+exclusion_rule,All,smart_switch:wrong_product:ethernet switch,80
+exclusion_rule,All,smart_switch:wrong_product:exclusive for,3
+exclusion_rule,All,smart_switch:wrong_product:gigabit switch,41
+exclusion_rule,All,smart_switch:wrong_product:hdmi switch,144
+exclusion_rule,All,smart_switch:wrong_product:installation free,1
+exclusion_rule,All,smart_switch:wrong_product:key holder,2
+exclusion_rule,All,smart_switch:wrong_product:key switch,4
+exclusion_rule,All,smart_switch:wrong_product:keyboard switch,10
+exclusion_rule,All,smart_switch:wrong_product:kvm switch,50
+exclusion_rule,All,smart_switch:wrong_product:mirror,413
+exclusion_rule,All,smart_switch:wrong_product:monitor,252
+exclusion_rule,All,smart_switch:wrong_product:network,388
+exclusion_rule,All,smart_switch:wrong_product:network switch,53
+exclusion_rule,All,smart_switch:wrong_product:night light,139
+exclusion_rule,All,smart_switch:wrong_product:nintendo switch,237
+exclusion_rule,All,smart_switch:wrong_product:poe switch,100
+exclusion_rule,All,smart_switch:wrong_product:port,869
+exclusion_rule,All,smart_switch:wrong_product:power adapter,46
+exclusion_rule,All,smart_switch:wrong_product:power supply,98
+exclusion_rule,All,smart_switch:wrong_product:pressure switch,1
+exclusion_rule,All,smart_switch:wrong_product:relay,38
+exclusion_rule,All,smart_switch:wrong_product:remote switch,10
+exclusion_rule,All,smart_switch:wrong_product:rocker switch,8
+exclusion_rule,All,smart_switch:wrong_product:router,175
+exclusion_rule,All,smart_switch:wrong_product:selectable smart impedance,8
+exclusion_rule,All,smart_switch:wrong_product:smart switch amplifier,89
+exclusion_rule,All,smart_switch:wrong_product:smart switch humidifier,1
+exclusion_rule,All,smart_switch:wrong_product:smart switch portable blender,2
+exclusion_rule,All,smart_switch:wrong_product:switch compatible,18
+exclusion_rule,All,smart_switch:wrong_product:switch control,39
+exclusion_rule,All,smart_switch:wrong_product:switch covers,1
+exclusion_rule,All,smart_switch:wrong_product:switching converter,5
+exclusion_rule,All,smart_switch:wrong_product:switching power supply,4
+exclusion_rule,All,smart_switch:wrong_product:towel rack,3
+exclusion_rule,All,smart_switch:wrong_product:tv antenna,243
+exclusion_rule,All,smart_switch:wrong_product:usb switch,2
+exclusion_rule,All,smart_switch:wrong_product:viatek,1
+exclusion_rule,All,smart_switch:wrong_product:zmart,2
+inclusion_device_term,All,bulb,1594
+inclusion_device_term,All,connected switch,1
+inclusion_device_term,All,dimmer,831
+inclusion_device_term,All,dimmer switch,43
+inclusion_device_term,All,lamp bulb,9
+inclusion_device_term,All,lamp holder,73
+inclusion_device_term,All,led bulb,115
+inclusion_device_term,All,light bulb,819
+inclusion_device_term,All,light switch,164
+inclusion_device_term,All,outlet,6689
+inclusion_device_term,All,outlet adapter,100
+inclusion_device_term,All,plug,27545
+inclusion_device_term,All,power strip,2116
+inclusion_device_term,All,receptacle,288
+inclusion_device_term,All,smart bulb,114
+inclusion_device_term,All,smart outlet,37
+inclusion_device_term,All,smart plug,325
+inclusion_device_term,All,smart switch,646
+inclusion_device_term,All,socket,4284
+inclusion_device_term,All,switch,2613
+inclusion_device_term,All,wall switch,221
+inclusion_smart_term,All,alexa,1944
+inclusion_smart_term,All,app control,477
+inclusion_smart_term,All,app controlled,27
+inclusion_smart_term,All,bluetooth app,70
+inclusion_smart_term,All,bluetooth controlled,9
+inclusion_smart_term,All,bluetooth mesh,12
+inclusion_smart_term,All,connected home,69
+inclusion_smart_term,All,google home,536
+inclusion_smart_term,All,home automation,312
+inclusion_smart_term,All,homekit,79
+inclusion_smart_term,All,ifttt,51
+inclusion_smart_term,All,smart,27307
+inclusion_smart_term,All,smartthings,80
+inclusion_smart_term,All,tuya,154
+inclusion_smart_term,All,voice control,1343
+inclusion_smart_term,All,voice controlled,64
+inclusion_smart_term,All,wi fi,5741
+inclusion_smart_term,All,wifi,9543
+inclusion_smart_term,All,z wave,69
+inclusion_smart_term,All,zigbee,91
+multi_type_conflict_parents,All,candidate_device_types length > 1,1886

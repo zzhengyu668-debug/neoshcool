@@ -1,0 +1,9 @@
+2026-07-31T07:23:22.199230+00:00	W5-C-A preparation start
+2026-07-31T07:23:22.320080+00:00	Formal Parquet loaded; existing 300 rows excluded
+2026-07-31T07:23:35.262344+00:00	Private pilot-model and keyword scores computed
+2026-07-31T07:23:36.929748+00:00	Private W5-C-A Parquet outputs written
+2026-07-31T07:23:37.281633+00:00	Eight blind CSV annotation files written
+2026-07-31T07:23:37.324760+00:00	W5-C-A prepared for artifact-tool workbook build
+2026-07-31T07:24:44.652967+00:00	W5-C-A finalized: PAUSED_HUMAN_ANNOTATION; w5c_b_readiness=WAITING_FOR_EXPANDED_ANNOTATION
+2026-07-31T07:25:08.373038+00:00	W5-C-A finalized: PAUSED_HUMAN_ANNOTATION; w5c_b_readiness=WAITING_FOR_EXPANDED_ANNOTATION
+2026-07-31T07:25:56.786676+00:00	W5-C-A finalized: PAUSED_HUMAN_ANNOTATION; w5c_b_readiness=WAITING_FOR_EXPANDED_ANNOTATION

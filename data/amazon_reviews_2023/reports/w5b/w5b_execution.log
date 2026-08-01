@@ -1,0 +1,6 @@
+2026-07-31T06:41:27.254695+00:00	W5-B start
+2026-07-31T06:41:27.300642+00:00	Input identities validated
+2026-07-31T06:41:27.420302+00:00	Final labels frozen: definite=296 uncertain=4
+2026-07-31T06:41:27.428769+00:00	Strict chronological train/validation/test split created
+2026-07-31T06:41:27.584070+00:00	B0, B3, Dummy, and TF-IDF Logistic baselines evaluated
+2026-07-31T06:41:27.850722+00:00	W5-B PASS; w6_readiness=REVIEW_REQUIRED

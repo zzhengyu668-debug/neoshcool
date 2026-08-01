@@ -1,0 +1,12 @@
+duckdb
+pyarrow
+pandas
+polars
+scikit-learn
+tqdm
+orjson
+matplotlib
+seaborn
+jupyterlab
+lingua-language-detector
+pytest

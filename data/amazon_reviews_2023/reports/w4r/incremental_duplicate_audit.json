@@ -1,0 +1,10 @@
+{
+  "english_before_dedup": 1016,
+  "unique_duplicate_keys": 1007,
+  "duplicate_groups": 8,
+  "within_domain_rows_removed": 9,
+  "cross_domain_rows_removed": 0,
+  "total_rows_removed": 9,
+  "final_rows": 1007,
+  "tie_break_rule": "text_nonempty_fields_desc, review_text_length_desc, configured_source_priority, source_row_number, parent_asin, asin"
+}

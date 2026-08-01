@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-07-30T05:13:59.407Z",
+  "input_files": {
+    "adjudicated_workbook": {
+      "path": "C:\\Users\\30649\\.codex\\codex-remote-attachments\\019fa252-cda7-7790-9add-545a5860cd53\\B0B8660E-3B5D-41BD-A30B-C7177E5ED01A\\1-recovered_products_blind_audit_merged_adjudicated.xlsx",
+      "sha256": "5e57204bf0d4d420ba7a61d49151293cecbd19b0d5ab403ac3e4c3f4bd332d25"
+    },
+    "baseline_merged_workbook": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\reports\\w3r_b\\recovered_products_blind_audit_merged.xlsx",
+      "sha256": "76bad93fd5ed30889bed3b7a94a7976c766587bb1ee8f75b7db8a479a58a4b15"
+    },
+    "blind_key": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\reports\\w3r_b\\blind_id_parent_asin_key.csv",
+      "sha256": "54b2ad11fe6a1f8a3910dec3ed8c3a53b022fc18eb9fb648ac9fafb0042a0a08",
+      "opened_after_validation": true
+    }
+  },
+  "workbook_structure": {
+    "Summary": {
+      "adjudicated_rows": 22,
+      "adjudicated_columns": 14,
+      "baseline_rows": 22,
+      "baseline_columns": 14
+    },
+    "Merged Audit": {
+      "adjudicated_rows": 24,
+      "adjudicated_columns": 23,
+      "baseline_rows": 24,
+      "baseline_columns": 23
+    },
+    "Adjudication Queue": {
+      "adjudicated_rows": 4,
+      "adjudicated_columns": 19,
+      "baseline_rows": 4,
+      "baseline_columns": 19
+    }
+  },
+  "formula_integrity": {
+    "Summary": true,
+    "Merged Audit": true,
+    "Adjudication Queue": true
+  },
+  "protected_content_checks": {
+    "merged_audit_A_to_P_unchanged": true,
+    "merged_audit_T_to_W_unchanged": true,
+    "adjudication_queue_A_to_P_unchanged": true
+  },
+  "adjudication_checks": {
+    "queue_rows": 3,
+    "completed_cells": 9,
+    "valid_labels": true,
+    "merged_links_match_queue": true,
+    "blind_key_rows": 23,
+    "blind_key_unique": true
+  },
+  "allowed_changes": [
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "Q2",
+      "blind_id": "W3RB-002",
+      "value": "neither"
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "R2",
+      "blind_id": "W3RB-002",
+      "value": "accessory"
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "S2",
+      "blind_id": "W3RB-002",
+      "value": "Accessory: snaps onto an existing toggle or rocker switch and mechanically operates it; the product itself is not a wall switch or dimmer, despite Zigbee/Alexa control."
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "Q3",
+      "blind_id": "W3RB-009",
+      "value": "neither"
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "R3",
+      "blind_id": "W3RB-009",
+      "value": "accessory"
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "S3",
+      "blind_id": "W3RB-009",
+      "value": "Accessory: mounts over an existing switch plate and controls the underlying switch; phone and voice features do not make the product itself a wall switch or dimmer."
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "Q4",
+      "blind_id": "W3RB-022",
+      "value": "neither"
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "R4",
+      "blind_id": "W3RB-022",
+      "value": "accessory"
+    },
+    {
+      "sheet": "Adjudication Queue",
+      "cell": "S4",
+      "blind_id": "W3RB-022",
+      "value": "Accessory: battery-powered actuator mounted over an existing toggle or rocker switch; it is not the wall switch or dimmer itself, despite BLE/Alexa control."
+    }
+  ],
+  "final_counts": {
+    "reviewed": 23,
+    "include": 19,
+    "hold": 1,
+    "exclude": 3,
+    "accepted_smart_bulb": 17,
+    "accepted_smart_switch": 2,
+    "final_labels": {
+      "correct_target": 19,
+      "accessory": 3,
+      "ambiguous": 1
+    }
+  }
+}

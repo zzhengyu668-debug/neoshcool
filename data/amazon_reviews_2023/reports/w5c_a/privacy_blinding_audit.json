@@ -1,0 +1,23 @@
+{
+  "blind_csv_files": [
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer1_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer2_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer1_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer2_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer1_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer2_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer1_blind.csv",
+    "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer2_blind.csv"
+  ],
+  "rating_exposed": false,
+  "keyword_exposed": false,
+  "model_probability_exposed": false,
+  "parent_asin_exposed": false,
+  "duplicate_key_exposed": false,
+  "review_datetime_exposed": false,
+  "source_domain_exposed": false,
+  "human_labels_prefilled": false,
+  "raw_user_id_present": false,
+  "user_id_hash_present": false,
+  "review_text_present_only_in_blind_annotation_files_and_private_sampling_frame": true
+}

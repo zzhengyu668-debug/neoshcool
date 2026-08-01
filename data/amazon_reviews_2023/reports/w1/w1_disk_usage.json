@@ -1,0 +1,174 @@
+{
+  "phase": "W1",
+  "updated_at": "2026-07-29T13:47:40.423217+08:00",
+  "events": [
+    {
+      "time": "2026-07-27T16:11:07.0571817+08:00",
+      "event": "w1_download_start",
+      "free_bytes": 215704178688,
+      "free_gib": 200.89,
+      "gate_passed": true,
+      "minimum_start_bytes": 204010946560
+    },
+    {
+      "time": "2026-07-27T16:17:23.6787521+08:00",
+      "event": "w1_download_start",
+      "free_bytes": 215698845696,
+      "free_gib": 200.885,
+      "gate_passed": true,
+      "minimum_start_bytes": 204010946560
+    },
+    {
+      "time": "2026-07-27T16:39:06.6988968+08:00",
+      "event": "w1_download_start",
+      "free_bytes": 215633506304,
+      "free_gib": 200.824,
+      "gate_passed": true,
+      "minimum_start_bytes": 204010946560
+    },
+    {
+      "time": "2026-07-29T13:20:28.8925359+08:00",
+      "event": "archive_tests_start",
+      "free_bytes": 197295931392,
+      "free_gib": 183.746
+    },
+    {
+      "time": "2026-07-29T13:24:46.4583179+08:00",
+      "event": "archive_tests_start",
+      "free_bytes": 197340401664,
+      "free_gib": 183.788
+    },
+    {
+      "time": "2026-07-29T13:30:54.7005974+08:00",
+      "event": "archive_tests_start",
+      "free_bytes": 197451341824,
+      "free_gib": 183.891
+    },
+    {
+      "time": "2026-07-29T13:32:15.5239872+08:00",
+      "event": "archive_tests_start",
+      "free_bytes": 197452853248,
+      "free_gib": 183.892
+    },
+    {
+      "time": "2026-07-29T13:35:09.6996890+08:00",
+      "event": "archive_tests_start",
+      "free_bytes": 197449818112,
+      "free_gib": 183.889
+    },
+    {
+      "time": "2026-07-29T13:39:27.8581125+08:00",
+      "event": "archive_tests_complete",
+      "free_bytes": 197052870656,
+      "free_gib": 183.52,
+      "all_processed_sizes_reliable": false,
+      "files_passed": 4,
+      "total_processed_size_bytes": null
+    },
+    {
+      "time": "2026-07-29T13:41:18.3402742+08:00",
+      "event": "extraction_space_plan",
+      "free_bytes": 197053423616,
+      "free_gib": 183.52,
+      "reserve_floor_bytes": 64424509440,
+      "remaining_estimated_total_bytes": null,
+      "all_remaining_sizes_reliable": false,
+      "projected_final_free_bytes": null
+    },
+    {
+      "time": "2026-07-29T13:41:18.3828003+08:00",
+      "event": "extraction_gate",
+      "free_bytes": 197053423616,
+      "free_gib": 183.52,
+      "file_id": "meta_electronics",
+      "gate_passed": true,
+      "estimate_method": "compressed_size_x8",
+      "estimated_uncompressed_bytes": 10503203416,
+      "required_bytes_including_reserve": 74927712856
+    },
+    {
+      "time": "2026-07-29T13:41:38.6611967+08:00",
+      "event": "extraction_complete",
+      "free_bytes": 191806930944,
+      "free_gib": 178.634,
+      "free_bytes_before": 197053423616,
+      "file_id": "meta_electronics",
+      "free_bytes_after": 191806930944,
+      "actual_uncompressed_bytes": 5246144134,
+      "compression_ratio": 3.995843
+    },
+    {
+      "time": "2026-07-29T13:41:38.6863942+08:00",
+      "event": "extraction_gate",
+      "free_bytes": 191806918656,
+      "free_gib": 178.634,
+      "file_id": "meta_home_and_kitchen",
+      "gate_passed": true,
+      "estimate_method": "compressed_size_x8",
+      "estimated_uncompressed_bytes": 23719447064,
+      "required_bytes_including_reserve": 88143956504
+    },
+    {
+      "time": "2026-07-29T13:42:25.0977232+08:00",
+      "event": "extraction_complete",
+      "free_bytes": 180022358016,
+      "free_gib": 167.659,
+      "free_bytes_before": 191806930944,
+      "file_id": "meta_home_and_kitchen",
+      "free_bytes_after": 180022358016,
+      "actual_uncompressed_bytes": 11788767944,
+      "compression_ratio": 3.976068
+    },
+    {
+      "time": "2026-07-29T13:42:25.1116891+08:00",
+      "event": "extraction_gate",
+      "free_bytes": 180022358016,
+      "free_gib": 167.659,
+      "file_id": "reviews_electronics",
+      "gate_passed": true,
+      "estimate_method": "compressed_size_x8",
+      "estimated_uncompressed_bytes": 51795508952,
+      "required_bytes_including_reserve": 116220018392
+    },
+    {
+      "time": "2026-07-29T13:44:05.8828232+08:00",
+      "event": "extraction_complete",
+      "free_bytes": 157415239680,
+      "free_gib": 146.604,
+      "free_bytes_before": 180022358016,
+      "file_id": "reviews_electronics",
+      "free_bytes_after": 157415239680,
+      "actual_uncompressed_bytes": 22616233652,
+      "compression_ratio": 3.493157
+    },
+    {
+      "time": "2026-07-29T13:44:05.9350831+08:00",
+      "event": "extraction_gate",
+      "free_bytes": 157415239680,
+      "free_gib": 146.604,
+      "file_id": "reviews_home_and_kitchen",
+      "gate_passed": true,
+      "estimate_method": "electronics_review_ratio_x1.15_or_max_observed",
+      "estimated_uncompressed_bytes": 33372976584,
+      "required_bytes_including_reserve": 97797486024
+    },
+    {
+      "time": "2026-07-29T13:46:30.0030846+08:00",
+      "event": "extraction_complete",
+      "free_bytes": 125562097664,
+      "free_gib": 116.939,
+      "free_bytes_before": 157415239680,
+      "file_id": "reviews_home_and_kitchen",
+      "free_bytes_after": 125562097664,
+      "actual_uncompressed_bytes": 31408889188,
+      "compression_ratio": 3.780712
+    },
+    {
+      "time": "2026-07-29T13:47:40.423217+08:00",
+      "event": "sample_validation_complete",
+      "free_bytes": 126003101696,
+      "free_gib": 117.35,
+      "files_validated": 4
+    }
+  ]
+}

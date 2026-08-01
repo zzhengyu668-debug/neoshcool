@@ -1,0 +1,87 @@
+{
+  "phase": "W2",
+  "generated_at": "2026-07-29T14:27:57.677069+08:00",
+  "minimum_free_bytes": 64424509440,
+  "events": [
+    {
+      "time": "2026-07-29T14:15:11.177941+08:00",
+      "event": "w2_start",
+      "free_bytes": 125989621760,
+      "free_gib": 117.33697891235352
+    },
+    {
+      "time": "2026-07-29T14:15:11.192946+08:00",
+      "event": "scan_start",
+      "file_id": "meta_electronics",
+      "free_bytes": 125989621760,
+      "free_gib": 117.33697891235352
+    },
+    {
+      "time": "2026-07-29T14:15:31.144327+08:00",
+      "event": "scan_complete",
+      "file_id": "meta_electronics",
+      "free_bytes": 125989625856,
+      "free_gib": 117.33698272705078,
+      "records": 1610012,
+      "parse_errors": 0,
+      "duration_seconds": 19.944474699999773
+    },
+    {
+      "time": "2026-07-29T14:15:31.153357+08:00",
+      "event": "scan_start",
+      "file_id": "meta_home_and_kitchen",
+      "free_bytes": 125989625856,
+      "free_gib": 117.33698272705078
+    },
+    {
+      "time": "2026-07-29T14:16:21.530130+08:00",
+      "event": "scan_complete",
+      "file_id": "meta_home_and_kitchen",
+      "free_bytes": 125989400576,
+      "free_gib": 117.33677291870117,
+      "records": 3735584,
+      "parse_errors": 0,
+      "duration_seconds": 50.37216960000114
+    },
+    {
+      "time": "2026-07-29T14:16:21.531156+08:00",
+      "event": "scan_start",
+      "file_id": "reviews_electronics",
+      "free_bytes": 125989400576,
+      "free_gib": 117.33677291870117
+    },
+    {
+      "time": "2026-07-29T14:20:42.156276+08:00",
+      "event": "scan_complete",
+      "file_id": "reviews_electronics",
+      "free_bytes": 125990793216,
+      "free_gib": 117.33806991577148,
+      "records": 43886944,
+      "parse_errors": 0,
+      "duration_seconds": 260.61875839999993
+    },
+    {
+      "time": "2026-07-29T14:20:42.159275+08:00",
+      "event": "scan_start",
+      "file_id": "reviews_home_and_kitchen",
+      "free_bytes": 125990793216,
+      "free_gib": 117.33806991577148
+    },
+    {
+      "time": "2026-07-29T14:27:57.645554+08:00",
+      "event": "scan_complete",
+      "file_id": "reviews_home_and_kitchen",
+      "free_bytes": 125787967488,
+      "free_gib": 117.14917373657227,
+      "records": 67409944,
+      "parse_errors": 0,
+      "duration_seconds": 435.4798867999998
+    },
+    {
+      "time": "2026-07-29T14:27:57.677069+08:00",
+      "event": "w2_complete",
+      "free_bytes": 125787901952,
+      "free_gib": 117.14911270141602
+    }
+  ]
+}

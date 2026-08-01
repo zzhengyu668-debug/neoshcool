@@ -1,0 +1,167 @@
+{
+  "phase": "W4R",
+  "formal_product_version": "w3-v1.4.0",
+  "derivation": "target_products_w3_v1_4_0 minus target_products",
+  "counts": {
+    "total": 19,
+    "smart_plug": 0,
+    "smart_bulb": 17,
+    "smart_switch": 2
+  },
+  "parent_asin_unique": true,
+  "held_or_excluded_overlap": 0,
+  "products": [
+    {
+      "parent_asin": "B003I86OPG",
+      "device_type": "smart_switch",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00IRQ6T22",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00JCE14AU",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00KLPFEXW",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00KLPFJR8",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00PJH16UC",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00S036GN4",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00S036GQQ",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00S036GUC",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00UMA45KY",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00V9091EG",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00W6YEMMU",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00YB5R56M",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B00YRRVTPM",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B010UAB0V2",
+      "device_type": "smart_switch",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B01AKOY5FG",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B01M0PAZA7",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B01MS9L9K2",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    },
+    {
+      "parent_asin": "B0BN7YPZKP",
+      "device_type": "smart_bulb",
+      "source_domains": [
+        "Electronics"
+      ],
+      "filter_version": "w3-v1.4.0"
+    }
+  ]
+}

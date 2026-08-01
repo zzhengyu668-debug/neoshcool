@@ -1,0 +1,130 @@
+{
+  "baseline": "B3 Keyword/rule draft",
+  "keyword_version": "w5a-keyword-v1.0-draft",
+  "rules_refit_from_labels": false,
+  "all_definite": {
+    "n": 296,
+    "true_failure_0": 143,
+    "true_failure_1": 153,
+    "confusion_matrix": {
+      "labels": [
+        0,
+        1
+      ],
+      "matrix": [
+        [
+          109,
+          34
+        ],
+        [
+          46,
+          107
+        ]
+      ],
+      "tn": 109,
+      "fp": 34,
+      "fn": 46,
+      "tp": 107
+    },
+    "accuracy": 0.7297297297297297,
+    "balanced_accuracy": 0.7307920837332602,
+    "precision": 0.7588652482269503,
+    "recall": 0.6993464052287581,
+    "f1": 0.7278911564625851,
+    "specificity": 0.7622377622377622,
+    "roc_auc": null,
+    "pr_auc": null,
+    "roc_auc_pr_auc_available": false
+  },
+  "test": {
+    "n": 60,
+    "true_failure_0": 26,
+    "true_failure_1": 34,
+    "confusion_matrix": {
+      "labels": [
+        0,
+        1
+      ],
+      "matrix": [
+        [
+          21,
+          5
+        ],
+        [
+          10,
+          24
+        ]
+      ],
+      "tn": 21,
+      "fp": 5,
+      "fn": 10,
+      "tp": 24
+    },
+    "accuracy": 0.75,
+    "balanced_accuracy": 0.7567873303167421,
+    "precision": 0.8275862068965517,
+    "recall": 0.7058823529411765,
+    "f1": 0.7619047619047619,
+    "specificity": 0.8076923076923077,
+    "roc_auc": null,
+    "pr_auc": null,
+    "roc_auc_pr_auc_available": false
+  },
+  "test_by_device_type_exploratory": [
+    {
+      "device_type": "smart_plug",
+      "test_rows": 39,
+      "failure_0": 16,
+      "failure_1": 23,
+      "support_status": "SUFFICIENT",
+      "metrics": {
+        "n": 39,
+        "true_failure_0": 16,
+        "true_failure_1": 23,
+        "confusion_matrix": {
+          "labels": [
+            0,
+            1
+          ],
+          "matrix": [
+            [
+              13,
+              3
+            ],
+            [
+              6,
+              17
+            ]
+          ],
+          "tn": 13,
+          "fp": 3,
+          "fn": 6,
+          "tp": 17
+        },
+        "accuracy": 0.7692307692307693,
+        "balanced_accuracy": 0.7758152173913043,
+        "precision": 0.85,
+        "recall": 0.7391304347826086,
+        "f1": 0.7906976744186046,
+        "specificity": 0.8125,
+        "roc_auc": null,
+        "pr_auc": null,
+        "roc_auc_pr_auc_available": false
+      }
+    },
+    {
+      "device_type": "smart_bulb",
+      "test_rows": 13,
+      "failure_0": 7,
+      "failure_1": 6,
+      "support_status": "INSUFFICIENT_SUPPORT"
+    },
+    {
+      "device_type": "smart_switch",
+      "test_rows": 8,
+      "failure_0": 3,
+      "failure_1": 5,
+      "support_status": "INSUFFICIENT_SUPPORT"
+    }
+  ]
+}

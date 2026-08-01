@@ -1,0 +1,145 @@
+{
+  "phase": "W5-A",
+  "annotation_version": "w5a-annotation-v1.0-draft",
+  "random_seed": 20260731,
+  "formal_review_rows": 55877,
+  "sample_rows": 300,
+  "unique_duplicate_keys": 300,
+  "unique_parent_asin": 125,
+  "device_quotas": {
+    "smart_plug": 210,
+    "smart_bulb": 60,
+    "smart_switch": 30
+  },
+  "double_review_rows": 60,
+  "double_review_quotas": {
+    "smart_plug": 42,
+    "smart_bulb": 12,
+    "smart_switch": 6
+  },
+  "keyword_hit_rows": 143,
+  "keyword_non_hit_rows": 157,
+  "blind_review_ids_unique": true,
+  "labels_prefilled": false,
+  "rating_exposed_to_annotators": false,
+  "keyword_exposed_to_annotators": false,
+  "sampling_is_population_representative": false,
+  "balance_by_device_type": [
+    {
+      "device_type": "smart_bulb",
+      "sampled_reviews": 60,
+      "independent_products": 25,
+      "keyword_hits": 23,
+      "keyword_non_hits": 37
+    },
+    {
+      "device_type": "smart_plug",
+      "sampled_reviews": 210,
+      "independent_products": 95,
+      "keyword_hits": 105,
+      "keyword_non_hits": 105
+    },
+    {
+      "device_type": "smart_switch",
+      "sampled_reviews": 30,
+      "independent_products": 5,
+      "keyword_hits": 15,
+      "keyword_non_hits": 15
+    }
+  ],
+  "balance_by_rating_stratum": [
+    {
+      "device_type": "smart_bulb",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 28
+    },
+    {
+      "device_type": "smart_bulb",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 22
+    },
+    {
+      "device_type": "smart_bulb",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 10
+    },
+    {
+      "device_type": "smart_plug",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 94
+    },
+    {
+      "device_type": "smart_plug",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 74
+    },
+    {
+      "device_type": "smart_plug",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 42
+    },
+    {
+      "device_type": "smart_switch",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 13
+    },
+    {
+      "device_type": "smart_switch",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 12
+    },
+    {
+      "device_type": "smart_switch",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 5
+    }
+  ],
+  "balance_by_time_stratum": [
+    {
+      "device_type": "smart_bulb",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 21
+    },
+    {
+      "device_type": "smart_bulb",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 19
+    },
+    {
+      "device_type": "smart_bulb",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 20
+    },
+    {
+      "device_type": "smart_plug",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 51
+    },
+    {
+      "device_type": "smart_plug",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 79
+    },
+    {
+      "device_type": "smart_plug",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 80
+    },
+    {
+      "device_type": "smart_switch",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 1
+    },
+    {
+      "device_type": "smart_switch",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 15
+    },
+    {
+      "device_type": "smart_switch",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 14
+    }
+  ],
+  "elapsed_seconds": 17.036
+}

@@ -1,0 +1,42 @@
+{
+  "phase": "W4",
+  "generated_at": "2026-07-29T20:14:47.711680+08:00",
+  "package": "lingua-language-detector",
+  "package_version": "2.1.1",
+  "configuration": {
+    "package": "lingua-language-detector",
+    "mode": "all_languages_low_accuracy",
+    "minimum_relative_distance": 0.15,
+    "minimum_english_confidence": 0.7,
+    "minimum_alphabetic_characters": 10,
+    "minimum_total_characters": 12,
+    "undetermined_warning_share": 0.05
+  },
+  "counts": {
+    "English": 55391,
+    "non-English": 4441,
+    "undetermined_other": 1837,
+    "undetermined_short": 513
+  },
+  "counts_by_device_type": {
+    "smart_bulb": {
+      "English": 207,
+      "non-English": 7,
+      "undetermined_other": 3,
+      "undetermined_short": 1
+    },
+    "smart_plug": {
+      "English": 55118,
+      "non-English": 4434,
+      "undetermined_other": 1834,
+      "undetermined_short": 512
+    },
+    "smart_switch": {
+      "English": 66
+    }
+  },
+  "denominator": 62182,
+  "undetermined_count": 2350,
+  "undetermined_share": 0.0377922871570551,
+  "online_service_used": false
+}

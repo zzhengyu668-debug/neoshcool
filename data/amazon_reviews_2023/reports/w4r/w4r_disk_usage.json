@@ -1,0 +1,64 @@
+{
+  "phase": "W4R",
+  "minimum_free_bytes": 64424509440,
+  "events": [
+    {
+      "time": "2026-07-31T11:05:25.468099+08:00",
+      "event": "w4r_start",
+      "free_bytes": 128021860352,
+      "free_gib": 119.22964859008789
+    },
+    {
+      "time": "2026-07-31T11:05:25.938622+08:00",
+      "event": "review_scan_start",
+      "source_id": "reviews_electronics",
+      "free_bytes": 128021954560,
+      "free_gib": 119.229736328125
+    },
+    {
+      "time": "2026-07-31T11:10:17.681524+08:00",
+      "event": "review_scan_complete",
+      "source_id": "reviews_electronics",
+      "free_bytes": 127758045184,
+      "free_gib": 118.98395156860352
+    },
+    {
+      "time": "2026-07-31T11:10:17.736382+08:00",
+      "event": "review_scan_start",
+      "source_id": "reviews_home_and_kitchen",
+      "free_bytes": 127758041088,
+      "free_gib": 118.98394775390625
+    },
+    {
+      "time": "2026-07-31T11:16:29.856385+08:00",
+      "event": "review_scan_complete",
+      "source_id": "reviews_home_and_kitchen",
+      "free_bytes": 127758299136,
+      "free_gib": 118.98418807983398
+    },
+    {
+      "time": "2026-07-31T11:16:29.891265+08:00",
+      "event": "deduplication_start",
+      "free_bytes": 127758290944,
+      "free_gib": 118.98418045043945
+    },
+    {
+      "time": "2026-07-31T11:16:30.382524+08:00",
+      "event": "final_parquet_complete",
+      "free_bytes": 127757926400,
+      "free_gib": 118.98384094238281
+    },
+    {
+      "time": "2026-07-31T11:16:35.012740+08:00",
+      "event": "w4r_reporting_start",
+      "free_bytes": 127743381504,
+      "free_gib": 118.97029495239258
+    },
+    {
+      "time": "2026-07-31T11:16:35.172448+08:00",
+      "event": "w4r_reporting_complete",
+      "free_bytes": 127743295488,
+      "free_gib": 118.97021484375
+    }
+  ]
+}

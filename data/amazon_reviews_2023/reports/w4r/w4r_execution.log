@@ -1,0 +1,35 @@
+[2026-07-31T11:05:25.936599+08:00] [INFO] W4R started; python=3.11.9; pyarrow=25.0.0; orjson=3.11.9; lingua=2.1.1; incremental_products=19; free_bytes=128021860352; salt_created=False
+[2026-07-31T11:05:25.938622+08:00] [INFO] Review scan started: id=reviews_electronics; bytes=22616233652; free_bytes=128021954560
+[2026-07-31T11:05:35.677427+08:00] [INFO] Review progress: id=reviews_electronics; records=1932370; matched=50; bytes=1086550104; bytes_per_second=111586759; free_bytes=128015437824
+[2026-07-31T11:05:49.591962+08:00] [INFO] Review progress: id=reviews_electronics; records=3948797; matched=99; bytes=2154981724; bytes_per_second=91114389; free_bytes=128013496320
+[2026-07-31T11:05:57.035707+08:00] [INFO] Review progress: id=reviews_electronics; records=5027572; matched=122; bytes=2719998832; bytes_per_second=87472183; free_bytes=128012472320
+[2026-07-31T11:06:03.707609+08:00] [INFO] Review progress: id=reviews_electronics; records=5990548; matched=150; bytes=3229526064; bytes_per_second=85510521; free_bytes=128011702272
+[2026-07-31T11:06:14.914423+08:00] [INFO] Review progress: id=reviews_electronics; records=7920493; matched=202; bytes=4312924900; bytes_per_second=88065821; free_bytes=128021364736
+[2026-07-31T11:06:29.309138+08:00] [INFO] Review progress: id=reviews_electronics; records=10004437; matched=258; bytes=5372945924; bytes_per_second=84788085; free_bytes=128014737408
+[2026-07-31T11:06:42.460458+08:00] [INFO] Review progress: id=reviews_electronics; records=12073724; matched=310; bytes=6443234476; bytes_per_second=84203772; free_bytes=127993909248
+[2026-07-31T11:06:56.287350+08:00] [INFO] Review progress: id=reviews_electronics; records=14193591; matched=365; bytes=7575558253; bytes_per_second=83850090; free_bytes=127959666688
+[2026-07-31T11:07:01.709262+08:00] [INFO] Review progress: id=reviews_electronics; records=15012385; matched=381; bytes=7988175007; bytes_per_second=83410034; free_bytes=127945564160
+[2026-07-31T11:07:10.657123+08:00] [INFO] Review progress: id=reviews_electronics; records=16291385; matched=396; bytes=8645974523; bytes_per_second=82564871; free_bytes=127923924992
+[2026-07-31T11:07:25.533537+08:00] [INFO] Review progress: id=reviews_electronics; records=18395870; matched=442; bytes=9710733778; bytes_per_second=81197355; free_bytes=127882199040
+[2026-07-31T11:07:36.455445+08:00] [INFO] Review progress: id=reviews_electronics; records=20021373; matched=479; bytes=10575713230; bytes_per_second=81030066; free_bytes=127852441600
+[2026-07-31T11:07:38.752365+08:00] [INFO] Review progress: id=reviews_electronics; records=20335493; matched=491; bytes=10738364601; bytes_per_second=80853198; free_bytes=127845527552
+[2026-07-31T11:07:53.011926+08:00] [INFO] Review progress: id=reviews_electronics; records=22392602; matched=537; bytes=11819102629; bytes_per_second=80363054; free_bytes=127805468672
+[2026-07-31T11:08:06.354641+08:00] [INFO] Review progress: id=reviews_electronics; records=24470081; matched=591; bytes=12897810435; bytes_per_second=80402896; free_bytes=127770484736
+[2026-07-31T11:08:10.226290+08:00] [INFO] Review progress: id=reviews_electronics; records=25027306; matched=604; bytes=13183070787; bytes_per_second=80244361; free_bytes=127763419136
+[2026-07-31T11:08:20.391202+08:00] [INFO] Review progress: id=reviews_electronics; records=26547699; matched=641; bytes=13959371619; bytes_per_second=80018668; free_bytes=127744282624
+[2026-07-31T11:08:34.348778+08:00] [INFO] Review progress: id=reviews_electronics; records=28690766; matched=683; bytes=15056223812; bytes_per_second=79912321; free_bytes=127733145600
+[2026-07-31T11:08:43.082547+08:00] [INFO] Review progress: id=reviews_electronics; records=30000913; matched=715; bytes=15724692569; bytes_per_second=79763020; free_bytes=127718662144
+[2026-07-31T11:08:48.523356+08:00] [INFO] Review progress: id=reviews_electronics; records=30765470; matched=729; bytes=16130787085; bytes_per_second=79625274; free_bytes=127707136000
+[2026-07-31T11:09:02.935880+08:00] [INFO] Review progress: id=reviews_electronics; records=32897649; matched=775; bytes=17192500079; bytes_per_second=79229529; free_bytes=127679873024
+[2026-07-31T11:09:17.100637+08:00] [INFO] Review progress: id=reviews_electronics; records=35038324; matched=819; bytes=18241956251; bytes_per_second=78914883; free_bytes=127637684224
+[2026-07-31T11:09:17.271643+08:00] [INFO] Review progress: id=reviews_electronics; records=35059516; matched=820; bytes=18253931969; bytes_per_second=78907948; free_bytes=127637667840
+[2026-07-31T11:09:32.326196+08:00] [INFO] Review progress: id=reviews_electronics; records=37202790; matched=932; bytes=19335187008; bytes_per_second=78475173; free_bytes=127583526912
+[2026-07-31T11:09:46.726316+08:00] [INFO] Review progress: id=reviews_electronics; records=39364871; matched=963; bytes=20407963333; bytes_per_second=78255551; free_bytes=126741508096
+[2026-07-31T11:09:51.315042+08:00] [INFO] Review progress: id=reviews_electronics; records=40037582; matched=971; bytes=20740951193; bytes_per_second=78157087; free_bytes=126714744832
+[2026-07-31T11:10:02.573395+08:00] [INFO] Review progress: id=reviews_electronics; records=41637262; matched=1000; bytes=21514792386; bytes_per_second=77773615; free_bytes=127335165952
+[2026-07-31T11:10:16.759336+08:00] [INFO] Review progress: id=reviews_electronics; records=43769584; matched=1052; bytes=22558485182; bytes_per_second=77568823; free_bytes=127758282752
+[2026-07-31T11:10:17.720368+08:00] [INFO] Review scan completed: id=reviews_electronics; records=43886944; matched=1052; cleaned=1052; seconds=291.741; peak_rss_bytes=184762368
+[2026-07-31T11:10:17.736382+08:00] [INFO] Review scan started: id=reviews_home_and_kitchen; bytes=31408889188; free_bytes=127758041088
+[2026-07-31T11:16:29.888022+08:00] [INFO] Review scan completed: id=reviews_home_and_kitchen; records=67409944; matched=0; cleaned=0; seconds=372.118; peak_rss_bytes=184999936
+[2026-07-31T11:16:30.366703+08:00] [INFO] Cleaned current-run temporary path: C:\Users\30649\Desktop\neoschool\data\amazon_reviews_2023\interim\w4r_work\duckdb_temp_22212
+[2026-07-31T11:16:35.189990+08:00] [INFO] W4R finished with status=PASS; w5_readiness=REVIEW_REQUIRED; incremental_rows=1007; combined_rows=55877; free_bytes=127743287296

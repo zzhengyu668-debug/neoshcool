@@ -1,0 +1,52 @@
+{
+  "phase": "W1",
+  "status": "PASS",
+  "reason": "All W1 acceptance criteria passed.",
+  "updated_at": "2026-07-29T05:49:59.622Z",
+  "project_root": "C:\\Users\\30649\\Desktop\\neoschool",
+  "criteria": {
+    "four_compressed_files_exist": true,
+    "compressed_byte_counts_match": true,
+    "four_project_sha256_values_recorded": true,
+    "four_archive_tests_passed": true,
+    "four_jsonl_files_exist_and_nonempty": true,
+    "all_beginning_middle_end_samples_parse": true,
+    "all_raw_files_readonly": true,
+    "final_free_space_at_least_60_gib": true,
+    "no_direct_compressed_scan_performed": true,
+    "w2_not_executed": true,
+    "required_w1_reports_present": true
+  },
+  "report_presence": {
+    "w1_execution.log": true,
+    "w1_download_manifest.csv": true,
+    "w1_download_manifest.json": true,
+    "w1_archive_test.json": true,
+    "w1_extract_manifest.csv": true,
+    "w1_extract_manifest.json": true,
+    "w1_sample_validation.json": true,
+    "w1_disk_usage.json": true
+  },
+  "final_free_bytes": 126003105792,
+  "final_free_gib": 117.35,
+  "policy_attestation": {
+    "compressed_archives_were_not_parsed_as_json": true,
+    "gzip_open_used": false,
+    "full_line_count_performed": false,
+    "full_schema_inference_performed": false,
+    "parquet_created": false,
+    "w2_started": false
+  },
+  "execution_notes": [
+    "Four final archives were supplied manually by the user after Codex's curl connection was stopped for persistently low throughput.",
+    "The exact requested .venv environment-check command was attempted after W1 and returned exit code 103 because the current Codex managed sandbox cannot access the Microsoft Store base Python path. W0 had previously passed under the project .venv; this is recorded as an execution-sandbox limitation, not a data-integrity failure.",
+    "The small JSONL validation ran with an isolated 64-bit Python 3.12.13 fallback and the standard json parser; it did not scan compressed files or perform full-file work."
+  ],
+  "environment_recheck": {
+    "command": ".\\.venv\\Scripts\\python.exe .\\scripts\\check_environment.py",
+    "attempted": true,
+    "exit_code": 103,
+    "result": "BLOCKED_BY_CURRENT_CODEX_MANAGED_SANDBOX",
+    "stderr": "No Python at the Microsoft Store base interpreter path referenced by .venv."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "phase": "W4",
+  "generated_at": "2026-07-29T20:14:47.731679+08:00",
+  "parquet": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "rows": 54870,
+    "bytes": 12511277,
+    "compression_by_column": [
+      "ZSTD"
+    ],
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string"
+  },
+  "excluded_fields": [
+    "images",
+    "raw user_id",
+    "normalized_text_for_dedup",
+    "failure_binary",
+    "failure_type",
+    "severity",
+    "persistence",
+    "sentiment_score",
+    "keyword_hit",
+    "split"
+  ]
+}

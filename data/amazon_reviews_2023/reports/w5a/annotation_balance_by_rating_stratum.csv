@@ -1,0 +1,10 @@
+﻿device_type,rating_stratum,sampled_reviews
+smart_bulb,high_4_5,28
+smart_bulb,low_1_2,22
+smart_bulb,middle_3,10
+smart_plug,high_4_5,94
+smart_plug,low_1_2,74
+smart_plug,middle_3,42
+smart_switch,high_4_5,13
+smart_switch,low_1_2,12
+smart_switch,middle_3,5

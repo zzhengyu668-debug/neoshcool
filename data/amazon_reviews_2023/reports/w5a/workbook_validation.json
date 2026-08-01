@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "generatedAtUtc": "2026-07-31T04:41:23.073Z",
+  "tool": "@oai/artifact-tool",
+  "workbookCount": 2,
+  "formulaScan": "PASS: no formulas or formula-error cells are present",
+  "visualInspectionPendingByCodex": false,
+  "workbooks": [
+    {
+      "csvPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.csv",
+      "xlsxPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_batch_300_blind.xlsx",
+      "rowCount": 300,
+      "columnCount": 14,
+      "reviewerNumber": 1,
+      "sheetNames": [
+        "Annotation",
+        "Instructions"
+      ],
+      "structuralInspection": "PASS",
+      "topAndBottomRowsInspected": true,
+      "formulaInspection": "PASS: no formulas",
+      "reimportInspection": "PASS",
+      "reimportFormulaInspection": "PASS: no formulas",
+      "previews": [
+        "annotation_batch_300_blind_top.png",
+        "annotation_batch_300_blind_middle.png",
+        "annotation_batch_300_blind_bottom.png",
+        "annotation_batch_300_blind_instructions.png"
+      ]
+    },
+    {
+      "csvPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.csv",
+      "xlsxPath": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_double_review_60_blind.xlsx",
+      "rowCount": 60,
+      "columnCount": 9,
+      "reviewerNumber": 2,
+      "sheetNames": [
+        "Annotation",
+        "Instructions"
+      ],
+      "structuralInspection": "PASS",
+      "topAndBottomRowsInspected": true,
+      "formulaInspection": "PASS: no formulas",
+      "reimportInspection": "PASS",
+      "reimportFormulaInspection": "PASS: no formulas",
+      "previews": [
+        "annotation_double_review_60_blind_top.png",
+        "annotation_double_review_60_blind_middle.png",
+        "annotation_double_review_60_blind_bottom.png",
+        "annotation_double_review_60_blind_instructions.png"
+      ]
+    }
+  ],
+  "visualInspectionByCodex": "PASS: rendered top, middle, bottom, and instructions views were visually inspected for both workbooks.",
+  "visualInspectionCompletedAtUtc": "2026-07-31T04:44:17.956642+00:00"
+}

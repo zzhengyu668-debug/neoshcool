@@ -1,0 +1,328 @@
+{
+  "phase": "W5-B",
+  "status": "PASS",
+  "w6_readiness": "REVIEW_REQUIRED",
+  "completed_at_utc": "2026-07-31T06:41:27.845323+00:00",
+  "elapsed_seconds": 0.5939999999991414,
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9",
+    "python_bits": 64,
+    "pandas_version": "3.0.5",
+    "pyarrow_version": "25.0.0",
+    "scikit_learn_version": "1.9.0",
+    "joblib_version": "1.5.3",
+    "numpy_version": "2.4.6"
+  },
+  "workbook_validation": {
+    "main_rows": 300,
+    "reviewer_2_rows": 60,
+    "main_unique_ids": 300,
+    "reviewer_2_unique_ids": 60,
+    "double_review_text_mismatches": 0,
+    "double_review_device_mismatches": 0,
+    "double_rows_with_valid_adjudication": 60,
+    "non_double_rows_with_adjudication": 0,
+    "status": "ADJUDICATION_VALIDATED",
+    "leading_star_title_removed_rows": 12,
+    "double_review_ids": 60,
+    "single_review_ids": 240
+  },
+  "label_summary": {
+    "annotation_version": "w5b-labels-v1.0",
+    "rows": 300,
+    "definite_rows": 296,
+    "uncertain_rows": 4,
+    "uncertain_blind_review_ids": [
+      "W5A-086",
+      "W5A-153",
+      "W5A-187",
+      "W5A-261"
+    ],
+    "failure_0": 143,
+    "failure_1": 153,
+    "annotation_source_counts": {
+      "adjudicated_double_review": 60,
+      "reviewer_1_single_review": 240
+    },
+    "failure_type_counts_overlapping": {
+      "F1": 43,
+      "F2": 51,
+      "F3": 34,
+      "F4": 37,
+      "F5": 50,
+      "F6": 54,
+      "F7": 4,
+      "F8": 25,
+      "N0": 143
+    },
+    "severity_counts": {
+      "0": 143,
+      "1": 27,
+      "2": 122,
+      "3": 4
+    },
+    "persistence_counts": {
+      "0": 159,
+      "1": 48,
+      "2": 89
+    },
+    "stratified_annotation_sample_is_population_representative": false
+  },
+  "inter_annotator_agreement_completed": true,
+  "chronological_split": {
+    "method": "strict_chronological",
+    "sort_fields": [
+      "review_datetime",
+      "blind_review_id"
+    ],
+    "random_shuffle": false,
+    "definite_rows": 296,
+    "uncertain_rows_excluded": 4,
+    "train_end_index_exclusive": 177,
+    "validation_end_index_exclusive": 236,
+    "split_rows": [
+      {
+        "split": "train",
+        "rows": 177,
+        "failure_0": 83,
+        "failure_1": 94,
+        "smart_plug": 124,
+        "smart_bulb": 38,
+        "smart_switch": 15,
+        "earliest_utc": "2011-03-13T12:29:41+00:00",
+        "latest_utc": "2020-11-17T21:19:54.984000+00:00",
+        "unique_parent_asin": 83
+      },
+      {
+        "split": "validation",
+        "rows": 59,
+        "failure_0": 34,
+        "failure_1": 25,
+        "smart_plug": 45,
+        "smart_bulb": 8,
+        "smart_switch": 6,
+        "earliest_utc": "2020-11-21T05:19:14.783000+00:00",
+        "latest_utc": "2022-02-25T19:53:03.587000+00:00",
+        "unique_parent_asin": 41
+      },
+      {
+        "split": "test",
+        "rows": 60,
+        "failure_0": 26,
+        "failure_1": 34,
+        "smart_plug": 39,
+        "smart_bulb": 13,
+        "smart_switch": 8,
+        "earliest_utc": "2022-02-26T17:21:44.747000+00:00",
+        "latest_utc": "2023-05-09T19:56:35.045000+00:00",
+        "unique_parent_asin": 32
+      }
+    ],
+    "chronological_order_validated": true,
+    "duplicate_key_cross_split_count": 0
+  },
+  "baselines_completed": [
+    "B0 Rating",
+    "B3 Keyword/rule draft",
+    "DummyClassifier most_frequent",
+    "TF-IDF + Logistic Regression"
+  ],
+  "tfidf_fit_on_train_only": true,
+  "tfidf_overfitting_diagnostic": {
+    "status": "POTENTIAL_OVERFITTING_TRAIN_VALIDATION_GAP",
+    "train_f1": 0.9946524064171123,
+    "validation_f1": 0.7636363636363637,
+    "test_f1": 0.8823529411764706,
+    "train_minus_validation_f1": 0.2310160427807486,
+    "train_minus_test_f1": 0.11229946524064172,
+    "diagnostic_threshold": 0.15,
+    "interpretation": "The near-perfect training fit and materially lower validation performance indicate overfitting risk in this small sample. The higher test score does not remove that risk because validation and test sets are small chronological slices."
+  },
+  "model_feature_field": "model_text",
+  "model_forbidden_features_used": [],
+  "formal_files_unchanged": true,
+  "protected_formal_files_after": {
+    "data\\amazon_reviews_2023\\processed\\target_products.parquet": {
+      "path": "data\\amazon_reviews_2023\\processed\\target_products.parquet",
+      "size_bytes": 85142,
+      "mtime_ns": 1785316071556196800,
+      "mtime_utc": "2026-07-29T09:07:51.556197+00:00",
+      "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d"
+    },
+    "data\\amazon_reviews_2023\\processed\\target_products_w3_v1_4_0.parquet": {
+      "path": "data\\amazon_reviews_2023\\processed\\target_products_w3_v1_4_0.parquet",
+      "size_bytes": 94709,
+      "mtime_ns": 1785389829708298200,
+      "mtime_utc": "2026-07-30T05:37:09.708298+00:00",
+      "sha256": "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+    },
+    "data\\amazon_reviews_2023\\processed\\review_level_base.parquet": {
+      "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+      "size_bytes": 12511277,
+      "mtime_ns": 1785326707561071300,
+      "mtime_utc": "2026-07-29T12:05:07.561071+00:00",
+      "sha256": "3ebf5d7dd14883d09b05e35573235e4524ee1ff675c1a5b9841d889c063f1e7b"
+    },
+    "data\\amazon_reviews_2023\\processed\\review_level_base_w3_v1_4_0.parquet": {
+      "path": "data\\amazon_reviews_2023\\processed\\review_level_base_w3_v1_4_0.parquet",
+      "size_bytes": 14496140,
+      "mtime_ns": 1785467791236342300,
+      "mtime_utc": "2026-07-31T03:16:31.236342+00:00",
+      "sha256": "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+    }
+  },
+  "raw_jsonl_read": false,
+  "compressed_sources_read": false,
+  "full_55877_reviews_scored": false,
+  "product_month_failure_signals_created": false,
+  "future_quality_target_created": false,
+  "product_level_temporal_persistence_created": false,
+  "w6_executed": false,
+  "git_commit_created": false,
+  "final_free_gib": 117.42295837402344,
+  "outputs": {
+    "processed_labels": {
+      "path": "data\\amazon_reviews_2023\\processed\\annotation_labels_w5b_v1_0.parquet",
+      "size_bytes": 24826,
+      "mtime_ns": 1785480087587097200,
+      "mtime_utc": "2026-07-31T06:41:27.587097+00:00",
+      "sha256": "1a9ec1a078895ed5fe45f07195fdd2055e59e10d7eeaed0eafb8975ffad13d23",
+      "rows": 300,
+      "fields": [
+        "blind_review_id",
+        "duplicate_key",
+        "parent_asin",
+        "device_type",
+        "review_datetime",
+        "final_failure_binary",
+        "final_failure_type",
+        "final_severity",
+        "final_persistence",
+        "annotation_source",
+        "label_status",
+        "annotation_version",
+        "keyword_candidate_hit"
+      ],
+      "field_count": 13,
+      "compression": [
+        "ZSTD"
+      ]
+    },
+    "modeling_dataset": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5b\\modeling_dataset.parquet",
+      "size_bytes": 142587,
+      "mtime_ns": 1785480087592430400,
+      "mtime_utc": "2026-07-31T06:41:27.592430+00:00",
+      "sha256": "c9c0af3d328e8cbd5d28b931aee1a2e85f1f258600e784efb82fb53d8a1b68bd",
+      "rows": 300,
+      "fields": [
+        "blind_review_id",
+        "duplicate_key",
+        "parent_asin",
+        "device_type",
+        "review_datetime",
+        "final_failure_binary",
+        "final_failure_type",
+        "final_severity",
+        "final_persistence",
+        "annotation_source",
+        "label_status",
+        "annotation_version",
+        "keyword_candidate_hit",
+        "review_text",
+        "model_text",
+        "rating",
+        "low_star_indicator",
+        "split"
+      ],
+      "field_count": 18,
+      "compression": [
+        "ZSTD"
+      ]
+    },
+    "baseline_predictions": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5b\\baseline_predictions.parquet",
+      "size_bytes": 13849,
+      "mtime_ns": 1785480087594564400,
+      "mtime_utc": "2026-07-31T06:41:27.594564+00:00",
+      "sha256": "4fbc3a6baba0b8f97416b49dab429eadfc217bee549101e70eb0a9df5cf07ae8",
+      "rows": 296,
+      "fields": [
+        "blind_review_id",
+        "split",
+        "device_type",
+        "review_datetime",
+        "final_failure_binary",
+        "rating_prediction",
+        "keyword_prediction",
+        "dummy_prediction",
+        "dummy_probability",
+        "tfidf_prediction",
+        "tfidf_probability"
+      ],
+      "field_count": 11,
+      "compression": [
+        "ZSTD"
+      ]
+    },
+    "error_analysis_private": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5b\\error_analysis_private.parquet",
+      "size_bytes": 17610,
+      "mtime_ns": 1785480087597540700,
+      "mtime_utc": "2026-07-31T06:41:27.597541+00:00",
+      "sha256": "b2128e7ba52fc910e88fc993f2b76121e6618c4edd3db6b1f4c064e04591b668",
+      "rows": 8,
+      "fields": [
+        "blind_review_id",
+        "device_type",
+        "review_datetime",
+        "review_text",
+        "model_text",
+        "final_failure_binary",
+        "final_failure_type",
+        "final_severity",
+        "final_persistence",
+        "tfidf_prediction",
+        "tfidf_probability"
+      ],
+      "field_count": 11,
+      "compression": [
+        "ZSTD"
+      ]
+    },
+    "model": {
+      "path": "outputs\\models\\w5b_tfidf_logistic_regression.joblib",
+      "size_bytes": 112414,
+      "mtime_ns": 1785480087621244500,
+      "mtime_utc": "2026-07-31T06:41:27.621244+00:00",
+      "sha256": "376b3c367b3abaf107b0f0fd9ea7ea800f1e1ac478bc8e805101801fe0e34712"
+    }
+  },
+  "required_reports": [
+    "data\\amazon_reviews_2023\\reports\\w5b\\w5b_execution.log",
+    "data\\amazon_reviews_2023\\reports\\w5b\\w5b_input_manifest.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\final_label_summary.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\final_label_counts.csv",
+    "data\\amazon_reviews_2023\\reports\\w5b\\inter_annotator_agreement.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\inter_annotator_agreement.md",
+    "data\\amazon_reviews_2023\\reports\\w5b\\time_split_manifest.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\time_split_counts.csv",
+    "data\\amazon_reviews_2023\\reports\\w5b\\rating_baseline_evaluation.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\keyword_baseline_evaluation.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\dummy_baseline_evaluation.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\tfidf_logistic_evaluation.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\confusion_matrices.csv",
+    "data\\amazon_reviews_2023\\reports\\w5b\\model_top_features.csv",
+    "data\\amazon_reviews_2023\\reports\\w5b\\model_error_summary.json",
+    "data\\amazon_reviews_2023\\reports\\w5b\\w5b_summary.md",
+    "data\\amazon_reviews_2023\\reports\\w5b\\w5b_disk_usage.json"
+  ],
+  "report_row_level_text_or_identifier_leakage": false,
+  "limitations": [
+    "The 300-review annotation sample is stratified and not population-representative.",
+    "Device-specific test metrics are exploratory and may have insufficient support.",
+    "Smart plugs are primary, smart bulbs exploratory, and smart switches a case study.",
+    "W6 readiness requires research-design review before any full-corpus scoring."
+  ]
+}

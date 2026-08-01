@@ -1,0 +1,83 @@
+[release]
+version = "w3-v1.4.0"
+status = "formal_versioned_release"
+base_version = "w3-v1.3.2"
+recovery_draft_version = "w3-v1.4.0-draft"
+promotion_phase = "W3R-C"
+minimum_free_gib = 60
+scope = "smart_plug_smart_bulb_smart_switch_only"
+
+[frozen_rule_sources]
+base_rules = "config/product_filter_rules.toml"
+base_rules_sha256 = "81aec360771b842a1e327749a99400d4588823de60b75831e1784fdc9868943f"
+recovery_rules = "config/product_filter_rules_w3r_v1_4_draft.toml"
+recovery_rules_sha256 = "4e56ec3018b549e60eb8418576486875143ed60b52e2105aebb4b396d003b6d2"
+interpretation = "The two hashed source configurations freeze the complete W3 and W3R-A rule vocabularies; W3R-B final human decisions are authoritative for the 23 recovery candidates."
+
+[inputs]
+baseline_products = "data/amazon_reviews_2023/processed/target_products.parquet"
+baseline_products_sha256 = "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d"
+draft_products = "data/amazon_reviews_2023/interim/w3r_a/proposed_target_products_w3_v1_4_draft.parquet"
+draft_products_sha256 = "f8a9962632aaeebe2613b8e95de3e09b9ad0aad7efb1f7d71fe61bf4b0ea7f30"
+final_human_decisions = "data/amazon_reviews_2023/reports/w3r_b/final_recovery_decisions.json"
+final_human_decisions_sha256 = "0314bbbe000cc8719a7c4f8c4f48549f9807838f493e4990f501c62a531296fe"
+
+[expected_counts]
+baseline_total = 106
+baseline_smart_plug = 95
+baseline_smart_bulb = 8
+baseline_smart_switch = 3
+reviewed_recovery_candidates = 23
+promoted_total = 19
+promoted_smart_bulb = 17
+promoted_smart_switch = 2
+held_total = 1
+excluded_total = 3
+formal_total = 125
+formal_smart_plug = 95
+formal_smart_bulb = 25
+formal_smart_switch = 5
+
+[promotion_policy]
+required_final_decision = "include"
+required_final_label = "correct_target"
+allowed_promoted_device_types = ["smart_bulb", "smart_switch"]
+smart_plug_policy = "retain_95_baseline_products_without_expansion"
+hold_policy = "do_not_promote"
+exclude_policy = "do_not_promote"
+duplicate_key = "parent_asin"
+ordering = "retain_baseline_order_then_append_promoted_products_sorted_by_parent_asin"
+
+[management_fields]
+filter_version = "w3-v1.4.0"
+baseline_promotion_source = "W3_BASELINE"
+baseline_promotion_basis = "retained_from_w3_v1_3_2"
+baseline_human_review_status = "baseline_retained"
+recovered_promotion_source = "W3R-B"
+recovered_promotion_basis = "blind_independent_review_and_adjudication"
+recovered_human_review_status = "accepted"
+
+[recovered_schema_defaults]
+primary_source_row_number = -1
+primary_source_row_number_meaning = "not_available_in_w3r_a_draft"
+price = ""
+candidate_device_terms = []
+candidate_smart_terms = []
+matched_fields = []
+coalesced_fields = []
+title_only = false
+candidate_source_record_count = 1
+duplicate_resolution_rule = "w3r_a_proposed_unique_parent"
+ambiguity_status = "resolved_by_blind_human_review"
+candidate_reason = "W3R-B blind independent review and adjudication"
+note = "Defaults preserve the W3 schema without inventing unavailable raw-row or term-match evidence. average_rating and rating_number remain null for recovered products."
+
+[protections]
+overwrite_baseline_target_products = false
+read_review_jsonl = false
+read_review_level_base = false
+read_raw_jsonl = false
+read_gzip = false
+run_w4r = false
+run_w5 = false
+git_commit = false

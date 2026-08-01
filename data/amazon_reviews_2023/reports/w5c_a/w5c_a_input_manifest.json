@@ -1,0 +1,111 @@
+{
+  "phase": "W5-C-A",
+  "started_at_utc": "2026-07-31T07:23:22.199230+00:00",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9",
+    "python_bits": 64,
+    "pandas_version": "3.0.5",
+    "pyarrow_version": "25.0.0",
+    "scikit_learn_version": "1.9.0",
+    "joblib_version": "1.5.3",
+    "numpy_version": "2.4.6"
+  },
+  "initial_free_gib": 117.34098434448242,
+  "inputs": {
+    "formal_review_parquet": {
+      "path": "data\\amazon_reviews_2023\\processed\\review_level_base_w3_v1_4_0.parquet",
+      "size_bytes": 14496140,
+      "mtime_ns": 1785467791236342300,
+      "mtime_utc": "2026-07-31T03:16:31.236342+00:00",
+      "sha256": "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553",
+      "rows": 55877
+    },
+    "existing_sampling_frame": {
+      "path": "data\\amazon_reviews_2023\\interim\\w5a\\annotation_sampling_frame.parquet",
+      "size_bytes": 83202,
+      "mtime_ns": 1785472297803992100,
+      "mtime_utc": "2026-07-31T04:31:37.803992+00:00",
+      "sha256": "68a46fa0cb83ff38c43f48b6cb2bb8a7f85c8f6360b06a23829f85d2c8f70a06",
+      "rows": 300,
+      "fields": [
+        "blind_review_id",
+        "duplicate_key",
+        "parent_asin",
+        "device_type",
+        "review_text",
+        "rating",
+        "review_datetime",
+        "source_domain",
+        "keyword_candidate_hit",
+        "keyword_failure_types",
+        "rating_stratum",
+        "time_stratum",
+        "sampling_stratum",
+        "selected_for_double_review"
+      ],
+      "field_count": 14,
+      "compression": [
+        "ZSTD"
+      ]
+    },
+    "existing_labels": {
+      "path": "data\\amazon_reviews_2023\\processed\\annotation_labels_w5b_v1_0.parquet",
+      "size_bytes": 24826,
+      "mtime_ns": 1785480087587097200,
+      "mtime_utc": "2026-07-31T06:41:27.587097+00:00",
+      "sha256": "1a9ec1a078895ed5fe45f07195fdd2055e59e10d7eeaed0eafb8975ffad13d23",
+      "rows": 300,
+      "fields": [
+        "blind_review_id",
+        "duplicate_key",
+        "parent_asin",
+        "device_type",
+        "review_datetime",
+        "final_failure_binary",
+        "final_failure_type",
+        "final_severity",
+        "final_persistence",
+        "annotation_source",
+        "label_status",
+        "annotation_version",
+        "keyword_candidate_hit"
+      ],
+      "field_count": 13,
+      "compression": [
+        "ZSTD"
+      ]
+    },
+    "pilot_model": {
+      "path": "outputs\\models\\w5b_tfidf_logistic_regression.joblib",
+      "size_bytes": 112414,
+      "mtime_ns": 1785480087621244500,
+      "mtime_utc": "2026-07-31T06:41:27.621244+00:00",
+      "sha256": "376b3c367b3abaf107b0f0fd9ea7ea800f1e1ac478bc8e805101801fe0e34712"
+    },
+    "annotation_rules": {
+      "path": "config\\annotation_rules_w5a.toml",
+      "size_bytes": 4270,
+      "mtime_ns": 1785471840144086500,
+      "mtime_utc": "2026-07-31T04:24:00.144087+00:00",
+      "sha256": "6c52eb69bb06cbb6c1b155a51e8d444d2f98c57b07e38e78cad43aa1cb386878"
+    },
+    "keyword_rules": {
+      "path": "config\\failure_keyword_rules_w5a.toml",
+      "size_bytes": 5220,
+      "mtime_ns": 1785472160631848200,
+      "mtime_utc": "2026-07-31T04:29:20.631848+00:00",
+      "sha256": "1a28ca4b9feb814c631629aee393f7d0ec0e4e42d8bcf36c9fcf49e9a8c34983"
+    },
+    "w5b_status": {
+      "path": "data\\amazon_reviews_2023\\reports\\w5b\\w5b_status.json",
+      "size_bytes": 11642,
+      "mtime_ns": 1785480087850722100,
+      "mtime_utc": "2026-07-31T06:41:27.850722+00:00",
+      "sha256": "77eddb83f879690adc707f2516110cad7f2e69f5e12bff8cb0f17dbf2a4bd8b2"
+    }
+  },
+  "raw_jsonl_read": false,
+  "compressed_source_read": false,
+  "model_refit": false
+}

@@ -1,0 +1,96 @@
+[rules]
+version = "w5a-keyword-v1.0-draft"
+annotation_version = "w5a-annotation-v1.0-draft"
+case_sensitive = false
+normalization = "NFKC plus whitespace normalization"
+purpose = "Transparent preliminary keyword/rule baseline and annotation stratification only"
+ratings_used = false
+final_classifier = false
+
+[context]
+device_function_patterns = [
+  '''\b(?:plug|outlet|socket|bulb|light|switch|dimmer|relay|device|unit)\b''',
+  '''\b(?:power|electri(?:c|cal)|connect|pair|setup|install|app|firmware|automation|schedule|timer|alexa|google home|homekit|siri|zigbee|z-wave|matter|wi-?fi|bluetooth)\b'''
+]
+general_failure_patterns = [
+  '''\b(?:doesn''t|does not|didn''t|did not|won''t|will not|can''t|cannot|couldn''t|could not)\s+(?:work|turn on|turn off|connect|pair|respond|stay connected)\b''',
+  '''\b(?:stopped|quit|failed|broken|dead|defective|unresponsive|unusable|malfunction(?:ed|ing)?)\b''',
+  '''\b(?:not working|no longer works?|never worked|does nothing)\b'''
+]
+non_engineering_only_patterns = [
+  '''\b(?:shipping|delivery|package|packaging|box arrived|seller|customer service|refund delay|price|expensive|cheap price|color only|appearance only)\b'''
+]
+[[category]]
+code = "F1"
+name = "power_hardware"
+patterns = [
+  '''\b(?:no power|lost power|power failure|power supply failed|won''t power|will not power)\b''',
+  '''\b(?:won''t turn on|will not turn on|doesn''t turn on|does not turn on|won''t turn off|will not turn off)\b''',
+  '''\b(?:relay (?:failed|stuck|clicks?|chatter)|stuck (?:on|off)|dead unit|hardware fail(?:ure|ed)?)\b''',
+  '''\b(?:flicker(?:s|ed|ing)?|flashing unexpectedly|burned out|burnt out)\b'''
+]
+[[category]]
+code = "F2"
+name = "connectivity_network"
+patterns = [
+  '''\b(?:disconnect(?:s|ed|ing)?|keeps? disconnecting|drops? (?:the )?(?:connection|wi-?fi)|offline)\b''',
+  '''\b(?:won''t connect|will not connect|cannot connect|can''t connect|failed to connect|connection fail(?:s|ed|ure)?)\b''',
+  '''\b(?:wi-?fi|network|bluetooth|zigbee|z-wave|matter)\b.{0,45}\b(?:fail(?:s|ed|ure)?|drop(?:s|ped)?|disconnect(?:s|ed)?|offline|unreachable)\b'''
+]
+
+[[category]]
+code = "F3"
+name = "installation_pairing"
+patterns = [
+  '''\b(?:won''t pair|will not pair|cannot pair|can''t pair|pairing fail(?:s|ed|ure)?|failed to pair)\b''',
+  '''\b(?:setup|installation|installing|configuration)\b.{0,45}\b(?:fail(?:s|ed|ure)?|stuck|impossible|won''t|cannot|can''t)\b''',
+  '''\b(?:reset|factory reset|reinstall(?:ed|ing)?)\b.{0,45}\b(?:didn''t|did not|doesn''t|does not|failed|still not|won''t)\b'''
+]
+
+[[category]]
+code = "F4"
+name = "software_firmware_app"
+patterns = [
+  '''\b(?:app|software|firmware|update)\b.{0,45}\b(?:crash(?:es|ed)?|freeze(?:s|froze|frozen)?|fail(?:s|ed|ure)?|broken|unresponsive|won''t open|will not open)\b''',
+  '''\b(?:firmware update|software update)\b.{0,45}\b(?:bricked|stopped working|no longer works?|failed)\b''',
+  '''\b(?:app crashes?|app freezes?|app not working|app is unusable|firmware bug)\b'''
+]
+
+[[category]]
+code = "F5"
+name = "automation_compatibility"
+patterns = [
+  '''\b(?:alexa|google home|homekit|siri|smartthings|automation|schedule|timer|routine)\b.{0,55}\b(?:doesn''t work|does not work|won''t work|will not work|fail(?:s|ed|ure)?|stopped|unresponsive|incompatible|not compatible)\b''',
+  '''\b(?:doesn''t work|does not work|won''t work|will not work|fail(?:s|ed)?|incompatible|not compatible)\b.{0,55}\b(?:with\s+)?(?:alexa|google home|homekit|siri|smartthings|zigbee|z-wave|matter)\b''',
+  '''\b(?:not compatible|incompatible)\b.{0,45}\b(?:alexa|google home|homekit|siri|smartthings|zigbee|z-wave|matter)\b''',
+  '''\b(?:schedule|timer|routine|automation)\b.{0,45}\b(?:miss(?:es|ed)?|wrong|random|fail(?:s|ed)?|doesn''t run|does not run)\b'''
+]
+
+[[category]]
+code = "F6"
+name = "instability_latency_restart"
+patterns = [
+  '''\b(?:intermittent(?:ly)?|unreliable|random(?:ly)?|sporadic(?:ally)?|unstable)\b''',
+  '''\b(?:reboot(?:s|ed|ing)?|restart(?:s|ed|ing)?)\b.{0,35}\b(?:random(?:ly)?|itself|keeps?|repeated(?:ly)?)\b''',
+  '''\b(?:lag|latency|delay(?:ed)?)\b.{0,35}\b(?:seconds?|minutes?|unresponsive|unreliable|too long)\b''',
+  '''\b(?:works? sometimes|sometimes works?|keeps? failing|fails? repeatedly)\b'''
+]
+
+[[category]]
+code = "F7"
+name = "safety_thermal_electrical"
+patterns = [
+  '''\b(?:overheat(?:s|ed|ing)?|overheated|too hot|extremely hot|burning hot)\b''',
+  '''\b(?:spark(?:s|ed|ing)?|smoke(?:d|ing)?|burning smell|smell(?:s|ed)? burnt|melt(?:s|ed|ing)?)\b''',
+  '''\b(?:caught fire|fire hazard|electrical hazard|electric shock|shocked me|short circuit|scorch(?:ed|ing)?)\b'''
+]
+
+[[category]]
+code = "F8"
+name = "durability_lifetime"
+patterns = [
+  '''\b(?:failed|died|broke|stopped working|quit working)\b.{0,45}\b(?:after|within)\s+(?:a|one|two|three|few|\d+)\s+(?:day|days|week|weeks|month|months|year|years)\b''',
+  '''\b(?:lasted only|didn''t last|did not last|short lifespan|short life|premature failure)\b''',
+  '''\b(?:replacement|replaced)\b.{0,45}\b(?:failed|broke|died|stopped working|same problem)\b''',
+  '''\b(?:second|third|multiple)\b.{0,35}\b(?:unit|plug|bulb|switch)\b.{0,35}\b(?:failed|broke|died)\b'''
+]

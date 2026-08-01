@@ -1,0 +1,68 @@
+{
+  "base_version": "w3-v1.3.2",
+  "by_device_type": {
+    "smart_bulb": {
+      "all_gate_counts": {
+        "accessory": 4,
+        "approved_identity_phrase_absent": 1416,
+        "conditional_without_specific_smart_control_evidence": 9,
+        "identity_not_in_title_or_categories": 753,
+        "insufficient_evidence": 216,
+        "multi-type conflict": 631,
+        "non_smart": 30,
+        "smart_evidence_not_in_title_or_categories": 111,
+        "wrong_product": 1297
+      },
+      "excluded_candidate_pool": 1598,
+      "potential_false_negatives": 17,
+      "recoverable": 17,
+      "requested_gate_counts": {
+        "accessory": 4,
+        "approved_identity_phrase_absent": 1416,
+        "conditional_without_specific_smart_control_evidence": 9,
+        "identity_not_in_title_or_categories": 753,
+        "insufficient_evidence": 216,
+        "multi-type conflict": 631,
+        "non_smart": 30,
+        "required_target_context_absent": 0,
+        "smart_evidence_not_in_title_or_categories": 111,
+        "wrong_product": 1297
+      }
+    },
+    "smart_switch": {
+      "all_gate_counts": {
+        "accessory": 77,
+        "approved_identity_phrase_absent": 3705,
+        "conditional_without_specific_smart_control_evidence": 343,
+        "identity_not_in_title_or_categories": 1105,
+        "insufficient_evidence": 1280,
+        "multi-type conflict": 1301,
+        "non_smart": 34,
+        "required_target_context_absent": 3155,
+        "smart_evidence_not_in_title_or_categories": 1828,
+        "wrong_product": 2734
+      },
+      "excluded_candidate_pool": 3999,
+      "potential_false_negatives": 313,
+      "recoverable": 6,
+      "requested_gate_counts": {
+        "accessory": 77,
+        "approved_identity_phrase_absent": 3705,
+        "conditional_without_specific_smart_control_evidence": 343,
+        "identity_not_in_title_or_categories": 1105,
+        "insufficient_evidence": 1280,
+        "multi-type conflict": 1301,
+        "non_smart": 34,
+        "required_target_context_absent": 3155,
+        "smart_evidence_not_in_title_or_categories": 1828,
+        "wrong_product": 2734
+      }
+    }
+  },
+  "definitions": {
+    "potential_false_negative": "A baseline-excluded candidate assigned include or hold by the draft screen; this is diagnostic, not ground truth.",
+    "recoverable": "A draft-positive candidate whose metadata rule-revision review label is correct_target."
+  },
+  "draft_version": "w3-v1.4.0-draft",
+  "generated_at": "2026-07-29T13:00:33.829908+00:00"
+}

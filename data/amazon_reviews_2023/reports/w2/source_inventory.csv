@@ -1,0 +1,5 @@
+﻿id,file,record_type,domain,file_bytes,exact_nonempty_records,json_parse_success,json_parse_errors,empty_lines,non_object_json,observed_fields,parent_asin_key_absent,parent_asin_effective_missing,timestamp_unit,timestamp_min_utc,timestamp_max_utc,duration_seconds,peak_process_rss_bytes,readonly
+meta_electronics,meta_categories/meta_Electronics.jsonl,metadata,Electronics,5246144134,1610012,1610012,0,0,0,16,0,0,,,,19.944,38264832,True
+meta_home_and_kitchen,meta_categories/meta_Home_and_Kitchen.jsonl,metadata,Home_and_Kitchen,11788767944,3735584,3735584,0,0,0,16,0,0,,,,50.372,38391808,True
+reviews_electronics,review_categories/Electronics.jsonl,reviews,Electronics,22616233652,43886944,43886944,0,0,0,10,0,0,milliseconds,1996-11-18T16:58:00+00:00,2023-09-13T17:26:21.867000+00:00,260.619,39202816,True
+reviews_home_and_kitchen,review_categories/Home_and_Kitchen.jsonl,reviews,Home_and_Kitchen,31408889188,67409944,67409944,0,0,0,10,0,0,milliseconds,1998-05-29T02:46:44+00:00,2023-09-13T02:17:45.551000+00:00,435.48,39305216,True

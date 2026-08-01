@@ -1,0 +1,224 @@
+{
+  "phase": "W4R",
+  "started_at": "2026-07-31T11:05:25.468099+08:00",
+  "generated_at": "2026-07-31T11:16:35.012740+08:00",
+  "configuration_fingerprint": "5527e6a3086f0e298278309e98880173047a577e642a4b39b3122f342e00734d",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9",
+    "python_architecture": "64bit",
+    "project_venv_in_use": true,
+    "duckdb_version": "1.5.5",
+    "pyarrow_version": "25.0.0",
+    "polars_version": "1.43.0",
+    "orjson_version": "3.11.9",
+    "lingua_version": "2.1.1"
+  },
+  "configuration": {
+    "w4r_config": {
+      "path": "config\\review_cleaning_rules_w4r.toml",
+      "size_bytes": 3727,
+      "mtime_ns": 1785466885984556300,
+      "mtime_utc": "2026-07-31T03:01:25.984556+00:00",
+      "readonly": false,
+      "sha256": "84c229eecea42e8843e2e86093ecaf8f2b360afded9f5b4df122f990044ba74d"
+    },
+    "w4_base_config": {
+      "path": "config\\review_cleaning_rules.toml",
+      "size_bytes": 1884,
+      "mtime_ns": 1785325588878206200,
+      "mtime_utc": "2026-07-29T11:46:28.878206+00:00",
+      "readonly": false,
+      "sha256": "456a5e7c7085c134e95b0aa09a030e3bd8101a0327c101d166f54c634f273fce"
+    },
+    "w4_base_script": {
+      "path": "scripts\\extract_and_clean_reviews.py",
+      "size_bytes": 75004,
+      "mtime_ns": 1785327178437490200,
+      "mtime_utc": "2026-07-29T12:12:58.437490+00:00",
+      "readonly": false,
+      "sha256": "a639f197420f58aa564ece71ee7e6be25f75e4299a9c1a9f8e4d856366cc6683"
+    },
+    "w4r_script": {
+      "path": "scripts\\extract_and_clean_reviews_w4r.py",
+      "size_bytes": 58508,
+      "mtime_ns": 1785466885986062500,
+      "mtime_utc": "2026-07-31T03:01:25.986063+00:00",
+      "readonly": false,
+      "sha256": "e0cd61723eeb4af727d4d97c4d93f5fad3523e91d058e94b9b0719f751604b99"
+    }
+  },
+  "statuses": {
+    "w2": "PASS",
+    "w4": "PASS",
+    "w3r_c": "PASS"
+  },
+  "products": {
+    "baseline": {
+      "path": "data\\amazon_reviews_2023\\processed\\target_products.parquet",
+      "size_bytes": 85142,
+      "mtime_ns": 1785316071556196800,
+      "mtime_utc": "2026-07-29T09:07:51.556197+00:00",
+      "readonly": false,
+      "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d",
+      "rows": 106,
+      "row_groups": 1,
+      "fields": [
+        "parent_asin",
+        "source_domains",
+        "primary_source_domain",
+        "primary_source_row_number",
+        "main_category",
+        "title",
+        "categories",
+        "features",
+        "description",
+        "store",
+        "details",
+        "price",
+        "average_rating",
+        "rating_number",
+        "candidate_device_types",
+        "eligible_device_types",
+        "candidate_device_terms",
+        "candidate_smart_terms",
+        "matched_fields",
+        "exclusion_reasons",
+        "candidate_confidence",
+        "provisional_device_type",
+        "device_type",
+        "eligible_after_exclusions",
+        "ambiguity_status",
+        "candidate_reason",
+        "title_only",
+        "filter_version",
+        "candidate_source_record_count",
+        "duplicate_resolution_rule",
+        "coalesced_fields",
+        "content_fingerprint",
+        "core_nonempty_count",
+        "identity_text_chars"
+      ],
+      "schema": "parent_asin: string not null\nsource_domains: list<element: string> not null\n  child 0, element: string\nprimary_source_domain: string not null\nprimary_source_row_number: int64 not null\nmain_category: string\ntitle: string\ncategories: string not null\nfeatures: string not null\ndescription: string not null\nstore: string\ndetails: string not null\nprice: string not null\naverage_rating: double\nrating_number: int64\ncandidate_device_types: list<element: string> not null\n  child 0, element: string\neligible_device_types: list<element: string> not null\n  child 0, element: string\ncandidate_device_terms: list<element: string> not null\n  child 0, element: string\ncandidate_smart_terms: list<element: string> not null\n  child 0, element: string\nmatched_fields: list<element: string> not null\n  child 0, element: string\nexclusion_reasons: list<element: string> not null\n  child 0, element: string\ncandidate_confidence: string not null\nprovisional_device_type: string not null\ndevice_type: string\neligible_after_exclusions: bool not null\nambiguity_status: string not null\ncandidate_reason: string not null\ntitle_only: bool not null\nfilter_version: string not null\ncandidate_source_record_count: int32 not null\nduplicate_resolution_rule: string not null\ncoalesced_fields: list<element: string> not null\n  child 0, element: string\ncontent_fingerprint: string not null\ncore_nonempty_count: int16 not null\nidentity_text_chars: int32 not null",
+      "compression_by_column": [
+        "ZSTD"
+      ]
+    },
+    "formal": {
+      "path": "data\\amazon_reviews_2023\\processed\\target_products_w3_v1_4_0.parquet",
+      "size_bytes": 94709,
+      "mtime_ns": 1785389829708298200,
+      "mtime_utc": "2026-07-30T05:37:09.708298+00:00",
+      "readonly": false,
+      "sha256": "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88",
+      "rows": 125,
+      "row_groups": 1,
+      "fields": [
+        "parent_asin",
+        "source_domains",
+        "primary_source_domain",
+        "primary_source_row_number",
+        "main_category",
+        "title",
+        "categories",
+        "features",
+        "description",
+        "store",
+        "details",
+        "price",
+        "average_rating",
+        "rating_number",
+        "candidate_device_types",
+        "eligible_device_types",
+        "candidate_device_terms",
+        "candidate_smart_terms",
+        "matched_fields",
+        "exclusion_reasons",
+        "candidate_confidence",
+        "provisional_device_type",
+        "device_type",
+        "eligible_after_exclusions",
+        "ambiguity_status",
+        "candidate_reason",
+        "title_only",
+        "filter_version",
+        "candidate_source_record_count",
+        "duplicate_resolution_rule",
+        "coalesced_fields",
+        "content_fingerprint",
+        "core_nonempty_count",
+        "identity_text_chars",
+        "promotion_source",
+        "promotion_basis",
+        "human_review_status",
+        "previous_filter_version"
+      ],
+      "schema": "parent_asin: string not null\nsource_domains: list<element: string> not null\n  child 0, element: string\nprimary_source_domain: string not null\nprimary_source_row_number: int64 not null\nmain_category: string\ntitle: string\ncategories: string not null\nfeatures: string not null\ndescription: string not null\nstore: string\ndetails: string not null\nprice: string not null\naverage_rating: double\nrating_number: int64\ncandidate_device_types: list<element: string> not null\n  child 0, element: string\neligible_device_types: list<element: string> not null\n  child 0, element: string\ncandidate_device_terms: list<element: string> not null\n  child 0, element: string\ncandidate_smart_terms: list<element: string> not null\n  child 0, element: string\nmatched_fields: list<element: string> not null\n  child 0, element: string\nexclusion_reasons: list<element: string> not null\n  child 0, element: string\ncandidate_confidence: string not null\nprovisional_device_type: string not null\ndevice_type: string\neligible_after_exclusions: bool not null\nambiguity_status: string not null\ncandidate_reason: string not null\ntitle_only: bool not null\nfilter_version: string not null\ncandidate_source_record_count: int32 not null\nduplicate_resolution_rule: string not null\ncoalesced_fields: list<element: string> not null\n  child 0, element: string\ncontent_fingerprint: string not null\ncore_nonempty_count: int16 not null\nidentity_text_chars: int32 not null\npromotion_source: string not null\npromotion_basis: string not null\nhuman_review_status: string not null\nprevious_filter_version: string not null",
+      "compression_by_column": [
+        "ZSTD"
+      ]
+    },
+    "incremental_count": 19
+  },
+  "baseline_reviews": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "size_bytes": 12511277,
+    "mtime_ns": 1785326707561071300,
+    "mtime_utc": "2026-07-29T12:05:07.561071+00:00",
+    "readonly": false,
+    "sha256": "3ebf5d7dd14883d09b05e35573235e4524ee1ff675c1a5b9841d889c063f1e7b",
+    "rows": 54870,
+    "row_groups": 3,
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string",
+    "compression_by_column": [
+      "ZSTD"
+    ]
+  },
+  "raw_reviews_before": {
+    "reviews_electronics": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+      "size_bytes": 22616233652,
+      "mtime_ns": 1737070106000000000,
+      "mtime_utc": "2025-01-16T23:28:26+00:00",
+      "readonly": true
+    },
+    "reviews_home_and_kitchen": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+      "size_bytes": 31408889188,
+      "mtime_ns": 1737071330000000000,
+      "mtime_utc": "2025-01-16T23:48:50+00:00",
+      "readonly": true
+    }
+  },
+  "private_salt": {
+    "path": "config\\private\\user_hash_salt.txt",
+    "existed_before_w4r": true,
+    "reused": true,
+    "value_or_hash_recorded": false
+  }
+}

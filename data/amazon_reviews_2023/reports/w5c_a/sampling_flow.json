@@ -1,0 +1,1605 @@
+{
+  "phase": "W5-C-A",
+  "sampling_version": "w5c-a-sampling-v1.0",
+  "formal_reviews": 55877,
+  "existing_annotated_reviews_excluded": 300,
+  "eligible_unannotated_reviews": 55577,
+  "new_sample_rows": 1200,
+  "new_sample_unique_duplicate_keys": 1200,
+  "new_sample_unique_parent_asin": 98,
+  "new_device_counts": {
+    "smart_bulb": 240,
+    "smart_plug": 927,
+    "smart_switch": 33
+  },
+  "remaining_device_counts_before_sampling": {
+    "smart_bulb": 1147,
+    "smart_plug": 54397,
+    "smart_switch": 33
+  },
+  "all_remaining_smart_switch_selected": true,
+  "existing_overlap_count": 0,
+  "double_review_rows": 240,
+  "cumulative_annotation_rows": 1500,
+  "cumulative_double_review_rows": 300,
+  "cumulative_double_review_share": 0.2,
+  "scoring_summary": {
+    "rows_scored": 55577,
+    "model_refit": false,
+    "predictions_used_as_labels": false,
+    "probability_min": 0.1816534087515725,
+    "probability_max": 0.7691562342486618,
+    "probability_mean": 0.43270510575358617,
+    "high_uncertainty_rows": 34024,
+    "rating_keyword_disagreement_rows": 5720,
+    "keyword_hit_rows": 4115,
+    "low_star_rows": 6755,
+    "bucket_counts": {
+      "diversity_control": 20521,
+      "high_uncertainty": 34024,
+      "rating_keyword_disagreement": 1032
+    }
+  },
+  "selection_audit": [
+    {
+      "purpose": "batch_1|smart_plug",
+      "requested": 232,
+      "selected": 232,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 92,
+          "available": 33120,
+          "selected_before_fallback": 92,
+          "selected_final": 92
+        },
+        "rating_keyword_disagreement": {
+          "target": 69,
+          "available": 999,
+          "selected_before_fallback": 69,
+          "selected_final": 69
+        },
+        "diversity_control": {
+          "target": 71,
+          "available": 20278,
+          "selected_before_fallback": 71,
+          "selected_final": 71
+        }
+      },
+      "unique_parent_asin": 79,
+      "batch_id": "batch_1",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_1|smart_bulb",
+      "requested": 60,
+      "selected": 60,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 24,
+          "available": 880,
+          "selected_before_fallback": 24,
+          "selected_final": 24
+        },
+        "rating_keyword_disagreement": {
+          "target": 18,
+          "available": 31,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        },
+        "diversity_control": {
+          "target": 18,
+          "available": 236,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        }
+      },
+      "unique_parent_asin": 18,
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_1|smart_switch",
+      "requested": 8,
+      "selected": 8,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 3,
+          "available": 24,
+          "selected_before_fallback": 3,
+          "selected_final": 3
+        },
+        "rating_keyword_disagreement": {
+          "target": 2,
+          "available": 2,
+          "selected_before_fallback": 2,
+          "selected_final": 2
+        },
+        "diversity_control": {
+          "target": 3,
+          "available": 7,
+          "selected_before_fallback": 3,
+          "selected_final": 3
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_1",
+      "device_type": "smart_switch"
+    },
+    {
+      "purpose": "batch_2|smart_plug",
+      "requested": 232,
+      "selected": 232,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 92,
+          "available": 33028,
+          "selected_before_fallback": 92,
+          "selected_final": 92
+        },
+        "rating_keyword_disagreement": {
+          "target": 69,
+          "available": 930,
+          "selected_before_fallback": 69,
+          "selected_final": 69
+        },
+        "diversity_control": {
+          "target": 71,
+          "available": 20207,
+          "selected_before_fallback": 71,
+          "selected_final": 71
+        }
+      },
+      "unique_parent_asin": 70,
+      "batch_id": "batch_2",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_2|smart_bulb",
+      "requested": 60,
+      "selected": 60,
+      "fallback_rows": 5,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 24,
+          "available": 856,
+          "selected_before_fallback": 24,
+          "selected_final": 29
+        },
+        "rating_keyword_disagreement": {
+          "target": 18,
+          "available": 13,
+          "selected_before_fallback": 13,
+          "selected_final": 13
+        },
+        "diversity_control": {
+          "target": 18,
+          "available": 218,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        }
+      },
+      "unique_parent_asin": 13,
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_2|smart_switch",
+      "requested": 8,
+      "selected": 8,
+      "fallback_rows": 2,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 3,
+          "available": 21,
+          "selected_before_fallback": 3,
+          "selected_final": 5
+        },
+        "rating_keyword_disagreement": {
+          "target": 2,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 3,
+          "available": 4,
+          "selected_before_fallback": 3,
+          "selected_final": 3
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_2",
+      "device_type": "smart_switch"
+    },
+    {
+      "purpose": "batch_3|smart_plug",
+      "requested": 232,
+      "selected": 232,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 92,
+          "available": 32936,
+          "selected_before_fallback": 92,
+          "selected_final": 92
+        },
+        "rating_keyword_disagreement": {
+          "target": 69,
+          "available": 861,
+          "selected_before_fallback": 69,
+          "selected_final": 69
+        },
+        "diversity_control": {
+          "target": 71,
+          "available": 20136,
+          "selected_before_fallback": 71,
+          "selected_final": 71
+        }
+      },
+      "unique_parent_asin": 61,
+      "batch_id": "batch_3",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_3|smart_bulb",
+      "requested": 60,
+      "selected": 60,
+      "fallback_rows": 18,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 24,
+          "available": 827,
+          "selected_before_fallback": 24,
+          "selected_final": 40
+        },
+        "rating_keyword_disagreement": {
+          "target": 18,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 18,
+          "available": 200,
+          "selected_before_fallback": 18,
+          "selected_final": 20
+        }
+      },
+      "unique_parent_asin": 10,
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_3|smart_switch",
+      "requested": 8,
+      "selected": 8,
+      "fallback_rows": 4,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 3,
+          "available": 16,
+          "selected_before_fallback": 3,
+          "selected_final": 7
+        },
+        "rating_keyword_disagreement": {
+          "target": 2,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 3,
+          "available": 1,
+          "selected_before_fallback": 1,
+          "selected_final": 1
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_3",
+      "device_type": "smart_switch"
+    },
+    {
+      "purpose": "batch_4|smart_plug",
+      "requested": 231,
+      "selected": 231,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 92,
+          "available": 32844,
+          "selected_before_fallback": 92,
+          "selected_final": 92
+        },
+        "rating_keyword_disagreement": {
+          "target": 69,
+          "available": 792,
+          "selected_before_fallback": 69,
+          "selected_final": 69
+        },
+        "diversity_control": {
+          "target": 70,
+          "available": 20065,
+          "selected_before_fallback": 70,
+          "selected_final": 70
+        }
+      },
+      "unique_parent_asin": 58,
+      "batch_id": "batch_4",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_4|smart_bulb",
+      "requested": 60,
+      "selected": 60,
+      "fallback_rows": 18,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 24,
+          "available": 787,
+          "selected_before_fallback": 24,
+          "selected_final": 39
+        },
+        "rating_keyword_disagreement": {
+          "target": 18,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 18,
+          "available": 180,
+          "selected_before_fallback": 18,
+          "selected_final": 21
+        }
+      },
+      "unique_parent_asin": 8,
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_4|smart_switch",
+      "requested": 9,
+      "selected": 9,
+      "fallback_rows": 6,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 3,
+          "available": 9,
+          "selected_before_fallback": 3,
+          "selected_final": 9
+        },
+        "rating_keyword_disagreement": {
+          "target": 2,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 4,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_4",
+      "device_type": "smart_switch"
+    }
+  ],
+  "double_selection_audit": [
+    {
+      "purpose": "batch_1|double|smart_plug",
+      "requested": 46,
+      "selected": 46,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 18,
+          "available": 92,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        },
+        "rating_keyword_disagreement": {
+          "target": 13,
+          "available": 69,
+          "selected_before_fallback": 13,
+          "selected_final": 13
+        },
+        "diversity_control": {
+          "target": 15,
+          "available": 71,
+          "selected_before_fallback": 15,
+          "selected_final": 15
+        }
+      },
+      "unique_parent_asin": 38,
+      "batch_id": "batch_1",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_1|double|smart_bulb",
+      "requested": 12,
+      "selected": 12,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 4,
+          "available": 24,
+          "selected_before_fallback": 4,
+          "selected_final": 4
+        },
+        "rating_keyword_disagreement": {
+          "target": 3,
+          "available": 18,
+          "selected_before_fallback": 3,
+          "selected_final": 3
+        },
+        "diversity_control": {
+          "target": 5,
+          "available": 18,
+          "selected_before_fallback": 5,
+          "selected_final": 5
+        }
+      },
+      "unique_parent_asin": 8,
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_1|double|smart_switch",
+      "requested": 2,
+      "selected": 2,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 0,
+          "available": 3,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "rating_keyword_disagreement": {
+          "target": 0,
+          "available": 2,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 2,
+          "available": 3,
+          "selected_before_fallback": 2,
+          "selected_final": 2
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_1",
+      "device_type": "smart_switch"
+    },
+    {
+      "purpose": "batch_2|double|smart_plug",
+      "requested": 46,
+      "selected": 46,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 18,
+          "available": 92,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        },
+        "rating_keyword_disagreement": {
+          "target": 13,
+          "available": 69,
+          "selected_before_fallback": 13,
+          "selected_final": 13
+        },
+        "diversity_control": {
+          "target": 15,
+          "available": 71,
+          "selected_before_fallback": 15,
+          "selected_final": 15
+        }
+      },
+      "unique_parent_asin": 38,
+      "batch_id": "batch_2",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_2|double|smart_bulb",
+      "requested": 12,
+      "selected": 12,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 4,
+          "available": 29,
+          "selected_before_fallback": 4,
+          "selected_final": 4
+        },
+        "rating_keyword_disagreement": {
+          "target": 3,
+          "available": 13,
+          "selected_before_fallback": 3,
+          "selected_final": 3
+        },
+        "diversity_control": {
+          "target": 5,
+          "available": 18,
+          "selected_before_fallback": 5,
+          "selected_final": 5
+        }
+      },
+      "unique_parent_asin": 8,
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_2|double|smart_switch",
+      "requested": 2,
+      "selected": 2,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 0,
+          "available": 5,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "rating_keyword_disagreement": {
+          "target": 0,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 2,
+          "available": 3,
+          "selected_before_fallback": 2,
+          "selected_final": 2
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_2",
+      "device_type": "smart_switch"
+    },
+    {
+      "purpose": "batch_3|double|smart_plug",
+      "requested": 46,
+      "selected": 46,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 18,
+          "available": 92,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        },
+        "rating_keyword_disagreement": {
+          "target": 13,
+          "available": 69,
+          "selected_before_fallback": 13,
+          "selected_final": 13
+        },
+        "diversity_control": {
+          "target": 15,
+          "available": 71,
+          "selected_before_fallback": 15,
+          "selected_final": 15
+        }
+      },
+      "unique_parent_asin": 39,
+      "batch_id": "batch_3",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_3|double|smart_bulb",
+      "requested": 12,
+      "selected": 12,
+      "fallback_rows": 3,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 4,
+          "available": 40,
+          "selected_before_fallback": 4,
+          "selected_final": 7
+        },
+        "rating_keyword_disagreement": {
+          "target": 3,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 5,
+          "available": 20,
+          "selected_before_fallback": 5,
+          "selected_final": 5
+        }
+      },
+      "unique_parent_asin": 8,
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_3|double|smart_switch",
+      "requested": 2,
+      "selected": 2,
+      "fallback_rows": 1,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 0,
+          "available": 7,
+          "selected_before_fallback": 0,
+          "selected_final": 1
+        },
+        "rating_keyword_disagreement": {
+          "target": 0,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 2,
+          "available": 1,
+          "selected_before_fallback": 1,
+          "selected_final": 1
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_3",
+      "device_type": "smart_switch"
+    },
+    {
+      "purpose": "batch_4|double|smart_plug",
+      "requested": 47,
+      "selected": 47,
+      "fallback_rows": 0,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 18,
+          "available": 92,
+          "selected_before_fallback": 18,
+          "selected_final": 18
+        },
+        "rating_keyword_disagreement": {
+          "target": 14,
+          "available": 69,
+          "selected_before_fallback": 14,
+          "selected_final": 14
+        },
+        "diversity_control": {
+          "target": 15,
+          "available": 70,
+          "selected_before_fallback": 15,
+          "selected_final": 15
+        }
+      },
+      "unique_parent_asin": 32,
+      "batch_id": "batch_4",
+      "device_type": "smart_plug"
+    },
+    {
+      "purpose": "batch_4|double|smart_bulb",
+      "requested": 12,
+      "selected": 12,
+      "fallback_rows": 3,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 4,
+          "available": 39,
+          "selected_before_fallback": 4,
+          "selected_final": 7
+        },
+        "rating_keyword_disagreement": {
+          "target": 3,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 5,
+          "available": 21,
+          "selected_before_fallback": 5,
+          "selected_final": 5
+        }
+      },
+      "unique_parent_asin": 8,
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb"
+    },
+    {
+      "purpose": "batch_4|double|smart_switch",
+      "requested": 1,
+      "selected": 1,
+      "fallback_rows": 1,
+      "bucket_results": {
+        "high_uncertainty": {
+          "target": 0,
+          "available": 9,
+          "selected_before_fallback": 0,
+          "selected_final": 1
+        },
+        "rating_keyword_disagreement": {
+          "target": 0,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        },
+        "diversity_control": {
+          "target": 1,
+          "available": 0,
+          "selected_before_fallback": 0,
+          "selected_final": 0
+        }
+      },
+      "unique_parent_asin": 1,
+      "batch_id": "batch_4",
+      "device_type": "smart_switch"
+    }
+  ],
+  "balance_by_device_type": [
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "sampled_reviews": 60,
+      "unique_parent_asin": 18,
+      "double_review_rows": 12
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "sampled_reviews": 232,
+      "unique_parent_asin": 79,
+      "double_review_rows": 46
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "sampled_reviews": 8,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "sampled_reviews": 60,
+      "unique_parent_asin": 13,
+      "double_review_rows": 12
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "sampled_reviews": 232,
+      "unique_parent_asin": 70,
+      "double_review_rows": 46
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_switch",
+      "sampled_reviews": 8,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "sampled_reviews": 60,
+      "unique_parent_asin": 10,
+      "double_review_rows": 12
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "sampled_reviews": 232,
+      "unique_parent_asin": 61,
+      "double_review_rows": 46
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "sampled_reviews": 8,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "sampled_reviews": 60,
+      "unique_parent_asin": 8,
+      "double_review_rows": 12
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "sampled_reviews": 231,
+      "unique_parent_asin": 58,
+      "double_review_rows": 47
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "sampled_reviews": 9,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    }
+  ],
+  "balance_by_bucket": [
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 18,
+      "unique_parent_asin": 11,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 24,
+      "unique_parent_asin": 18,
+      "double_review_rows": 4
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 18,
+      "unique_parent_asin": 4,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 71,
+      "unique_parent_asin": 68,
+      "double_review_rows": 15
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 92,
+      "unique_parent_asin": 76,
+      "double_review_rows": 18
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 69,
+      "unique_parent_asin": 39,
+      "double_review_rows": 13
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 2,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 18,
+      "unique_parent_asin": 8,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 29,
+      "unique_parent_asin": 13,
+      "double_review_rows": 4
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 13,
+      "unique_parent_asin": 2,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 71,
+      "unique_parent_asin": 57,
+      "double_review_rows": 15
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 92,
+      "unique_parent_asin": 68,
+      "double_review_rows": 18
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 69,
+      "unique_parent_asin": 25,
+      "double_review_rows": 13
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_switch",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_switch",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 5,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 20,
+      "unique_parent_asin": 6,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 40,
+      "unique_parent_asin": 10,
+      "double_review_rows": 7
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 71,
+      "unique_parent_asin": 48,
+      "double_review_rows": 15
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 92,
+      "unique_parent_asin": 61,
+      "double_review_rows": 18
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 69,
+      "unique_parent_asin": 15,
+      "double_review_rows": 13
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 7,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 21,
+      "unique_parent_asin": 5,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 39,
+      "unique_parent_asin": 8,
+      "double_review_rows": 7
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "sampling_bucket": "diversity_control",
+      "sampled_reviews": 70,
+      "unique_parent_asin": 47,
+      "double_review_rows": 15
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 92,
+      "unique_parent_asin": 58,
+      "double_review_rows": 18
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "sampling_bucket": "rating_keyword_disagreement",
+      "sampled_reviews": 69,
+      "unique_parent_asin": 10,
+      "double_review_rows": 14
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "sampling_bucket": "high_uncertainty",
+      "sampled_reviews": 9,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    }
+  ],
+  "balance_by_rating": [
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 37,
+      "unique_parent_asin": 18,
+      "double_review_rows": 9
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 18,
+      "unique_parent_asin": 8,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 5,
+      "unique_parent_asin": 4,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 129,
+      "unique_parent_asin": 72,
+      "double_review_rows": 15
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 90,
+      "unique_parent_asin": 52,
+      "double_review_rows": 26
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 13,
+      "unique_parent_asin": 12,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 2,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 42,
+      "unique_parent_asin": 13,
+      "double_review_rows": 9
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 17,
+      "unique_parent_asin": 5,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 129,
+      "unique_parent_asin": 66,
+      "double_review_rows": 33
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 91,
+      "unique_parent_asin": 37,
+      "double_review_rows": 12
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 12,
+      "unique_parent_asin": 11,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_switch",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 8,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 50,
+      "unique_parent_asin": 10,
+      "double_review_rows": 10
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 6,
+      "unique_parent_asin": 4,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 4,
+      "unique_parent_asin": 3,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 131,
+      "unique_parent_asin": 58,
+      "double_review_rows": 27
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 88,
+      "unique_parent_asin": 30,
+      "double_review_rows": 18
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 13,
+      "unique_parent_asin": 11,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 5,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 2,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 48,
+      "unique_parent_asin": 8,
+      "double_review_rows": 10
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 11,
+      "unique_parent_asin": 7,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 116,
+      "unique_parent_asin": 53,
+      "double_review_rows": 22
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 102,
+      "unique_parent_asin": 37,
+      "double_review_rows": 25
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 13,
+      "unique_parent_asin": 12,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "rating_stratum": "high_4_5",
+      "sampled_reviews": 5,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "rating_stratum": "low_1_2",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "rating_stratum": "middle_3",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    }
+  ],
+  "balance_by_time": [
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 22,
+      "unique_parent_asin": 9,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 14,
+      "unique_parent_asin": 6,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_bulb",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 24,
+      "unique_parent_asin": 9,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 37,
+      "unique_parent_asin": 13,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 111,
+      "unique_parent_asin": 46,
+      "double_review_rows": 25
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_plug",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 84,
+      "unique_parent_asin": 43,
+      "double_review_rows": 21
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 3,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_1",
+      "device_type": "smart_switch",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 5,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 17,
+      "unique_parent_asin": 7,
+      "double_review_rows": 5
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 15,
+      "unique_parent_asin": 6,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_bulb",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 28,
+      "unique_parent_asin": 7,
+      "double_review_rows": 6
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 35,
+      "unique_parent_asin": 12,
+      "double_review_rows": 7
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 120,
+      "unique_parent_asin": 44,
+      "double_review_rows": 30
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_plug",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 77,
+      "unique_parent_asin": 33,
+      "double_review_rows": 9
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_switch",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 7,
+      "unique_parent_asin": 1,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_2",
+      "device_type": "smart_switch",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 20,
+      "unique_parent_asin": 6,
+      "double_review_rows": 6
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 16,
+      "unique_parent_asin": 6,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_bulb",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 24,
+      "unique_parent_asin": 5,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 38,
+      "unique_parent_asin": 9,
+      "double_review_rows": 12
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 96,
+      "unique_parent_asin": 38,
+      "double_review_rows": 16
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_plug",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 98,
+      "unique_parent_asin": 34,
+      "double_review_rows": 18
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 7,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_3",
+      "device_type": "smart_switch",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 1,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 28,
+      "unique_parent_asin": 5,
+      "double_review_rows": 7
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 16,
+      "unique_parent_asin": 6,
+      "double_review_rows": 2
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_bulb",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 16,
+      "unique_parent_asin": 4,
+      "double_review_rows": 3
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "time_stratum": "early_2011_2017",
+      "sampled_reviews": 43,
+      "unique_parent_asin": 9,
+      "double_review_rows": 7
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 119,
+      "unique_parent_asin": 38,
+      "double_review_rows": 13
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_plug",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 69,
+      "unique_parent_asin": 27,
+      "double_review_rows": 27
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "time_stratum": "middle_2018_2020",
+      "sampled_reviews": 7,
+      "unique_parent_asin": 1,
+      "double_review_rows": 1
+    },
+    {
+      "batch_id": "batch_4",
+      "device_type": "smart_switch",
+      "time_stratum": "recent_2021_2023",
+      "sampled_reviews": 2,
+      "unique_parent_asin": 1,
+      "double_review_rows": 0
+    }
+  ],
+  "sampling_is_population_representative": false,
+  "model_predictions_are_labels": false
+}

@@ -1,0 +1,95 @@
+[phase]
+name = "W5-B"
+label_version = "w5b-labels-v1.0"
+random_seed = 20260731
+status_on_success = "PASS"
+w6_readiness_default = "REVIEW_REQUIRED"
+
+[inputs]
+adjudicated_workbook = "data/amazon_reviews_2023/reports/w5a/annotation_batch_300_blind_merged_adjudicated.xlsx"
+adjudicated_workbook_rows = 300
+adjudicated_workbook_sha256 = "8315df0c48a9783db37772d6cc936a7e5f1d3f1770add77bd63912169e793bc0"
+reviewer_2_workbook = "data/amazon_reviews_2023/reports/w5a/annotation_double_review_60_blind_reviewer2_completed.xlsx"
+reviewer_2_workbook_rows = 60
+reviewer_2_workbook_sha256 = "f2fe4ad6f4d979d7fdb2edb36730349bc9a19b0028fc3da50f55d21329792612"
+blind_review_key = "data/amazon_reviews_2023/interim/w5a/blind_review_key.parquet"
+blind_review_key_rows = 300
+blind_review_key_sha256 = "3aeafb6d27a330c4e41fae829bd9f67782885f7242bed1522f0302fd862209a0"
+annotation_sampling_frame = "data/amazon_reviews_2023/interim/w5a/annotation_sampling_frame.parquet"
+annotation_sampling_frame_rows = 300
+annotation_sampling_frame_sha256 = "68a46fa0cb83ff38c43f48b6cb2bb8a7f85c8f6360b06a23829f85d2c8f70a06"
+formal_review_parquet = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+formal_review_rows = 55877
+formal_review_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+formal_product_parquet = "data/amazon_reviews_2023/processed/target_products_w3_v1_4_0.parquet"
+formal_product_rows = 125
+formal_product_sha256 = "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+w5a_status = "data/amazon_reviews_2023/reports/w5a/w5a_status.json"
+annotation_rules = "config/annotation_rules_w5a.toml"
+keyword_rules = "config/failure_keyword_rules_w5a.toml"
+
+[labels]
+binary = ["0", "1", "uncertain"]
+failure_types = ["N0", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"]
+severity = [0, 1, 2, 3]
+persistence = [0, 1, 2]
+double_review_source = "adjudicated_double_review"
+single_review_source = "reviewer_1_single_review"
+
+[split]
+method = "strict_chronological"
+train_share = 0.60
+validation_share = 0.20
+test_share = 0.20
+tie_break = "blind_review_id"
+allow_random_shuffle = false
+
+[rating_baseline]
+name = "B0 Rating"
+low_star_threshold = 2.0
+low_star_operator = "less_than_or_equal"
+uses_rating_as_ground_truth = false
+
+[keyword_baseline]
+name = "B3 Keyword/rule draft"
+version = "w5a-keyword-v1.0-draft"
+refit_from_human_labels = false
+
+[dummy_baseline]
+strategy = "most_frequent"
+random_state = 20260731
+
+[tfidf]
+lowercase = true
+ngram_min = 1
+ngram_max = 2
+min_df = 2
+max_features = 20000
+sublinear_tf = true
+strip_accents = "unicode"
+fit_on = "train_only"
+input_field = "model_text"
+
+[logistic_regression]
+C = 1.0
+class_weight = "balanced"
+max_iter = 1000
+random_state = 20260731
+decision_threshold = 0.5
+
+[model_text]
+remove_leading_star_title = true
+preserve_negations = true
+overwrite_review_text = false
+
+[device_support]
+minimum_test_rows = 20
+minimum_rows_per_binary_class = 5
+
+[outputs]
+processed_labels = "data/amazon_reviews_2023/processed/annotation_labels_w5b_v1_0.parquet"
+modeling_dataset = "data/amazon_reviews_2023/interim/w5b/modeling_dataset.parquet"
+baseline_predictions = "data/amazon_reviews_2023/interim/w5b/baseline_predictions.parquet"
+error_analysis_private = "data/amazon_reviews_2023/interim/w5b/error_analysis_private.parquet"
+model = "outputs/models/w5b_tfidf_logistic_regression.joblib"
+report_dir = "data/amazon_reviews_2023/reports/w5b"

@@ -1,0 +1,10 @@
+﻿device_type,time_stratum,sampled_reviews
+smart_bulb,early_2011_2017,21
+smart_bulb,middle_2018_2020,19
+smart_bulb,recent_2021_2023,20
+smart_plug,early_2011_2017,51
+smart_plug,middle_2018_2020,79
+smart_plug,recent_2021_2023,80
+smart_switch,early_2011_2017,1
+smart_switch,middle_2018_2020,15
+smart_switch,recent_2021_2023,14

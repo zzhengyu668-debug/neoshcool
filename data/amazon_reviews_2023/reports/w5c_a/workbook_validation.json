@@ -1,0 +1,396 @@
+{
+  "phase": "W5-C-A",
+  "status": "PASS",
+  "tool": "@oai/artifact-tool",
+  "workbook_count": 8,
+  "all_label_cells_blank": true,
+  "all_hidden_sampling_fields_absent": true,
+  "all_formula_scans_clear": true,
+  "all_csv_xlsx_content_identical": true,
+  "workbooks": [
+    {
+      "batch_id": "batch_1",
+      "reviewer": 1,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer1_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer1_blind.xlsx",
+      "rows": 300,
+      "columns": 14,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/biw8aj\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/03yvln\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "0lsxml",
+          "target": {
+            "id": "wb/bl5cvw",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_1",
+      "reviewer": 2,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer2_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_1_reviewer2_blind.xlsx",
+      "rows": 60,
+      "columns": 9,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/u0gmse\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/c5unat\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "qw9k55",
+          "target": {
+            "id": "wb/ewa1r6",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_2",
+      "reviewer": 1,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer1_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer1_blind.xlsx",
+      "rows": 300,
+      "columns": 14,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/0u1fab\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/nrevik\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "4dni7n",
+          "target": {
+            "id": "wb/cl6c7x",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_2",
+      "reviewer": 2,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer2_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_2_reviewer2_blind.xlsx",
+      "rows": 60,
+      "columns": 9,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/b2dxys\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/bvk6kb\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "h98a2t",
+          "target": {
+            "id": "wb/bmxu2g",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_3",
+      "reviewer": 1,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer1_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer1_blind.xlsx",
+      "rows": 300,
+      "columns": 14,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/4kajrc\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/wqex6o\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "1rqyg3",
+          "target": {
+            "id": "wb/j1ooah",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_3",
+      "reviewer": 2,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer2_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_3_reviewer2_blind.xlsx",
+      "rows": 60,
+      "columns": 9,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/pm7mdn\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/0f82dn\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "wzdnve",
+          "target": {
+            "id": "wb/bh2sxj",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_4",
+      "reviewer": 1,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer1_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer1_blind.xlsx",
+      "rows": 300,
+      "columns": 14,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/aexsm3\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:N301\",\"address\":\"A1:N301\"}\n{\"kind\":\"sheet\",\"id\":\"ws/nleyjl\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "x2dwhg",
+          "target": {
+            "id": "wb/4wrc5g",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    },
+    {
+      "batch_id": "batch_4",
+      "reviewer": 2,
+      "csv_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer2_blind.csv",
+      "xlsx_path": "data\\amazon_reviews_2023\\interim\\w5c_a\\annotation_batch_4_reviewer2_blind.xlsx",
+      "rows": 60,
+      "columns": 9,
+      "sheets": [
+        "Annotation",
+        "Instructions"
+      ],
+      "label_cells_blank": true,
+      "hidden_sampling_fields_absent": true,
+      "csv_xlsx_content_identical": true,
+      "formulas_detected": false,
+      "annotation_rendered_for_qa": true,
+      "instructions_rendered_for_qa": true,
+      "qa_artifacts_retained_in_project": false,
+      "structure_inspection": {
+        "ndjson": "{\"kind\":\"sheet\",\"id\":\"ws/2890pd\",\"name\":\"Annotation\",\"index\":0,\"range\":\"A1:I61\",\"address\":\"A1:I61\"}\n{\"kind\":\"sheet\",\"id\":\"ws/g4q05k\",\"name\":\"Instructions\",\"index\":1,\"range\":\"A1:B12\",\"address\":\"A1:B12\"}",
+        "truncated": false,
+        "metadata": {
+          "revision": "n5a61n",
+          "target": {
+            "id": "wb/xqz8xb",
+            "beforeLines": 0,
+            "afterLines": 0
+          },
+          "kind": {
+            "requested": "sheet",
+            "tokens": [
+              "sheet"
+            ]
+          },
+          "include": {
+            "requested": "id,name",
+            "tokens": [
+              "id",
+              "name"
+            ]
+          },
+          "exclude": {
+            "tokens": []
+          },
+          "notices": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "phase": "W5_READINESS_AFTER_W4R",
+  "generated_at": "2026-07-31T11:16:35.012740+08:00",
+  "status": "REVIEW_REQUIRED",
+  "warnings": [
+    {
+      "code": "REVIEWS_CONCENTRATED_IN_TOP_PRODUCT",
+      "device_type": "smart_plug",
+      "value": 0.825919753877708
+    },
+    {
+      "code": "DEVICE_TYPE_FEWER_THAN_DIAGNOSTIC_PRODUCT_COUNT",
+      "device_type": "smart_switch",
+      "value": 5,
+      "diagnostic_threshold": 10,
+      "professor_requirement": false
+    },
+    {
+      "code": "REVIEWS_CONCENTRATED_IN_TOP_PRODUCT",
+      "device_type": "smart_switch",
+      "value": 0.7619047619047619
+    },
+    {
+      "code": "NO_PRODUCT_MONTH_AT_10_REVIEWS",
+      "device_type": "smart_switch",
+      "professor_requirement": false
+    },
+    {
+      "code": "SEVERE_DEVICE_PRODUCT_IMBALANCE",
+      "value": 19.0,
+      "professor_requirement": false
+    },
+    {
+      "code": "SEVERE_DEVICE_REVIEW_IMBALANCE",
+      "value": 866.7777777777778,
+      "professor_requirement": false
+    }
+  ],
+  "device_type_coverage": [
+    {
+      "device_type": "smart_plug",
+      "target_products": 95,
+      "products_with_reviews": 95,
+      "products_without_reviews": 0,
+      "final_reviews": 54607,
+      "reviews_per_target_product_min": 1,
+      "reviews_per_target_product_median": 16,
+      "reviews_per_target_product_mean": 574.8105263157895,
+      "reviews_per_target_product_max": 45101,
+      "earliest_review_utc": "2013-12-03T16:11:02+00:00",
+      "latest_review_utc": "2023-09-07T00:28:22.966000+00:00",
+      "products_with_at_least_10_reviews": 57,
+      "products_with_at_least_20_reviews": 46,
+      "products_with_at_least_30_reviews": 36
+    },
+    {
+      "device_type": "smart_bulb",
+      "target_products": 25,
+      "products_with_reviews": 25,
+      "products_without_reviews": 0,
+      "final_reviews": 1207,
+      "reviews_per_target_product_min": 1,
+      "reviews_per_target_product_median": 5,
+      "reviews_per_target_product_mean": 48.28,
+      "reviews_per_target_product_max": 370,
+      "earliest_review_utc": "2014-05-30T23:58:35+00:00",
+      "latest_review_utc": "2023-08-27T19:15:31.943000+00:00",
+      "products_with_at_least_10_reviews": 9,
+      "products_with_at_least_20_reviews": 7,
+      "products_with_at_least_30_reviews": 5
+    },
+    {
+      "device_type": "smart_switch",
+      "target_products": 5,
+      "products_with_reviews": 5,
+      "products_without_reviews": 0,
+      "final_reviews": 63,
+      "reviews_per_target_product_min": 1,
+      "reviews_per_target_product_median": 2,
+      "reviews_per_target_product_mean": 12.6,
+      "reviews_per_target_product_max": 48,
+      "earliest_review_utc": "2011-03-13T12:29:41+00:00",
+      "latest_review_utc": "2023-03-11T19:03:45.533000+00:00",
+      "products_with_at_least_10_reviews": 2,
+      "products_with_at_least_20_reviews": 1,
+      "products_with_at_least_30_reviews": 1
+    },
+    {
+      "device_type": "ALL",
+      "target_products": 125,
+      "products_with_reviews": 125,
+      "products_without_reviews": 0,
+      "final_reviews": 55877,
+      "reviews_per_target_product_min": 1,
+      "reviews_per_target_product_median": 11,
+      "reviews_per_target_product_mean": 447.016,
+      "reviews_per_target_product_max": 45101,
+      "earliest_review_utc": "2011-03-13T12:29:41+00:00",
+      "latest_review_utc": "2023-09-07T00:28:22.966000+00:00",
+      "products_with_at_least_10_reviews": 68,
+      "products_with_at_least_20_reviews": 54,
+      "products_with_at_least_30_reviews": 42
+    }
+  ],
+  "concentration": {
+    "smart_plug": {
+      "total_reviews": 54607,
+      "top_1_product_share": 0.825919753877708,
+      "top_5_product_share": 0.8980716757924808,
+      "top_10_product_share": 0.9426447158789166
+    },
+    "smart_bulb": {
+      "total_reviews": 1207,
+      "top_1_product_share": 0.30654515327257664,
+      "top_5_product_share": 0.8889809444904723,
+      "top_10_product_share": 0.9618889809444905
+    },
+    "smart_switch": {
+      "total_reviews": 63,
+      "top_1_product_share": 0.7619047619047619,
+      "top_5_product_share": 1.0,
+      "top_10_product_share": 1.0
+    },
+    "ALL": {
+      "total_reviews": 55877,
+      "top_1_product_share": 0.8071478425828158,
+      "top_5_product_share": 0.8776598600497522,
+      "top_10_product_share": 0.9230810530271847
+    }
+  },
+  "monthly_coverage_diagnostics": [
+    {
+      "device_type": "smart_plug",
+      "product_month_rows": 1516,
+      "monthly_reviews_mean": 36.020448548812666,
+      "monthly_reviews_median": 3.0,
+      "monthly_reviews_p25": 1.0,
+      "monthly_reviews_p75": 9.0,
+      "monthly_reviews_p90": 23.0,
+      "monthly_reviews_max": 5905,
+      "product_months_at_least_10": 360,
+      "product_months_at_least_20": 175,
+      "product_months_at_least_30": 111
+    },
+    {
+      "device_type": "smart_bulb",
+      "product_month_rows": 351,
+      "monthly_reviews_mean": 3.438746438746439,
+      "monthly_reviews_median": 2,
+      "monthly_reviews_p25": 1.0,
+      "monthly_reviews_p75": 4.0,
+      "monthly_reviews_p90": 7.0,
+      "monthly_reviews_max": 27,
+      "product_months_at_least_10": 25,
+      "product_months_at_least_20": 9,
+      "product_months_at_least_30": 0
+    },
+    {
+      "device_type": "smart_switch",
+      "product_month_rows": 44,
+      "monthly_reviews_mean": 1.4318181818181819,
+      "monthly_reviews_median": 1.0,
+      "monthly_reviews_p25": 1.0,
+      "monthly_reviews_p75": 2.0,
+      "monthly_reviews_p90": 2.0,
+      "monthly_reviews_max": 4,
+      "product_months_at_least_10": 0,
+      "product_months_at_least_20": 0,
+      "product_months_at_least_30": 0
+    },
+    {
+      "device_type": "ALL",
+      "product_month_rows": 1911,
+      "monthly_reviews_mean": 29.239665096807954,
+      "monthly_reviews_median": 2,
+      "monthly_reviews_p25": 1.0,
+      "monthly_reviews_p75": 7.0,
+      "monthly_reviews_p90": 19.0,
+      "monthly_reviews_max": 5905,
+      "product_months_at_least_10": 385,
+      "product_months_at_least_20": 184,
+      "product_months_at_least_30": 111
+    }
+  ],
+  "diagnostic_thresholds_are_professor_requirements": false,
+  "w5_started": false,
+  "w3_rules_modified": false
+}

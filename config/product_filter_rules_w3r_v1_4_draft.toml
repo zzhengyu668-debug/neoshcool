@@ -1,0 +1,302 @@
+[draft]
+version = "w3-v1.4.0-draft"
+base_version = "w3-v1.3.2"
+status = "draft_not_frozen"
+purpose = "W3R-A recall diagnosis for smart bulbs and smart switches"
+smart_plug_policy = "retain_all_95_baseline_products_without_expansion"
+minimum_free_gib = 60
+
+[inputs]
+metadata_candidates = "data/amazon_reviews_2023/interim/metadata_candidates.parquet"
+target_products = "data/amazon_reviews_2023/processed/target_products.parquet"
+expected_candidate_rows = 37158
+expected_target_rows = 106
+expected_smart_plugs = 95
+expected_smart_bulbs = 8
+expected_smart_switches = 3
+
+[fields]
+identity = [
+  "parent_asin",
+  "title",
+  "main_category",
+  "categories",
+  "features",
+  "description",
+  "store",
+  "details",
+  "source_domains",
+]
+forbidden_for_decisions = ["average_rating", "rating_number", "price"]
+
+[audit]
+random_seed = 20260729
+bulb_recovery_sample_minimum = 200
+switch_recovery_sample_minimum = 300
+strong_exclusion_controls_per_type = 50
+include_all_baseline_bulbs = true
+include_all_baseline_switches = true
+precision_target = 0.80
+ambiguous_rate_target = 0.10
+product_count_diagnostic_target = 30
+interpretation = "rule_revision_review_not_independent_blind_review"
+
+[matching]
+normalization = "Unicode_NFKC_casefold_whitespace_and_punctuation_normalization"
+identity_policy = "primary product identity must be explicit in title/categories, except supporting fields may confirm a clearly named product"
+smart_control_policy = "specific connected-control evidence is required; the word smart alone is not sufficient when it describes energy efficiency or an unrelated product"
+wrong_product_policy = "strong wrong-product terms are applied first to title/categories; incidental compatibility terms in auxiliary metadata do not automatically exclude a product"
+multi_type_policy = "hold as ambiguous unless one primary product identity is clearly dominant"
+
+[smart_control]
+specific_terms = [
+  "wifi",
+  "wi fi",
+  "zigbee",
+  "z wave",
+  "matter compatible",
+  "matter enabled",
+  "matter certified",
+  "works with matter",
+  "matter over thread",
+  "homekit",
+  "alexa",
+  "google home",
+  "google assistant",
+  "smartthings",
+  "tuya",
+  "ifttt",
+  "app control",
+  "app controlled",
+  "controlled by app",
+  "voice control",
+  "voice controlled",
+  "smartphone control",
+  "smartphone controlled",
+  "connected home",
+  "smart home",
+  "esphome",
+  "tasmota",
+]
+bluetooth_support_terms = [
+  "app",
+  "iphone",
+  "android",
+  "smartphone",
+  "phone control",
+  "bluetooth controlled",
+  "bluetooth mesh",
+]
+
+[smart_bulb]
+identity_terms = [
+  "bulb",
+  "bulbs",
+  "light bulb",
+  "led bulb",
+  "a15",
+  "a19",
+  "a21",
+  "br30",
+  "br40",
+  "par38",
+  "e12",
+  "e26",
+  "e27",
+  "gu10",
+  "b11",
+  "candelabra",
+]
+ecosystem_terms = [
+  "philips hue",
+  "sengled",
+  "lifx",
+  "wiz connected",
+  "playbulb",
+  "gocontrol",
+]
+wrong_primary_terms = [
+  "bulb camera",
+  "bulb cameras",
+  "light bulb camera",
+  "light bulb cameras",
+  "security camera",
+  "security cameras",
+  "camera",
+  "cameras",
+  "projector",
+  "smart board",
+  "smartboard",
+  "lamp assembly",
+  "vanity mirror",
+  "makeup mirror",
+  "table lamp",
+  "floor lamp",
+  "desk lamp",
+  "lamp shade",
+  "lampshade",
+  "light fixture",
+  "light set",
+  "mini lights",
+  "string light",
+  "string lights",
+  "fairy light",
+  "night light",
+  "disco ball",
+  "vase",
+  "coaster",
+  "monitor",
+  "shelf",
+  "shelving",
+  "uv bulb",
+  "ir light bulb",
+  "infrared",
+  "ir illuminator",
+  "covert",
+  "flash tube",
+  "strobe",
+  "module",
+  "controller board",
+  "arduino",
+  "raspberry",
+  "vacuum",
+  "router",
+  "wifi system",
+  "echo dot",
+  "echo show",
+  "echo studio",
+  "echo",
+  "replacement bulb",
+  "replacement lamp",
+  "power supply",
+  "extension cord",
+  "extension cable",
+]
+accessory_terms = [
+  "accessory",
+  "adapter",
+  "adaptor",
+  "extension",
+  "replacement",
+  "holder",
+  "mount",
+  "cover",
+  "case",
+]
+non_smart_collision_terms = ["energy smart", "smart energy"]
+
+[smart_switch]
+identity_terms = [
+  "switch",
+  "dimmer",
+  "light switch",
+  "wall switch",
+  "dimmer switch",
+  "togglelinc",
+  "keypadlinc",
+]
+wall_lighting_context_terms = [
+  "wall switch",
+  "light switch",
+  "lighting control",
+  "controls lights",
+  "control lights",
+  "in wall",
+  "single pole",
+  "three way",
+  "3 way",
+  "neutral wire",
+  "line wire",
+  "load wire",
+  "switch box",
+  "junction box",
+  "wall dimmer",
+  "light dimmer",
+  "dimmer switch",
+  "togglelinc",
+  "keypadlinc",
+  "existing toggle",
+  "existing rocker",
+  "existing light switch",
+  "traditional wall switch",
+]
+protocol_terms = ["insteon", "radiora2", "radio ra2"]
+wrong_primary_terms = [
+  "network switch",
+  "ethernet switch",
+  "gigabit switch",
+  "poe switch",
+  "poe",
+  "802 11",
+  "wireless access point",
+  "hdmi switch",
+  "usb switch",
+  "kvm switch",
+  "nintendo switch",
+  "keyboard switch",
+  "automotive switch",
+  "ignition switch",
+  "pressure switch",
+  "limit switch",
+  "router",
+  "access point",
+  "monitor",
+  "tv antenna",
+  "alarm clock",
+  "night light",
+  "mirror",
+  "keychain",
+  "cabinet light",
+  "table lamp",
+  "bedside lamp",
+  "wall mount kit",
+  "power strip",
+  "wall outlet",
+  "fireplace",
+  "towel rack",
+  "coffee warmer",
+  "mug warmer",
+  "smart switch amplifier",
+  "speaker switch",
+  "speaker selector",
+  "selectable smart impedance",
+  "relay module",
+  "relay board",
+  "module controller",
+  "controller board",
+  "arduino",
+  "raspberry",
+  "strip light",
+  "rope light",
+  "string light",
+  "string curtain",
+  "window opener",
+  "window actuator",
+  "ir remote control",
+  "utv",
+  "trigger power",
+  "lead switch system",
+  "switch controller",
+  "power supply",
+  "power adapter",
+  "smart car",
+]
+accessory_or_remote_only_terms = [
+  "wall plate",
+  "faceplate",
+  "switch cover",
+  "key holder",
+  "replacement remote",
+  "remote controller",
+  "tap switch",
+  "fastener",
+  "mounting bracket",
+  "exclusive for",
+]
+rf_only_terms = ["rf switch", "radio frequency", "wireless remote switch"]
+
+[promotion]
+may_freeze_in_this_phase = false
+may_replace_w3_outputs = false
+may_run_w4 = false
+may_enter_w5 = false

@@ -1,0 +1,41 @@
+﻿direction,rank,ngram,coefficient
+positive_failure_association,1,working,0.6511461397572581
+positive_failure_association,2,work,0.6264886902381859
+positive_failure_association,3,after,0.6173465206911203
+positive_failure_association,4,not,0.6083941813754062
+positive_failure_association,5,not work,0.5687767424991408
+positive_failure_association,6,connect,0.5539599665681477
+positive_failure_association,7,support,0.5441420532816439
+positive_failure_association,8,update,0.5178257500335017
+positive_failure_association,9,devices,0.5158655089895788
+positive_failure_association,10,of,0.45262621447267065
+positive_failure_association,11,it to,0.4513113735277988
+positive_failure_association,12,get,0.43517880667817366
+positive_failure_association,13,get it,0.4271109160811038
+positive_failure_association,14,firmware,0.4215509933416921
+positive_failure_association,15,does not,0.4195638790302131
+positive_failure_association,16,waste,0.41483175323477633
+positive_failure_association,17,app,0.3991669695932875
+positive_failure_association,18,occasionally,0.38812264391635465
+positive_failure_association,19,until,0.3812457178971659
+positive_failure_association,20,stopped working,0.37498688334732944
+negative_failure_association,1,easy to,-0.8044339365571552
+negative_failure_association,2,easy,-0.751569099689238
+negative_failure_association,3,use,-0.5450365736512398
+negative_failure_association,4,control,-0.514332604973885
+negative_failure_association,5,wave,-0.4360270982708741
+negative_failure_association,6,works,-0.4142074298972411
+negative_failure_association,7,my,-0.4060643345452048
+negative_failure_association,8,to use,-0.3877770742621138
+negative_failure_association,9,great,-0.3839231192715743
+negative_failure_association,10,my phone,-0.37779290346911476
+negative_failure_association,11,works great,-0.33671935323085234
+negative_failure_association,12,ge,-0.3286292403496088
+negative_failure_association,13,cool,-0.31476187520501836
+negative_failure_association,14,love,-0.3089281181105601
+negative_failure_association,15,great easy,-0.2979971776552136
+negative_failure_association,16,amazing,-0.2917578487381098
+negative_failure_association,17,to set,-0.28972189645845164
+negative_failure_association,18,without,-0.278166841595573
+negative_failure_association,19,with alexa,-0.27622333742959504
+negative_failure_association,20,this was,-0.27093654464038924

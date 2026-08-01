@@ -1,0 +1,160 @@
+[2026-07-29T15:28:21.797061+08:00] [INFO] W3 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; orjson=3.11.9; free_bytes=125454614528; filter_version=w3-v1.0.0
+[2026-07-29T15:28:21.799068+08:00] [INFO] Metadata scan started: id=meta_electronics; bytes=5246144134; expected_records=1610012
+[2026-07-29T15:30:01.374592+08:00] [INFO] Metadata progress: id=meta_electronics; records=301148; candidates=9918; bytes=1073743920; bytes_per_second=10783157; free_bytes=125436329984
+[2026-07-29T15:31:00.537178+08:00] [INFO] Metadata progress: id=meta_electronics; records=500000; candidates=16245; bytes=1761510995; bytes_per_second=11096956; free_bytes=125410353152
+[2026-07-29T15:31:31.472003+08:00] [INFO] Metadata progress: id=meta_electronics; records=612876; candidates=19921; bytes=2147484919; bytes_per_second=11322031; free_bytes=125410058240
+[2026-07-29T15:32:50.775185+08:00] [INFO] Metadata progress: id=meta_electronics; records=937302; candidates=29798; bytes=3221229422; bytes_per_second=11975898; free_bytes=125378596864
+[2026-07-29T15:33:24.338097+08:00] [INFO] Metadata progress: id=meta_electronics; records=1000000; candidates=31677; bytes=3424197191; bytes_per_second=11318201; free_bytes=125379440640
+[2026-07-29T15:34:58.329317+08:00] [INFO] Metadata progress: id=meta_electronics; records=1276087; candidates=39918; bytes=4294969357; bytes_per_second=10831370; free_bytes=125261271040
+[2026-07-29T15:36:30.705486+08:00] [INFO] Metadata progress: id=meta_electronics; records=1500000; candidates=46009; bytes=4939968621; bytes_per_second=10104118; free_bytes=125242482688
+[2026-07-29T15:37:26.753345+08:00] [INFO] Metadata scan completed: id=meta_electronics; records=1610012; candidates=48744; seconds=544.943; peak_rss_bytes=219807744
+[2026-07-29T15:37:26.758271+08:00] [INFO] Metadata scan started: id=meta_home_and_kitchen; bytes=11788767944; expected_records=3735584
+[2026-07-29T15:40:01.356248+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=299244; candidates=861; bytes=1073742633; bytes_per_second=6945371; free_bytes=125226737664
+[2026-07-29T15:41:44.576219+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=500000; candidates=1393; bytes=1766890982; bytes_per_second=6853260; free_bytes=125213171712
+[2026-07-29T15:42:36.920182+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=611956; candidates=1701; bytes=2147487637; bytes_per_second=6923767; free_bytes=125211455488
+[2026-07-29T15:45:16.843583+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=931988; candidates=2607; bytes=3221226806; bytes_per_second=6852426; free_bytes=125138460672
+[2026-07-29T15:45:28.692563+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1000000; candidates=2779; bytes=3448331998; bytes_per_second=7155186; free_bytes=125138415616
+[2026-07-29T15:46:03.902522+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1257322; candidates=3484; bytes=4294968203; bytes_per_second=8305162; free_bytes=125127483392
+[2026-07-29T15:46:37.471385+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1500000; candidates=4137; bytes=5085555321; bytes_per_second=9234480; free_bytes=125102727168
+[2026-07-29T15:46:49.966115+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1587330; candidates=4346; bytes=5368710962; bytes_per_second=9532375; free_bytes=125102596096
+[2026-07-29T15:47:38.094401+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1922803; candidates=5204; bytes=6442451154; bytes_per_second=10538304; free_bytes=125083701248
+[2026-07-29T15:47:49.649029+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2000000; candidates=5380; bytes=6684798847; bytes_per_second=10731897; free_bytes=125083234304
+[2026-07-29T15:48:26.941909+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2270561; candidates=6019; bytes=7516196851; bytes_per_second=11385007; free_bytes=125066444800
+[2026-07-29T15:49:01.848412+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2500000; candidates=6569; bytes=8220273133; bytes_per_second=11826191; free_bytes=125059252224
+[2026-07-29T15:49:20.587830+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2619971; candidates=6895; bytes=8589934870; bytes_per_second=12033599; free_bytes=125050138624
+[2026-07-29T15:50:19.096228+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2981535; candidates=7767; bytes=9663677506; bytes_per_second=12512235; free_bytes=125032243200
+[2026-07-29T15:50:22.382282+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3000000; candidates=7803; bytes=9715768274; bytes_per_second=12526380; free_bytes=125032243200
+[2026-07-29T15:51:21.799097+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3361845; candidates=8664; bytes=10737419142; bytes_per_second=12858548; free_bytes=125012647936
+[2026-07-29T15:51:44.357067+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3500000; candidates=9037; bytes=11127920079; bytes_per_second=12975670; free_bytes=125009801216
+[2026-07-29T15:52:17.678685+08:00] [INFO] Metadata scan completed: id=meta_home_and_kitchen; records=3735584; candidates=9626; seconds=890.916; peak_rss_bytes=220254208
+[2026-07-29T15:52:23.414861+08:00] [INFO] Candidate merge completed: source_rows=58370; unique_parents=58370
+[2026-07-29T15:52:26.524355+08:00] [INFO] W3 finished with status=PAUSED_AUDIT_REQUIRED.
+[2026-07-29T15:57:38.961261+08:00] [INFO] W3 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; orjson=3.11.9; free_bytes=124954738688; filter_version=w3-v1.1.0
+[2026-07-29T15:57:38.973780+08:00] [INFO] Metadata scan started: id=meta_electronics; bytes=5246144134; expected_records=1610012
+[2026-07-29T15:58:32.283270+08:00] [INFO] Metadata progress: id=meta_electronics; records=301148; candidates=6712; bytes=1073743920; bytes_per_second=20141690; free_bytes=124932845568
+[2026-07-29T15:59:07.329804+08:00] [INFO] Metadata progress: id=meta_electronics; records=500000; candidates=10970; bytes=1761510995; bytes_per_second=19936552; free_bytes=124916215808
+[2026-07-29T15:59:31.762705+08:00] [INFO] Metadata progress: id=meta_electronics; records=612876; candidates=13508; bytes=2147484919; bytes_per_second=19039891; free_bytes=124908531712
+[2026-07-29T16:00:33.171926+08:00] [INFO] Metadata progress: id=meta_electronics; records=937302; candidates=20194; bytes=3221229422; bytes_per_second=18491709; free_bytes=124883152896
+[2026-07-29T16:00:44.334071+08:00] [INFO] Metadata progress: id=meta_electronics; records=1000000; candidates=21441; bytes=3424197191; bytes_per_second=18473152; free_bytes=124886482944
+[2026-07-29T16:01:35.745733+08:00] [INFO] Metadata progress: id=meta_electronics; records=1276087; candidates=27044; bytes=4294969357; bytes_per_second=18139694; free_bytes=124863418368
+[2026-07-29T16:02:18.432539+08:00] [INFO] Metadata progress: id=meta_electronics; records=1500000; candidates=31230; bytes=4939968621; bytes_per_second=17676896; free_bytes=124853506048
+[2026-07-29T16:02:34.979092+08:00] [INFO] Metadata scan completed: id=meta_electronics; records=1610012; candidates=33113; seconds=296.000; peak_rss_bytes=222130176
+[2026-07-29T16:02:34.993606+08:00] [INFO] Metadata scan started: id=meta_home_and_kitchen; bytes=11788767944; expected_records=3735584
+[2026-07-29T16:03:24.800435+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=299244; candidates=348; bytes=1073742633; bytes_per_second=21558240; free_bytes=124956950528
+[2026-07-29T16:03:55.021031+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=500000; candidates=593; bytes=1766890982; bytes_per_second=22078702; free_bytes=124941627392
+[2026-07-29T16:04:13.503786+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=611956; candidates=715; bytes=2147487637; bytes_per_second=21799697; free_bytes=124948230144
+[2026-07-29T16:05:04.331794+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=931988; candidates=1080; bytes=3221226806; bytes_per_second=21570022; free_bytes=124549570560
+[2026-07-29T16:05:14.955096+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1000000; candidates=1153; bytes=3448331998; bytes_per_second=21557261; free_bytes=124201750528
+[2026-07-29T16:05:54.092979+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1257322; candidates=1456; bytes=4294968203; bytes_per_second=21571986; free_bytes=124229644288
+[2026-07-29T16:06:30.366826+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1500000; candidates=1721; bytes=5085555321; bytes_per_second=21606394; free_bytes=123981029376
+[2026-07-29T16:06:42.389420+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1587330; candidates=1811; bytes=5368710962; bytes_per_second=21700909; free_bytes=123765477376
+[2026-07-29T16:07:31.636284+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1922803; candidates=2161; bytes=6442451154; bytes_per_second=21717897; free_bytes=124414365696
+[2026-07-29T16:07:42.758659+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2000000; candidates=2243; bytes=6684798847; bytes_per_second=21720522; free_bytes=124414218240
+[2026-07-29T16:08:24.697649+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2270561; candidates=2514; bytes=7516196851; bytes_per_second=21493036; free_bytes=124404428800
+[2026-07-29T16:08:59.597744+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2500000; candidates=2742; bytes=8220273133; bytes_per_second=21373365; free_bytes=124869165056
+[2026-07-29T16:09:19.192428+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2619971; candidates=2883; bytes=8589934870; bytes_per_second=21251793; free_bytes=124859539456
+[2026-07-29T16:10:14.479564+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2981535; candidates=3237; bytes=9663677506; bytes_per_second=21031537; free_bytes=124883648512
+[2026-07-29T16:10:17.085339+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3000000; candidates=3250; bytes=9715768274; bytes_per_second=21025668; free_bytes=124883664896
+[2026-07-29T16:11:09.640461+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3361845; candidates=3601; bytes=10737419142; bytes_per_second=20863671; free_bytes=124867530752
+[2026-07-29T16:11:29.028786+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3500000; candidates=3765; bytes=11127920079; bytes_per_second=20837453; free_bytes=124859953152
+[2026-07-29T16:12:01.704903+08:00] [INFO] Metadata scan completed: id=meta_home_and_kitchen; records=3735584; candidates=4045; seconds=566.706; peak_rss_bytes=211927040
+[2026-07-29T16:12:04.856263+08:00] [INFO] Candidate merge completed: source_rows=37158; unique_parents=37158
+[2026-07-29T16:12:07.082442+08:00] [INFO] W3 finished with status=PAUSED_AUDIT_REQUIRED.
+[2026-07-29T16:17:02.801697+08:00] [INFO] W3 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; orjson=3.11.9; free_bytes=125050593280; filter_version=w3-v1.2.0
+[2026-07-29T16:17:02.825703+08:00] [INFO] Metadata scan started: id=meta_electronics; bytes=5246144134; expected_records=1610012
+[2026-07-29T16:17:55.714739+08:00] [INFO] Metadata progress: id=meta_electronics; records=301148; candidates=6712; bytes=1073743920; bytes_per_second=20301584; free_bytes=125023477760
+[2026-07-29T16:18:34.813831+08:00] [INFO] Metadata progress: id=meta_electronics; records=500000; candidates=10970; bytes=1761510995; bytes_per_second=19149364; free_bytes=125008326656
+[2026-07-29T16:18:56.982096+08:00] [INFO] Metadata progress: id=meta_electronics; records=612876; candidates=13508; bytes=2147484919; bytes_per_second=18811718; free_bytes=125001736192
+[2026-07-29T16:20:02.219886+08:00] [INFO] Metadata progress: id=meta_electronics; records=937302; candidates=20194; bytes=3221229422; bytes_per_second=17956168; free_bytes=124975951872
+[2026-07-29T16:20:15.087073+08:00] [INFO] Metadata progress: id=meta_electronics; records=1000000; candidates=21441; bytes=3424197191; bytes_per_second=17810069; free_bytes=124969091072
+[2026-07-29T16:21:12.684067+08:00] [INFO] Metadata progress: id=meta_electronics; records=1276087; candidates=27044; bytes=4294969357; bytes_per_second=17189571; free_bytes=124948324352
+[2026-07-29T16:21:57.649735+08:00] [INFO] Metadata progress: id=meta_electronics; records=1500000; candidates=31230; bytes=4939968621; bytes_per_second=16755640; free_bytes=124934004736
+[2026-07-29T16:22:17.649063+08:00] [INFO] Metadata scan completed: id=meta_electronics; records=1610012; candidates=33113; seconds=314.818; peak_rss_bytes=217133056
+[2026-07-29T16:22:17.665694+08:00] [INFO] Metadata scan started: id=meta_home_and_kitchen; bytes=11788767944; expected_records=3735584
+[2026-07-29T16:23:17.567706+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=299244; candidates=348; bytes=1073742633; bytes_per_second=17925105; free_bytes=125029752832
+[2026-07-29T16:23:54.981213+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=500000; candidates=593; bytes=1766890982; bytes_per_second=18156346; free_bytes=125014892544
+[2026-07-29T16:24:14.231638+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=611956; candidates=715; bytes=2147487637; bytes_per_second=18423044; free_bytes=125014835200
+[2026-07-29T16:25:09.453911+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=931988; candidates=1080; bytes=3221226806; bytes_per_second=18751182; free_bytes=124996444160
+[2026-07-29T16:25:21.420684+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1000000; candidates=1153; bytes=3448331998; bytes_per_second=18765961; free_bytes=124994289664
+[2026-07-29T16:26:07.506366+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1257322; candidates=1456; bytes=4294968203; bytes_per_second=18686765; free_bytes=124983316480
+[2026-07-29T16:26:51.746534+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1500000; candidates=1721; bytes=5085555321; bytes_per_second=18554989; free_bytes=124766416896
+[2026-07-29T16:27:10.410663+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1587330; candidates=1811; bytes=5368710962; bytes_per_second=18339258; free_bytes=124972244992
+[2026-07-29T16:28:16.456295+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1922803; candidates=2161; bytes=6442451154; bytes_per_second=17956062; free_bytes=124948303872
+[2026-07-29T16:28:30.259723+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2000000; candidates=2243; bytes=6684798847; bytes_per_second=17941267; free_bytes=124940763136
+[2026-07-29T16:29:16.070281+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2270561; candidates=2514; bytes=7516196851; bytes_per_second=17963959; free_bytes=124926414848
+[2026-07-29T16:29:46.613425+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2500000; candidates=2742; bytes=8220273133; bytes_per_second=18310126; free_bytes=124918706176
+[2026-07-29T16:30:04.309442+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2619971; candidates=2883; bytes=8589934870; bytes_per_second=18407925; free_bytes=124914167808
+[2026-07-29T16:30:52.019713+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2981535; candidates=3237; bytes=9663677506; bytes_per_second=18787996; free_bytes=124895166464
+[2026-07-29T16:30:54.735533+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3000000; candidates=3250; bytes=9715768274; bytes_per_second=18790053; free_bytes=124895170560
+[2026-07-29T16:31:40.900857+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3361845; candidates=3601; bytes=10737419142; bytes_per_second=19063839; free_bytes=124874698752
+[2026-07-29T16:32:00.204258+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3500000; candidates=3765; bytes=11127920079; bytes_per_second=19102462; free_bytes=124874420224
+[2026-07-29T16:32:31.495752+08:00] [INFO] Metadata scan completed: id=meta_home_and_kitchen; records=3735584; candidates=4045; seconds=613.826; peak_rss_bytes=206229504
+[2026-07-29T16:32:34.678834+08:00] [INFO] Candidate merge completed: source_rows=37158; unique_parents=37158
+[2026-07-29T16:32:37.184054+08:00] [INFO] W3 finished with status=PAUSED_AUDIT_REQUIRED.
+[2026-07-29T16:36:47.536181+08:00] [INFO] W3 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; orjson=3.11.9; free_bytes=125038632960; filter_version=w3-v1.3.1
+[2026-07-29T16:36:47.557757+08:00] [INFO] Metadata scan started: id=meta_electronics; bytes=5246144134; expected_records=1610012
+[2026-07-29T16:37:34.199916+08:00] [INFO] Metadata progress: id=meta_electronics; records=301148; candidates=6712; bytes=1073743920; bytes_per_second=23020645; free_bytes=125011128320
+[2026-07-29T16:38:04.619423+08:00] [INFO] Metadata progress: id=meta_electronics; records=500000; candidates=10970; bytes=1761510995; bytes_per_second=22858185; free_bytes=124995063808
+[2026-07-29T16:38:23.603744+08:00] [INFO] Metadata progress: id=meta_electronics; records=612876; candidates=13508; bytes=2147484919; bytes_per_second=22358869; free_bytes=124988313600
+[2026-07-29T16:39:12.025416+08:00] [INFO] Metadata progress: id=meta_electronics; records=937302; candidates=20194; bytes=3221229422; bytes_per_second=22297139; free_bytes=124966998016
+[2026-07-29T16:39:21.920839+08:00] [INFO] Metadata progress: id=meta_electronics; records=1000000; candidates=21441; bytes=3424197191; bytes_per_second=22182667; free_bytes=124966932480
+[2026-07-29T16:40:01.660330+08:00] [INFO] Metadata progress: id=meta_electronics; records=1276087; candidates=27044; bytes=4294969357; bytes_per_second=22127243; free_bytes=124938600448
+[2026-07-29T16:40:34.788579+08:00] [INFO] Metadata progress: id=meta_electronics; records=1500000; candidates=31230; bytes=4939968621; bytes_per_second=21739842; free_bytes=124929368064
+[2026-07-29T16:40:51.134892+08:00] [INFO] Metadata scan completed: id=meta_electronics; records=1610012; candidates=33113; seconds=243.569; peak_rss_bytes=218218496
+[2026-07-29T16:40:51.166210+08:00] [INFO] Metadata scan started: id=meta_home_and_kitchen; bytes=11788767944; expected_records=3735584
+[2026-07-29T16:41:35.878443+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=299244; candidates=348; bytes=1073742633; bytes_per_second=24013993; free_bytes=125020438528
+[2026-07-29T16:42:03.499966+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=500000; candidates=593; bytes=1766890982; bytes_per_second=24426634; free_bytes=125010411520
+[2026-07-29T16:42:19.916014+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=611956; candidates=715; bytes=2147487637; bytes_per_second=24197032; free_bytes=125005770752
+[2026-07-29T16:43:11.027892+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=931988; candidates=1080; bytes=3221226806; bytes_per_second=23031367; free_bytes=124991320064
+[2026-07-29T16:43:23.333850+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1000000; candidates=1153; bytes=3448331998; bytes_per_second=22661325; free_bytes=124984987648
+[2026-07-29T16:44:04.510337+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1257322; candidates=1456; bytes=4294968203; bytes_per_second=22214080; free_bytes=124931465216
+[2026-07-29T16:44:45.315005+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1500000; candidates=1721; bytes=5085555321; bytes_per_second=21719324; free_bytes=124922241024
+[2026-07-29T16:45:06.744259+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1587330; candidates=1811; bytes=5368710962; bytes_per_second=21006091; free_bytes=124990464000
+[2026-07-29T16:46:10.204212+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1922803; candidates=2161; bytes=6442451154; bytes_per_second=20193361; free_bytes=124973912064
+[2026-07-29T16:46:22.315638+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2000000; candidates=2243; bytes=6684798847; bytes_per_second=20186597; free_bytes=124781199360
+[2026-07-29T16:46:59.735371+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2270561; candidates=2514; bytes=7516196851; bytes_per_second=20392862; free_bytes=124537503744
+[2026-07-29T16:47:32.636920+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2500000; candidates=2742; bytes=8220273133; bytes_per_second=20475364; free_bytes=124525309952
+[2026-07-29T16:47:48.996866+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2619971; candidates=2883; bytes=8589934870; bytes_per_second=20558408; free_bytes=124516745216
+[2026-07-29T16:48:41.326809+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2981535; candidates=3237; bytes=9663677506; bytes_per_second=20553959; free_bytes=124504231936
+[2026-07-29T16:48:44.034089+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3000000; candidates=3250; bytes=9715768274; bytes_per_second=20546468; free_bytes=124497547264
+[2026-07-29T16:49:36.317123+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3361845; candidates=3601; bytes=10737419142; bytes_per_second=20446344; free_bytes=124481449984
+[2026-07-29T16:49:57.247451+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3500000; candidates=3765; bytes=11127920079; bytes_per_second=20377770; free_bytes=124410793984
+[2026-07-29T16:50:30.046488+08:00] [INFO] Metadata scan completed: id=meta_home_and_kitchen; records=3735584; candidates=4045; seconds=578.876; peak_rss_bytes=210878464
+[2026-07-29T16:50:33.147804+08:00] [INFO] Candidate merge completed: source_rows=37158; unique_parents=37158
+[2026-07-29T16:50:35.770436+08:00] [INFO] W3 finished with status=PAUSED_AUDIT_REQUIRED.
+[2026-07-29T16:53:30.672517+08:00] [INFO] W3 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; orjson=3.11.9; free_bytes=124603031552; filter_version=w3-v1.3.2
+[2026-07-29T16:53:30.702408+08:00] [INFO] Metadata scan started: id=meta_electronics; bytes=5246144134; expected_records=1610012
+[2026-07-29T16:54:15.532401+08:00] [INFO] Metadata progress: id=meta_electronics; records=301148; candidates=6712; bytes=1073743920; bytes_per_second=23951244; free_bytes=124515852288
+[2026-07-29T16:54:44.933545+08:00] [INFO] Metadata progress: id=meta_electronics; records=500000; candidates=10970; bytes=1761510995; bytes_per_second=23729820; free_bytes=124537479168
+[2026-07-29T16:55:01.662833+08:00] [INFO] Metadata progress: id=meta_electronics; records=612876; candidates=13508; bytes=2147484919; bytes_per_second=23608979; free_bytes=124533260288
+[2026-07-29T16:55:48.649481+08:00] [INFO] Metadata progress: id=meta_electronics; records=937302; candidates=20194; bytes=3221229422; bytes_per_second=23351095; free_bytes=124505112576
+[2026-07-29T16:55:58.549979+08:00] [INFO] Metadata progress: id=meta_electronics; records=1000000; candidates=21441; bytes=3424197191; bytes_per_second=23160179; free_bytes=124500422656
+[2026-07-29T16:56:39.376641+08:00] [INFO] Metadata progress: id=meta_electronics; records=1276087; candidates=27044; bytes=4294969357; bytes_per_second=22763847; free_bytes=124487974912
+[2026-07-29T16:57:14.864927+08:00] [INFO] Metadata progress: id=meta_electronics; records=1500000; candidates=31230; bytes=4939968621; bytes_per_second=22037403; free_bytes=124322074624
+[2026-07-29T16:57:34.042084+08:00] [INFO] Metadata scan completed: id=meta_electronics; records=1610012; candidates=33113; seconds=243.335; peak_rss_bytes=217804800
+[2026-07-29T16:57:34.067085+08:00] [INFO] Metadata scan started: id=meta_home_and_kitchen; bytes=11788767944; expected_records=3735584
+[2026-07-29T16:58:19.919706+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=299244; candidates=348; bytes=1073742633; bytes_per_second=23417410; free_bytes=124021452800
+[2026-07-29T16:58:47.871797+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=500000; candidates=593; bytes=1766890982; bytes_per_second=23940229; free_bytes=124012695552
+[2026-07-29T16:59:04.754339+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=611956; candidates=715; bytes=2147487637; bytes_per_second=23680176; free_bytes=124005404672
+[2026-07-29T16:59:50.429316+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=931988; candidates=1080; bytes=3221226806; bytes_per_second=23622653; free_bytes=124015931392
+[2026-07-29T16:59:59.676277+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1000000; candidates=1153; bytes=3448331998; bytes_per_second=23682103; free_bytes=124151463936
+[2026-07-29T17:00:35.612015+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1257322; candidates=1456; bytes=4294968203; bytes_per_second=23657933; free_bytes=124199878656
+[2026-07-29T17:01:06.324324+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1500000; candidates=1721; bytes=5085555321; bytes_per_second=23959442; free_bytes=124186750976
+[2026-07-29T17:01:17.332200+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1587330; candidates=1811; bytes=5368710962; bytes_per_second=24046365; free_bytes=124181979136
+[2026-07-29T17:01:58.702342+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=1922803; candidates=2161; bytes=6442451154; bytes_per_second=24344649; free_bytes=124165287936
+[2026-07-29T17:02:07.995520+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2000000; candidates=2243; bytes=6684798847; bytes_per_second=24403479; free_bytes=124159463424
+[2026-07-29T17:02:44.629649+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2270561; candidates=2514; bytes=7516196851; bytes_per_second=24201893; free_bytes=124149940224
+[2026-07-29T17:03:13.865464+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2500000; candidates=2742; bytes=8220273133; bytes_per_second=24191604; free_bytes=124033388544
+[2026-07-29T17:03:31.150450+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2619971; candidates=2883; bytes=8589934870; bytes_per_second=24055846; free_bytes=124033388544
+[2026-07-29T17:04:20.061928+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=2981535; candidates=3237; bytes=9663677506; bytes_per_second=23802482; free_bytes=124014772224
+[2026-07-29T17:04:23.162142+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3000000; candidates=3250; bytes=9715768274; bytes_per_second=23749420; free_bytes=124014768128
+[2026-07-29T17:05:09.962665+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3361845; candidates=3601; bytes=10737419142; bytes_per_second=23552359; free_bytes=123999870976
+[2026-07-29T17:05:29.539179+08:00] [INFO] Metadata progress: id=meta_home_and_kitchen; records=3500000; candidates=3765; bytes=11127920079; bytes_per_second=23403960; free_bytes=123991216128
+[2026-07-29T17:05:59.648293+08:00] [INFO] Metadata scan completed: id=meta_home_and_kitchen; records=3735584; candidates=4045; seconds=505.577; peak_rss_bytes=209903616
+[2026-07-29T17:06:02.626573+08:00] [INFO] Candidate merge completed: source_rows=37158; unique_parents=37158
+[2026-07-29T17:06:04.955789+08:00] [INFO] W3 finished with status=PAUSED_AUDIT_REQUIRED.
+[2026-07-29T17:07:46.234115+08:00] [INFO] W3 started; python=3.11.9; duckdb=1.5.5; pyarrow=25.0.0; orjson=3.11.9; free_bytes=124157210624; filter_version=w3-v1.3.2
+[2026-07-29T17:07:46.254659+08:00] [INFO] Checkpoint reused; metadata scan skipped: id=meta_electronics
+[2026-07-29T17:07:46.270181+08:00] [INFO] Checkpoint reused; metadata scan skipped: id=meta_home_and_kitchen
+[2026-07-29T17:07:49.558887+08:00] [INFO] Candidate merge completed: source_rows=37158; unique_parents=37158
+[2026-07-29T17:07:51.600234+08:00] [INFO] W3 finished with status=PASS.

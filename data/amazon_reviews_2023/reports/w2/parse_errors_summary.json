@@ -1,0 +1,31 @@
+{
+  "phase": "W2",
+  "generated_at": "2026-07-29T14:27:57.646554+08:00",
+  "total_parse_errors": 0,
+  "files": [
+    {
+      "id": "meta_electronics",
+      "parse_error_count": 0,
+      "error_categories": {},
+      "error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/meta_electronics_parse_errors.jsonl"
+    },
+    {
+      "id": "meta_home_and_kitchen",
+      "parse_error_count": 0,
+      "error_categories": {},
+      "error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/meta_home_and_kitchen_parse_errors.jsonl"
+    },
+    {
+      "id": "reviews_electronics",
+      "parse_error_count": 0,
+      "error_categories": {},
+      "error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/reviews_electronics_parse_errors.jsonl"
+    },
+    {
+      "id": "reviews_home_and_kitchen",
+      "parse_error_count": 0,
+      "error_categories": {},
+      "error_details_relative_path": "data/amazon_reviews_2023/reports/w2/checkpoints/reviews_home_and_kitchen_parse_errors.jsonl"
+    }
+  ]
+}

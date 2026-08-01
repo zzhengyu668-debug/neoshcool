@@ -1,0 +1,56 @@
+{
+  "phase": "W5-C-A annotation return",
+  "status": "PAUSED_HUMAN_ADJUDICATION",
+  "w5c_b_readiness": "WAITING_FOR_COMPLETED_ADJUDICATION",
+  "input_workbook_count": 8,
+  "reviewer_1_rows": 1200,
+  "reviewer_2_rows": 240,
+  "issue_count": 0,
+  "labels_modified": false,
+  "labels_auto_filled": false,
+  "model_retrained": false,
+  "w6_executed": false,
+  "output_workbook_validation": {
+    "row_count": 240,
+    "column_count": 25,
+    "adjudication_fields_blank": true,
+    "formula_count": 0,
+    "formula_error_scan": {
+      "ndjson": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+      "truncated": false,
+      "metadata": {
+        "revision": "tam5vj",
+        "target": {
+          "id": "wb/lmybrk",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "match",
+          "tokens": [
+            "match"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    "rendered_sheets": [
+      "Summary",
+      "Instructions",
+      "Adjudication"
+    ]
+  },
+  "adjudication_workbook_created": true,
+  "adjudication_workbook": {
+    "path": "data\\amazon_reviews_2023\\interim\\w5c_a\\w5c_a_double_review_240_merged_for_adjudication.xlsx",
+    "size_bytes": 74060,
+    "mtime_utc": "2026-08-01T00:41:04.875Z",
+    "sha256": "c0f4444d24b727251e93979adeb376809830379a076ebc0161da36c433baf080"
+  }
+}

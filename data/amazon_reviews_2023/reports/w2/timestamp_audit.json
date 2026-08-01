@@ -1,0 +1,54 @@
+{
+  "phase": "W2",
+  "generated_at": "2026-07-29T14:27:57.646554+08:00",
+  "files": [
+    {
+      "id": "reviews_electronics",
+      "domain": "Electronics",
+      "field_present_count": 43886944,
+      "field_missing_count": 0,
+      "type_counts": {
+        "integer": 43886944
+      },
+      "null_count": 0,
+      "non_numeric_count": 0,
+      "numeric_count": 43886944,
+      "negative_count": 0,
+      "numeric_min": 848336280000,
+      "numeric_max": 1694625981867,
+      "magnitude_counts": {
+        "milliseconds": 43886944
+      },
+      "unit": "milliseconds",
+      "unit_status": "CONFIRMED_MILLISECONDS",
+      "unconvertible_count": 0,
+      "milliseconds_unconvertible_count": 0,
+      "min_utc": "1996-11-18T16:58:00+00:00",
+      "max_utc": "2023-09-13T17:26:21.867000+00:00"
+    },
+    {
+      "id": "reviews_home_and_kitchen",
+      "domain": "Home_and_Kitchen",
+      "field_present_count": 67409944,
+      "field_missing_count": 0,
+      "type_counts": {
+        "integer": 67409944
+      },
+      "null_count": 0,
+      "non_numeric_count": 0,
+      "numeric_count": 67409944,
+      "negative_count": 0,
+      "numeric_min": 896410004000,
+      "numeric_max": 1694571465551,
+      "magnitude_counts": {
+        "milliseconds": 67409944
+      },
+      "unit": "milliseconds",
+      "unit_status": "CONFIRMED_MILLISECONDS",
+      "unconvertible_count": 0,
+      "milliseconds_unconvertible_count": 0,
+      "min_utc": "1998-05-29T02:46:44+00:00",
+      "max_utc": "2023-09-13T02:17:45.551000+00:00"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "phase": "W3R-C",
+  "formal_version": "w3-v1.4.0",
+  "baseline_version": "w3-v1.3.2",
+  "baseline_rows": 106,
+  "formal_rows": 125,
+  "unchanged_baseline_parents": 106,
+  "duplicate_parent_asin_between_baseline_and_promoted": 0,
+  "shared_baseline_metadata_conflicts": 0,
+  "baseline_non_version_fields_changed": 0,
+  "added": [
+    {
+      "blind_id": "W3RB-001",
+      "parent_asin": "B00IRQ6T22",
+      "device_type": "smart_bulb",
+      "product_title": "MiPow PLAYBULB Bluetooth SMART LED Wireless Speaker Light Bulb for use with Apple iPhone/ iPad/ iPod and Android devices - Chrome",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-004",
+      "parent_asin": "B00JCE14AU",
+      "device_type": "smart_bulb",
+      "product_title": "Sengled Pulse Dimmable LED Light Bulb with a Built-In Wireless Bluetooth JBL Speaker, Master + Satellite (Pair), Pewter",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-005",
+      "parent_asin": "B00W6YEMMU",
+      "device_type": "smart_bulb",
+      "product_title": "PLAYBULB BTL100 Bluetooth Dimmable LED Light Bulb with Wireless Speaker, White",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-006",
+      "parent_asin": "B010UAB0V2",
+      "device_type": "smart_switch",
+      "product_title": "Belkin WeMo Light Switch",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-007",
+      "parent_asin": "B003I86OPG",
+      "device_type": "smart_switch",
+      "product_title": "Insteon 2466DI ToggleLinc Insteon Remote Control Dimmer Switch, Ivory",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-008",
+      "parent_asin": "B00YB5R56M",
+      "device_type": "smart_bulb",
+      "product_title": "ION Audio Sound Shine | Dimmable Light Bulb & Wireless Speaker with Bluetooth & App Control (Pair)",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-010",
+      "parent_asin": "B0BN7YPZKP",
+      "device_type": "smart_bulb",
+      "product_title": "WiZ Connected 6-Pack Color 60W Candle B11 Smart WiFi Light Bulb, 16 Million Colors, Compatible with Alexa and Google Home Assistant, No Hub Required, 6 Bulbs",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-011",
+      "parent_asin": "B01M0PAZA7",
+      "device_type": "smart_bulb",
+      "product_title": "SHARPER IMAGE SBT5007WH Switcher Bluetooth Wireless Smart Speaker Bulb",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-012",
+      "parent_asin": "B00UMA45KY",
+      "device_type": "smart_bulb",
+      "product_title": "PLAYBULB Color Bluetooth Smart LED Light Bulb with built in Speaker for iPhone and Android",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-013",
+      "parent_asin": "B00PJH16UC",
+      "device_type": "smart_bulb",
+      "product_title": "GoControl Z-Wave Dimmable LED Light Bulb, LB60Z-1",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-014",
+      "parent_asin": "B00KLPFJR8",
+      "device_type": "smart_bulb",
+      "product_title": "PLAYBULB BTL100 Bluetooth Dimmable LED Light Bulb with Wireless Speaker, White",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-015",
+      "parent_asin": "B00KLPFEXW",
+      "device_type": "smart_bulb",
+      "product_title": "MiPow BTL100-SR-WW PLAYBULB Bluetooth Wireless Smart LED Speaker Light Bulb",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-016",
+      "parent_asin": "B00S036GN4",
+      "device_type": "smart_bulb",
+      "product_title": "Sengled Boost, Dimmable LED Bulb with Integrated Wi-Fi Repeater",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-017",
+      "parent_asin": "B00S036GUC",
+      "device_type": "smart_bulb",
+      "product_title": "Sengled Boost, Dimmable LED Bulb with Integrated Wi-Fi Repeater",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-018",
+      "parent_asin": "B00V9091EG",
+      "device_type": "smart_bulb",
+      "product_title": "Top Race Fun Disco Smart LED BLUETOOTH LIGHT BULB 6W (60 Watt Replacement) - Works with ALL Smartphones; Apple iPhone, iPad, Android Phones And Tablets",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-019",
+      "parent_asin": "B00S036GQQ",
+      "device_type": "smart_bulb",
+      "product_title": "Sengled Boost, Dimmable LED Bulb with Integrated Wi-Fi Repeater",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-020",
+      "parent_asin": "B00YRRVTPM",
+      "device_type": "smart_bulb",
+      "product_title": "ION Audio Sound Shine | Dimmable Light Bulb & Wireless Speaker with Bluetooth & App Control (Single)",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-021",
+      "parent_asin": "B01MS9L9K2",
+      "device_type": "smart_bulb",
+      "product_title": "TP-Link LB130(E27) v1. 0, Smart Wi-Fi LED Bulb with Color Changing Hue",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-023",
+      "parent_asin": "B01AKOY5FG",
+      "device_type": "smart_bulb",
+      "product_title": "GoControl Z-Wave Dimmable LED Light Bulb, LB60Z-1",
+      "source_domains": "Electronics",
+      "final_label": "correct_target",
+      "final_decision": "include",
+      "decision_basis": "reviewer_consensus"
+    }
+  ],
+  "held_or_excluded": [
+    {
+      "blind_id": "W3RB-002",
+      "parent_asin": "B08TVZK8D6",
+      "product_title": "Made for Amazon Zigbee Smart Switch, Gen3. Compatible with Echo (4th Gen), Echo Plus (1st & 2nd Gen), Echo Show 10 (2nd & 3rd Gen), Echo Studio, Eero, and Eero 6 Pro",
+      "final_device_type": "neither",
+      "final_label": "accessory",
+      "final_decision": "exclude",
+      "decision_basis": "adjudication"
+    },
+    {
+      "blind_id": "W3RB-003",
+      "parent_asin": "B073S7XK5N",
+      "product_title": "ON-Q Switch - Radiant in-Wall 1500W Rf Switch - White (LC2201-WH)",
+      "final_device_type": "uncertain",
+      "final_label": "ambiguous",
+      "final_decision": "hold",
+      "decision_basis": "reviewer_consensus"
+    },
+    {
+      "blind_id": "W3RB-009",
+      "parent_asin": "B07DWCWW3N",
+      "product_title": "Switchmate Light Switch Systems Toggle - Wireless Wall Switch",
+      "final_device_type": "neither",
+      "final_label": "accessory",
+      "final_decision": "exclude",
+      "decision_basis": "adjudication"
+    },
+    {
+      "blind_id": "W3RB-022",
+      "parent_asin": "B08HCBW627",
+      "product_title": "Made for Amazon BLE Smart Switch, Gen3 Compatible with Echo v4, Echo Dot v3&v4, Echo Flex, Echo Input, Echo Show 5 & 8, and Echo Studio.",
+      "final_device_type": "neither",
+      "final_label": "accessory",
+      "final_decision": "exclude",
+      "decision_basis": "adjudication"
+    }
+  ],
+  "final_device_counts": {
+    "smart_plug": 95,
+    "smart_bulb": 25,
+    "smart_switch": 5
+  }
+}

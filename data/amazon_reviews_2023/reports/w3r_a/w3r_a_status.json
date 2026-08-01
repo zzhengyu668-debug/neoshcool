@@ -1,0 +1,203 @@
+{
+  "completed_at": "2026-07-29T13:00:34.058954+00:00",
+  "diagnostic_targets": {
+    "all_targets_met": false,
+    "ambiguity_target_met": true,
+    "count_target_met": false,
+    "precision_target_met": true
+  },
+  "disk": {
+    "free_gib_after": 115.983,
+    "free_gib_before": 115.984,
+    "minimum_free_gib": 60.0
+  },
+  "draft_frozen": false,
+  "draft_product_counts": {
+    "smart_bulb": 25,
+    "smart_plug": 95,
+    "smart_switch": 9
+  },
+  "draft_version": "w3-v1.4.0-draft",
+  "duration_seconds": 30.774,
+  "environment": {
+    "orjson_version": "3.11.9",
+    "pyarrow_version": "25.0.0",
+    "python_64_bit": true,
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9"
+  },
+  "input_identity": {
+    "base_rules_sha256": "81aec360771b842a1e327749a99400d4588823de60b75831e1784fdc9868943f",
+    "draft_rules_sha256": "4e56ec3018b549e60eb8418576486875143ed60b52e2105aebb4b396d003b6d2",
+    "metadata_candidates": {
+      "bytes": 34192605,
+      "mtime_ns": 1785316069554887900,
+      "path": "data\\amazon_reviews_2023\\interim\\metadata_candidates.parquet",
+      "sha256": "493ffc9518c7a1123e90feaee1559c4f476fef5852a51e071a7cfbc27baac168"
+    },
+    "target_products": {
+      "bytes": 85142,
+      "mtime_ns": 1785316071556196800,
+      "path": "data\\amazon_reviews_2023\\processed\\target_products.parquet",
+      "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d"
+    }
+  },
+  "outputs": {
+    "data\\amazon_reviews_2023\\interim\\w3r_a\\bulb_recovery_candidates.parquet": {
+      "bytes": 436177,
+      "sha256": "91de83c4c948e1f525e233580b1ef5c3648388081c62be01bd759385ac0fe097"
+    },
+    "data\\amazon_reviews_2023\\interim\\w3r_a\\proposed_target_products_w3_v1_4_draft.parquet": {
+      "bytes": 80404,
+      "sha256": "f8a9962632aaeebe2613b8e95de3e09b9ad0aad7efb1f7d71fe61bf4b0ea7f30"
+    },
+    "data\\amazon_reviews_2023\\interim\\w3r_a\\switch_recovery_candidates.parquet": {
+      "bytes": 1234946,
+      "sha256": "7315de1aab63be5b1f8ac3d29ba87bd717c5d10153718bd6de41479b17cbf2ca"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\bulb_audit_sample.csv": {
+      "bytes": 356534,
+      "sha256": "2c456aa96d6dbd2bd52f9dc1444dbb86490113a852f04353381bd3df83622019"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\exclusion_gate_diagnostics.json": {
+      "bytes": 2517,
+      "sha256": "5a5a211f250681e3b0ce78442ca791d583b8e547dd7e5fd013bb5ea9f54c35dd"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\old_vs_draft_product_counts.csv": {
+      "bytes": 183,
+      "sha256": "b5d3e6f5a20b09baafe697558c9a9abdc2a7e2781fc6b2840bed9bb142b40070"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\recovery_audit_results.json": {
+      "bytes": 2132,
+      "sha256": "a59802062a33698d39a441abe902a8f2b676d9ae85f336b45d22fccea7521eaa"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\recovery_candidate_flow.csv": {
+      "bytes": 259,
+      "sha256": "149716b77276b7e68b98a4762bb18318dca42ce9e47e8a6095c9b866d1d63f01"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\recovery_candidate_flow.json": {
+      "bytes": 749,
+      "sha256": "dfa1b0be24a40907e74a69ec89a1149fafd868c219248f40e43883789102cc69"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\switch_audit_sample.csv": {
+      "bytes": 497668,
+      "sha256": "10de22c8dfe75c26500ee9f6ee4e1aa100deda4669e3bc6043565f91fc54e48f"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\w3r_a_execution.log": {
+      "bytes": 386,
+      "sha256": "f24ea8179d5b5198d5d1fc79e5b52511c081bcaff42a581d8b80c9d701d6de6e"
+    },
+    "data\\amazon_reviews_2023\\reports\\w3r_a\\w3r_a_summary.md": {
+      "bytes": 1647,
+      "sha256": "fb0087c36dac879771557e02989743047086ae96f43cdc899f8b18473364b6fe"
+    }
+  },
+  "phase": "W3R-A",
+  "project_root_resolved": "C:\\Users\\30649\\Desktop\\neoschool",
+  "promotion_blockers": [
+    "The draft does not recover at least 30 reliable products in both focus types."
+  ],
+  "recommend_promote_draft": false,
+  "recovery": {
+    "smart_bulb": {
+      "ambiguous_candidate_count": 0,
+      "ambiguous_rate_among_potential": 0.0,
+      "draft_positive_correct_target": 17,
+      "draft_positive_count": 17,
+      "excluded_candidate_pool": 1598,
+      "interpretation": "Initial metadata rule-revision estimate; not independent dual-annotator blind review.",
+      "potential_false_negatives": 17,
+      "preliminary_precision": 1.0,
+      "recoverable": 17,
+      "recoverable_parent_asins": [
+        "B00IRQ6T22",
+        "B00JCE14AU",
+        "B00KLPFEXW",
+        "B00KLPFJR8",
+        "B00PJH16UC",
+        "B00S036GN4",
+        "B00S036GQQ",
+        "B00S036GUC",
+        "B00UMA45KY",
+        "B00V9091EG",
+        "B00W6YEMMU",
+        "B00YB5R56M",
+        "B00YRRVTPM",
+        "B01AKOY5FG",
+        "B01M0PAZA7",
+        "B01MS9L9K2",
+        "B0BN7YPZKP"
+      ],
+      "sample_label_counts": {
+        "accessory": 20,
+        "correct_target": 25,
+        "insufficient_evidence": 29,
+        "non_smart": 4,
+        "wrong_device_type": 180
+      },
+      "sample_role_counts": {
+        "positive_control": 8,
+        "recovery_candidate": 200,
+        "strong_exclusion_control": 50
+      },
+      "sample_size_total": 258
+    },
+    "smart_switch": {
+      "ambiguous_candidate_count": 0,
+      "ambiguous_rate_among_potential": 0.0,
+      "draft_positive_correct_target": 6,
+      "draft_positive_count": 6,
+      "excluded_candidate_pool": 3999,
+      "interpretation": "Initial metadata rule-revision estimate; not independent dual-annotator blind review.",
+      "potential_false_negatives": 313,
+      "preliminary_precision": 1.0,
+      "recoverable": 6,
+      "recoverable_parent_asins": [
+        "B003I86OPG",
+        "B010UAB0V2",
+        "B073S7XK5N",
+        "B07DWCWW3N",
+        "B08HCBW627",
+        "B08TVZK8D6"
+      ],
+      "sample_label_counts": {
+        "correct_target": 9,
+        "insufficient_evidence": 307,
+        "non_smart": 1,
+        "wrong_device_type": 49
+      },
+      "sample_role_counts": {
+        "positive_control": 3,
+        "recovery_candidate": 313,
+        "strong_exclusion_control": 50
+      },
+      "sample_size_total": 366
+    }
+  },
+  "scope_compliance": {
+    "average_rating_used": false,
+    "baseline_w3_outputs_modified": false,
+    "baseline_w4_outputs_modified": false,
+    "git_commit": false,
+    "gzip_read": false,
+    "metadata_jsonl_read": false,
+    "price_used": false,
+    "rating_number_used": false,
+    "ratings_used": false,
+    "review_level_base_read": false,
+    "reviews_jsonl_read": false,
+    "w4_rerun": false,
+    "w5_started": false
+  },
+  "started_at": "2026-07-29T13:00:03.064302+00:00",
+  "status": "PAUSED_INSUFFICIENT_RECOVERY",
+  "validated_counts": {
+    "baseline_by_device_type": {
+      "smart_bulb": 8,
+      "smart_plug": 95,
+      "smart_switch": 3
+    },
+    "metadata_candidates": 37158,
+    "target_products": 106
+  }
+}

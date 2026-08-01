@@ -1,0 +1,75 @@
+{
+  "by_device_type": {
+    "smart_bulb": {
+      "ambiguous_candidate_count": 0,
+      "ambiguous_rate_among_potential": 0.0,
+      "draft_positive_correct_target": 17,
+      "draft_positive_count": 17,
+      "interpretation": "Initial metadata rule-revision estimate; not independent dual-annotator blind review.",
+      "preliminary_precision": 1.0,
+      "recoverable_parent_asins": [
+        "B00IRQ6T22",
+        "B00JCE14AU",
+        "B00KLPFEXW",
+        "B00KLPFJR8",
+        "B00PJH16UC",
+        "B00S036GN4",
+        "B00S036GQQ",
+        "B00S036GUC",
+        "B00UMA45KY",
+        "B00V9091EG",
+        "B00W6YEMMU",
+        "B00YB5R56M",
+        "B00YRRVTPM",
+        "B01AKOY5FG",
+        "B01M0PAZA7",
+        "B01MS9L9K2",
+        "B0BN7YPZKP"
+      ],
+      "sample_label_counts": {
+        "accessory": 20,
+        "correct_target": 25,
+        "insufficient_evidence": 29,
+        "non_smart": 4,
+        "wrong_device_type": 180
+      },
+      "sample_role_counts": {
+        "positive_control": 8,
+        "recovery_candidate": 200,
+        "strong_exclusion_control": 50
+      },
+      "sample_size_total": 258
+    },
+    "smart_switch": {
+      "ambiguous_candidate_count": 0,
+      "ambiguous_rate_among_potential": 0.0,
+      "draft_positive_correct_target": 6,
+      "draft_positive_count": 6,
+      "interpretation": "Initial metadata rule-revision estimate; not independent dual-annotator blind review.",
+      "preliminary_precision": 1.0,
+      "recoverable_parent_asins": [
+        "B003I86OPG",
+        "B010UAB0V2",
+        "B073S7XK5N",
+        "B07DWCWW3N",
+        "B08HCBW627",
+        "B08TVZK8D6"
+      ],
+      "sample_label_counts": {
+        "correct_target": 9,
+        "insufficient_evidence": 307,
+        "non_smart": 1,
+        "wrong_device_type": 49
+      },
+      "sample_role_counts": {
+        "positive_control": 3,
+        "recovery_candidate": 313,
+        "strong_exclusion_control": 50
+      },
+      "sample_size_total": 366
+    }
+  },
+  "draft_version": "w3-v1.4.0-draft",
+  "random_seed": 20260729,
+  "review_type": "rule_revision_review_not_independent_blind_review"
+}

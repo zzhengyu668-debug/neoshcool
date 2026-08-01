@@ -1,0 +1,75 @@
+{
+  "strategy": "most_frequent",
+  "fit_split": "train",
+  "random_state": 20260731,
+  "evaluations": {
+    "validation": {
+      "n": 59,
+      "true_failure_0": 34,
+      "true_failure_1": 25,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            0,
+            34
+          ],
+          [
+            0,
+            25
+          ]
+        ],
+        "tn": 0,
+        "fp": 34,
+        "fn": 0,
+        "tp": 25
+      },
+      "accuracy": 0.423728813559322,
+      "balanced_accuracy": 0.5,
+      "precision": 0.423728813559322,
+      "recall": 1.0,
+      "f1": 0.5952380952380952,
+      "specificity": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.423728813559322,
+      "roc_auc_pr_auc_available": true
+    },
+    "test": {
+      "n": 60,
+      "true_failure_0": 26,
+      "true_failure_1": 34,
+      "confusion_matrix": {
+        "labels": [
+          0,
+          1
+        ],
+        "matrix": [
+          [
+            0,
+            26
+          ],
+          [
+            0,
+            34
+          ]
+        ],
+        "tn": 0,
+        "fp": 26,
+        "fn": 0,
+        "tp": 34
+      },
+      "accuracy": 0.5666666666666667,
+      "balanced_accuracy": 0.5,
+      "precision": 0.5666666666666667,
+      "recall": 1.0,
+      "f1": 0.723404255319149,
+      "specificity": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5666666666666667,
+      "roc_auc_pr_auc_available": true
+    }
+  }
+}

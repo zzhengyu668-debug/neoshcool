@@ -1,0 +1,62 @@
+[phase]
+version = "w4-v1.0.0"
+minimum_free_gib = 60
+progress_records = 5000000
+progress_bytes_gib = 1
+parquet_batch_rows = 10000
+parquet_compression = "zstd"
+duckdb_memory_limit = "2GB"
+
+[inputs]
+target_products = "data/amazon_reviews_2023/processed/target_products.parquet"
+w2_status = "data/amazon_reviews_2023/reports/w2/w2_status.json"
+w2_inventory = "data/amazon_reviews_2023/reports/w2/source_inventory.json"
+w3_status = "data/amazon_reviews_2023/reports/w3/w3_status.json"
+
+[[inputs.reviews]]
+id = "reviews_electronics"
+domain = "Electronics"
+relative_path = "review_categories/Electronics.jsonl"
+expected_records = 43886944
+expected_bytes = 22616233652
+
+[[inputs.reviews]]
+id = "reviews_home_and_kitchen"
+domain = "Home_and_Kitchen"
+relative_path = "review_categories/Home_and_Kitchen.jsonl"
+expected_records = 67409944
+expected_bytes = 31408889188
+
+[outputs]
+work = "data/amazon_reviews_2023/interim/w4_work"
+processed = "data/amazon_reviews_2023/processed"
+reports = "data/amazon_reviews_2023/reports/w4"
+review_level_base = "data/amazon_reviews_2023/processed/review_level_base.parquet"
+private_salt = "config/private/user_hash_salt.txt"
+
+[text]
+unicode_form = "NFKC"
+strip_html = true
+collapse_whitespace = true
+review_text_separator = "\n\n"
+dedup_casefold = true
+
+[language]
+package = "lingua-language-detector"
+mode = "all_languages_low_accuracy"
+minimum_relative_distance = 0.15
+minimum_english_confidence = 0.70
+minimum_alphabetic_characters = 10
+minimum_total_characters = 12
+undetermined_warning_share = 0.05
+
+[deduplication]
+key_version = "hmac-user-parent-time-rating-text-sha256-v1"
+source_domain_priority = ["Electronics", "Home_and_Kitchen"]
+
+[readiness]
+diagnostic_product_thresholds = [10, 20, 30]
+diagnostic_product_month_thresholds = [10, 20, 30]
+minimum_products_warning = 10
+maximum_top_product_share = 0.50
+maximum_device_product_imbalance_ratio = 10.0

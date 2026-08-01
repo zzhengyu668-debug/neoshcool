@@ -1,0 +1,69 @@
+{
+  "phase": "W1",
+  "seven_zip_path": "C:\\Program Files\\7-Zip\\7z.exe",
+  "seven_zip_version": "7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25",
+  "size_rule": "Only the Size: total emitted after a completed 7-Zip full test is treated as reliable; gzip header/listing Size = values are ignored.",
+  "updated_at": "2026-07-29T05:40:16.705Z",
+  "files": [
+    {
+      "id": "meta_electronics",
+      "archive_relative_path": "meta_categories/meta_Electronics.jsonl.gz",
+      "compressed_bytes": 1312900427,
+      "started_at": "2026-07-29T13:35:09.7096821+08:00",
+      "finished_at": "2026-07-29T13:35:27.8890630+08:00",
+      "exit_code": 0,
+      "success_marker": true,
+      "success": true,
+      "processed_size_bytes": 951176838,
+      "processed_size_reliable": false,
+      "processed_size_source": "unknown",
+      "processed_size_reliability_note": "Rejected because the reported total is within the 32-bit gzip ISIZE range and cannot rule out a 4 GiB wrap for this large JSONL archive.",
+      "output_summary": "\n7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25\n\nScanning the drive for archives:\n1 file, 1312900427 bytes (1253 MiB)\n\nTesting archive: C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\meta_categories\\meta_Electronics.jsonl.gz\n--\nPath = C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\meta_categories\\meta_Electronics.jsonl.gz\nType = gzip\nHeaders Size = 33\n\nEverything is Ok\n\nSize:       951176838\nCompressed: 1312900427"
+    },
+    {
+      "id": "meta_home_and_kitchen",
+      "archive_relative_path": "meta_categories/meta_Home_and_Kitchen.jsonl.gz",
+      "compressed_bytes": 2964930883,
+      "started_at": "2026-07-29T13:35:27.9205726+08:00",
+      "finished_at": "2026-07-29T13:36:09.2481527+08:00",
+      "exit_code": 0,
+      "success_marker": true,
+      "success": true,
+      "processed_size_bytes": 3198833352,
+      "processed_size_reliable": false,
+      "processed_size_source": "unknown",
+      "processed_size_reliability_note": "Rejected because the reported total is within the 32-bit gzip ISIZE range and cannot rule out a 4 GiB wrap for this large JSONL archive.",
+      "output_summary": "\n7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25\n\nScanning the drive for archives:\n1 file, 2964930883 bytes (2828 MiB)\n\nTesting archive: C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\meta_categories\\meta_Home_and_Kitchen.jsonl.gz\n--\nPath = C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\meta_categories\\meta_Home_and_Kitchen.jsonl.gz\nType = gzip\nHeaders Size = 38\n\nEverything is Ok\n\nSize:       3198833352\nCompressed: 2964930883"
+    },
+    {
+      "id": "reviews_electronics",
+      "archive_relative_path": "review_categories/Electronics.jsonl.gz",
+      "compressed_bytes": 6474438619,
+      "started_at": "2026-07-29T13:36:09.2586644+08:00",
+      "finished_at": "2026-07-29T13:37:35.9235829+08:00",
+      "exit_code": 0,
+      "success_marker": true,
+      "success": true,
+      "processed_size_bytes": 1141397172,
+      "processed_size_reliable": false,
+      "processed_size_source": "unknown",
+      "processed_size_reliability_note": "Rejected because the reported total is within the 32-bit gzip ISIZE range and cannot rule out a 4 GiB wrap for this large JSONL archive.",
+      "output_summary": "\n7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25\n\nScanning the drive for archives:\n1 file, 6474438619 bytes (6175 MiB)\n\nTesting archive: C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\review_categories\\Electronics.jsonl.gz\n--\nPath = C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\review_categories\\Electronics.jsonl.gz\nType = gzip\nHeaders Size = 28\n\nEverything is Ok\n\nSize:       1141397172\nCompressed: 6474438619"
+    },
+    {
+      "id": "reviews_home_and_kitchen",
+      "archive_relative_path": "review_categories/Home_and_Kitchen.jsonl.gz",
+      "compressed_bytes": 8307664299,
+      "started_at": "2026-07-29T13:37:35.9420905+08:00",
+      "finished_at": "2026-07-29T13:39:27.7861770+08:00",
+      "exit_code": 0,
+      "success_marker": true,
+      "success": true,
+      "processed_size_bytes": 1344118116,
+      "processed_size_reliable": false,
+      "processed_size_source": "unknown",
+      "processed_size_reliability_note": "Rejected because the reported total is within the 32-bit gzip ISIZE range and cannot rule out a 4 GiB wrap for this large JSONL archive.",
+      "output_summary": "\n7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25\n\nScanning the drive for archives:\n1 file, 8307664299 bytes (7923 MiB)\n\nTesting archive: C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\review_categories\\Home_and_Kitchen.jsonl.gz\n--\nPath = C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\compressed\\review_categories\\Home_and_Kitchen.jsonl.gz\nType = gzip\nHeaders Size = 33\n\nEverything is Ok\n\nSize:       1344118116\nCompressed: 8307664299"
+    }
+  ]
+}

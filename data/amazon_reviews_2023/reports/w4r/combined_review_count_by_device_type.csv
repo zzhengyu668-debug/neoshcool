@@ -1,0 +1,5 @@
+﻿device_type,target_products,products_with_reviews,products_without_reviews,final_reviews,reviews_per_target_product_min,reviews_per_target_product_median,reviews_per_target_product_mean,reviews_per_target_product_max,earliest_review_utc,latest_review_utc,products_with_at_least_10_reviews,products_with_at_least_20_reviews,products_with_at_least_30_reviews
+smart_plug,95,95,0,54607,1,16,574.8105263157895,45101,2013-12-03T16:11:02+00:00,2023-09-07T00:28:22.966000+00:00,57,46,36
+smart_bulb,25,25,0,1207,1,5,48.28,370,2014-05-30T23:58:35+00:00,2023-08-27T19:15:31.943000+00:00,9,7,5
+smart_switch,5,5,0,63,1,2,12.6,48,2011-03-13T12:29:41+00:00,2023-03-11T19:03:45.533000+00:00,2,1,1
+ALL,125,125,0,55877,1,11,447.016,45101,2011-03-13T12:29:41+00:00,2023-09-07T00:28:22.966000+00:00,68,54,42

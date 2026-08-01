@@ -1,0 +1,101 @@
+[2026-07-27T16:11:07.0441305+08:00] [INFO] W1 download stage started; project_root=C:\Users\30649\Desktop\neoschool; start_free_bytes=215704182784
+[2026-07-27T16:11:07.1260746+08:00] [INFO] Downloading meta_electronics serially; resume_bytes=0
+[2026-07-27T16:16:50.3458219+08:00] [ERROR] curl.exe failed for meta_electronics with exit code -1.
+[2026-07-27T16:17:23.6537444+08:00] [INFO] W1 download stage started; project_root=C:\Users\30649\Desktop\neoschool; start_free_bytes=215698845696
+[2026-07-27T16:17:23.7354203+08:00] [INFO] Downloading meta_electronics serially; resume_bytes=3207168
+[2026-07-27T16:20:26.4630531+08:00] [ERROR] curl.exe failed for meta_electronics with exit code -1.
+[2026-07-27T16:39:06.6628733+08:00] [INFO] W1 download stage started; project_root=C:\Users\30649\Desktop\neoschool; start_free_bytes=215633506304
+[2026-07-27T16:39:06.7635622+08:00] [INFO] Downloading meta_electronics serially; resume_bytes=4767414
+[2026-07-29T13:19:59.7441486+08:00] [INFO] Project SHA-256 started: meta_electronics
+[2026-07-29T13:20:01.4124712+08:00] [INFO] Project SHA-256 completed: meta_electronics
+[2026-07-29T13:20:01.4629809+08:00] [INFO] Project SHA-256 started: meta_home_and_kitchen
+[2026-07-29T13:20:05.4486363+08:00] [INFO] Project SHA-256 completed: meta_home_and_kitchen
+[2026-07-29T13:20:05.4606364+08:00] [INFO] Project SHA-256 started: reviews_electronics
+[2026-07-29T13:20:13.3210186+08:00] [INFO] Project SHA-256 completed: reviews_electronics
+[2026-07-29T13:20:13.3320188+08:00] [INFO] Project SHA-256 started: reviews_home_and_kitchen
+[2026-07-29T13:20:28.8625340+08:00] [INFO] Project SHA-256 completed: reviews_home_and_kitchen
+[2026-07-29T13:20:28.8745353+08:00] [INFO] Starting four serial 7-Zip full archive tests.
+[2026-07-29T13:20:28.9045363+08:00] [INFO] 7-Zip full test started: meta_electronics
+[2026-07-29T13:20:28.9480635+08:00] [ERROR] 无法在管道中间运行文档: C:\Program Files\7-Zip\7z.exe。
+[2026-07-29T13:24:46.3472994+08:00] [INFO] Reusing previously completed project SHA-256: meta_electronics
+[2026-07-29T13:24:46.3968057+08:00] [INFO] Reusing previously completed project SHA-256: meta_home_and_kitchen
+[2026-07-29T13:24:46.4048063+08:00] [INFO] Reusing previously completed project SHA-256: reviews_electronics
+[2026-07-29T13:24:46.4128063+08:00] [INFO] Reusing previously completed project SHA-256: reviews_home_and_kitchen
+[2026-07-29T13:24:46.4458460+08:00] [INFO] Starting four serial 7-Zip full archive tests.
+[2026-07-29T13:24:46.4693381+08:00] [INFO] 7-Zip full test started: meta_electronics
+[2026-07-29T13:30:54.5791822+08:00] [INFO] Reusing previously completed project SHA-256: meta_electronics
+[2026-07-29T13:30:54.6383258+08:00] [INFO] Reusing previously completed project SHA-256: meta_home_and_kitchen
+[2026-07-29T13:30:54.6478304+08:00] [INFO] Reusing previously completed project SHA-256: reviews_electronics
+[2026-07-29T13:30:54.6578306+08:00] [INFO] Reusing previously completed project SHA-256: reviews_home_and_kitchen
+[2026-07-29T13:30:54.6875977+08:00] [INFO] Starting four serial 7-Zip full archive tests.
+[2026-07-29T13:30:54.7135973+08:00] [INFO] 7-Zip full test started: meta_electronics
+[2026-07-29T13:31:12.8168052+08:00] [INFO] 7-Zip full test process returned: meta_electronics; exit_code=0
+[2026-07-29T13:32:15.4059098+08:00] [INFO] Reusing previously completed project SHA-256: meta_electronics
+[2026-07-29T13:32:15.4584238+08:00] [INFO] Reusing previously completed project SHA-256: meta_home_and_kitchen
+[2026-07-29T13:32:15.4684199+08:00] [INFO] Reusing previously completed project SHA-256: reviews_electronics
+[2026-07-29T13:32:15.4784191+08:00] [INFO] Reusing previously completed project SHA-256: reviews_home_and_kitchen
+[2026-07-29T13:32:15.5099834+08:00] [INFO] Starting four serial 7-Zip full archive tests.
+[2026-07-29T13:32:15.5354853+08:00] [INFO] 7-Zip full test started: meta_electronics
+[2026-07-29T13:32:34.6773067+08:00] [INFO] 7-Zip full test process returned: meta_electronics; exit_code=0
+[2026-07-29T13:32:34.6813130+08:00] [INFO] 7-Zip full test summary parsed: meta_electronics; success_marker=True; processed_size_bytes=951176838; size_reliable=False
+[2026-07-29T13:32:34.6833083+08:00] [INFO] Archive-test entry constructed: meta_electronics
+[2026-07-29T13:32:34.6843071+08:00] [INFO] Saving archive-test report: meta_electronics
+[2026-07-29T13:35:09.5924990+08:00] [INFO] Reusing previously completed project SHA-256: meta_electronics
+[2026-07-29T13:35:09.6414939+08:00] [INFO] Reusing previously completed project SHA-256: meta_home_and_kitchen
+[2026-07-29T13:35:09.6494933+08:00] [INFO] Reusing previously completed project SHA-256: reviews_electronics
+[2026-07-29T13:35:09.6574927+08:00] [INFO] Reusing previously completed project SHA-256: reviews_home_and_kitchen
+[2026-07-29T13:35:09.6869831+08:00] [INFO] Starting four serial 7-Zip full archive tests.
+[2026-07-29T13:35:09.7106822+08:00] [INFO] 7-Zip full test started: meta_electronics
+[2026-07-29T13:35:27.8870557+08:00] [INFO] 7-Zip full test process returned: meta_electronics; exit_code=0
+[2026-07-29T13:35:27.8960564+08:00] [INFO] 7-Zip full test summary parsed: meta_electronics; success_marker=True; processed_size_bytes=951176838; size_reliable=False
+[2026-07-29T13:35:27.8990563+08:00] [INFO] Archive-test entry constructed: meta_electronics
+[2026-07-29T13:35:27.9000562+08:00] [INFO] Saving archive-test report: meta_electronics
+[2026-07-29T13:35:27.9085632+08:00] [INFO] Archive-test report saved: meta_electronics
+[2026-07-29T13:35:27.9166193+08:00] [INFO] Compressed archive marked read-only: meta_electronics
+[2026-07-29T13:35:27.9195678+08:00] [INFO] 7-Zip full test passed: meta_electronics; processed_size_bytes=951176838; size_reliable=False
+[2026-07-29T13:35:27.9205726+08:00] [INFO] 7-Zip full test started: meta_home_and_kitchen
+[2026-07-29T13:36:09.2461538+08:00] [INFO] 7-Zip full test process returned: meta_home_and_kitchen; exit_code=0
+[2026-07-29T13:36:09.2481527+08:00] [INFO] 7-Zip full test summary parsed: meta_home_and_kitchen; success_marker=True; processed_size_bytes=3198833352; size_reliable=True
+[2026-07-29T13:36:09.2491535+08:00] [INFO] Archive-test entry constructed: meta_home_and_kitchen
+[2026-07-29T13:36:09.2491535+08:00] [INFO] Saving archive-test report: meta_home_and_kitchen
+[2026-07-29T13:36:09.2546629+08:00] [INFO] Archive-test report saved: meta_home_and_kitchen
+[2026-07-29T13:36:09.2556624+08:00] [INFO] Compressed archive marked read-only: meta_home_and_kitchen
+[2026-07-29T13:36:09.2566767+08:00] [INFO] 7-Zip full test passed: meta_home_and_kitchen; processed_size_bytes=3198833352; size_reliable=True
+[2026-07-29T13:36:09.2586644+08:00] [INFO] 7-Zip full test started: reviews_electronics
+[2026-07-29T13:37:35.9215874+08:00] [INFO] 7-Zip full test process returned: reviews_electronics; exit_code=0
+[2026-07-29T13:37:35.9235829+08:00] [INFO] 7-Zip full test summary parsed: reviews_electronics; success_marker=True; processed_size_bytes=1141397172; size_reliable=False
+[2026-07-29T13:37:35.9265839+08:00] [INFO] Archive-test entry constructed: reviews_electronics
+[2026-07-29T13:37:35.9275835+08:00] [INFO] Saving archive-test report: reviews_electronics
+[2026-07-29T13:37:35.9355828+08:00] [INFO] Archive-test report saved: reviews_electronics
+[2026-07-29T13:37:35.9380895+08:00] [INFO] Compressed archive marked read-only: reviews_electronics
+[2026-07-29T13:37:35.9400895+08:00] [INFO] 7-Zip full test passed: reviews_electronics; processed_size_bytes=1141397172; size_reliable=False
+[2026-07-29T13:37:35.9420905+08:00] [INFO] 7-Zip full test started: reviews_home_and_kitchen
+[2026-07-29T13:39:27.7841827+08:00] [INFO] 7-Zip full test process returned: reviews_home_and_kitchen; exit_code=0
+[2026-07-29T13:39:27.7861770+08:00] [INFO] 7-Zip full test summary parsed: reviews_home_and_kitchen; success_marker=True; processed_size_bytes=1344118116; size_reliable=False
+[2026-07-29T13:39:27.7878332+08:00] [INFO] Archive-test entry constructed: reviews_home_and_kitchen
+[2026-07-29T13:39:27.7898385+08:00] [INFO] Saving archive-test report: reviews_home_and_kitchen
+[2026-07-29T13:39:27.7948355+08:00] [INFO] Archive-test report saved: reviews_home_and_kitchen
+[2026-07-29T13:39:27.7958351+08:00] [INFO] Compressed archive marked read-only: reviews_home_and_kitchen
+[2026-07-29T13:39:27.7968350+08:00] [INFO] 7-Zip full test passed: reviews_home_and_kitchen; processed_size_bytes=1344118116; size_reliable=False
+[2026-07-29T13:39:27.8700581+08:00] [INFO] All four 7-Zip full archive tests passed.
+[2026-07-29T05:40:16.708Z] [INFO] Normalized archive size reliability with the explicit 4 GiB wrap guard; all four reported Size totals remain unknown for extraction planning.
+[2026-07-29T13:41:18.4003038+08:00] [INFO] 7-Zip extraction started serially: meta_electronics; estimate_method=compressed_size_x8; estimate_bytes=10503203416
+[2026-07-29T13:41:38.6442702+08:00] [INFO] Cleaned staging directory created by current W1 run: C:\Users\30649\Desktop\neoschool\data\amazon_reviews_2023\raw\uncompressed\meta_categories\.w1_staging_20260729T134118254_meta_electronics
+[2026-07-29T13:41:38.6671968+08:00] [INFO] Extraction completed: meta_electronics; actual_bytes=5246144134; ratio=3.995843; free_bytes=191806930944
+[2026-07-29T13:41:38.6968779+08:00] [INFO] 7-Zip extraction started serially: meta_home_and_kitchen; estimate_method=compressed_size_x8; estimate_bytes=23719447064
+[2026-07-29T13:42:25.0872021+08:00] [INFO] Cleaned staging directory created by current W1 run: C:\Users\30649\Desktop\neoschool\data\amazon_reviews_2023\raw\uncompressed\meta_categories\.w1_staging_20260729T134118254_meta_home_and_kitchen
+[2026-07-29T13:42:25.1019700+08:00] [INFO] Extraction completed: meta_home_and_kitchen; actual_bytes=11788767944; ratio=3.976068; free_bytes=180022358016
+[2026-07-29T13:42:25.1236841+08:00] [INFO] 7-Zip extraction started serially: reviews_electronics; estimate_method=compressed_size_x8; estimate_bytes=51795508952
+[2026-07-29T13:44:05.8658208+08:00] [INFO] Cleaned staging directory created by current W1 run: C:\Users\30649\Desktop\neoschool\data\amazon_reviews_2023\raw\uncompressed\review_categories\.w1_staging_20260729T134118254_reviews_electronics
+[2026-07-29T13:44:05.8918254+08:00] [INFO] Extraction completed: reviews_electronics; actual_bytes=22616233652; ratio=3.493157; free_bytes=157415239680
+[2026-07-29T13:44:05.9491982+08:00] [INFO] 7-Zip extraction started serially: reviews_home_and_kitchen; estimate_method=electronics_review_ratio_x1.15_or_max_observed; estimate_bytes=33372976584
+[2026-07-29T13:46:29.9940962+08:00] [INFO] Cleaned staging directory created by current W1 run: C:\Users\30649\Desktop\neoschool\data\amazon_reviews_2023\raw\uncompressed\review_categories\.w1_staging_20260729T134118254_reviews_home_and_kitchen
+[2026-07-29T13:46:30.0070900+08:00] [INFO] Extraction completed: reviews_home_and_kitchen; actual_bytes=31408889188; ratio=3.780712; free_bytes=125562097664
+[2026-07-29T13:46:30.0160848+08:00] [INFO] All four JSONL extractions completed; awaiting small-sample validation.
+[2026-07-29T13:47:40.355222+08:00] [INFO] Small beginning/middle/end JSONL validation started.
+[2026-07-29T13:47:40.371218+08:00] [INFO] Sample validation passed: meta_electronics; records_parsed=9
+[2026-07-29T13:47:40.387220+08:00] [INFO] Sample validation passed: meta_home_and_kitchen; records_parsed=9
+[2026-07-29T13:47:40.403217+08:00] [INFO] Sample validation passed: reviews_electronics; records_parsed=9
+[2026-07-29T13:47:40.414222+08:00] [INFO] Sample validation passed: reviews_home_and_kitchen; records_parsed=9
+[2026-07-29T13:47:40.468733+08:00] [INFO] W1 validation completed with status=PASS; final_free_bytes=126003105792
+[2026-07-29T05:49:59.622Z] [WARN] Final .venv environment recheck attempted; exit_code=103 because the current Codex managed sandbox cannot access the Microsoft Store base Python path. W1 data acceptance remains PASS; W0 previously passed.

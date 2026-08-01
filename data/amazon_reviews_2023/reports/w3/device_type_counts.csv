@@ -1,0 +1,4 @@
+﻿device_type,final_rule_eligible_products,audit_reviewed,audit_correct_target,audit_precision
+smart_plug,95,95,95,1.0
+smart_bulb,8,8,8,1.0
+smart_switch,3,3,3,1.0

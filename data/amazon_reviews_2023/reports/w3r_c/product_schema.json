@@ -1,0 +1,270 @@
+{
+  "formal_version": "w3-v1.4.0",
+  "parquet": {
+    "path": "data\\amazon_reviews_2023\\processed\\target_products_w3_v1_4_0.parquet",
+    "bytes": 94709,
+    "mtime_ns": 1785389829708298200,
+    "mtime_utc": "2026-07-30T05:37:09.708298+00:00",
+    "sha256": "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+  },
+  "compression": "zstd",
+  "rows": 125,
+  "fields": [
+    {
+      "name": "parent_asin",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "source_domains",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "primary_source_domain",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "primary_source_row_number",
+      "type": "int64",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "main_category",
+      "type": "string",
+      "nullable": true,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "nullable": true,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "categories",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "features",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "store",
+      "type": "string",
+      "nullable": true,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "details",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "price",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "average_rating",
+      "type": "double",
+      "nullable": true,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "rating_number",
+      "type": "int64",
+      "nullable": true,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "candidate_device_types",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "eligible_device_types",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "candidate_device_terms",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "candidate_smart_terms",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "matched_fields",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "exclusion_reasons",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "candidate_confidence",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "provisional_device_type",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "device_type",
+      "type": "string",
+      "nullable": true,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "eligible_after_exclusions",
+      "type": "bool",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "ambiguity_status",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "candidate_reason",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "title_only",
+      "type": "bool",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "filter_version",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "candidate_source_record_count",
+      "type": "int32",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "duplicate_resolution_rule",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "coalesced_fields",
+      "type": "list<element: string>",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "content_fingerprint",
+      "type": "string",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "core_nonempty_count",
+      "type": "int16",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "identity_text_chars",
+      "type": "int32",
+      "nullable": false,
+      "origin": "w3_baseline_schema"
+    },
+    {
+      "name": "promotion_source",
+      "type": "string",
+      "nullable": false,
+      "origin": "new_management"
+    },
+    {
+      "name": "promotion_basis",
+      "type": "string",
+      "nullable": false,
+      "origin": "new_management"
+    },
+    {
+      "name": "human_review_status",
+      "type": "string",
+      "nullable": false,
+      "origin": "new_management"
+    },
+    {
+      "name": "previous_filter_version",
+      "type": "string",
+      "nullable": false,
+      "origin": "new_management"
+    }
+  ],
+  "baseline_schema_field_count": 34,
+  "formal_schema_field_count": 38,
+  "schema_compatibility": {
+    "all_34_baseline_fields_retained": true,
+    "all_baseline_field_types_retained": true,
+    "filter_version_updated_not_added": true,
+    "new_management_fields": [
+      "promotion_source",
+      "promotion_basis",
+      "human_review_status",
+      "previous_filter_version"
+    ]
+  },
+  "recovered_product_defaults": {
+    "primary_source_row_number": -1,
+    "primary_source_row_number_meaning": "not_available_in_w3r_a_draft",
+    "price": "",
+    "candidate_device_terms": [],
+    "candidate_smart_terms": [],
+    "matched_fields": [],
+    "coalesced_fields": [],
+    "title_only": false,
+    "candidate_source_record_count": 1,
+    "duplicate_resolution_rule": "w3r_a_proposed_unique_parent",
+    "ambiguity_status": "resolved_by_blind_human_review",
+    "candidate_reason": "W3R-B blind independent review and adjudication",
+    "note": "Defaults preserve the W3 schema without inventing unavailable raw-row or term-match evidence. average_rating and rating_number remain null for recovered products."
+  }
+}

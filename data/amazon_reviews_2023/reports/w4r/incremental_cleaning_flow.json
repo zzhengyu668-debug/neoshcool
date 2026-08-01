@@ -1,0 +1,37 @@
+{
+  "phase": "W4R",
+  "generated_at": "2026-07-31T11:16:35.011664+08:00",
+  "frozen_w4_rules": true,
+  "counts": {
+    "matched_target_count": 1052,
+    "title_cleaned": 19,
+    "body_cleaned": 396,
+    "html_changed": 195,
+    "unicode_changed": 10,
+    "whitespace_changed": 361,
+    "empty_text_removed_count": 0,
+    "timestamp_null_count": 0,
+    "timestamp_non_numeric_count": 0,
+    "timestamp_negative_count": 0,
+    "timestamp_unconvertible_count": 0,
+    "cleaned_candidate_count": 1052
+  },
+  "language_before_filter": {
+    "English": 1016,
+    "non-English": 29,
+    "undetermined_other": 5,
+    "undetermined_short": 2
+  },
+  "duplicate_audit": {
+    "english_before_dedup": 1016,
+    "unique_duplicate_keys": 1007,
+    "duplicate_groups": 8,
+    "within_domain_rows_removed": 9,
+    "cross_domain_rows_removed": 0,
+    "total_rows_removed": 9,
+    "final_rows": 1007,
+    "tie_break_rule": "text_nonempty_fields_desc, review_text_length_desc, configured_source_priority, source_row_number, parent_asin, asin"
+  },
+  "incremental_final_rows": 1007,
+  "prohibited_fields_created": []
+}

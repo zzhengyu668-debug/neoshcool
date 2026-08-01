@@ -1,0 +1,379 @@
+{
+  "phase": "W4R",
+  "status": "PASS",
+  "updated_at": "2026-07-31T11:16:35.184790+08:00",
+  "configuration_fingerprint": "5527e6a3086f0e298278309e98880173047a577e642a4b39b3122f342e00734d",
+  "w5_readiness": "REVIEW_REQUIRED",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9",
+    "python_architecture": "64bit",
+    "project_venv_in_use": true,
+    "duckdb_version": "1.5.5",
+    "pyarrow_version": "25.0.0",
+    "polars_version": "1.43.0",
+    "orjson_version": "3.11.9",
+    "lingua_version": "2.1.1"
+  },
+  "criteria": {
+    "project_venv_environment_valid": true,
+    "w4_status_pass": true,
+    "w3r_c_status_pass": true,
+    "formal_product_identity_valid": true,
+    "incremental_product_difference_is_19": true,
+    "two_review_sources_fully_scanned": true,
+    "record_counts_match_w2": true,
+    "record_count_reconciliation_passed": true,
+    "only_incremental_parents_extracted": true,
+    "w4_cleaning_rules_frozen": true,
+    "incremental_parquet_valid": true,
+    "combined_parquet_valid": true,
+    "baseline_rows_preserved_exactly": true,
+    "combined_duplicate_keys_unique": true,
+    "held_excluded_absent": true,
+    "raw_reviews_unchanged_and_readonly": true,
+    "w4_baseline_unchanged": true,
+    "final_space_at_least_60_gib": true,
+    "metadata_jsonl_not_read": true,
+    "compressed_archives_not_read": true,
+    "w5_not_started": true,
+    "required_reports_present": true
+  },
+  "report_presence": {
+    "w4r_execution.log": true,
+    "w4r_input_manifest.json": true,
+    "incremental_product_set.json": true,
+    "incremental_review_extraction_flow.json": true,
+    "incremental_review_extraction_flow.csv": true,
+    "incremental_cleaning_flow.json": true,
+    "incremental_cleaning_flow.csv": true,
+    "incremental_language_audit.json": true,
+    "incremental_duplicate_audit.json": true,
+    "baseline_merge_audit.json": true,
+    "combined_review_schema.json": true,
+    "combined_review_count_by_device_type.csv": true,
+    "combined_review_count_by_product.csv": true,
+    "combined_review_count_by_year.csv": true,
+    "combined_review_count_by_rating.csv": true,
+    "combined_monthly_coverage_diagnostics.csv": true,
+    "w4r_disk_usage.json": true,
+    "w4r_summary.md": true,
+    "w5_readiness.json": true
+  },
+  "incremental_products": {
+    "total": 19,
+    "smart_plug": 0,
+    "smart_bulb": 17,
+    "smart_switch": 2
+  },
+  "source_scans": [
+    {
+      "id": "reviews_electronics",
+      "physical_line_count": 43886944,
+      "matched_target_count": 1052,
+      "duration_seconds": 291.7413243000001,
+      "peak_process_rss_bytes": 184762368
+    },
+    {
+      "id": "reviews_home_and_kitchen",
+      "physical_line_count": 67409944,
+      "matched_target_count": 0,
+      "duration_seconds": 372.11820179999995,
+      "peak_process_rss_bytes": 184999936
+    }
+  ],
+  "incremental_reviews": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_increment_w3_v1_4_0.parquet",
+    "size_bytes": 362819,
+    "mtime_ns": 1785467790353114300,
+    "mtime_utc": "2026-07-31T03:16:30.353114+00:00",
+    "readonly": false,
+    "sha256": "a4421e8fd57ae193e461cebc4ec2ac316d45a84d338b4ad8e70f01281f28c48a",
+    "rows": 1007,
+    "row_groups": 1,
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string",
+    "compression_by_column": [
+      "ZSTD"
+    ]
+  },
+  "combined_reviews": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base_w3_v1_4_0.parquet",
+    "size_bytes": 14496140,
+    "mtime_ns": 1785467791236342300,
+    "mtime_utc": "2026-07-31T03:16:31.236342+00:00",
+    "readonly": false,
+    "sha256": "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553",
+    "rows": 55877,
+    "row_groups": 2,
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string",
+    "compression_by_column": [
+      "ZSTD"
+    ]
+  },
+  "baseline_reviews_before": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "size_bytes": 12511277,
+    "mtime_ns": 1785326707561071300,
+    "mtime_utc": "2026-07-29T12:05:07.561071+00:00",
+    "readonly": false,
+    "sha256": "3ebf5d7dd14883d09b05e35573235e4524ee1ff675c1a5b9841d889c063f1e7b",
+    "rows": 54870,
+    "row_groups": 3,
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string",
+    "compression_by_column": [
+      "ZSTD"
+    ]
+  },
+  "baseline_reviews_after": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "size_bytes": 12511277,
+    "mtime_ns": 1785326707561071300,
+    "mtime_utc": "2026-07-29T12:05:07.561071+00:00",
+    "readonly": false,
+    "sha256": "3ebf5d7dd14883d09b05e35573235e4524ee1ff675c1a5b9841d889c063f1e7b",
+    "rows": 54870,
+    "row_groups": 3,
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string",
+    "compression_by_column": [
+      "ZSTD"
+    ]
+  },
+  "raw_before": {
+    "reviews_electronics": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+      "size_bytes": 22616233652,
+      "mtime_ns": 1737070106000000000,
+      "mtime_utc": "2025-01-16T23:28:26+00:00",
+      "readonly": true
+    },
+    "reviews_home_and_kitchen": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+      "size_bytes": 31408889188,
+      "mtime_ns": 1737071330000000000,
+      "mtime_utc": "2025-01-16T23:48:50+00:00",
+      "readonly": true
+    }
+  },
+  "raw_after": {
+    "reviews_electronics": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+      "size_bytes": 22616233652,
+      "mtime_ns": 1737070106000000000,
+      "mtime_utc": "2025-01-16T23:28:26+00:00",
+      "readonly": true
+    },
+    "reviews_home_and_kitchen": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+      "size_bytes": 31408889188,
+      "mtime_ns": 1737071330000000000,
+      "mtime_utc": "2025-01-16T23:48:50+00:00",
+      "readonly": true
+    }
+  },
+  "coverage": {
+    "incremental": {
+      "target_products": 19,
+      "products_with_reviews": 19,
+      "products_without_reviews": 0,
+      "final_reviews": 1007,
+      "reviews_by_device_type": {
+        "smart_plug": 0,
+        "smart_bulb": 1004,
+        "smart_switch": 3
+      },
+      "products_with_reviews_by_device_type": {
+        "smart_plug": 0,
+        "smart_bulb": 17,
+        "smart_switch": 2
+      }
+    },
+    "combined_device_types": [
+      {
+        "device_type": "smart_plug",
+        "target_products": 95,
+        "products_with_reviews": 95,
+        "products_without_reviews": 0,
+        "final_reviews": 54607,
+        "reviews_per_target_product_min": 1,
+        "reviews_per_target_product_median": 16,
+        "reviews_per_target_product_mean": 574.8105263157895,
+        "reviews_per_target_product_max": 45101,
+        "earliest_review_utc": "2013-12-03T16:11:02+00:00",
+        "latest_review_utc": "2023-09-07T00:28:22.966000+00:00",
+        "products_with_at_least_10_reviews": 57,
+        "products_with_at_least_20_reviews": 46,
+        "products_with_at_least_30_reviews": 36
+      },
+      {
+        "device_type": "smart_bulb",
+        "target_products": 25,
+        "products_with_reviews": 25,
+        "products_without_reviews": 0,
+        "final_reviews": 1207,
+        "reviews_per_target_product_min": 1,
+        "reviews_per_target_product_median": 5,
+        "reviews_per_target_product_mean": 48.28,
+        "reviews_per_target_product_max": 370,
+        "earliest_review_utc": "2014-05-30T23:58:35+00:00",
+        "latest_review_utc": "2023-08-27T19:15:31.943000+00:00",
+        "products_with_at_least_10_reviews": 9,
+        "products_with_at_least_20_reviews": 7,
+        "products_with_at_least_30_reviews": 5
+      },
+      {
+        "device_type": "smart_switch",
+        "target_products": 5,
+        "products_with_reviews": 5,
+        "products_without_reviews": 0,
+        "final_reviews": 63,
+        "reviews_per_target_product_min": 1,
+        "reviews_per_target_product_median": 2,
+        "reviews_per_target_product_mean": 12.6,
+        "reviews_per_target_product_max": 48,
+        "earliest_review_utc": "2011-03-13T12:29:41+00:00",
+        "latest_review_utc": "2023-03-11T19:03:45.533000+00:00",
+        "products_with_at_least_10_reviews": 2,
+        "products_with_at_least_20_reviews": 1,
+        "products_with_at_least_30_reviews": 1
+      },
+      {
+        "device_type": "ALL",
+        "target_products": 125,
+        "products_with_reviews": 125,
+        "products_without_reviews": 0,
+        "final_reviews": 55877,
+        "reviews_per_target_product_min": 1,
+        "reviews_per_target_product_median": 11,
+        "reviews_per_target_product_mean": 447.016,
+        "reviews_per_target_product_max": 45101,
+        "earliest_review_utc": "2011-03-13T12:29:41+00:00",
+        "latest_review_utc": "2023-09-07T00:28:22.966000+00:00",
+        "products_with_at_least_10_reviews": 68,
+        "products_with_at_least_20_reviews": 54,
+        "products_with_at_least_30_reviews": 42
+      }
+    ],
+    "time": {
+      "earliest_review_utc": "2011-03-13T12:29:41+00:00",
+      "latest_review_utc": "2023-09-07T00:28:22.966000+00:00"
+    }
+  },
+  "final_free_bytes": 127743287296,
+  "final_free_gib": 118.97020721435547,
+  "recovery": {
+    "checkpoint_reused": false,
+    "data_scan_failure": false
+  },
+  "policy_attestation": {
+    "review_jsonl_opened": true,
+    "metadata_jsonl_opened": false,
+    "compressed_archive_opened": false,
+    "raw_user_id_written_to_output_or_report": false,
+    "online_language_service_used": false,
+    "annotation_or_baseline_performed": false,
+    "product_month_feature_table_created": false,
+    "w5_started": false,
+    "w3_or_w4_baseline_overwritten": false,
+    "git_commit": false
+  }
+}

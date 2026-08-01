@@ -1,0 +1,281 @@
+{
+  "phase": "W2",
+  "generated_at": "2026-07-29T14:27:57.646554+08:00",
+  "metadata": {
+    "record_type": "metadata",
+    "shared_fields": [
+      "author",
+      "average_rating",
+      "bought_together",
+      "categories",
+      "description",
+      "details",
+      "features",
+      "images",
+      "main_category",
+      "parent_asin",
+      "price",
+      "rating_number",
+      "store",
+      "subtitle",
+      "title",
+      "videos"
+    ],
+    "only_Electronics": [],
+    "only_Home_and_Kitchen": [],
+    "type_differences": [],
+    "core_field_missingness": [
+      {
+        "field": "parent_asin",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "title",
+        "Electronics": {
+          "effective_missing_count": 94,
+          "effective_missing_rate": 5.838465800254905e-05
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 217,
+          "effective_missing_rate": 5.8089980040604096e-05
+        }
+      },
+      {
+        "field": "main_category",
+        "Electronics": {
+          "effective_missing_count": 106334,
+          "effective_missing_rate": 0.06604547046854309
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 363310,
+          "effective_missing_rate": 0.09725654676752016
+        }
+      },
+      {
+        "field": "categories",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "features",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "description",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "store",
+        "Electronics": {
+          "effective_missing_count": 9522,
+          "effective_missing_rate": 0.005914241632981617
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 83521,
+          "effective_missing_rate": 0.022358217617379238
+        }
+      },
+      {
+        "field": "details",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "price",
+        "Electronics": {
+          "effective_missing_count": 1083247,
+          "effective_missing_rate": 0.6728192088009282
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 2456676,
+          "effective_missing_rate": 0.6576417502591295
+        }
+      },
+      {
+        "field": "average_rating",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "rating_number",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      }
+    ]
+  },
+  "reviews": {
+    "record_type": "reviews",
+    "shared_fields": [
+      "asin",
+      "helpful_vote",
+      "images",
+      "parent_asin",
+      "rating",
+      "text",
+      "timestamp",
+      "title",
+      "user_id",
+      "verified_purchase"
+    ],
+    "only_Electronics": [],
+    "only_Home_and_Kitchen": [],
+    "type_differences": [],
+    "core_field_missingness": [
+      {
+        "field": "parent_asin",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "rating",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "title",
+        "Electronics": {
+          "effective_missing_count": 1,
+          "effective_missing_rate": 2.2785819855672794e-08
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "text",
+        "Electronics": {
+          "effective_missing_count": 2534,
+          "effective_missing_rate": 5.773926751427486e-05
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 7419,
+          "effective_missing_rate": 0.00011005794634690692
+        }
+      },
+      {
+        "field": "timestamp",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "verified_purchase",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "helpful_vote",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "asin",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "user_id",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      },
+      {
+        "field": "images",
+        "Electronics": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        },
+        "Home_and_Kitchen": {
+          "effective_missing_count": 0,
+          "effective_missing_rate": 0.0
+        }
+      }
+    ]
+  }
+}

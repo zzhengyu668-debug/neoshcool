@@ -1,0 +1,133 @@
+{
+  "phase": "W3R-B",
+  "status": "PAUSED_HUMAN_REVIEW",
+  "started_at": "2026-07-29T14:12:58.851Z",
+  "completed_at": "2026-07-29T14:13:03.452Z",
+  "random_seed": 20260729,
+  "recovered_candidates": {
+    "total": 23,
+    "smart_bulb": 17,
+    "smart_switch": 6,
+    "unique_parent_asin": 23
+  },
+  "blind_audit_package": {
+    "rows": 23,
+    "columns": 19,
+    "excel_csv_content_consistent": true,
+    "parent_asin_hidden_from_main_table": true,
+    "prior_rule_decisions_hidden": true,
+    "reviewer_1_fields_blank": true,
+    "reviewer_2_fields_blank": true,
+    "adjudication_fields_blank": true,
+    "blind_key_separate": true,
+    "workbook_visual_preview_generated": true,
+    "workbook_visual_verification_passed": true
+  },
+  "baseline_protection": {
+    "w3_version": "w3-v1.3.2",
+    "draft_version": "w3-v1.4.0-draft",
+    "draft_promoted": false,
+    "target_products_overwritten": false,
+    "w4_rerun": false,
+    "w4r_started": false,
+    "w5_started": false,
+    "baseline_stat_before": {
+      "target_products": {
+        "path": "data/amazon_reviews_2023/processed/target_products.parquet",
+        "bytes": 85142,
+        "mtime_ms": 1785316071556.1968
+      },
+      "review_level_base": {
+        "path": "data/amazon_reviews_2023/processed/review_level_base.parquet",
+        "bytes": 12511277,
+        "mtime_ms": 1785326707561.0713
+      },
+      "w4_status": {
+        "path": "data/amazon_reviews_2023/reports/w4/w4_status.json",
+        "bytes": 6831,
+        "mtime_ms": 1785327287796.702
+      }
+    },
+    "baseline_stat_after": {
+      "target_products": {
+        "path": "data/amazon_reviews_2023/processed/target_products.parquet",
+        "bytes": 85142,
+        "mtime_ms": 1785316071556.1968
+      },
+      "review_level_base": {
+        "path": "data/amazon_reviews_2023/processed/review_level_base.parquet",
+        "bytes": 12511277,
+        "mtime_ms": 1785326707561.0713
+      },
+      "w4_status": {
+        "path": "data/amazon_reviews_2023/reports/w4/w4_status.json",
+        "bytes": 6831,
+        "mtime_ms": 1785327287796.702
+      }
+    },
+    "baseline_size_and_mtime_unchanged": true,
+    "base_rules_sha256_unchanged": true,
+    "draft_rules_sha256_unchanged": true,
+    "w3_status_sha256_unchanged": true
+  },
+  "scope_compliance": {
+    "reviews_jsonl_opened": false,
+    "metadata_jsonl_opened": false,
+    "jsonl_gz_opened": false,
+    "review_level_base_parsed": false,
+    "preflight_integrity_hash_scope_note": "Before the W3R-B builder ran, SHA-256 was computed for target_products.parquet and review_level_base.parquet as a baseline-integrity check. No Parquet schema, columns, rows, ratings, user data, or review text were parsed. This byte-level read was unnecessary for W3R-B and is disclosed here.",
+    "review_content_read": false,
+    "rating_data_read": false,
+    "user_information_read": false,
+    "word_pdf_pptx_modified": false,
+    "project_handoff_modified": false,
+    "readme_modified": false,
+    "git_commit": false
+  },
+  "note": "No human judgments were filled by Codex. Submit the completed blind audit table before any promotion decision.",
+  "outputs": {
+    "w3r_b_execution.log": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/w3r_b_execution.log",
+      "bytes": 1177,
+      "mtime_ms": 1785334642302,
+      "sha256": "ec122963f59b936f3a479f5f321bceecc8a426096eb8a65432be0f016ba6e5eb"
+    },
+    "recovered_products_blind_audit.csv": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/recovered_products_blind_audit.csv",
+      "bytes": 38134,
+      "mtime_ms": 1785334379847.9841,
+      "sha256": "336d3b2bd9a6947edd407dacac2755584127fca53dbb50c92a817ce43e307af2"
+    },
+    "recovered_products_blind_audit.xlsx": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/recovered_products_blind_audit.xlsx",
+      "bytes": 16965,
+      "mtime_ms": 1785334382867.9644,
+      "sha256": "d2e1ae2fde145a4626ffeec0fc5add66fd6f8575c7d1061a09cdc4496a5ee69b"
+    },
+    "blind_id_parent_asin_key.csv": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/blind_id_parent_asin_key.csv",
+      "bytes": 604,
+      "mtime_ms": 1785334379847.9841,
+      "sha256": "54b2ad11fe6a1f8a3910dec3ed8c3a53b022fc18eb9fb648ac9fafb0042a0a08"
+    },
+    "manual_audit_instructions.md": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/manual_audit_instructions.md",
+      "bytes": 2786,
+      "mtime_ms": 1785334383420.4543,
+      "sha256": "07a2e827f203ea6046828be371d8466b5ccf1d2d31502b57565a840a6a2ccfe6"
+    },
+    "w3r_b_input_manifest.json": {
+      "path": "data/amazon_reviews_2023/reports/w3r_b/w3r_b_input_manifest.json",
+      "bytes": 4769,
+      "mtime_ms": 1785334383421.4536,
+      "sha256": "ec4b4bdb389fdd5dd9dbb7e9a75949077842b63f8716772367ef12521cbf956e"
+    }
+  },
+  "workbook_verification": {
+    "inspected_range": "Blind Audit!A1:S24",
+    "inspected_rows": 24,
+    "inspected_columns": 19,
+    "formula_error_scan_passed": true,
+    "imported_xlsx_matrix_reconciled_to_csv_source": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "phase": "W4",
+  "generated_at": "2026-07-29T20:14:47.711680+08:00",
+  "unit": "Unix milliseconds",
+  "source_scans": [
+    {
+      "source_id": "reviews_electronics",
+      "null": 0,
+      "non_numeric": 0,
+      "negative": 0,
+      "unconvertible": 0,
+      "matched_cleaned_min_utc": "2013-12-03T16:11:02+00:00",
+      "matched_cleaned_max_utc": "2023-09-07T00:28:22.966000+00:00"
+    },
+    {
+      "source_id": "reviews_home_and_kitchen",
+      "null": 0,
+      "non_numeric": 0,
+      "negative": 0,
+      "unconvertible": 0,
+      "matched_cleaned_min_utc": "2018-10-11T04:03:35.034000+00:00",
+      "matched_cleaned_max_utc": "2023-06-01T18:25:34.379000+00:00"
+    }
+  ],
+  "final_earliest_utc": "2013-12-03T16:11:02.000Z",
+  "final_latest_utc": "2023-09-07T00:28:22.966Z",
+  "review_month_type": "date32: first calendar day of UTC month"
+}

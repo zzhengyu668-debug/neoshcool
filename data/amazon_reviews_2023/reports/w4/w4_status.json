@@ -1,0 +1,178 @@
+{
+  "phase": "W4",
+  "status": "PASS",
+  "reason": "All W4 technical acceptance criteria passed.",
+  "updated_at": "2026-07-29T20:14:47.791190+08:00",
+  "configuration_fingerprint": "44da42413f49c515eeb6b39fbcc728eb99a24e2a38bc14e86304c52ce57af44e",
+  "environment": {
+    "python_executable": "C:\\Users\\30649\\Desktop\\neoschool\\.venv\\Scripts\\python.exe",
+    "python_version": "3.11.9",
+    "python_architecture": "64bit",
+    "project_venv_in_use": true,
+    "duckdb_version": "1.5.5",
+    "pyarrow_version": "25.0.0",
+    "polars_version": "1.43.0",
+    "orjson_version": "3.11.9",
+    "lingua_version": "2.1.1"
+  },
+  "criteria": {
+    "project_venv_environment_valid": true,
+    "w2_status_pass": true,
+    "w3_status_pass": true,
+    "target_products_identity_valid": true,
+    "two_reviews_full_scans_complete": true,
+    "input_record_counts_match_w2": true,
+    "record_count_reconciliation_passed": true,
+    "target_parent_filter_applied": true,
+    "timestamp_conversion_complete": true,
+    "text_cleaning_complete": true,
+    "language_rule_complete": true,
+    "duplicate_review_processing_complete": true,
+    "review_level_base_valid": true,
+    "exact_counts_and_date_coverage_available": true,
+    "raw_reviews_unchanged_and_readonly": true,
+    "final_free_space_at_least_60_gib": true,
+    "compressed_archives_not_read": true,
+    "metadata_jsonl_not_read": true,
+    "w5_not_started": true,
+    "required_reports_present": true
+  },
+  "report_presence": {
+    "w4_execution.log": true,
+    "review_extraction_flow.json": true,
+    "review_extraction_flow.csv": true,
+    "review_cleaning_flow.json": true,
+    "review_cleaning_flow.csv": true,
+    "review_schema.json": true,
+    "review_sample_summary.md": true,
+    "duplicate_review_audit.json": true,
+    "language_audit.json": true,
+    "timestamp_audit.json": true,
+    "review_count_by_device_type.csv": true,
+    "review_count_by_product.csv": true,
+    "review_count_by_year.csv": true,
+    "review_count_by_rating.csv": true,
+    "monthly_coverage_diagnostics.csv": true,
+    "w4_disk_usage.json": true,
+    "w5_readiness.json": true
+  },
+  "target_products": {
+    "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\processed\\target_products.parquet",
+    "size_bytes": 85142,
+    "mtime_ns": 1785316071556196800,
+    "mtime_utc": "2026-07-29T09:07:51.556197+00:00",
+    "readonly": false,
+    "sha256": "daa3606c9e6b5d47100cad68d683ef9acc1efa9a87832fa8b942c26383dabe5d",
+    "rows": 106,
+    "device_type_counts": {
+      "smart_bulb": 8,
+      "smart_plug": 95,
+      "smart_switch": 3
+    },
+    "filter_version": "w3-v1.3.2"
+  },
+  "source_scans": [
+    {
+      "id": "reviews_electronics",
+      "physical_line_count": 43886944,
+      "matched_target_count": 62144,
+      "duration_seconds": 239.92011210000055,
+      "peak_process_rss_bytes": 204656640
+    },
+    {
+      "id": "reviews_home_and_kitchen",
+      "physical_line_count": 67409944,
+      "matched_target_count": 38,
+      "duration_seconds": 221.50242830000207,
+      "peak_process_rss_bytes": 204656640
+    }
+  ],
+  "review_level_base": {
+    "path": "data\\amazon_reviews_2023\\processed\\review_level_base.parquet",
+    "rows": 54870,
+    "bytes": 12511277,
+    "compression_by_column": [
+      "ZSTD"
+    ],
+    "fields": [
+      "parent_asin",
+      "asin",
+      "source_domain",
+      "source_domains",
+      "device_type",
+      "main_category",
+      "product_title",
+      "timestamp_ms",
+      "review_datetime",
+      "review_month",
+      "rating",
+      "verified_purchase",
+      "helpful_vote",
+      "review_title",
+      "review_body",
+      "review_text",
+      "language",
+      "language_detected_iso",
+      "language_confidence",
+      "user_id_hash",
+      "duplicate_key",
+      "source_row_number",
+      "filter_version"
+    ],
+    "schema": "parent_asin: string\nasin: string\nsource_domain: string\nsource_domains: list<element: string>\n  child 0, element: string\ndevice_type: string\nmain_category: string\nproduct_title: string\ntimestamp_ms: int64\nreview_datetime: timestamp[us, tz=UTC]\nreview_month: date32[day]\nrating: double\nverified_purchase: bool\nhelpful_vote: int64\nreview_title: string\nreview_body: string\nreview_text: string\nlanguage: string\nlanguage_detected_iso: string\nlanguage_confidence: float\nuser_id_hash: string\nduplicate_key: string\nsource_row_number: int64\nfilter_version: string"
+  },
+  "w5_readiness": "REVIEW_REQUIRED",
+  "final_free_bytes": 124273676288,
+  "final_free_gib": 115.7388801574707,
+  "raw_before": {
+    "reviews_electronics": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+      "size_bytes": 22616233652,
+      "mtime_ns": 1737070106000000000,
+      "mtime_utc": "2025-01-16T23:28:26+00:00",
+      "readonly": true
+    },
+    "reviews_home_and_kitchen": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+      "size_bytes": 31408889188,
+      "mtime_ns": 1737071330000000000,
+      "mtime_utc": "2025-01-16T23:48:50+00:00",
+      "readonly": true
+    }
+  },
+  "raw_after": {
+    "reviews_electronics": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Electronics.jsonl",
+      "size_bytes": 22616233652,
+      "mtime_ns": 1737070106000000000,
+      "mtime_utc": "2025-01-16T23:28:26+00:00",
+      "readonly": true
+    },
+    "reviews_home_and_kitchen": {
+      "path": "C:\\Users\\30649\\Desktop\\neoschool\\data\\amazon_reviews_2023\\raw\\uncompressed\\review_categories\\Home_and_Kitchen.jsonl",
+      "size_bytes": 31408889188,
+      "mtime_ns": 1737071330000000000,
+      "mtime_utc": "2025-01-16T23:48:50+00:00",
+      "readonly": true
+    }
+  },
+  "policy_attestation": {
+    "review_jsonl_opened": true,
+    "metadata_jsonl_opened": false,
+    "compressed_archive_opened": false,
+    "raw_user_id_written_to_output_or_report": false,
+    "online_language_service_used": false,
+    "rating_used_as_failure_label": false,
+    "annotation_or_baseline_performed": false,
+    "product_month_feature_table_created": false,
+    "chronological_split_created": false,
+    "w3_rules_modified": false,
+    "w5_started": false
+  },
+  "recovery": {
+    "occurred": true,
+    "data_scan_failure": false,
+    "checkpoint_reused": true,
+    "description": "Both full source scans and the final Parquet completed in the initial run. A reporting-only DuckDB timezone conversion attempted to import an uninstalled optional pytz module, and the first exception logger masked that message. Reporting was resumed from validated checkpoints after using explicit UTC string conversion and fixing exception logging."
+  }
+}

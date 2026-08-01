@@ -1,0 +1,9 @@
+﻿scope,label_status,rows,failure_0,failure_1,uncertain
+overall,definite,296,143,153,0
+overall,uncertain,4,0,0,4
+smart_plug,definite,208,101,107,0
+smart_plug,uncertain,2,0,0,2
+smart_bulb,definite,59,30,29,0
+smart_bulb,uncertain,1,0,0,1
+smart_switch,definite,29,12,17,0
+smart_switch,uncertain,1,0,0,1
