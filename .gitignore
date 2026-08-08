@@ -15,6 +15,9 @@ data/amazon_reviews_2023/raw/compressed/
 data/amazon_reviews_2023/raw/uncompressed/
 data/amazon_reviews_2023/interim/
 data/amazon_reviews_2023/processed/
+data/amazon_reviews_2023/collaboration/
+*.jsonl.gz
+*.gz
 
 # Model artifacts
 outputs/models/
@@ -36,6 +39,9 @@ config/private/
 # Human-annotation workbooks and private review text
 data/amazon_reviews_2023/reports/**/*.xlsx
 data/amazon_reviews_2023/reports/**/*blind*key*.csv
+**/*blind_review_key*
+**/*completed*.xlsx
+**/*adjudicat*.xlsx
 
 # Regenerable checkpoints and verbose command captures
 data/amazon_reviews_2023/reports/**/checkpoints/
@@ -56,6 +62,11 @@ documents/**/*.pptx
 !data/amazon_reviews_2023/reports/**/*.log
 .coverage
 htmlcov/
+/tmp/
+/.tmp_doc_read_*/
+/output/
+/20260727_143507.mp4
+outputs/rendered_docx/
 
 # Operating-system and editor files
 .DS_Store

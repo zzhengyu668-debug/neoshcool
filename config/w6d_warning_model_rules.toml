@@ -1,0 +1,123 @@
+[phase]
+name = "W6-D"
+version = "w6d-v1.0"
+status_on_success = "PASS"
+next_phase_readiness_default = "READY_FOR_EXPLICIT_APPROVAL"
+
+[inputs]
+w6c_status = "data/amazon_reviews_2023/reports/w6c/w6c_status.json"
+w6c_required_status = "PASS"
+formal_reviews = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+formal_reviews_rows = 55877
+formal_reviews_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+review_signal_components = "data/amazon_reviews_2023/processed/review_level_signal_components_w6b_v1_0.parquet"
+review_signal_components_rows = 55877
+review_signal_components_sha256 = "816e102dda7045aadb1116429f292f9b55a56ae4da47ea09e11e34479a97ee02"
+product_month_engineering = "data/amazon_reviews_2023/processed/product_month_engineering_index_w6c_v1_0.parquet"
+product_month_engineering_rows = 1911
+product_month_engineering_sha256 = "4cd7a5ce497d5eac6fbaeede39bdd87d347e40fb16b320e54dba5fc9413e5438"
+quality_targets = "data/amazon_reviews_2023/processed/product_month_quality_targets_w6c_v1_0.parquet"
+quality_targets_rows = 1911
+quality_targets_sha256 = "9404528b303cba738026cd3ced7f8e436becd618bc7b2d03cec9e7738e92c0dd"
+analysis_panel = "data/amazon_reviews_2023/processed/product_month_analysis_panel_w6c_v1_0.parquet"
+analysis_panel_rows = 1911
+analysis_panel_sha256 = "c0f520268b2db674830e56d8e3f2c3fb156ee2b17bc947e1206e08c8ecbf4ac3"
+
+[text]
+source_column = "review_text"
+current_calendar_month_only = true
+sort_columns = ["review_datetime", "duplicate_key"]
+aggregation = "mean_of_review_level_tfidf_vectors"
+lowercase = true
+ngram_min = 1
+ngram_max = 2
+min_df = 2
+max_features = 20000
+sublinear_tf = true
+strip_accents = "unicode"
+fit_on_training_reviews_only = true
+remove_leading_star_header = true
+star_header_pattern_version = "w5b-compatible-v1"
+
+[routes]
+core = ["text_only", "text_plus_sentiment", "text_plus_engineering"]
+text_only_numeric_features = []
+sentiment_features = ["feature_mean_sentiment_compound", "feature_negative_sentiment_share"]
+engineering_features = ["feature_mean_engineering_index_main", "feature_predicted_failure_share", "feature_mean_failure_probability"]
+engineering_ablation_features = ["feature_mean_expected_severity_signal", "feature_mean_expected_persistence_signal"]
+rating_reference_features = ["feature_mean_rating", "feature_low_star_share", "feature_n_reviews", "feature_historical_rating_mean", "feature_historical_low_star_share", "feature_historical_n_reviews"]
+rating_reference_status = "additional_transparent_reference"
+
+[logistic_regression]
+C = 1.0
+penalty = "l2"
+solver = "liblinear"
+class_weight = "balanced"
+max_iter = 1000
+random_state = 20260731
+decision_threshold = 0.5
+
+[linear_svm]
+C = 1.0
+class_weight = "balanced"
+max_iter = 10000
+random_state = 20260731
+decision_threshold = 0.0
+primary_horizon_only = true
+probability_calibration = false
+
+[dummy]
+strategy = "most_frequent"
+random_state = 20260731
+
+[targets]
+primary_horizon = 3
+supplementary_horizons = [1, 2]
+all_horizons = [1, 2, 3]
+target_prefix = "target_quality_deterioration_h"
+eligibility_prefix = "eligible_main_h"
+
+[split]
+train_end = "2019-08"
+embargo_train_validation_start = "2019-09"
+embargo_train_validation_end = "2019-11"
+validation_start = "2019-12"
+validation_end = "2021-07"
+embargo_validation_test_start = "2021-08"
+embargo_validation_test_end = "2021-10"
+test_start = "2021-11"
+test_end = "2023-06"
+reuse_same_boundaries_for_all_horizons = true
+random_split = false
+
+[evaluation]
+primary_ranking_metric = "pr_auc"
+secondary_metrics = ["brier_score", "recall", "f1"]
+calibration_bins = 10
+bootstrap_replicates = 1000
+bootstrap_cluster = "parent_asin"
+bootstrap_random_state = 20260731
+minimum_device_test_rows = 20
+minimum_device_class_rows = 5
+exact_lead_time_in_scope = false
+
+[analysis_roles]
+smart_plug = "primary"
+smart_bulb = "exploratory"
+smart_switch = "case_study"
+
+[runtime]
+minimum_free_gib = 60.0
+compression = "zstd"
+bert_allowed = false
+online_api_allowed = false
+raw_reads_allowed = false
+
+[outputs]
+interim_dir = "data/amazon_reviews_2023/interim/w6d"
+report_dir = "data/amazon_reviews_2023/reports/w6d"
+model_dir = "outputs/models/w6d"
+modeling_keys = "data/amazon_reviews_2023/interim/w6d/modeling_product_month_keys.parquet"
+text_manifest = "data/amazon_reviews_2023/interim/w6d/product_month_text_features_manifest.json"
+predictions = "data/amazon_reviews_2023/interim/w6d/warning_model_predictions.parquet"
+private_errors = "data/amazon_reviews_2023/interim/w6d/warning_model_errors_private.parquet"

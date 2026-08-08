@@ -1,0 +1,95 @@
+[phase]
+name = "W6-C"
+version = "w6c-v1.0"
+status_on_success = "PASS"
+w6d_readiness_default = "READY_FOR_EXPLICIT_APPROVAL"
+
+[inputs]
+w6a_status = "data/amazon_reviews_2023/reports/w6a/w6a_status.json"
+w6a_required_status = "PASS"
+w6b_status = "data/amazon_reviews_2023/reports/w6b/w6b_status.json"
+w6b_required_status = "PASS"
+formal_reviews = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+formal_reviews_rows = 55877
+formal_reviews_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+review_components = "data/amazon_reviews_2023/processed/review_level_signal_components_w6b_v1_0.parquet"
+review_components_rows = 55877
+review_components_sha256 = "816e102dda7045aadb1116429f292f9b55a56ae4da47ea09e11e34479a97ee02"
+product_month_components = "data/amazon_reviews_2023/processed/product_month_signal_components_w6b_v1_0.parquet"
+product_month_components_rows = 1911
+product_month_components_sha256 = "d2ebc8e4c3021031d727c74de25b0789fd6248c3dadafe029a7dac9092c25947"
+frozen_failure_model = "outputs/models/w5c_b_tfidf_logistic_regression.joblib"
+frozen_failure_model_sha256 = "6ddc90014da535e16c13344059315a36a22e0ed59cee3d37825a1b282920c86e"
+
+[engineering_index]
+main_version = "w6c-engineering-index-main-v1.0"
+failure_weight = 0.50
+severity_ge2_weight = 0.25
+persistence_weight = 0.25
+use_severity_ge3_in_main = false
+failure_only_version = "w6c-engineering-index-failure-only-v1.0"
+equal_weight_version = "w6c-engineering-index-equal-v1.0"
+equal_failure_weight = 0.3333333333333333
+equal_severity_weight = 0.3333333333333333
+equal_persistence_weight = 0.3333333333333333
+failure_emphasis_version = "w6c-engineering-index-failure-emphasis-v1.0"
+emphasis_failure_weight = 0.60
+emphasis_severity_weight = 0.20
+emphasis_persistence_weight = 0.20
+full_severity_version = "w6c-engineering-index-full-severity-exploratory-v1.0"
+full_severity_status = "exploratory"
+
+[quality_target]
+version = "w6c-quality-target-v1.0"
+historical_window_months = 3
+historical_month_offsets = [-2, -1, 0]
+horizons_months = [1, 2, 3]
+primary_horizon_months = 3
+low_star_max_rating = 2.0
+primary_rating_drop = 0.30
+primary_low_star_increase = 0.10
+rating_drop_sensitivity = [0.20, 0.30, 0.40]
+low_star_increase_sensitivity = [0.05, 0.10, 0.15]
+combine_rule = "OR"
+calendar_months_not_next_observed_rows = true
+weighted_by_review_counts = true
+
+[support]
+main_current_month_min_reviews = 5
+historical_window_min_reviews = 10
+future_window_min_reviews = 10
+robust_current_month_min_reviews = [10, 20]
+keep_ineligible_product_months = true
+
+[split]
+version = "w6c-proposed-product-month-split-v1.0"
+method = "global_unique_calendar_months_chronological_60_20_20"
+train_fraction = 0.60
+validation_fraction = 0.20
+test_fraction = 0.20
+embargo_calendar_months = 3
+primary_horizon_months = 3
+allow_random_shuffle = false
+move_future_rows_for_balance = false
+
+[analysis_roles]
+smart_plug = "primary"
+smart_bulb = "exploratory"
+smart_switch = "case_study"
+
+[routes]
+core = ["text_only", "text_plus_sentiment", "text_plus_engineering"]
+optional_reference = "rating_only"
+rating_only_is_core = false
+train_models_in_w6c = false
+
+[runtime]
+compression = "zstd"
+minimum_free_gib = 60.0
+
+[outputs]
+review_engineering_index = "data/amazon_reviews_2023/processed/review_level_engineering_index_w6c_v1_0.parquet"
+product_month_engineering_index = "data/amazon_reviews_2023/processed/product_month_engineering_index_w6c_v1_0.parquet"
+product_month_quality_targets = "data/amazon_reviews_2023/processed/product_month_quality_targets_w6c_v1_0.parquet"
+product_month_analysis_panel = "data/amazon_reviews_2023/processed/product_month_analysis_panel_w6c_v1_0.parquet"
+report_dir = "data/amazon_reviews_2023/reports/w6c"

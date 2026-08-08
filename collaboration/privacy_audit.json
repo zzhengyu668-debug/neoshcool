@@ -1,0 +1,27 @@
+{
+  "rows_scanned": 55877,
+  "rows_with_any_pattern": 8,
+  "pattern_row_counts": {
+    "email": 4,
+    "us_phone": 5,
+    "amazon_order": 0,
+    "windows_path": 0,
+    "wechat_marker": 0
+  },
+  "actual_text_saved_to_report": false,
+  "automatic_redaction_performed": false,
+  "formal_review_sha256_before": "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553",
+  "formal_review_sha256_after": "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553",
+  "formal_review_unchanged": true,
+  "formal_pseudonymous_identifier_fields": [
+    "user_id_hash"
+  ],
+  "collaboration_candidate": "data/amazon_reviews_2023/collaboration/review_level_base_w3_v1_4_0_collaboration_candidate.parquet",
+  "collaboration_candidate_sha256": "8c181300e5ec1663723102c67528c590818211dc3e5aa627e77dc5b7ab9fb9e9",
+  "collaboration_candidate_removed_fields": [
+    "user_id_hash"
+  ],
+  "candidate_reused": true,
+  "release_decision": "APPROVED_BY_PROJECT_OWNER_WITH_DISCLOSED_PATTERN_RISK",
+  "release_approval_date": "2026-08-08"
+}

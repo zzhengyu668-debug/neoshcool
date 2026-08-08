@@ -1,0 +1,59 @@
+[phase]
+name = "W6-A"
+version = "w6a-v1.0"
+status_on_success = "PASS"
+w6b_readiness = "REVIEW_REQUIRED"
+
+[inputs]
+w5c_b_status = "data/amazon_reviews_2023/reports/w5c_b/w5c_b_status.json"
+w5c_b_required_status = "PASS"
+formal_reviews = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+formal_reviews_rows = 55877
+formal_reviews_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+formal_products = "data/amazon_reviews_2023/processed/target_products_w3_v1_4_0.parquet"
+formal_products_rows = 125
+formal_products_sha256 = "e9d0a7548f1568b2bff7b0e2cedd5fa2702cdda2bf507a674a0ad741e89e9a88"
+frozen_labels = "data/amazon_reviews_2023/processed/annotation_labels_w5c_b_v1_0.parquet"
+frozen_labels_rows = 1500
+frozen_labels_sha256 = "4f52aa604c8798f236eb6401d57ab61265cdfef7b1b54b94a0b4376d141b2ec9"
+frozen_model = "outputs/models/w5c_b_tfidf_logistic_regression.joblib"
+frozen_model_sha256 = "6ddc90014da535e16c13344059315a36a22e0ed59cee3d37825a1b282920c86e"
+w5c_b_baseline_predictions = "data/amazon_reviews_2023/interim/w5c_b/baseline_predictions.parquet"
+w5c_b_baseline_predictions_rows = 1454
+w5c_b_baseline_predictions_sha256 = "d7247a375abb528b819310e22c012a993c763383d604d128cd47e29078704e41"
+
+[model]
+model_version = "w5c-b-tfidf-logistic-v1.0"
+label_version = "w5c-b-labels-v1.0"
+feature_field = "model_text"
+decision_threshold = 0.5
+positive_class = 1
+preprocessing_version = "w5c-b-leading-star-header-v1"
+probability_atol = 1e-12
+probability_rtol = 1e-12
+allow_refit = false
+allow_retraining = false
+
+[inference]
+batch_size = 4096
+compression = "zstd"
+minimum_free_gib = 60.0
+checkpoint_dir = "data/amazon_reviews_2023/interim/w6a/checkpoints"
+staging_dir = "data/amazon_reviews_2023/interim/w6a/staging"
+
+[product_version]
+dataset_product_filter_version = "w3-v1.4.0"
+
+[analysis_roles]
+smart_plug = "primary"
+smart_bulb = "exploratory"
+smart_switch = "case_study"
+
+[coverage]
+product_month_review_thresholds = [1, 5, 10, 20, 30]
+probability_bin_edges = [0.0, 0.01, 0.05, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 0.95, 0.99, 1.0]
+
+[outputs]
+review_predictions = "data/amazon_reviews_2023/processed/review_level_failure_predictions_w6a_v1_0.parquet"
+product_month_signals = "data/amazon_reviews_2023/processed/product_month_failure_signals_w6a_v1_0.parquet"
+report_dir = "data/amazon_reviews_2023/reports/w6a"

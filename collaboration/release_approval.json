@@ -1,0 +1,25 @@
+{
+  "phase": "W7-C0",
+  "decision_date": "2026-08-08",
+  "decision": "APPROVED_FOR_PUBLIC_GITHUB_RELEASE",
+  "approved_by": "project_owner",
+  "repository_visibility": "public",
+  "approved_scope": [
+    "ten frozen cleaned/derived Parquet files in collaboration/publication_allowlist.txt",
+    "seven trusted frozen joblib models",
+    "reproducibility code, configuration, tests, manifests, and documentation"
+  ],
+  "explicitly_accepted": [
+    "formal 55,877-row cleaned review file published unchanged",
+    "pseudonymous user_id_hash field",
+    "four email-shaped and five phone-shaped pattern matches across eight review rows"
+  ],
+  "still_forbidden": [
+    "raw JSONL or JSONL.GZ data",
+    "blind-review private mappings",
+    "completed annotation and adjudication workbooks",
+    "private error-analysis text",
+    "chats, screenshots, recordings, and transcripts",
+    "credentials or tokens"
+  ]
+}

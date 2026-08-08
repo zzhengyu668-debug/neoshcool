@@ -1,0 +1,102 @@
+[phase]
+name = "W6-B"
+version = "w6b-v1.0"
+status_on_success = "PASS"
+w6c_readiness = "REVIEW_REQUIRED"
+random_seed = 20260731
+
+[inputs]
+w5c_b_status = "data/amazon_reviews_2023/reports/w5c_b/w5c_b_status.json"
+w6a_status = "data/amazon_reviews_2023/reports/w6a/w6a_status.json"
+formal_reviews = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+formal_reviews_rows = 55877
+formal_reviews_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+frozen_labels = "data/amazon_reviews_2023/processed/annotation_labels_w5c_b_v1_0.parquet"
+frozen_labels_rows = 1500
+frozen_labels_sha256 = "4f52aa604c8798f236eb6401d57ab61265cdfef7b1b54b94a0b4376d141b2ec9"
+w6a_review_predictions = "data/amazon_reviews_2023/processed/review_level_failure_predictions_w6a_v1_0.parquet"
+w6a_review_predictions_rows = 55877
+w6a_review_predictions_sha256 = "6a947259f9e2240b9d84e5130f657153d0c86466ee27e983a2db4e6694ddc7ab"
+w6a_product_month = "data/amazon_reviews_2023/processed/product_month_failure_signals_w6a_v1_0.parquet"
+w6a_product_month_rows = 1911
+w6a_product_month_sha256 = "895d95f804a94555aa2ceaec354edd89cb68d1b8a92288cd329fda86e61bd2d2"
+frozen_failure_model = "outputs/models/w5c_b_tfidf_logistic_regression.joblib"
+frozen_failure_model_sha256 = "6ddc90014da535e16c13344059315a36a22e0ed59cee3d37825a1b282920c86e"
+
+[split]
+method = "strict_chronological_from_w5c_b"
+sort_fields = ["review_datetime", "blind_review_id"]
+definite_rows = 1454
+train_end_index_exclusive = 872
+validation_end_index_exclusive = 1163
+allow_random_shuffle = false
+
+[training_population]
+required_failure_binary = "1"
+expected_failure_rows = 603
+expected_train_rows = 374
+expected_validation_rows = 107
+expected_test_rows = 122
+
+[tfidf]
+lowercase = true
+ngram_min = 1
+ngram_max = 2
+min_df = 2
+max_features = 20000
+sublinear_tf = true
+strip_accents = "unicode"
+fit_on = "failure_train_only"
+input_field = "model_text"
+
+[logistic_regression]
+C = 1.0
+class_weight = "balanced"
+max_iter = 1000
+random_state = 20260731
+decision_threshold = 0.5
+
+[severity]
+model_version = "w6b-severity-cumulative-logistic-v1.0"
+label_field = "final_severity"
+levels = [1, 2, 3]
+cumulative_thresholds = [2, 3]
+conditional_base = 1
+rare_class_minimum = 5
+
+[persistence]
+model_version = "w6b-persistence-cumulative-logistic-v1.0"
+label_field = "final_persistence"
+levels = [0, 1, 2]
+cumulative_thresholds = [1, 2]
+conditional_base = 0
+rare_class_minimum = 5
+
+[sentiment]
+method = "VADER"
+package = "vaderSentiment"
+package_version = "3.3.2"
+model_version = "vaderSentiment-3.3.2-default-lexicon"
+compound_negative_threshold = -0.05
+offline_only = true
+
+[inference]
+batch_size = 4096
+compression = "zstd"
+minimum_free_gib = 60.0
+
+[analysis_roles]
+smart_plug = "primary"
+smart_bulb = "exploratory"
+smart_switch = "case_study"
+
+[support]
+minimum_device_test_rows = 20
+minimum_rows_per_observed_class = 5
+
+[outputs]
+review_components = "data/amazon_reviews_2023/processed/review_level_signal_components_w6b_v1_0.parquet"
+product_month_components = "data/amazon_reviews_2023/processed/product_month_signal_components_w6b_v1_0.parquet"
+severity_model = "outputs/models/w6b_severity_cumulative_logistic.joblib"
+persistence_model = "outputs/models/w6b_persistence_cumulative_logistic.joblib"
+report_dir = "data/amazon_reviews_2023/reports/w6b"

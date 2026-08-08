@@ -1,0 +1,16 @@
+{
+  "phase": "W7-C0",
+  "audit_scope": "prepublication_snapshot",
+  "repository": "zzhengyu668-debug/neoshcool",
+  "url": "https://github.com/zzhengyu668-debug/neoshcool",
+  "visibility": "PUBLIC",
+  "is_private": false,
+  "local_head": "d70cd0d32a9c1c03e15ca12ee1fce44668d5f74e",
+  "git_commit_executed_in_w7c0": false,
+  "git_push_executed_in_w7c0": false,
+  "github_release_created_in_w7c0": false,
+  "file_uploaded_in_w7c0": false,
+  "publication_decision": "APPROVED_BY_PROJECT_OWNER_2026_08_08",
+  "approved_release_scope": "allowlist_only",
+  "raw_data_in_scope": false
+}
