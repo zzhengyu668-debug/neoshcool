@@ -1,0 +1,2 @@
+# No approved formal data are pending. The local duplicate below is intentionally excluded.
+data/amazon_reviews_2023/collaboration/review_level_base_w3_v1_4_0_collaboration_candidate.parquet

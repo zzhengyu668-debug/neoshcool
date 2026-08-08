@@ -1,0 +1,23 @@
+{
+  "phase": "W7-C0",
+  "validation_environment": "new temporary Python virtual environment",
+  "python_version": "3.11.9",
+  "architecture": "64bit",
+  "requirements_file": "requirements-collaboration.txt",
+  "dependency_installation": "PASS",
+  "collaboration_verifier": "PASS",
+  "w7c0_tests": {
+    "status": "PASS",
+    "passed": 7,
+    "failed": 0
+  },
+  "publication_status_observed": "READY_FOR_GITHUB_PUBLISH_APPROVAL",
+  "engineering_only_trained": false,
+  "test_target_performance_evaluated": false,
+  "test_target_used_for_development": false,
+  "notes": [
+    "The Windows py launcher was not installed on the validation host.",
+    "The documented fallback uses python -m venv and was validated.",
+    "The temporary validation environment is excluded from publication."
+  ]
+}

@@ -1,0 +1,24 @@
+# Excluded from W7-C0 publication candidates
+data/amazon_reviews_2023/raw/
+data/amazon_reviews_2023/interim/
+data/amazon_reviews_2023/interim/w7b0/temporal_granularity_candidate_origins.parquet
+data/amazon_reviews_2023/reports/**/*.xlsx
+**/*blind_review_key*
+**/*completed*.xlsx
+**/*adjudicat*.xlsx
+*.jsonl
+*.jsonl.gz
+*.gz
+.venv/
+tmp/
+output/
+*.mp4
+*.docx
+*.pdf
+*.pptx
+private error-analysis text
+Git credentials and tokens
+
+Formal review source: included after explicit project-owner approval; user_id_hash and text-pattern risk are disclosed.
+Collaboration review candidate exclusion reason: duplicate derivative not needed for the approved release.
+No excluded file was deleted by W7-C0.

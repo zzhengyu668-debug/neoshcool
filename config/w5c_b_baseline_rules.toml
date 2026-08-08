@@ -1,0 +1,160 @@
+[phase]
+name = "W5-C-B"
+label_version = "w5c-b-labels-v1.0"
+random_seed = 20260731
+status_on_success = "PASS"
+w6_readiness_default = "REVIEW_REQUIRED"
+
+[inputs]
+w5b_status = "data/amazon_reviews_2023/reports/w5b/w5b_status.json"
+w5b_status_sha256 = "77eddb83f879690adc707f2516110cad7f2e69f5e12bff8cb0f17dbf2a4bd8b2"
+w5ca_adjudication_validation = "data/amazon_reviews_2023/reports/w5c_a/w5c_a_adjudication_completion_validation.json"
+w5ca_adjudication_validation_sha256 = "fbaf8efdaa9a3e549485726092c4cd804375dfc96a5e057f1c8262600a8b55b0"
+w5ca_adjudication_status = "data/amazon_reviews_2023/reports/w5c_a/w5c_a_adjudication_status.json"
+w5ca_adjudication_status_sha256 = "4bd7f85cdf8086c141d795e647809f2ebb2a8eff83029c8e84dfe0b001fbd5b9"
+old_labels = "data/amazon_reviews_2023/processed/annotation_labels_w5b_v1_0.parquet"
+old_labels_rows = 300
+old_labels_sha256 = "1a9ec1a078895ed5fe45f07195fdd2055e59e10d7eeaed0eafb8975ffad13d23"
+old_modeling_dataset = "data/amazon_reviews_2023/interim/w5b/modeling_dataset.parquet"
+old_modeling_rows = 300
+old_modeling_sha256 = "c9c0af3d328e8cbd5d28b931aee1a2e85f1f258600e784efb82fb53d8a1b68bd"
+old_adjudicated_workbook = "data/amazon_reviews_2023/reports/w5a/annotation_batch_300_blind_merged_adjudicated.xlsx"
+old_adjudicated_workbook_rows = 300
+old_adjudicated_workbook_sha256 = "8315df0c48a9783db37772d6cc936a7e5f1d3f1770add77bd63912169e793bc0"
+old_reviewer_2_workbook = "data/amazon_reviews_2023/reports/w5a/annotation_double_review_60_blind_reviewer2_completed.xlsx"
+old_reviewer_2_workbook_rows = 60
+old_reviewer_2_workbook_sha256 = "f2fe4ad6f4d979d7fdb2edb36730349bc9a19b0028fc3da50f55d21329792612"
+old_sampling_frame = "data/amazon_reviews_2023/interim/w5a/annotation_sampling_frame.parquet"
+old_sampling_frame_rows = 300
+old_sampling_frame_sha256 = "68a46fa0cb83ff38c43f48b6cb2bb8a7f85c8f6360b06a23829f85d2c8f70a06"
+new_sampling_frame = "data/amazon_reviews_2023/interim/w5c_a/expanded_annotation_sampling_frame.parquet"
+new_sampling_frame_rows = 1200
+new_sampling_frame_sha256 = "1f215ba69503cfc0863e7bfa9dfbc0ec1db45666462e0ae61a0f5c6bb713bf3b"
+new_blind_key = "data/amazon_reviews_2023/interim/w5c_a/blind_review_key_w5c_a.parquet"
+new_blind_key_rows = 1200
+new_blind_key_sha256 = "0af0935b05ed81bef95e34718d09d1a1586f1ffe0cbe2c119b1815409e5d51b3"
+completed_adjudication = "data/amazon_reviews_2023/interim/w5c_a/w5c_a_double_review_240_merged_for_adjudication_completed.xlsx"
+completed_adjudication_rows = 240
+completed_adjudication_sha256 = "7576401172c48991139b452e2d60c4a0365a3bece9ff8bc0508f4d855f7d5630"
+formal_review_parquet = "data/amazon_reviews_2023/processed/review_level_base_w3_v1_4_0.parquet"
+formal_review_rows = 55877
+formal_review_sha256 = "93e1aa660e81bcb89cca4d1c9661d76ed9893424fd37d5d67e44fb1c7901c553"
+w5b_evaluation = "data/amazon_reviews_2023/reports/w5b/tfidf_logistic_evaluation.json"
+
+[[inputs.reviewer_1_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_1_reviewer1_completed.xlsx"
+rows = 300
+sha256 = "13fa3cb4fe02f78c7d938bb5c479511469c792b709121abf3a4e170c26c6bf46"
+
+[[inputs.reviewer_1_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_2_reviewer1_completed.xlsx"
+rows = 300
+sha256 = "7fb14f5b8fa4924c1f3179a6d61577e88473125c59ad75c9fa5f58308d3e97dc"
+
+[[inputs.reviewer_1_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_3_reviewer1_completed.xlsx"
+rows = 300
+sha256 = "a8e5d5a4791fd4260eab0395e962fdb4fd31d1858a94c65a741535e928bf6d10"
+
+[[inputs.reviewer_1_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_4_reviewer1_completed.xlsx"
+rows = 300
+sha256 = "5c66dcce2f83ee2f7747beb9104a372b8f56ae56fb8955586169586fc257d9d1"
+
+[[inputs.reviewer_2_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_1_reviewer2_blind_completed.xlsx"
+rows = 60
+sha256 = "c061896f5daaebb3c171a01012daa22e59827a6388fc12aaddb11926df36b21c"
+
+[[inputs.reviewer_2_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_2_reviewer2_blind_completed.xlsx"
+rows = 60
+sha256 = "829d378dd9182a4a17cd9ff02f1201cd2613c838dc4484f60248627e75042361"
+
+[[inputs.reviewer_2_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_3_reviewer2_blind_completed.xlsx"
+rows = 60
+sha256 = "5a4ae25aba7cf2c41e0483f1abbd368ac8a48665b4e6ffae774e465c048207d9"
+
+[[inputs.reviewer_2_workbooks]]
+path = "data/amazon_reviews_2023/interim/w5c_a/annotation_batch_4_reviewer2_blind_completed.xlsx"
+rows = 60
+sha256 = "e1adc99941d9c27b3db70ffeb07297beac399cd3e19ef4ed75932842f5f2aa4d"
+
+[labels]
+binary = ["0", "1", "uncertain"]
+failure_types = ["N0", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"]
+severity = [0, 1, 2, 3]
+persistence = [0, 1, 2]
+old_source = "w5b_frozen_label"
+new_double_source = "w5c_a_adjudicated_double_review"
+new_single_source = "w5c_a_reviewer_1_single_review"
+
+[expected]
+total_rows = 1500
+old_rows = 300
+new_rows = 1200
+new_double_rows = 240
+new_single_rows = 960
+cumulative_double_rows = 300
+smart_plug = 1137
+smart_bulb = 300
+smart_switch = 63
+
+[split]
+method = "strict_chronological"
+train_share = 0.60
+validation_share = 0.20
+test_share = 0.20
+tie_break = "blind_review_id"
+allow_random_shuffle = false
+
+[rating_baseline]
+name = "B0 Rating"
+low_star_threshold = 2.0
+low_star_operator = "less_than_or_equal"
+uses_rating_as_ground_truth = false
+
+[keyword_baseline]
+name = "B3 Keyword/rule draft"
+version = "w5a-keyword-v1.0-draft"
+refit_from_human_labels = false
+
+[dummy_baseline]
+strategy = "most_frequent"
+random_state = 20260731
+
+[tfidf]
+lowercase = true
+ngram_min = 1
+ngram_max = 2
+min_df = 2
+max_features = 20000
+sublinear_tf = true
+strip_accents = "unicode"
+fit_on = "train_only"
+input_field = "model_text"
+
+[logistic_regression]
+C = 1.0
+class_weight = "balanced"
+max_iter = 1000
+random_state = 20260731
+decision_threshold = 0.5
+
+[model_text]
+remove_leading_star_title = true
+preserve_negations = true
+overwrite_review_text = false
+
+[device_support]
+minimum_test_rows = 20
+minimum_rows_per_binary_class = 5
+
+[outputs]
+processed_labels = "data/amazon_reviews_2023/processed/annotation_labels_w5c_b_v1_0.parquet"
+modeling_dataset = "data/amazon_reviews_2023/interim/w5c_b/modeling_dataset.parquet"
+baseline_predictions = "data/amazon_reviews_2023/interim/w5c_b/baseline_predictions.parquet"
+error_analysis_private = "data/amazon_reviews_2023/interim/w5c_b/error_analysis_private.parquet"
+model = "outputs/models/w5c_b_tfidf_logistic_regression.joblib"
+report_dir = "data/amazon_reviews_2023/reports/w5c_b"
