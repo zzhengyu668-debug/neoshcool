@@ -1,5 +1,7 @@
 # Engineering-only model handoff
 
+> **Current scope note (2026-08-16):** This file preserves the earlier pure Engineering-only pilot contract. The current shared paper experiment is the controlled M0-M3 nested comparison. New development must start with [`NESTED_MODEL_COMPARISON_HANDOFF.md`](NESTED_MODEL_COMPARISON_HANDOFF.md). Pure Engineering-only results are supplemental and must not be substituted for M2 Rating + Engineering or M3 Rating + Sentiment + Engineering.
+
 ## Purpose
 
 The Engineering-only model tests whether frozen engineering-failure signals can predict consumer-rating-based operational quality deterioration over the next three calendar months. The existing `Text + Engineering` route is not an Engineering-only model because it also uses review-text TF-IDF features.

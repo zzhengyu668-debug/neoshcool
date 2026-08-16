@@ -10,9 +10,9 @@ This repository supports a smart-home product early-warning study using a cleane
 - Observed product-months: 1,911.
 - Main three-month eligible sample: 515 product-months.
 - Frozen split: 205 Train, 150 Validation, 45 Embargo, and 115 Test rows.
-- Rating-only is complete.
-- Sentiment-only is assigned to Zhengyu Zhou.
-- Engineering-only has not been run and is assigned to Yuchen Shen and Keyu Xu for independent implementation and reproducibility checking.
+- The pure Rating-only, Sentiment-only, and Engineering-only pilots have been completed as supplemental signal-only analyses.
+- The current shared development task is the controlled nested M0-M3 comparison described below.
+- Test remains off-limits for new development until the four routes, feature contract, code, and threshold are frozen and the group explicitly approves one-time evaluation.
 
 `Text + Engineering` is a frozen supplemental route and is **not** an Engineering-only model.
 
@@ -20,11 +20,24 @@ This repository supports a smart-home product early-warning study using a cleane
 
 | Model | Permitted main signals | Current status |
 |---|---|---|
-| Rating analysis model | Rating, low-star share, and review volume | Complete |
-| Sentiment analysis model | Frozen VADER sentiment aggregates | Pending Sentiment-only run |
-| Engineering fault analysis model | Frozen Failure, Severity, Persistence, and EngineeringIndex aggregates | Pending Engineering-only run |
+| Rating analysis model | Rating, low-star share, and review volume | Pure pilot complete; M0 baseline in current comparison |
+| Sentiment analysis model | Frozen VADER sentiment aggregates | Pure pilot complete; incremental M1 route pending |
+| Engineering fault analysis model | Frozen Failure, Severity, Persistence, and EngineeringIndex aggregates | Pure pilots complete; incremental M2/M3 routes pending |
 
-The earlier Text-only, Text + Sentiment, and Text + Engineering experiments remain supplemental incremental-value analyses.
+The earlier Text-only, Text + Sentiment, and Text + Engineering experiments remain frozen supplemental analyses and are not the current paper comparison.
+
+## Current controlled comparison: M0-M3
+
+The future-quality target is constructed from later consumer-rating deterioration. Rating is therefore held as the common base, and the new experiment asks whether Sentiment or Engineering adds information beyond that base:
+
+| Route | Frozen feature groups | Main question |
+|---|---|---|
+| M0 Rating-only | Rating | Common reference |
+| M1 Rating + Sentiment | Rating + frozen VADER aggregates | Does Sentiment add value beyond Rating? |
+| M2 Rating + Engineering | Rating + frozen engineering aggregates | Does Engineering add value beyond Rating? |
+| M3 Rating + Sentiment + Engineering | Rating + Sentiment + Engineering | Does Engineering add value beyond Rating and Sentiment? |
+
+The title-facing comparison is M3 minus M1. M2 minus M0 is a complementary ablation. All routes use the same 515 eligible product-months, chronological split, Train-fitted preprocessing, balanced Logistic Regression, 0.5 threshold, and metric implementation. Read [`docs/NESTED_MODEL_COMPARISON_HANDOFF.md`](docs/NESTED_MODEL_COMPARISON_HANDOFF.md) before development.
 
 ## Published collaboration data
 
@@ -87,15 +100,26 @@ failure_model = joblib.load(
 print(failure_model["decision_threshold"])
 ```
 
-## Engineering-only handoff
+## Nested comparison handoff
 
-Read [`docs/ENGINEERING_ONLY_HANDOFF.md`](docs/ENGINEERING_ONLY_HANDOFF.md) before implementing the model. The main Engineering-only inputs are:
+For the current shared task, follow [`docs/NESTED_MODEL_COMPARISON_HANDOFF.md`](docs/NESTED_MODEL_COMPARISON_HANDOFF.md). After package verification, a collaborator can run all four Train/Validation routes with:
+
+```powershell
+.\.venv\Scripts\python.exe .\scripts\run_nested_model_comparison_development.py --executor your_name
+.\.venv\Scripts\python.exe -m pytest .\tests\test_nested_model_comparison_development.py -q
+```
+
+Outputs are written under `outputs/nested_model_comparison/<executor>/development/`. The script materializes targets only for Train and Validation. It audits the 115 Test keys without reading their target values or generating Test predictions.
+
+## Pure Engineering-only reference handoff
+
+The earlier pure Engineering-only task remains documented in [`docs/ENGINEERING_ONLY_HANDOFF.md`](docs/ENGINEERING_ONLY_HANDOFF.md). Its main inputs are:
 
 - `feature_mean_engineering_index_main`
 - `feature_predicted_failure_share`
 - `feature_mean_failure_probability`
 
-Do not use review text, TF-IDF, Rating, Sentiment, product identity, device type, or future target/audit fields. Fit imputation and scaling on Train only. Use Validation for development. Test may be evaluated only once after the feature contract, code, model settings, and threshold are frozen.
+Those pure-model results are supplemental and do not replace M2 or M3. Do not use review text, TF-IDF, product identity, device type, or future target/audit fields. Fit imputation and scaling on Train only. Use Validation for development. Test may be evaluated only once after the feature contract, code, model settings, and threshold are frozen.
 
 ## Project layout
 
@@ -113,12 +137,20 @@ Raw-data extraction code is retained for provenance but is not needed for Engine
 
 ## Run tests
 
-Run the collaboration checks first, followed by the project tests:
+Run the collaboration verifier first, followed by the public-package reproducibility tests:
 
 ```powershell
 .\.venv\Scripts\python.exe .\scripts\verify_collaboration_package.py
-.\.venv\Scripts\python.exe -m pytest .\tests
+.\.venv\Scripts\python.exe -m pytest `
+  .\tests\test_w7c0_collaboration_package.py `
+  .\tests\test_w6a_full_failure_inference.py `
+  .\tests\test_w6b_signal_components.py `
+  .\tests\test_w6c_engineering_targets.py `
+  .\tests\test_w6d_controlled_warning_comparison.py `
+  .\tests\test_nested_model_comparison_development.py -q
 ```
+
+Some historical W4/W5 tests require private annotation workbooks and interim mappings that are intentionally excluded from the public collaboration package. Running the entire `tests/` directory after a public clone will therefore report missing private inputs; use the command above for the published package.
 
 ## Common problems
 
@@ -136,8 +168,9 @@ See [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md). The quality target is an operati
 
 ## Team responsibilities
 
-- **Zhengyu Zhou:** Sentiment-only implementation, package coordination, and final result integration.
-- **Yuchen Shen:** independent Engineering-only implementation A.
-- **Keyu Xu:** independent Engineering-only implementation B and cross-machine reproducibility audit.
+- **Zhengyu Zhou:** shared data/model/evaluation framework, M0 and M1, leakage audit, result integration, and paper reporting.
+- **Assigned Engineering contributor:** M2 and M3 implementation review, Engineering ablations, cross-machine reproduction, and a pull request from an independent branch.
+
+The two collaborators cross-review feature hashes, Validation rows, model settings, and outputs. Engineering improvement is a hypothesis, not an acceptance criterion; improvements, null results, and degradations must all be retained.
 
 See `PROJECT_HANDOFF.md` for the frozen historical decisions. Do not change targets, split boundaries, EngineeringIndex weights, or upstream models without explicit group approval.
