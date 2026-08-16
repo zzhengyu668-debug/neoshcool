@@ -1,0 +1,132 @@
+[phase]
+name = "Nested signal comparison development"
+version = "nested-signal-comparison-v1.0"
+status_label = "EXPLORATORY_NESTED_SIGNAL_COMPARISON"
+development_scope = "train_validation_only"
+
+[input]
+analysis_panel = "data/amazon_reviews_2023/processed/product_month_analysis_panel_w6c_v1_0.parquet"
+analysis_panel_rows = 1911
+analysis_panel_sha256 = "c0f520268b2db674830e56d8e3f2c3fb156ee2b17bc947e1206e08c8ecbf4ac3"
+eligibility_field = "eligible_main_h3"
+split_field = "proposed_split_h3"
+target_field = "target_quality_deterioration_h3"
+key_fields = ["parent_asin", "review_month"]
+
+[sample]
+eligible_rows = 515
+train_rows = 205
+train_positive = 50
+validation_rows = 150
+validation_positive = 47
+embargo_train_validation_rows = 28
+embargo_validation_test_rows = 17
+sealed_test_rows = 115
+
+[features]
+rating = [
+  "feature_mean_rating",
+  "feature_low_star_share",
+  "feature_n_reviews",
+  "feature_historical_rating_mean",
+  "feature_historical_low_star_share",
+  "feature_historical_n_reviews",
+]
+sentiment = [
+  "feature_mean_sentiment_compound",
+  "feature_negative_sentiment_share",
+]
+engineering = [
+  "feature_mean_engineering_index_main",
+  "feature_predicted_failure_share",
+  "feature_mean_failure_probability",
+]
+engineering_ablation = [
+  "feature_mean_expected_severity_signal",
+  "feature_mean_expected_persistence_signal",
+]
+
+[routes]
+m0_rating_only = [
+  "feature_mean_rating",
+  "feature_low_star_share",
+  "feature_n_reviews",
+  "feature_historical_rating_mean",
+  "feature_historical_low_star_share",
+  "feature_historical_n_reviews",
+]
+m1_rating_sentiment = [
+  "feature_mean_rating",
+  "feature_low_star_share",
+  "feature_n_reviews",
+  "feature_historical_rating_mean",
+  "feature_historical_low_star_share",
+  "feature_historical_n_reviews",
+  "feature_mean_sentiment_compound",
+  "feature_negative_sentiment_share",
+]
+m2_rating_engineering = [
+  "feature_mean_rating",
+  "feature_low_star_share",
+  "feature_n_reviews",
+  "feature_historical_rating_mean",
+  "feature_historical_low_star_share",
+  "feature_historical_n_reviews",
+  "feature_mean_engineering_index_main",
+  "feature_predicted_failure_share",
+  "feature_mean_failure_probability",
+]
+m3_rating_sentiment_engineering = [
+  "feature_mean_rating",
+  "feature_low_star_share",
+  "feature_n_reviews",
+  "feature_historical_rating_mean",
+  "feature_historical_low_star_share",
+  "feature_historical_n_reviews",
+  "feature_mean_sentiment_compound",
+  "feature_negative_sentiment_share",
+  "feature_mean_engineering_index_main",
+  "feature_predicted_failure_share",
+  "feature_mean_failure_probability",
+]
+
+[preprocessing]
+imputer_strategy = "median"
+imputer_add_indicator = true
+standard_scaler = true
+fit_on_train_only = true
+
+[model]
+family = "LogisticRegression"
+C = 1.0
+penalty = "l2"
+solver = "liblinear"
+class_weight = "balanced"
+max_iter = 1000
+random_state = 20260731
+decision_threshold = 0.5
+
+[evaluation]
+primary_metric = "pr_auc_average_precision"
+secondary_metrics = ["brier_score", "recall", "f1"]
+calibration_bins = 10
+bootstrap_replicates = 1000
+bootstrap_cluster = "parent_asin"
+bootstrap_random_state = 20260731
+pairwise_comparisons = [
+  "m1_rating_sentiment-minus-m0_rating_only",
+  "m2_rating_engineering-minus-m0_rating_only",
+  "m3_rating_sentiment_engineering-minus-m1_rating_sentiment",
+  "m3_rating_sentiment_engineering-minus-m2_rating_engineering",
+]
+
+[guardrails]
+random_split_allowed = false
+test_target_access_allowed = false
+test_prediction_allowed = false
+test_metric_allowed = false
+online_api_allowed = false
+raw_data_reads_allowed = false
+future_features_allowed = false
+product_identity_features_allowed = false
+route_specific_hyperparameters_allowed = false

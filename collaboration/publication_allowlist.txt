@@ -22,6 +22,7 @@ config/w6a_full_inference_rules.toml
 config/w6b_signal_component_rules.toml
 config/w6c_engineering_target_rules.toml
 config/w6d_warning_model_rules.toml
+config/nested_model_comparison_rules.toml
 data/amazon_reviews_2023/processed/annotation_labels_w5c_b_v1_0.parquet
 data/amazon_reviews_2023/processed/product_month_analysis_panel_w6c_v1_0.parquet
 data/amazon_reviews_2023/processed/product_month_engineering_index_w6c_v1_0.parquet
@@ -33,6 +34,7 @@ data/amazon_reviews_2023/processed/review_level_failure_predictions_w6a_v1_0.par
 data/amazon_reviews_2023/processed/review_level_signal_components_w6b_v1_0.parquet
 data/amazon_reviews_2023/processed/target_products_w3_v1_4_0.parquet
 docs/ENGINEERING_ONLY_HANDOFF.md
+docs/NESTED_MODEL_COMPARISON_HANDOFF.md
 outputs/models/w5c_b_tfidf_logistic_regression.joblib
 outputs/models/w6b_persistence_cumulative_logistic.joblib
 outputs/models/w6b_severity_cumulative_logistic.joblib
@@ -49,9 +51,11 @@ scripts/run_w6a_full_failure_inference.py
 scripts/run_w6b_signal_components.py
 scripts/run_w6d_controlled_warning_comparison.py
 scripts/verify_collaboration_package.py
+scripts/run_nested_model_comparison_development.py
 tests/test_w5c_b_expanded_labels_and_baselines.py
 tests/test_w6a_full_failure_inference.py
 tests/test_w6b_signal_components.py
 tests/test_w6c_engineering_targets.py
 tests/test_w6d_controlled_warning_comparison.py
 tests/test_w7c0_collaboration_package.py
+tests/test_nested_model_comparison_development.py

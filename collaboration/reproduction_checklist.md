@@ -9,10 +9,15 @@
 - [ ] Confirm 55,877 cleaned reviews and 125 target products.
 - [ ] Confirm 1,911 unique product-month rows.
 - [ ] Confirm 515 h=3 eligible rows and split counts 205/28/150/17/115.
-- [ ] Read `docs/ENGINEERING_ONLY_HANDOFF.md`.
-- [ ] Keep Rating, Sentiment, text, identity, and future fields out of Engineering-only.
+- [ ] Read `docs/NESTED_MODEL_COMPARISON_HANDOFF.md` for the current M0-M3 task.
+- [ ] Treat `docs/ENGINEERING_ONLY_HANDOFF.md` as the earlier pure-model reference only.
+- [ ] Confirm the frozen M0-M3 feature lists in `config/nested_model_comparison_rules.toml`.
+- [ ] Run `scripts/run_nested_model_comparison_development.py --executor <name>`.
+- [ ] Confirm M0-M3 use identical Train and Validation product-month keys.
+- [ ] Keep text, identity, device type, future fields, and target fields out of all four feature matrices.
 - [ ] Fit preprocessing on Train only.
 - [ ] Develop on Validation only.
 - [ ] Freeze code, features, environment, parameters, and threshold before requesting Test approval.
-- [ ] Compare the two independent Engineering-only implementations.
+- [ ] Review M1-M0, M2-M0, M3-M1, and M3-M2 paired differences and clustered Bootstrap intervals.
+- [ ] Do not require Engineering improvement as a condition of technical success.
 - [ ] Preserve negative and uncertain results.
